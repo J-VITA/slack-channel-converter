@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1712813358.866789",
+        "client_msg_id": "3c9bf2c7-c4be-498a-91a0-816364418f57",
+        "text": "2024-04-11(목) 스크럼\n```[장정수]\nㄴ 화면설계 초안 검토(계속)\nㄴ 개발 관련 정리 작업 진행(계속)\n[이성민]\nㄴ 기존 DB 설계 검토 및 화면 설계안 적용 검토(계속)\n[구시완] \nㄴ 기존 일진 프레임워크 java\/spring 등 버전 업 작업 진행\nㄴ JWT 관련 테스트 설정 진행\n[김정중]\nㄴ frontend nuxtjs, bootstrap, typescript 연동 작업 진행\n[차윤수]\nㄴ Figma 화면설계 보완 진행\nㄴ 반복지출 등록 \/ 전표전달 \/ 영수증 분할 등```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vMyb0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-04-11(목) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 화면설계 초안 검토(계속)\nㄴ 개발 관련 정리 작업 진행(계속)\n[이성민]\nㄴ 기존 DB 설계 검토 및 화면 설계안 적용 검토(계속)\n[구시완] \nㄴ 기존 일진 프레임워크 java\/spring 등 버전 업 작업 진행\nㄴ JWT 관련 테스트 설정 진행\n[김정중]\nㄴ frontend nuxtjs, bootstrap, typescript 연동 작업 진행\n[차윤수]\nㄴ Figma 화면설계 보완 진행\nㄴ 반복지출 등록 \/ 전표전달 \/ 영수증 분할 등"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1725501777.890929",
+        "client_msg_id": "8f86748b-7022-4f7c-897e-d57ed2eb307b",
+        "text": "백엔드\n```[구시완]\nㄴ 전표 관련 API 개발 진행 (계속)\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)```\n프론트엔드\n```[우태림]\nㄴ 전자결재 → 지출결의서 화면 UI (완료)\nㄴ 전자결재 → 결재진행 화면 UI (완료)\nㄴ 전자결재 → 결재문서상세 화면 UI 진행\n\n[김정중]\nㄴ 개인경비 전표 관련 API 연동 진행 (계속)```\n디자인\n```[차윤수]\nㄴ 통계\/보고서(개인,누적,월별) 기획\/디자인 작업 (완료)\nㄴ 참석자 통계\/관리 별도 분리 및 기획\/디자인작업 진행\nㄴ 통계 대시보드 필요여부 논의 필요```\n기획\n```[이상훈] \nㄴ 디자인 업무 우선순위 논의 (with 차윤수 과장)\nㄴ 출장 관련 프로세스 논의 (with 차윤수 과장)\nㄴ 세금코드관리 논의 (with 차윤수 과장)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BPUil",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 전표 관련 API 개발 진행 (계속)\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자결재 → 지출결의서 화면 UI (완료)\nㄴ 전자결재 → 결재진행 화면 UI (완료)\nㄴ 전자결재 → 결재문서상세 화면 UI 진행\n\n[김정중]\nㄴ 개인경비 전표 관련 API 연동 진행 (계속)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 통계\/보고서(개인,누적,월별) 기획\/디자인 작업 (완료)\nㄴ 참석자 통계\/관리 별도 분리 및 기획\/디자인작업 진행\nㄴ 통계 대시보드 필요여부 논의 필요"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "기획\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[이상훈] \nㄴ 디자인 업무 우선순위 논의 (with 차윤수 과장)\nㄴ 출장 관련 프로세스 논의 (with 차윤수 과장)\nㄴ 세금코드관리 논의 (with 차윤수 과장)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

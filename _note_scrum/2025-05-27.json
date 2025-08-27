@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1748333013.582229",
+        "edited": {
+            "user": "U0785NRDD3Q",
+            "ts": "1748334147.000000"
+        },
+        "client_msg_id": "98abd231-e37f-44cf-83ec-954d10c77f37",
+        "text": "2025년 5월 27일 (화)\n`< 스크럼 내용 >`\n```1. 계정\/비용항목관리 관리항목 관련\n\t- 기존 관리항목 속성 ATTRIBUTE 텍스트 reference 로 변경\n\t- UI \n\t - 계정과목셀렉트 옆에 관리항목 버튼 노출\n\t - 관리항목에 필수 여부에 따라 아이콘(완료\/미완료) 노출\n\t - 괸리항목 모달 내에서 validation 체크\n2. 법인카드\t분할 금액 관련 논의 필요\n  - 법인카드 분할을 할 경우 공급가액을 받는데 공급가액 계산을 사용자에게 맡기는건지?\n  - 금액을 받아서 공급가액과 부가세를 계산해줘야하는게 맞지 않을까? ```\n`< 총괄 >`\n```[김정중] - 연차```\n`< 백엔드 >`\n```[박광호]\n완료\nㄴ 전자결재\n - EACC-1617 개인경비 지급예정일, 계정과목 자동 세팅 개발\n - EACC-1806 전표 검증, 공통 로직 분리\n진행\nㄴ 전자결재\n - EACC-1617 결재관련 화면 프론트 개발자와 테스트\n[권연주]\n완료\nㄴ EACC-1803 전자결재 삭제 로직 수정\nㄴ EACC-1802 경비지출 유류대 CRUD\n[박수환]\n완료\nㄴ EACC-1805 관리항목 명칭 및 개수 일원화\n    - attribute -> reference 명칭 통일\n    - 사용 개수 10개로 수정\n    - 실제 전표 작성 후 테스트는 화면 개발이후 예정\n진행\nㄴ 전자전표 운영\n    - 계정의 추가 예산 편성에 따른 실적 데이터 반영 작업\nㄴ EACC-1806 전표 검증, 공통 로직 분리\n    - 세금계산서 validator 공통 코드화```\n`< 프론트엔드 >`\n```[우태림]\n완료\nㄴ EACC-1787 선급금 작성\n진행\nㄴ EACC-1783 지출결의서 작성\/조회\/미리보기(계속)\nㄴ EACC-1784 출장경비신청서 작성\/조회\/미리보기\nㄴ EACC-1785 경조금신청서 작성\/조회\/미리보기\nㄴ EACC-1786 매입세금계산서 작성\/조회\/미리보기\nㄴ EACC-1788 예산신청서 작성\/조회\/미리보기\nㄴ EACC-1789 카드불출신청서 작성\/조회\/미리보기\nㄴ EACC-1787 선급금 조회\/미리보기 (계속)\n\n[김보민]\n진행\nㄴ EACC-1696 영수증 관련 모바일스캔 UI 추가\nㄴ EACC-1775 지출결의서 UI 법인카드 등록\/수정 모달\n\n[전원재]\n완료 \nㄴ EACC-1697 전자 결재 > 지출 결의서\n - 유류대 모달, 주행정보 모달 UI 추가 \n진행\nㄴ EACC-1698 전자 결재 > 지출 결의서\n - 영수증 등록 등록, 수정 ,삭제 api 변경으로 인한 로직 수정 \nㄴ EACC-1697 전자 결재 > 지출 결의서\n - 유류대 모달내 주행정보 UI 추가\n - 데이터 등록, 수정, 삭제 추가 ```\n`< 모바일 >`\n```진행\nㄴ  EACC-1799 Android] 스토어 등록 및 최초 등록 검수 시작\nㄴㄴ 리젝 대응 중 \n\nㄴ EACC-1800 iOS] 스토어 등록 및 최초 등록 검수 시작\nㄴㄴ 로그인 불가 수정 및 온보딩 이미지 변경 작업 대기 중```\n`< 디자인 >`\n```진행\nㄴ브랜드 사이트 리뉴얼\n  - 제품개요 디자인, 개발진행상황 미팅(이상훈)\nㄴ2.0 UI 변경 논의\n  - 지출작성 팝업창내 체크박스 추가 여부(행선택 불편함)\n  - 법인카드 분할시, 사용자가 총금액을 입력하도록 변경(공급가액 계산 불편함)\n  - 지출 분할시 행 삭제 방식 변경 및 계정과목과 과세유형 disabled\nㄴEACC-1497 ${[디자인]모바일 앱소개 이미지 7개(IOS, 안드로이드)}\n  - 온보딩 이미지 작업.```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B+VlQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 27일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 계정\/비용항목관리 관리항목 관련\n\t- 기존 관리항목 속성 ATTRIBUTE 텍스트 reference 로 변경\n\t- UI \n\t - 계정과목셀렉트 옆에 관리항목 버튼 노출\n\t - 관리항목에 필수 여부에 따라 아이콘(완료\/미완료) 노출\n\t - 괸리항목 모달 내에서 validation 체크\n2. 법인카드\t분할 금액 관련 논의 필요\n  - 법인카드 분할을 할 경우 공급가액을 받는데 공급가액 계산을 사용자에게 맡기는건지?\n  - 금액을 받아서 공급가액과 부가세를 계산해줘야하는게 맞지 않을까? "
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 전자결재\n - EACC-1617 개인경비 지급예정일, 계정과목 자동 세팅 개발\n - EACC-1806 전표 검증, 공통 로직 분리\n진행\nㄴ 전자결재\n - EACC-1617 결재관련 화면 프론트 개발자와 테스트\n[권연주]\n완료\nㄴ EACC-1803 전자결재 삭제 로직 수정\nㄴ EACC-1802 경비지출 유류대 CRUD\n[박수환]\n완료\nㄴ EACC-1805 관리항목 명칭 및 개수 일원화\n    - attribute -> reference 명칭 통일\n    - 사용 개수 10개로 수정\n    - 실제 전표 작성 후 테스트는 화면 개발이후 예정\n진행\nㄴ 전자전표 운영\n    - 계정의 추가 예산 편성에 따른 실적 데이터 반영 작업\nㄴ EACC-1806 전표 검증, 공통 로직 분리\n    - 세금계산서 validator 공통 코드화"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ EACC-1787 선급금 작성\n진행\nㄴ EACC-1783 지출결의서 작성\/조회\/미리보기(계속)\nㄴ EACC-1784 출장경비신청서 작성\/조회\/미리보기\nㄴ EACC-1785 경조금신청서 작성\/조회\/미리보기\nㄴ EACC-1786 매입세금계산서 작성\/조회\/미리보기\nㄴ EACC-1788 예산신청서 작성\/조회\/미리보기\nㄴ EACC-1789 카드불출신청서 작성\/조회\/미리보기\nㄴ EACC-1787 선급금 조회\/미리보기 (계속)\n\n[김보민]\n진행\nㄴ EACC-1696 영수증 관련 모바일스캔 UI 추가\nㄴ EACC-1775 지출결의서 UI 법인카드 등록\/수정 모달\n\n[전원재]\n완료 \nㄴ EACC-1697 전자 결재 > 지출 결의서\n - 유류대 모달, 주행정보 모달 UI 추가 \n진행\nㄴ EACC-1698 전자 결재 > 지출 결의서\n - 영수증 등록 등록, 수정 ,삭제 api 변경으로 인한 로직 수정 \nㄴ EACC-1697 전자 결재 > 지출 결의서\n - 유류대 모달내 주행정보 UI 추가\n - 데이터 등록, 수정, 삭제 추가 "
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "진행\nㄴ  EACC-1799 Android] 스토어 등록 및 최초 등록 검수 시작\nㄴㄴ 리젝 대응 중 \n\nㄴ EACC-1800 iOS] 스토어 등록 및 최초 등록 검수 시작\nㄴㄴ 로그인 불가 수정 및 온보딩 이미지 변경 작업 대기 중"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "진행\nㄴ브랜드 사이트 리뉴얼\n  - 제품개요 디자인, 개발진행상황 미팅(이상훈)\nㄴ2.0 UI 변경 논의\n  - 지출작성 팝업창내 체크박스 추가 여부(행선택 불편함)\n  - 법인카드 분할시, 사용자가 총금액을 입력하도록 변경(공급가액 계산 불편함)\n  - 지출 분할시 행 삭제 방식 변경 및 계정과목과 과세유형 disabled\nㄴEACC-1497 ${[디자인]모바일 앱소개 이미지 7개(IOS, 안드로이드)}\n  - 온보딩 이미지 작업."
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

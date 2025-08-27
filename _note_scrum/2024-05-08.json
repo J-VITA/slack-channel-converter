@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1715224991.302199",
+        "client_msg_id": "6cfb09bd-96a1-41b4-a2cc-8ad3886b5f95",
+        "text": "2024-05-09(목) 스크럼\n```[장정수]\nㄴ 화면설게 검토 진행(계속)\n[이성민] \nㄴ DB 설계 초안 confluence 정리 완료, 업데이트 진행\nㄴ DB 설계 완료 후 프로세스 정의 작업 예정\n[구시완]\nㄴ 백엔드 환경 설정 및 기존 소스코드 정리 작업\nㄴ 기존 공통코드 등 이전 작업 진행 \nㄴ p6psy 로깅 설정 관련 작업 진행\n[김정중]\nㄴ 프론트엔드 화면 레이아웃 작업 진행\nㄴ 조회 조건유지 관련 작업 진행\nㄴ topec 담당 인수인계 관련 지원 \n[차윤수]\nㄴ figma prototype 플로우 연결 작업 진행\nㄴ 화면설계 초안 시연 관련 시나리오 작업 등 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3t77K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-05-09(목) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 화면설게 검토 진행(계속)\n[이성민] \nㄴ DB 설계 초안 confluence 정리 완료, 업데이트 진행\nㄴ DB 설계 완료 후 프로세스 정의 작업 예정\n[구시완]\nㄴ 백엔드 환경 설정 및 기존 소스코드 정리 작업\nㄴ 기존 공통코드 등 이전 작업 진행 \nㄴ p6psy 로깅 설정 관련 작업 진행\n[김정중]\nㄴ 프론트엔드 화면 레이아웃 작업 진행\nㄴ 조회 조건유지 관련 작업 진행\nㄴ topec 담당 인수인계 관련 지원 \n[차윤수]\nㄴ figma prototype 플로우 연결 작업 진행\nㄴ 화면설계 초안 시연 관련 시나리오 작업 등 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

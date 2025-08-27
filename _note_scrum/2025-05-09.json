@@ -1,0 +1,203 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1746779371.472709",
+        "client_msg_id": "83582815-c7a5-4d3f-ad3d-03f634c1d5ba",
+        "text": "2025년 5월 09일 (금)\n`&lt; 스크럼 내용 &gt;`\n```1. 브랜드 사이트에서 사용자에게 소개될 수 있도록 메뉴는 우리 서비스에 맞게 부각될 수 있도록 구성\n\t- \n2. 신규 개발기 서버 SSO 백엔드 적용 완료하여 FE 적용 해야함\n3. 지출내역 Side Layout (상세내역) 개발 완료로 컨셉 설명 예정\n\t- &lt;<https:\/\/dev-ijcns.syncflo.kr\/expenses\/list>&gt;```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 개발기 서버 세팅\n\t- BE) 데모 백엔드 서버 CI\/CD, Runner 등 세팅\n진행\nㄴ 일정관리\nㄴ 메뉴구성 재정의\nㄴ 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정\n\t- FE) 데모 프론트 서버 CI\/CD, Runner 등 세팅```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 전자전표,그룹웨어 개발서버 SSO 로그인 세팅\nㄴ 겸직 목록조회, 겸직 전환 API 개발\n진행\nㄴ 개발서버 SSO 로그인 동작 확인\n[박수환]\n완료\nㄴ 로컬환경의 부서관리\/직위관리\/직책관리\/권한관리\/코스트센터관리 메뉴에서 겸직테스트\n진행\nㄴ 사용자 CRUD - 사용자 정보 겸직 고려하여 로직 수정 - front 화면 변경에 맞추어 추가 수정 필요\n[권연주]\n진행\nㄴ 사용자\n - 사용자 등록 시 결재양식 바로가기 추가\nㄴ 메뉴\n - 임직원 별 메뉴 조회 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 지출내역 - page layout side영역 추가 (계속)\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가 (계속)\n\n[김보민]\n진행\nㄴ 시스템설정 &gt; 사용자등록\n - 사용자등록(겸직) UI 추가\n\n[전원재]\n완료\nㄴ 전자결재 &gt; 지출결의서\n - 전표내역 추가 테이블(grid) ui 개선\n진행\nㄴ 전자결재 &gt; 지출결의서\n - 전표 UI 모달 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행중\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작\n\t- IOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작\n완료\nㄴ 인트로 화면 제작\n\t- IOS\n\t\t- 온보딩 화면 제작```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ 시스템설정 &gt; 사용자관리 부서추가방식 UI수정\n\t\n진행\nㄴ 전자결재 &gt; 중요보관함 기능 기획\/디자인\n\t- 자주보는 문서는 즐겨찾기 기능처럼 보관함에서 볼 수 있도록 지원\n\t- 문서보관 : 임시저장을 제외한 모든 결재문서를 즐겨찾기 가능\n\t- 보관함 상위 뎁스 추가(임시저장, 중요보관함)\nㄴ 전자전표 브랜드사이트 고도화 기획\n\t- 기능구조 나열 및 그룹핑\n\t- 핵심기능강화: 각 기능별 페이지 단위로 변경\n\t- 레이아웃 구성 디자인\n\t- 기능소개 GNB디자인```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EPwOm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 09일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 브랜드 사이트에서 사용자에게 소개될 수 있도록 메뉴는 우리 서비스에 맞게 부각될 수 있도록 구성\n\t- \n2. 신규 개발기 서버 SSO 백엔드 적용 완료하여 FE 적용 해야함\n3. 지출내역 Side Layout (상세내역) 개발 완료로 컨셉 설명 예정\n\t- <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/dev-ijcns.syncflo.kr\/expenses\/list"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 개발기 서버 세팅\n\t- BE) 데모 백엔드 서버 CI\/CD, Runner 등 세팅\n진행\nㄴ 일정관리\nㄴ 메뉴구성 재정의\nㄴ 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정\n\t- FE) 데모 프론트 서버 CI\/CD, Runner 등 세팅"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 전자전표,그룹웨어 개발서버 SSO 로그인 세팅\nㄴ 겸직 목록조회, 겸직 전환 API 개발\n진행\nㄴ 개발서버 SSO 로그인 동작 확인\n[박수환]\n완료\nㄴ 로컬환경의 부서관리\/직위관리\/직책관리\/권한관리\/코스트센터관리 메뉴에서 겸직테스트\n진행\nㄴ 사용자 CRUD - 사용자 정보 겸직 고려하여 로직 수정 - front 화면 변경에 맞추어 추가 수정 필요\n[권연주]\n진행\nㄴ 사용자\n - 사용자 등록 시 결재양식 바로가기 추가\nㄴ 메뉴\n - 임직원 별 메뉴 조회 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 지출내역 - page layout side영역 추가 (계속)\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가 (계속)\n\n[김보민]\n진행\nㄴ 시스템설정 > 사용자등록\n - 사용자등록(겸직) UI 추가\n\n[전원재]\n완료\nㄴ 전자결재 > 지출결의서\n - 전표내역 추가 테이블(grid) ui 개선\n진행\nㄴ 전자결재 > 지출결의서\n - 전표 UI 모달 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작\n\t- IOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작\n완료\nㄴ 인트로 화면 제작\n\t- IOS\n\t\t- 온보딩 화면 제작"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ 시스템설정 > 사용자관리 부서추가방식 UI수정\n\t\n진행\nㄴ 전자결재 > 중요보관함 기능 기획\/디자인\n\t- 자주보는 문서는 즐겨찾기 기능처럼 보관함에서 볼 수 있도록 지원\n\t- 문서보관 : 임시저장을 제외한 모든 결재문서를 즐겨찾기 가능\n\t- 보관함 상위 뎁스 추가(임시저장, 중요보관함)\nㄴ 전자전표 브랜드사이트 고도화 기획\n\t- 기능구조 나열 및 그룹핑\n\t- 핵심기능강화: 각 기능별 페이지 단위로 변경\n\t- 레이아웃 구성 디자인\n\t- 기능소개 GNB디자인"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

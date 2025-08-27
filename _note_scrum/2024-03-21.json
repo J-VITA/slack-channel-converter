@@ -1,0 +1,130 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1711008071.720609",
+        "client_msg_id": "183764be-73fc-4e9e-ad83-98f353466fec",
+        "text": "2024-03-21(목) 스크럼\n```[장정수]\nㄴ 개발 관련 정리 작업 진행\nㄴ 29일 미팅 관련 자료 정리\n[차윤수]  \nㄴ 메인 화면 디자인 시안 작업 진행\nㄴ 경비 확정 화면 초안 작업 진행 예정\n[김정중]\nㄴ 프론트엔드 관련 기술 검토 진행\nㄴ confluence 문서 정리 진행\nㄴ 세금계산서 처리 관련 이슈 정리\n[구시완]\nㄴ 백엔드 관련 기술 검토 진행\nㄴ postgresql 설치 및 테스트 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kU9os",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-03-21(목) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 개발 관련 정리 작업 진행\nㄴ 29일 미팅 관련 자료 정리\n[차윤수]  \nㄴ 메인 화면 디자인 시안 작업 진행\nㄴ 경비 확정 화면 초안 작업 진행 예정\n[김정중]\nㄴ 프론트엔드 관련 기술 검토 진행\nㄴ confluence 문서 정리 진행\nㄴ 세금계산서 처리 관련 이슈 정리\n[구시완]\nㄴ 백엔드 관련 기술 검토 진행\nㄴ postgresql 설치 및 테스트 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U06C5C0JW20",
+        "text": "<@U06C5C0JW20> 님이 채널에 참여함",
+        "inviter": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1711008121.135409"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U06BW9EFKD4",
+        "text": "<@U06BW9EFKD4> 님이 채널에 참여함",
+        "inviter": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1711008121.257299"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U06KBEJ4XGV",
+        "text": "<@U06KBEJ4XGV> 님이 채널에 참여함",
+        "inviter": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1711008121.348139"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U06KTLCLALQ",
+        "text": "<@U06KTLCLALQ> 님이 채널에 참여함",
+        "inviter": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1711008121.445339"
+    },
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1711089715.330219",
+        "client_msg_id": "7228433a-5e6c-4b22-944a-50af75111367",
+        "text": "2024-03-22(금) 스크럼\n```[장정수]\nㄴ 29일 미팅 관련 자료 정리(계속)\n[차윤수] \nㄴ 화면설계 기존 작업 정리 및 추가 작업 시작\n[김정중]\nㄴ figma 화면 설계 확인 및 작업 진행\nㄴ 개인경비 및 전자결재 부분 확인\nㄴ 프론트엔드 개발 일정 관련 고민 중 \nㄴ bootstrap 컴포넌트화 확인\n[구시완]\nㄴ figma 화면설계 검토\nㄴ 백엔드\/프론트 관련 기술 검토 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hNkFx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-03-22(금) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 29일 미팅 관련 자료 정리(계속)\n[차윤수] \nㄴ 화면설계 기존 작업 정리 및 추가 작업 시작\n[김정중]\nㄴ figma 화면 설계 확인 및 작업 진행\nㄴ 개인경비 및 전자결재 부분 확인\nㄴ 프론트엔드 개발 일정 관련 고민 중 \nㄴ bootstrap 컴포넌트화 확인\n[구시완]\nㄴ figma 화면설계 검토\nㄴ 백엔드\/프론트 관련 기술 검토 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

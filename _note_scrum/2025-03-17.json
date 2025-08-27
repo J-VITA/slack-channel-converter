@@ -1,0 +1,228 @@
+[
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1742270891.981519",
+        "client_msg_id": "4595965d-9e99-4ae6-b118-93b07ad474c8",
+        "text": "2025-03-17(월) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n대체휴가\n\n[권연주]\n진행\nㄴ 법인카드\n - 결재완료, 반려시 상태 변경 로직 추가\n완료\nㄴ 엑셀양식관리\n - 라우터별 엑셀파일 조회 기능 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 모바일 개발 진행 (계속)\n - 프로젝트 베이스 구조 설계 (공통 처리 로직 및 라우팅 설정, 미들웨어 구성)\n - 상태 관리 설정 (Pinia)\n완료\nㄴ 출장정보 추가 모달 폼 간격 개선\nㄴ 전자결재 내 반려일 소팅 기능 삭제\nㄴ 모바일 개발 진행\n   - 프로젝트 베이스 구조 설계 - 통신 로직 공통처리\n   - 로그인\/인증 (JWT)\n\n[김보민]\n진행\nㄴ 세금계산서 &gt; 선수금 로직 변경\n - 입력값이 반제대상 금액(세금계산서금액) 보다 클 경우 반제처리 버튼 disabled\n - 선급금 작성시 대변계정 목록에 대한 리스트 관리, 목록이 1개일 경우엔 값 입력해주기.\n - 선급금 추가 후 테이블 row 가 삭제되는 현상 수정\nㄴ 전표검인\/확정, 전표확정현황\n - 소계, 총계 UI 추가\n\n[전원재]\n대체휴가```\n`&lt; 디자인 &gt;`\n```[차윤수]\n대체휴가```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QD5Bk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-03-17(월) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n대체휴가\n\n[권연주]\n진행\nㄴ 법인카드\n - 결재완료, 반려시 상태 변경 로직 추가\n완료\nㄴ 엑셀양식관리\n - 라우터별 엑셀파일 조회 기능 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 모바일 개발 진행 (계속)\n - 프로젝트 베이스 구조 설계 (공통 처리 로직 및 라우팅 설정, 미들웨어 구성)\n - 상태 관리 설정 (Pinia)\n완료\nㄴ 출장정보 추가 모달 폼 간격 개선\nㄴ 전자결재 내 반려일 소팅 기능 삭제\nㄴ 모바일 개발 진행\n   - 프로젝트 베이스 구조 설계 - 통신 로직 공통처리\n   - 로그인\/인증 (JWT)\n\n[김보민]\n진행\nㄴ 세금계산서 > 선수금 로직 변경\n - 입력값이 반제대상 금액(세금계산서금액) 보다 클 경우 반제처리 버튼 disabled\n - 선급금 작성시 대변계정 목록에 대한 리스트 관리, 목록이 1개일 경우엔 값 입력해주기.\n - 선급금 추가 후 테이블 row 가 삭제되는 현상 수정\nㄴ 전표검인\/확정, 전표확정현황\n - 소계, 총계 UI 추가\n\n[전원재]\n대체휴가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n대체휴가"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1742270899.705589",
+        "client_msg_id": "e3e5f3bc-4584-4c3d-ab30-9c3b01fbf535",
+        "text": "2025-03-18(화) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n진행\nㄴ 씨앤에스 오류사항 체크 \n완료\nㄴ 세금계산서, 선급금신청 대변계정 api 정의 \nㄴ 법인카드 사용현황 조회 항목 변경 (소유자, 코스트센터, 매입구분 등) \n\n[권연주]\n진행\nㄴ 통계\/보고서\n - api 설계 및 정의\n완료\nㄴ 페이징 에러 수정\nㄴ 법인카드\n - 결재완료, 반려시 상태 변경 로직 추가```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 모바일 개발 진행 (계속)\n - 공통 컴포넌트 구성 작업\n완료\nㄴ 모바일 개발 진행\n - 프로젝트 베이스 구조 설계 - 라우팅 설정\n - 프로젝트 베이스 구조 설계 - 미들웨어 구성\n - 상태 관리 설정 (Pinia)\n\n[김보민]\n진행\nㄴ 세금계산서 &gt; 선수금 로직 변경\n - 프로젝트, 거래처 셀렉트 교체\n - 선급금 입력 모달 &gt; 반제시 &gt; 계정\/과목 함께 입력\n - 선급금정산 및 미정산 토글시 &gt; 자동저장에 대한 얼럿띄우기(선급금에 대한 변경시 전표 수정 API 호출)\n \n완료\nㄴ 전표검인\/확정, 전표확정현황\n - 소계, 총계 UI 추가\n\n[전원재]\n진행\nㄴ 통계\/보고서 &gt; 월별, 누적\n - 차트 컴포넌트 추가 및 테스트\n - UI 및 기능 추가\n완료 \nㄴ 기준정보관리 &gt; 경조유형관리\n - 테이블 정렬 파라미터 수정완료\nㄴ 전표처리 &gt; 개인경비\/법인카드\n - 지출 작성 모달 사용자 변경시 코스트센터, 계정항목, 프로젝트 값 변경\n - 법인카드 불러오기 모달 코스트센터 필드 삭제\nㄴ 대시보드\n - 차트 UI 수정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ전자전표 모바일 UI디자인\n   -대시보드 디자인 수정안 작업(ToDoList중심, 전표작성중심)\n   -아이콘작업\n   -더보기 페이지형식 수정\nㄴ마케팅\n   -AS솔루션 상세페이지 특장점 이미지 작업(진행)\n   -네이버브랜드광고 수정, (이미지, 문구)\nㄴ전자전표 PC UI\n   -개선사항체크```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6kd0s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-03-18(화) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 씨앤에스 오류사항 체크 \n완료\nㄴ 세금계산서, 선급금신청 대변계정 api 정의 \nㄴ 법인카드 사용현황 조회 항목 변경 (소유자, 코스트센터, 매입구분 등) \n\n[권연주]\n진행\nㄴ 통계\/보고서\n - api 설계 및 정의\n완료\nㄴ 페이징 에러 수정\nㄴ 법인카드\n - 결재완료, 반려시 상태 변경 로직 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 모바일 개발 진행 (계속)\n - 공통 컴포넌트 구성 작업\n완료\nㄴ 모바일 개발 진행\n - 프로젝트 베이스 구조 설계 - 라우팅 설정\n - 프로젝트 베이스 구조 설계 - 미들웨어 구성\n - 상태 관리 설정 (Pinia)\n\n[김보민]\n진행\nㄴ 세금계산서 > 선수금 로직 변경\n - 프로젝트, 거래처 셀렉트 교체\n - 선급금 입력 모달 > 반제시 > 계정\/과목 함께 입력\n - 선급금정산 및 미정산 토글시 > 자동저장에 대한 얼럿띄우기(선급금에 대한 변경시 전표 수정 API 호출)\n \n완료\nㄴ 전표검인\/확정, 전표확정현황\n - 소계, 총계 UI 추가\n\n[전원재]\n진행\nㄴ 통계\/보고서 > 월별, 누적\n - 차트 컴포넌트 추가 및 테스트\n - UI 및 기능 추가\n완료 \nㄴ 기준정보관리 > 경조유형관리\n - 테이블 정렬 파라미터 수정완료\nㄴ 전표처리 > 개인경비\/법인카드\n - 지출 작성 모달 사용자 변경시 코스트센터, 계정항목, 프로젝트 값 변경\n - 법인카드 불러오기 모달 코스트센터 필드 삭제\nㄴ 대시보드\n - 차트 UI 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ전자전표 모바일 UI디자인\n   -대시보드 디자인 수정안 작업(ToDoList중심, 전표작성중심)\n   -아이콘작업\n   -더보기 페이지형식 수정\nㄴ마케팅\n   -AS솔루션 상세페이지 특장점 이미지 작업(진행)\n   -네이버브랜드광고 수정, (이미지, 문구)\nㄴ전자전표 PC UI\n   -개선사항체크"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

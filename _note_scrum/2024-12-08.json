@@ -1,0 +1,113 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1733719391.640359",
+        "edited": {
+            "user": "U0785NRDD3Q",
+            "ts": "1733719437.000000"
+        },
+        "client_msg_id": "44d70e7a-5b8f-47e9-a963-a6baabf41309",
+        "text": "`백엔드`\n```[구시완]\nㄴ 개발, 배포 환경 구축\n - AWS 비용절감을 위한 EC2 자동 중지, 시작 설정 (완료)\n - AWS 비용절감을 위한 데이터베이스 자동 중지, 시작 설정 (진행)\n - 백앤드 프로젝트 배포환경 설정 (완료)\n - 파일업로드 로컬 -> AWS S3 변경 (진행)\n - AWS 이메일, 푸시 알람 확인중 (진행)\n - 개인경비\/법인카드 회계기간 월 -> 일자 변경 (진행)\n\n[서정은]\nㄴ 엑셀 업로드\n - 부서관리 엑셀 업로드 진행중\nㄴ시스템설정\n - 엑셀양식관리 엔티티 설계중\nㄴ 기준정보 관리 → 출장 기준 관리\n - 엔티티 설계 및 비즈니스 로직 정리 진행중\n\n[권연주]\nㄴ 전자결재 → 경조금신청서\n - 경조금신청 api 개발 진행```\n`프론트엔드`\n```[우태림]\nㄴ 법인카드 → 법인카드 불출 관리  API 연동 진행 (계속)\nㄴ 부서관리 엑셀 업로드 기능 추가 작업 진행 (계속)\n\n[김정중]\nㄴ 기준정보관리 → 검인\/수신라인관리 → 검인라인 관리 → 검인라인 추가\/수정 중복 건에 대한 확인 작업 (진행)\nㄴ 전자결재 → 법인카드 불출 신청서→ 등록 (진행)\nㄴ 프론트 개발서버 EC2 반영 (완료)\n - 프론트 staging, production 분리 작업 (완료 예정)\n - 패키지매니저 교체(npm -> pnpm) (완료)\n\n[전원재]\nㄴ 전표처리 >개인경비\/법인카드\n - 유류대 외부 api 테스트(완료)\n - 유류대 추가 모달 기능 및 데이터 셋(진행)```\n`디자인`\n```[차윤수]\nㄴ LEM-로그인페이지 웹퍼블리싱 작업\nㄴ 솔루션2.0 PC\n - 신규페이지 게시판 기능 기획 (작성권한, 조회, 삭제)\nㄴ 솔루션2.0 Mobile\n - 모바일 출장신청서 작성화면 디자인```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cLfcR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 개발, 배포 환경 구축\n - AWS 비용절감을 위한 EC2 자동 중지, 시작 설정 (완료)\n - AWS 비용절감을 위한 데이터베이스 자동 중지, 시작 설정 (진행)\n - 백앤드 프로젝트 배포환경 설정 (완료)\n - 파일업로드 로컬 -> AWS S3 변경 (진행)\n - AWS 이메일, 푸시 알람 확인중 (진행)\n - 개인경비\/법인카드 회계기간 월 -> 일자 변경 (진행)\n\n[서정은]\nㄴ 엑셀 업로드\n - 부서관리 엑셀 업로드 진행중\nㄴ시스템설정\n - 엑셀양식관리 엔티티 설계중\nㄴ 기준정보 관리 → 출장 기준 관리\n - 엔티티 설계 및 비즈니스 로직 정리 진행중\n\n[권연주]\nㄴ 전자결재 → 경조금신청서\n - 경조금신청 api 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 법인카드 → 법인카드 불출 관리  API 연동 진행 (계속)\nㄴ 부서관리 엑셀 업로드 기능 추가 작업 진행 (계속)\n\n[김정중]\nㄴ 기준정보관리 → 검인\/수신라인관리 → 검인라인 관리 → 검인라인 추가\/수정 중복 건에 대한 확인 작업 (진행)\nㄴ 전자결재 → 법인카드 불출 신청서→ 등록 (진행)\nㄴ 프론트 개발서버 EC2 반영 (완료)\n - 프론트 staging, production 분리 작업 (완료 예정)\n - 패키지매니저 교체(npm -> pnpm) (완료)\n\n[전원재]\nㄴ 전표처리 >개인경비\/법인카드\n - 유류대 외부 api 테스트(완료)\n - 유류대 추가 모달 기능 및 데이터 셋(진행)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ LEM-로그인페이지 웹퍼블리싱 작업\nㄴ 솔루션2.0 PC\n - 신규페이지 게시판 기능 기획 (작성권한, 조회, 삭제)\nㄴ 솔루션2.0 Mobile\n - 모바일 출장신청서 작성화면 디자인"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

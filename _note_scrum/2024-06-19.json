@@ -1,0 +1,98 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1718864814.697859",
+        "client_msg_id": "91810f87-0bc3-4342-a343-6236736cedbf",
+        "text": "2024-06-19(수) 스크럼\n```[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 부서, 직위, 직급 CRUD API 개발 1차 마무리 및 git push 완료\nㄴ 사원, 권한 등 CRUD 개발 진행\n[구시완]\nㄴ 계정권한 entity 설계 완료\nㄴ CRUD API  개발 진행\n[김정중]\nㄴ 기업정보관리 회사 추가 완료 \nㄴ 사업장 추가 및 수정 등 기능 개발 진행  \n[차윤수]\nㄴ 거래처 관리 화면 수정( ERP 팀 의견 반영) \nㄴ 전자결재 홈 및 결재 작성 화면 디자인 및 퍼블리싱 작업 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "22QUG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-06-19(수) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 부서, 직위, 직급 CRUD API 개발 1차 마무리 및 git push 완료\nㄴ 사원, 권한 등 CRUD 개발 진행\n[구시완]\nㄴ 계정권한 entity 설계 완료\nㄴ CRUD API  개발 진행\n[김정중]\nㄴ 기업정보관리 회사 추가 완료 \nㄴ 사업장 추가 및 수정 등 기능 개발 진행  \n[차윤수]\nㄴ 거래처 관리 화면 수정( ERP 팀 의견 반영) \nㄴ 전자결재 홈 및 결재 작성 화면 디자인 및 퍼블리싱 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1718864830.391739",
+        "client_msg_id": "eb278f40-bb44-4b7c-aa40-47b70ae291df",
+        "text": "2024-06-20(목) 스크럼\n```[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 기업정보, 부서, 직위, 직급 API 수정\nㄴ 사원, 권한 등 CRUD 개발 진행\n[구시완]\nㄴ 계정권한 entity CRUD API  개발 진행\n[김정중]\nㄴ 공통 layout 재구성 및 모듈화 작업 진행\nㄴ ui framework 전환 작업 진행(element ui -&gt; ant design)\n[차윤수]\nㄴ 퍼블리싱 진행 중인 작업 금일 중 마무리 및 반영\nㄴ Figma 화면설계 최신화 작업 진행\nㄴ Figma design 페이지 별도 생성 예정```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gPK+s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-06-20(목) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 기업정보, 부서, 직위, 직급 API 수정\nㄴ 사원, 권한 등 CRUD 개발 진행\n[구시완]\nㄴ 계정권한 entity CRUD API  개발 진행\n[김정중]\nㄴ 공통 layout 재구성 및 모듈화 작업 진행\nㄴ ui framework 전환 작업 진행(element ui -> ant design)\n[차윤수]\nㄴ 퍼블리싱 진행 중인 작업 금일 중 마무리 및 반영\nㄴ Figma 화면설계 최신화 작업 진행\nㄴ Figma design 페이지 별도 생성 예정"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1713500044.784769",
+        "client_msg_id": "f0fceb75-259b-4967-98c0-edbb7d5c834e",
+        "text": "2024-04-18(목) 스크럼\n```[장정수]\nㄴ 개발범위\/일정\/인력 등 재산정 작업 진행\n[이성민]\nㄴ 기존 DB 설계 검토 및 화면 설계안 적용 검토(계속)\nㄴ 알피니언 전자전표 db 및 소스코드 검토 진행\n[구시완] \nㄴ 백엔드 개발 관련 설정 및 테스트 진행 중\nㄴ 전표처리 관련 ERP 담당자와 논의 및 정리 진행\n[김정중] \nㄴ UI Library 검토\nㄴ 권한관련 미들웨어 및 유틸리티 작업 진행 \nㄴ 다국어 처리 관련 모듈 연동 테스트 진행\n[차윤수] \nㄴ Figma 화면설계 보완 진행(계속) \nㄴ sub 페이지 디자인 고민\nㄴ 퍼블리싱 관련 기술(Tailwind css 등) 스터디 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I1nnf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-04-18(목) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 개발범위\/일정\/인력 등 재산정 작업 진행\n[이성민]\nㄴ 기존 DB 설계 검토 및 화면 설계안 적용 검토(계속)\nㄴ 알피니언 전자전표 db 및 소스코드 검토 진행\n[구시완] \nㄴ 백엔드 개발 관련 설정 및 테스트 진행 중\nㄴ 전표처리 관련 ERP 담당자와 논의 및 정리 진행\n[김정중] \nㄴ UI Library 검토\nㄴ 권한관련 미들웨어 및 유틸리티 작업 진행 \nㄴ 다국어 처리 관련 모듈 연동 테스트 진행\n[차윤수] \nㄴ Figma 화면설계 보완 진행(계속) \nㄴ sub 페이지 디자인 고민\nㄴ 퍼블리싱 관련 기술(Tailwind css 등) 스터디 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1713500057.128839",
+        "client_msg_id": "b7e16154-7d6f-472c-92c9-3fb6d04e8399",
+        "text": "2024-04-19(금) 스크럼\n```[장정수]\nㄴ 개발범위\/일정\/인력 등 재산정 작업 진행\n[이성민]\nㄴ 기존 DB 설계 검토(계속)\n[구시완] \nㄴ 백엔드 개발 관련 설정 및 테스트 진행 중\n[김정중] \nㄴ 프론트엔드 상태관리 library 적용 테스트\nㄴ UI 컴포넌트화 작업 진행 예정\n[차윤수] \nㄴ Figma 화면설계 보완 진행(계속) \nㄴ 퍼블리싱 관련 기술(Tailwind css 등) 스터디 진행\nㄴ ERP 전표 관련 기존화면 분석 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "73o32",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-04-19(금) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 개발범위\/일정\/인력 등 재산정 작업 진행\n[이성민]\nㄴ 기존 DB 설계 검토(계속)\n[구시완] \nㄴ 백엔드 개발 관련 설정 및 테스트 진행 중\n[김정중] \nㄴ 프론트엔드 상태관리 library 적용 테스트\nㄴ UI 컴포넌트화 작업 진행 예정\n[차윤수] \nㄴ Figma 화면설계 보완 진행(계속) \nㄴ 퍼블리싱 관련 기술(Tailwind css 등) 스터디 진행\nㄴ ERP 전표 관련 기존화면 분석 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

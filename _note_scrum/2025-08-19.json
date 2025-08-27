@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1755592591.924399",
+        "client_msg_id": "cc68e2b6-ef58-47f3-aeec-ab5426a2daf1",
+        "text": "2025년 08월 19일 (화)\n`&lt; 스크럼 내용 &gt;`\n```1. C&amp;S Syncflo 안정화 (버그 및 기능 개선 보완 등)\n\t- 조직도 변경 시 관리 포인트 영역 및 개발 보완\n\t\t- 코스트센터 사용유무를 판단할 수 있도록 컬럼 추가 (개선)\n\t\t- 부서 및 코스트센터 이동 기능을 통하여 임직원 부서 이동 방향으로 진행\n\t\t- 코스트센터(재무담당자), 부서관리(인사담당자)에서 used 컬럼을 추가하여 코스트센터 전표작성 시점 및 조직도만 보여지도록 한다.\n\t- 배치 서버 및 API 서버 인터페이스 구성 체크\n\t\t- Oracle 우선순위, 영림원 ERP 후순위 될 것으로 판단\n2. 모바일 다운로드 기능 진행 여부\n\t- Android, iOS 다운로드 완료 (테스트 확인)\n3. 픽앤탁 공수 산정에 대한 부분 금주내로 공유\n\t- 예상 공수 일정은 1.5M\n4. 모바일 1.0 Target SDK 버전 업그레이드(Android) 금주 완료 예정\n5. 디플 프로젝트 mView 관련 프로시저 호출 내용 확인\n\t- CDC 관련 세팅은 개발서버에 되어 있음\n\t- 현재 mView 로도 속도가 충분히 나오는걸로 확인되었지만 추후 속도 안나오는 곳이 있다면 CDC 연결해야함```\n`&lt; 총괄 &gt;`\n```[김정중]\n진행\nㄴ API, 배치 등 서버 인프라 구성\nㄴ ERP, 세금계산서 시스템 모듈 인터페이스 구성\nㄴ ERP mView (CDC) 관련 기능 체크\nㄴ 신규 모바일(Flutter) 관련 공수 산정 관련 공유```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\n Syncflo 고도화\n  ㄴ 외화 -&gt; 원화 계산 API 추가\n  ㄴ 예산관리 \/ 법인카드 불출 \/ 전표관리 메뉴 전표번호, 문서번호 검색 조건 추가\n진행\n Syncflo 고도화\n  ㄴ 배치서버 설계 \/ ERP 연동 설계\n\t\n[박수환]\n완료\nㄴ Syncflo 고도화\n    - 세금계산서 수집 배치서비스에 이식\n    - 오류 수정\n    \n[권연주]\n완료\nㄴ 누적 사용통계 에러 수정\nㄴ 전표관리, 예산실적내역, 통계 외화 소수점 단위 처리 방식 적용\n진행\nㄴ 코스트센터, 부서 계층 조회 에러 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ Syncflo 고도화\n\t- 세금계산서 미등록 거래처 관련 기능 개선\nㄴ 디자인 시스템 작업 진행\n\n[김보민]\n완료\nㄴ 겸직 변경시 활성탭 제거 추가\nㄴ 유류대 지도 사이즈 props 수정\nㄴ budgets\/commons API url 변경\nㄴ EACC-1945 모바일 결재선 오류\nㄴ EACC-1946 법인카드 2개이상 등록 &gt; 1개 삭제 &gt; 저장시 삭제된 데이터 잠시 보이는 현상\nㄴ [MO] 유류대 관련 수정\n\n진행\nㄴ EACC-1947 지출결의서, 출장경비내역 &gt; 과세유형 -&gt; 세금유형 컬럼교체\n\n[전원재]\n완료\nㄴ 법인카드 불러오기 모달 내 관리항목 유효성 체크 추가\nㄴ 개인경비신청, 출장경비신청서 \n - 영수증, 법인카드, 유류대 저장시 관리항목 관련 오류 수정\nㄴ 출장경비신청서 유류대, 법인카드 데이터 초기화 오류 수정\nㄴ 월별사용통계 연별 조건 오류 수정\n진행\nㄴ EACC-1948 전표관리 개선업무 및 신청현황페이지 문서번호 검색필터 추가\nㄴ EACC-1949 전자결재 하위페이지 검색필터(문서번호) 추가\nㄴ 누적사용통계 - 누적통계기준 데이터 변경에 따른 수정```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ 전자전표 1.0 Android targetSdk 버전업 대응\nㄴㄴ 전자전표 LEM 배포\n\n진행\nㄴ  전자전표 1.0 Android targetSdk 버전업 대응\nㄴㄴ 전자전표 Topec 수정 및 심사 진행\nㄴ 신규 CRK 앱 수정 (Flutter)\nㄴㄴ 작업 환경 세팅```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ Syncflo 영림원 네이버웍스 결합상품\n - 로고, 결합상품 컨텐츠 이미지 작업\nㄴ Syncflo 전자전표 개선\n  - 결재문서 상세보기 방식 : 아이콘버튼 -&gt; 문서번호 링크로 변경\n  - 전자결재 : 모든페이지 문서번호 필터 추가\n  - 전표관리 : 전표번호, 문서번호 필터 추가\n진행\nㄴ Syncflo 영림원 네이버웍스 결합상품\n - 약관 개인정보수집 페이지 디자인```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DyAxd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 08월 19일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. C&S Syncflo 안정화 (버그 및 기능 개선 보완 등)\n\t- 조직도 변경 시 관리 포인트 영역 및 개발 보완\n\t\t- 코스트센터 사용유무를 판단할 수 있도록 컬럼 추가 (개선)\n\t\t- 부서 및 코스트센터 이동 기능을 통하여 임직원 부서 이동 방향으로 진행\n\t\t- 코스트센터(재무담당자), 부서관리(인사담당자)에서 used 컬럼을 추가하여 코스트센터 전표작성 시점 및 조직도만 보여지도록 한다.\n\t- 배치 서버 및 API 서버 인터페이스 구성 체크\n\t\t- Oracle 우선순위, 영림원 ERP 후순위 될 것으로 판단\n2. 모바일 다운로드 기능 진행 여부\n\t- Android, iOS 다운로드 완료 (테스트 확인)\n3. 픽앤탁 공수 산정에 대한 부분 금주내로 공유\n\t- 예상 공수 일정은 1.5M\n4. 모바일 1.0 Target SDK 버전 업그레이드(Android) 금주 완료 예정\n5. 디플 프로젝트 mView 관련 프로시저 호출 내용 확인\n\t- CDC 관련 세팅은 개발서버에 되어 있음\n\t- 현재 mView 로도 속도가 충분히 나오는걸로 확인되었지만 추후 속도 안나오는 곳이 있다면 CDC 연결해야함"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n진행\nㄴ API, 배치 등 서버 인프라 구성\nㄴ ERP, 세금계산서 시스템 모듈 인터페이스 구성\nㄴ ERP mView (CDC) 관련 기능 체크\nㄴ 신규 모바일(Flutter) 관련 공수 산정 관련 공유"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\n Syncflo 고도화\n  ㄴ 외화 -> 원화 계산 API 추가\n  ㄴ 예산관리 \/ 법인카드 불출 \/ 전표관리 메뉴 전표번호, 문서번호 검색 조건 추가\n진행\n Syncflo 고도화\n  ㄴ 배치서버 설계 \/ ERP 연동 설계\n\t\n[박수환]\n완료\nㄴ Syncflo 고도화\n    - 세금계산서 수집 배치서비스에 이식\n    - 오류 수정\n    \n[권연주]\n완료\nㄴ 누적 사용통계 에러 수정\nㄴ 전표관리, 예산실적내역, 통계 외화 소수점 단위 처리 방식 적용\n진행\nㄴ 코스트센터, 부서 계층 조회 에러 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ Syncflo 고도화\n\t- 세금계산서 미등록 거래처 관련 기능 개선\nㄴ 디자인 시스템 작업 진행\n\n[김보민]\n완료\nㄴ 겸직 변경시 활성탭 제거 추가\nㄴ 유류대 지도 사이즈 props 수정\nㄴ budgets\/commons API url 변경\nㄴ EACC-1945 모바일 결재선 오류\nㄴ EACC-1946 법인카드 2개이상 등록 > 1개 삭제 > 저장시 삭제된 데이터 잠시 보이는 현상\nㄴ [MO] 유류대 관련 수정\n\n진행\nㄴ EACC-1947 지출결의서, 출장경비내역 > 과세유형 -> 세금유형 컬럼교체\n\n[전원재]\n완료\nㄴ 법인카드 불러오기 모달 내 관리항목 유효성 체크 추가\nㄴ 개인경비신청, 출장경비신청서 \n - 영수증, 법인카드, 유류대 저장시 관리항목 관련 오류 수정\nㄴ 출장경비신청서 유류대, 법인카드 데이터 초기화 오류 수정\nㄴ 월별사용통계 연별 조건 오류 수정\n진행\nㄴ EACC-1948 전표관리 개선업무 및 신청현황페이지 문서번호 검색필터 추가\nㄴ EACC-1949 전자결재 하위페이지 검색필터(문서번호) 추가\nㄴ 누적사용통계 - 누적통계기준 데이터 변경에 따른 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ 전자전표 1.0 Android targetSdk 버전업 대응\nㄴㄴ 전자전표 LEM 배포\n\n진행\nㄴ  전자전표 1.0 Android targetSdk 버전업 대응\nㄴㄴ 전자전표 Topec 수정 및 심사 진행\nㄴ 신규 CRK 앱 수정 (Flutter)\nㄴㄴ 작업 환경 세팅"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ Syncflo 영림원 네이버웍스 결합상품\n - 로고, 결합상품 컨텐츠 이미지 작업\nㄴ Syncflo 전자전표 개선\n  - 결재문서 상세보기 방식 : 아이콘버튼 -> 문서번호 링크로 변경\n  - 전자결재 : 모든페이지 문서번호 필터 추가\n  - 전표관리 : 전표번호, 문서번호 필터 추가\n진행\nㄴ Syncflo 영림원 네이버웍스 결합상품\n - 약관 개인정보수집 페이지 디자인"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

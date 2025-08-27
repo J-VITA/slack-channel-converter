@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1747041529.138329",
+        "client_msg_id": "095332e0-b3fe-4118-8dbb-4a9a5f43848f",
+        "text": "2025년 5월 12일 (월)\n`&lt; 스크럼 내용 &gt;`\n```1. 대시보드 퀵메뉴 관련 UX 논의\n\t- 사용자, 재무담당자 등 권한별 콘텐츠 및 영역 재배열 등```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 개발기 서버 세팅\n\t- FE) 데모 프론트 서버 CI\/CD, Runner 등 세팅\n진행\nㄴ 일정관리\nㄴ 메뉴구성 재정의\nㄴ 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ github action workflow 수정\n진행\nㄴ 개발서버 SSO 로그인 동작 확인\nㄴ 하드코딩된 에러 메세지 코드화\n[박수환]\n진행\nㄴ 사용자 CRUD - front 화면 변경에 맞추어 수정\n[권연주]\n완료\nㄴ 사용자\n - 사용자 등록 시 결재양식 바로가기 추가\n - 임직원별 메뉴 조회 개발\n진행\nㄴ 시스템관리 -&gt; 사용자관리\n - 임시비밀번호 컬럼 삭제```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ 지출내역 - page layout side영역 추가\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가\n진행\nㄴ Dashboard Quick Menu UI\n\n[김보민]\n진행\n - 사용자등록(겸직) UI 추가\n - 상단 Navigator 겸직 변경 UI 추가 및 스토어 갱신\n\n[전원재]\n진행\nㄴ 전자결재 &gt; 지출결의서\n - 전표 UI 모달 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행중\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 인트로 화면 노출 순서 구현\n\t- IOS\n\t\t- 인트로 화면 노출 순서 구현\n완료\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작\n\t- IOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작```\n`&lt; 디자인 &gt;`\n```[차윤수]\n[완료]\nㄴ 2.0 메뉴구조도 변경\n\t- 개인경비 대메뉴 추가\n\t- 전자결재 &gt; 보관함 추가\n\t- 결재양식버튼: 메뉴별 페이지로 이동\nㄴ 전자결재 &gt; 중요보관함 기능 기획\/디자인\n[진행]\nㄴ 2.0 대시보드 화면 기획\/디자인\n\t- 컨텐츠 재구성 회의\n\t- 퀵메뉴 디자인 변경\n\t- 레이아웃 컨텐츠 디자인```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2LB29",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 12일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 대시보드 퀵메뉴 관련 UX 논의\n\t- 사용자, 재무담당자 등 권한별 콘텐츠 및 영역 재배열 등"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 개발기 서버 세팅\n\t- FE) 데모 프론트 서버 CI\/CD, Runner 등 세팅\n진행\nㄴ 일정관리\nㄴ 메뉴구성 재정의\nㄴ 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ github action workflow 수정\n진행\nㄴ 개발서버 SSO 로그인 동작 확인\nㄴ 하드코딩된 에러 메세지 코드화\n[박수환]\n진행\nㄴ 사용자 CRUD - front 화면 변경에 맞추어 수정\n[권연주]\n완료\nㄴ 사용자\n - 사용자 등록 시 결재양식 바로가기 추가\n - 임직원별 메뉴 조회 개발\n진행\nㄴ 시스템관리 -> 사용자관리\n - 임시비밀번호 컬럼 삭제"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ 지출내역 - page layout side영역 추가\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가\n진행\nㄴ Dashboard Quick Menu UI\n\n[김보민]\n진행\n - 사용자등록(겸직) UI 추가\n - 상단 Navigator 겸직 변경 UI 추가 및 스토어 갱신\n\n[전원재]\n진행\nㄴ 전자결재 > 지출결의서\n - 전표 UI 모달 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 인트로 화면 노출 순서 구현\n\t- IOS\n\t\t- 인트로 화면 노출 순서 구현\n완료\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작\n\t- IOS\n\t\t- 스플래쉬 화면 제작\n\t\t- 사용권한 알림뷰 화면 제작"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n[완료]\nㄴ 2.0 메뉴구조도 변경\n\t- 개인경비 대메뉴 추가\n\t- 전자결재 > 보관함 추가\n\t- 결재양식버튼: 메뉴별 페이지로 이동\nㄴ 전자결재 > 중요보관함 기능 기획\/디자인\n[진행]\nㄴ 2.0 대시보드 화면 기획\/디자인\n\t- 컨텐츠 재구성 회의\n\t- 퀵메뉴 디자인 변경\n\t- 레이아웃 컨텐츠 디자인"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

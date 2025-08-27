@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1749510861.895429",
+        "edited": {
+            "user": "U08V89ATPKP",
+            "ts": "1749510982.000000"
+        },
+        "client_msg_id": "9d2da514-bde5-48cd-aac9-f1b258fc66c9",
+        "text": "2025년 6월 09일 (월)\n`< 스크럼 내용 >`\n```1. 기준정보관리 > 경비규정관리 \n\t- 대변계정 자동 설정 추가\n\t- 소수점 처리에 대한 회사별 옵션\n2. postgresql DB 변경에 대한 공수 체크\n\t- 변경 공수 1주일 + 테스트 공수 1주일 : 총 2주 예상\n3. SaaS 프로젝트 개발 진행 시 내부 인원 병행하는 부분 의견\n\t- 현 개선안 기능들과 인프라 대응에 대한 개발 갭 차이를 내지 않기 위한 의견\n4. SaaS 프로젝트 인프라 측면 (비용) 관련\n\t- Websocket 잠시 중단 후 FCM 으로 웹 알림용으로만 사용```\n`< 총괄 >`\n```[김정중]\n완료\nㄴ 웹소켓 관련 방화벽 오픈 요청(스테이징)\nㄴ 개발서버 세금 계산서 스크래핑 서비스 스테이징 서버로 복제 요청 확인\n\n진행\nㄴ 일정관리\nㄴ WEB 개선사항 반영 분 테스트 진행 및 오류 체크\nㄴ Syncflo SaaS 경량화 회의```\n`< 백엔드 >`\n```[박광호]\n진행\nㄴ EACC-1526 모바일 법인카드 불러오기\n - 사용내역 불러오기시 업종에 따른 공제타입 자동세팅\n완료\nㄴ EACC-1786 매입세금계산서\n - 세금계산서 목록조회 쿼리 오류 수정\nㄴ 세금계산서 수집모듈 아키텍쳐 확인\n[박수환]\n완료\nㄴ 에러수정\n    - 권한조회, 메뉴조회 null체크 로직 추가\n진행\nㄴ EACC-1824-경비규정관리-테이블-리팩토링\n    - 경비규정관리 테이블 리팩토링\nㄴ postgresql\n    - local에서 DB 변환 테스트\n[권연주]\n완료\nㄴ EACC-1821 수신자 관리 API 수정\n - 법인카드불출신청서 승인\/반려 api 수정\n - 예산신청서 승인\/반려 api 수정\n - 법인카드 불출 신청서 개인카드일 경우 메일 발송 로직 변경\n - 수신자 여부 api 개발```\n`< 프론트엔드 >`\n```[우태림]\n완료\nㄴ EACC-1811 MOBILE 카테고리별 기간 조회 설정 및 저장\n진행\nㄴ EACC-1704 퀵메뉴 UI 작업 & API 연동\nㄴ EACC-1732 할일 Modal Bottom Sheet UI 작업 & API 연동\n\n[김보민]\n완료\nㄴ EACC-1818 지출결의서 READ > 증빙 모아보기\nㄴ EACC-1819 지출결의서 READ > 전표상세\n진행\nㄴ EACC-1420 결재작성 > 지출결의서\n\n[전원재]\n완료\nㄴ EACC-1775 전자결재 > 지출결의서\n - 법인카드 불러오기 초기화\n - 법인카드 등록 모달 UI 오류 수정\nㄴ EACC-1698 전자 결재 > 지출 결의서\n - 영수증 분할전표 복사 오류 수정\nㄴ EACC-1815, 1700 전자 결재 > 출장 경비 신청서\n - 출장 정보 추가 모달내 전표저장 테스트 및 오류 수정\n - 출장 비용 내역 추가 테스트 및 오류 수정\n진행\nㄴ EACC-1815, 1700 PC > 전자 결재 > 출장 경비 신청서\n - 법인카드, 영수증, 유류대 각 금액 합계 표시\n - read, preview ui 수정\nㄴ EACC-1698 PC > 전자 결재 > 지출 결의서\n - 법인카드, 영수증, 유류대 각 금액 합계 표시\nㄴ EACC-1502 모바일 > 전자결재양식 > 유류대 추가 모달```\n`< 모바일 >`\n```[홍제원] - 연차```\n`< 디자인 >`\n```[차윤수]\n완료\nㄴ 브랜드 사이트 리뉴얼\n - 제품개요 페이지 디자인, 퍼블리싱 진행 및 수정사항 체크\n진행\nㄴ EACC-1742 [디자인]대시보드 퀵메뉴 아이콘 작업```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wLfAg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 6월 09일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 기준정보관리 > 경비규정관리 \n\t- 대변계정 자동 설정 추가\n\t- 소수점 처리에 대한 회사별 옵션\n2. postgresql DB 변경에 대한 공수 체크\n\t- 변경 공수 1주일 + 테스트 공수 1주일 : 총 2주 예상\n3. SaaS 프로젝트 개발 진행 시 내부 인원 병행하는 부분 의견\n\t- 현 개선안 기능들과 인프라 대응에 대한 개발 갭 차이를 내지 않기 위한 의견\n4. SaaS 프로젝트 인프라 측면 (비용) 관련\n\t- Websocket 잠시 중단 후 FCM 으로 웹 알림용으로만 사용"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 웹소켓 관련 방화벽 오픈 요청(스테이징)\nㄴ 개발서버 세금 계산서 스크래핑 서비스 스테이징 서버로 복제 요청 확인\n\n진행\nㄴ 일정관리\nㄴ WEB 개선사항 반영 분 테스트 진행 및 오류 체크\nㄴ Syncflo SaaS 경량화 회의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n진행\nㄴ EACC-1526 모바일 법인카드 불러오기\n - 사용내역 불러오기시 업종에 따른 공제타입 자동세팅\n완료\nㄴ EACC-1786 매입세금계산서\n - 세금계산서 목록조회 쿼리 오류 수정\nㄴ 세금계산서 수집모듈 아키텍쳐 확인\n[박수환]\n완료\nㄴ 에러수정\n    - 권한조회, 메뉴조회 null체크 로직 추가\n진행\nㄴ EACC-1824-경비규정관리-테이블-리팩토링\n    - 경비규정관리 테이블 리팩토링\nㄴ postgresql\n    - local에서 DB 변환 테스트\n[권연주]\n완료\nㄴ EACC-1821 수신자 관리 API 수정\n - 법인카드불출신청서 승인\/반려 api 수정\n - 예산신청서 승인\/반려 api 수정\n - 법인카드 불출 신청서 개인카드일 경우 메일 발송 로직 변경\n - 수신자 여부 api 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ EACC-1811 MOBILE 카테고리별 기간 조회 설정 및 저장\n진행\nㄴ EACC-1704 퀵메뉴 UI 작업 & API 연동\nㄴ EACC-1732 할일 Modal Bottom Sheet UI 작업 & API 연동\n\n[김보민]\n완료\nㄴ EACC-1818 지출결의서 READ > 증빙 모아보기\nㄴ EACC-1819 지출결의서 READ > 전표상세\n진행\nㄴ EACC-1420 결재작성 > 지출결의서\n\n[전원재]\n완료\nㄴ EACC-1775 전자결재 > 지출결의서\n - 법인카드 불러오기 초기화\n - 법인카드 등록 모달 UI 오류 수정\nㄴ EACC-1698 전자 결재 > 지출 결의서\n - 영수증 분할전표 복사 오류 수정\nㄴ EACC-1815, 1700 전자 결재 > 출장 경비 신청서\n - 출장 정보 추가 모달내 전표저장 테스트 및 오류 수정\n - 출장 비용 내역 추가 테스트 및 오류 수정\n진행\nㄴ EACC-1815, 1700 PC > 전자 결재 > 출장 경비 신청서\n - 법인카드, 영수증, 유류대 각 금액 합계 표시\n - read, preview ui 수정\nㄴ EACC-1698 PC > 전자 결재 > 지출 결의서\n - 법인카드, 영수증, 유류대 각 금액 합계 표시\nㄴ EACC-1502 모바일 > 전자결재양식 > 유류대 추가 모달"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ 브랜드 사이트 리뉴얼\n - 제품개요 페이지 디자인, 퍼블리싱 진행 및 수정사항 체크\n진행\nㄴ EACC-1742 [디자인]대시보드 퀵메뉴 아이콘 작업"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

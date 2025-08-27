@@ -1,0 +1,113 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1730684399.419369",
+        "client_msg_id": "bbd55c3a-a55a-46ad-919b-d155cc38eee1",
+        "text": "`백엔드`\n```[구시완] - 연차 \n\n[서정은] - 시조모상\n\n[권연주]\nㄴ 전자결재 후결\n - 결재처리 목록 조회 api 후결 문서 조회하도록 수정 (완료)\n - 후결 api 개발 진행\nㄴ 결재선 변경\n - 결재선 변경 이력 테이블 설계 (완료)\n - 결재선 변경 이력 조회 api 개발 진행```\n`프론트엔드`\n```[우태림]\nㄴ 전자결재 → 반려\/회수 → 재기안 API 연동(완료)\nㄴ 전자결재 → 결재선 보안 작업 (완료)\nㄴ 전자결재 → 반려\/회수 → 삭제 개발 진행\nㄴ 전자결재 → 결재문서상세 → 회수 개발 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비지출 → 지출내역\n - 영수증 첨부 필드라인 추가 (영수증 필수인 경우 결재상신 안되도록)\nㄴ 전표처리 → 개인경비지출 → 지출등록\n - 개인경비 분할전표 화면 및 기능 완료 (변경 API 연동은 추후 진행)\n - 코드 리팩토링 진행\nㄴ 공통 필터 UI 기능 보완\n - checkbox 전체 기능 추가\n\n[전원재]\nㄴ 예산관리 &gt; 예산현황\n - 검색필터, 목록 조회(완료)\n - 확대기능, 예산등록, 수정, 삭제 (진행)```\n`디자인`\n```[차윤수]\nㄴ 전표처리 &gt; 매출 세금계산서 발행 화면 기획 디자인(진행)\nㄴ 매출세금계산서 신규작성 화면(국세청 양식 모달창)디자인(진행)\nㄴ 전표처리 &gt; 매출 전표 조회\/확정 화면 기획 디자인(진행)\nㄴ 법인카드\/세금계산서 화면 논의(권민식대리)```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hHbZm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완] - 연차 \n\n[서정은] - 시조모상\n\n[권연주]\nㄴ 전자결재 후결\n - 결재처리 목록 조회 api 후결 문서 조회하도록 수정 (완료)\n - 후결 api 개발 진행\nㄴ 결재선 변경\n - 결재선 변경 이력 테이블 설계 (완료)\n - 결재선 변경 이력 조회 api 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자결재 → 반려\/회수 → 재기안 API 연동(완료)\nㄴ 전자결재 → 결재선 보안 작업 (완료)\nㄴ 전자결재 → 반려\/회수 → 삭제 개발 진행\nㄴ 전자결재 → 결재문서상세 → 회수 개발 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비지출 → 지출내역\n - 영수증 첨부 필드라인 추가 (영수증 필수인 경우 결재상신 안되도록)\nㄴ 전표처리 → 개인경비지출 → 지출등록\n - 개인경비 분할전표 화면 및 기능 완료 (변경 API 연동은 추후 진행)\n - 코드 리팩토링 진행\nㄴ 공통 필터 UI 기능 보완\n - checkbox 전체 기능 추가\n\n[전원재]\nㄴ 예산관리 > 예산현황\n - 검색필터, 목록 조회(완료)\n - 확대기능, 예산등록, 수정, 삭제 (진행)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 전표처리 > 매출 세금계산서 발행 화면 기획 디자인(진행)\nㄴ 매출세금계산서 신규작성 화면(국세청 양식 모달창)디자인(진행)\nㄴ 전표처리 > 매출 전표 조회\/확정 화면 기획 디자인(진행)\nㄴ 법인카드\/세금계산서 화면 논의(권민식대리)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

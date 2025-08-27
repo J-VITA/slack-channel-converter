@@ -1,0 +1,109 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1729215687.097529",
+        "client_msg_id": "9118a134-79b2-4a04-b25e-0aa075399bda",
+        "text": "`백엔드`\n```[구시완]\nㄴ 프로젝트관리 검색필터 프로젝트 코드 like로 변경\nㄴ 거래처관리, 프로젝트관리, 회계기간관리 정렬 순서 변경\nㄴ 거래처코드 세율 소수점으로 변경\nㄴ 지출내역조회 정렬순서 변경\nㄴ 지출내역 작성 개발 진행\n\n[권연주]\nㄴ 시스템 설정, 전자결재 테스트 및 버그 수정 진행\n - 탈퇴시 퇴사일 등록하도록 수정 완료\n - 메뉴별로 권한 할당하도록 수정 완료\n - 사용중지, 탈퇴 로직 수정 진행```\n`프론트엔드`\n```[우태림]\nㄴ 기준정보관리 bug fix (완료)\n - 계정\/비용항목관리 → 권한설정\n - 프로젝트 관리\n - 코스트센터 관리\n - 거래처관리\nㄴ 전자전표 2단계 → 프론트 파트 업무 담당자 조율 예정\n\n[김정중]\nㄴ 컴포넌트 전용 호출 커스텀 Composables API (CFetch) 전체 소스 적용 완료\nㄴ 전표처리 → 개인경비 지출 → 지출등록 리펙토링 작업(분할전표 포함)\nㄴ Ag-Grid 최신버전에서의 사라진 옵션들에 대한 변경 작업 (완료)\nㄴ 전자전표 2단계 → 프론트 파트 업무 담당자 조율 예정\n \n[전원재]\nㄴ 직위, 직책관리 오류 수정\n - 테이블 순번 컬럼 추가(완료)\n - 직위, 직책명 변경시 우측 데이터 리프레시\n - 테이블 툴팁 삭제(시스템 설정 전부)\nㄴ 전자전표 2단계 → 프론트 파트 업무 담당자 조율 예정```\n`디자인`\n```[차윤수] - 연차```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "09Doa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 프로젝트관리 검색필터 프로젝트 코드 like로 변경\nㄴ 거래처관리, 프로젝트관리, 회계기간관리 정렬 순서 변경\nㄴ 거래처코드 세율 소수점으로 변경\nㄴ 지출내역조회 정렬순서 변경\nㄴ 지출내역 작성 개발 진행\n\n[권연주]\nㄴ 시스템 설정, 전자결재 테스트 및 버그 수정 진행\n - 탈퇴시 퇴사일 등록하도록 수정 완료\n - 메뉴별로 권한 할당하도록 수정 완료\n - 사용중지, 탈퇴 로직 수정 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 기준정보관리 bug fix (완료)\n - 계정\/비용항목관리 → 권한설정\n - 프로젝트 관리\n - 코스트센터 관리\n - 거래처관리\nㄴ 전자전표 2단계 → 프론트 파트 업무 담당자 조율 예정\n\n[김정중]\nㄴ 컴포넌트 전용 호출 커스텀 Composables API (CFetch) 전체 소스 적용 완료\nㄴ 전표처리 → 개인경비 지출 → 지출등록 리펙토링 작업(분할전표 포함)\nㄴ Ag-Grid 최신버전에서의 사라진 옵션들에 대한 변경 작업 (완료)\nㄴ 전자전표 2단계 → 프론트 파트 업무 담당자 조율 예정\n \n[전원재]\nㄴ 직위, 직책관리 오류 수정\n - 테이블 순번 컬럼 추가(완료)\n - 직위, 직책명 변경시 우측 데이터 리프레시\n - 테이블 툴팁 삭제(시스템 설정 전부)\nㄴ 전자전표 2단계 → 프론트 파트 업무 담당자 조율 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

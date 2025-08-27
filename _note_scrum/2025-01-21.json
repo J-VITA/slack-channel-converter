@@ -1,0 +1,314 @@
+[
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1737519578.677549",
+        "edited": {
+            "user": "U06KTLCLALQ",
+            "ts": "1737519610.000000"
+        },
+        "client_msg_id": "95e24b3d-992a-44bc-a2a4-03ac841526cf",
+        "text": "2025-01-20(월) 스크럼\n`< 백엔드 >`\n```[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 오픈 준비 (계속)\n - 인터페이스, 프로시저, 배치 적용 준비\nㄴ 세금계산서 xml 2.0 개발\n - xml 업로드 개발 \n완료\nㄴ 경비규정관리 Boolean default false 설정 \nㄴ 전표유형, 전표증빙유형 enum 상태 변경\n\n[서정은]\n진행\nㄴ 대시보드\n - 월별사용통계 진행중\nㄴ 전자결재 → 출장경비처리\n - 삭제 API 개발 완료\n - 불러오기 로직 진행중\n완료\nㄴ 시스템 설정 → 권한권리\n - \/roles\/assign\/menu API 로직 수정\nㄴ 전역\n -hibernate orm 변경감지 설정 수정\n\n[권연주]\n진행\nㄴ 대시보드\n - To do list api 개발\n완료\nㄴ 대시보드\n - 나의 경비사용 api 개발```\n`< 프론트엔드 >`\n```[우태림]\n진행\nㄴ 전표처리 → 매입세금계산서 작성 개발 진행 (계속)\nㄴ 전표처리 → 세금계산서 등록 화면 개발 (계속)\nㄴ 전표처리 → 선급금 신청 개발 진행 (계속)\n완료\nㄴ 기준정보관리 → 계정비용 지출유형 API교체\n\n[김정중]\n진행\nㄴ 전표관리 → 전표내역 → 증빙검색 → 테스트\nㄴ 전표유형 상세 → 세금계산서 → 미리보기 개발\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\n\n완료\nㄴ 전표유형 페이로드 타입 변경으로 파일명 및 상수 변경\nㄴ 기준정보관리 → 세금코드관리 → 공제유형 필드추카\nㄴ 전자결재 → 경조금 신청 → 계정비용\/부채계정 보완\n\n[전원재]\n진행\nㄴ 전자결재 > 출장경비신청서\n - 출장정보, 출장전표 조회, 삭제, 수정\n \n완료\nㄴ 공통\n - 백엔드 enum 변경으로 인한 프론트 enum 변경```\n`< 디자인 >`\n```[차윤수]\n솔루션2.0 브랜드사이트 디자인\n진행\nㄴ개인정보페이지 수정사항 반영\nㄴ요금제 안내 형식 변경\n\n솔루션2.0 PC 기획, 디자인\n진행\nㄴ시스템설정, 기준정보관리 오류체크 \nㄴ엑셀업로드 지원(권민식)\nㄴ대시보드: To do list 목록수정```\n\n\n\n2025-01-21(화) 스크럼\n`< 백엔드 >`\n```[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 오픈 준비 (계속)\n - 테스트, 인터페이스, 프로시저, 배치 적용 준비\nㄴ 세금계산서 XML 업로드 개발 분석 \n완료\nㄴ 삼성카드 수집데이터 연계 완료 \n - 매입데이터, 카드정보 데이터 등\nㄴ EC2, C&S 개발서버 파일업로드 파일 저장 경로 변경 (파일 보관)\n\n[서정은]\n진행\nㄴ 시스템 설정 → 권한권리\n - 일부 메뉴 수정 안되는 현상 수정중\n - 규정위반 조회 API\n - ApprovalId 조회시 응답에 slipHeaderId 추가\nㄴ 전자결재 → 출장경비처리\n - 불러오기 로직 진행중\n - 규정위반 조회 추가\n\n[권연주]\n진행\nㄴ 대시보드\n - To do list api 개발\n - 법인카드 사용현황 api 기능 정의\n완료\nㄴ 대시보드\n - To do list api 기능 정의```\n`< 프론트엔드 >`\n```[우태림]\n진행\nㄴ 전자전표 테스트 진행 \n완료\nㄴ 기준정보관리 → 계정비용 내용이 없을때 상태 설정 추가\nㄴ 기준정보관리 → 계정비용 지출유형 API교체\nㄴ 시스템설정 → 권한관리 버그 이슈 처리\nㄴ 시스템설정 → 사용자 추가 :  입사일 기본값 undefined 처리\n\n[김정중]\n진행\nㄴ 전표관리 → 전표내역 → 증빙검색 → 테스트\nㄴ 전표유형 상세 → 세금계산서 → 미리보기 개발\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\n\n완료\nㄴ 전표유형 페이로드 타입 변경으로 파일명 및 상수 변경\nㄴ 기준정보관리 → 세금코드관리 → 공제유형 필드추카\nㄴ 전자결재 → 경조금 신청 → 계정비용\/부채계정 보완\n\n[전원재]\n진행\nㄴ 전자결재 > 출장경비신청서\n - write 출장정보, 출장전표 삭제, 수정\n \n완료\nㄴ 전표처리 > 개인경비\n - 분할 모달 총금액 계산 오류 수정\n - 파라미터 변경으로 인한 로직 수정\nㄴ 전자결재 > 출장경비신청서\n - write 출장정보, 출장전표 조회\n - read, preview 조회\nㄴ 전자결재 > 예산신청서 \n -  read, preview 조회 (완료)```\n`< 디자인 >`\n```[차윤수]\n솔루션2.0 브랜드사이트 디자인\n진행\nㄴ개인정보페이지 수정사항 반영\nㄴ요금제 안내 형식 변경\n\n솔루션2.0 PC 기획, 디자인\n진행\nㄴ시스템설정, 기준정보관리 오류체크 \nㄴ엑셀업로드 지원(권민식)\nㄴ대시보드: To do list 목록수정```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KKSBj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-01-20(월) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 오픈 준비 (계속)\n - 인터페이스, 프로시저, 배치 적용 준비\nㄴ 세금계산서 xml 2.0 개발\n - xml 업로드 개발 \n완료\nㄴ 경비규정관리 Boolean default false 설정 \nㄴ 전표유형, 전표증빙유형 enum 상태 변경\n\n[서정은]\n진행\nㄴ 대시보드\n - 월별사용통계 진행중\nㄴ 전자결재 → 출장경비처리\n - 삭제 API 개발 완료\n - 불러오기 로직 진행중\n완료\nㄴ 시스템 설정 → 권한권리\n - \/roles\/assign\/menu API 로직 수정\nㄴ 전역\n -hibernate orm 변경감지 설정 수정\n\n[권연주]\n진행\nㄴ 대시보드\n - To do list api 개발\n완료\nㄴ 대시보드\n - 나의 경비사용 api 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 전표처리 → 매입세금계산서 작성 개발 진행 (계속)\nㄴ 전표처리 → 세금계산서 등록 화면 개발 (계속)\nㄴ 전표처리 → 선급금 신청 개발 진행 (계속)\n완료\nㄴ 기준정보관리 → 계정비용 지출유형 API교체\n\n[김정중]\n진행\nㄴ 전표관리 → 전표내역 → 증빙검색 → 테스트\nㄴ 전표유형 상세 → 세금계산서 → 미리보기 개발\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\n\n완료\nㄴ 전표유형 페이로드 타입 변경으로 파일명 및 상수 변경\nㄴ 기준정보관리 → 세금코드관리 → 공제유형 필드추카\nㄴ 전자결재 → 경조금 신청 → 계정비용\/부채계정 보완\n\n[전원재]\n진행\nㄴ 전자결재 > 출장경비신청서\n - 출장정보, 출장전표 조회, 삭제, 수정\n \n완료\nㄴ 공통\n - 백엔드 enum 변경으로 인한 프론트 enum 변경"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n솔루션2.0 브랜드사이트 디자인\n진행\nㄴ개인정보페이지 수정사항 반영\nㄴ요금제 안내 형식 변경\n\n솔루션2.0 PC 기획, 디자인\n진행\nㄴ시스템설정, 기준정보관리 오류체크 \nㄴ엑셀업로드 지원(권민식)\nㄴ대시보드: To do list 목록수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n\n\n2025-01-21(화) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 오픈 준비 (계속)\n - 테스트, 인터페이스, 프로시저, 배치 적용 준비\nㄴ 세금계산서 XML 업로드 개발 분석 \n완료\nㄴ 삼성카드 수집데이터 연계 완료 \n - 매입데이터, 카드정보 데이터 등\nㄴ EC2, C&S 개발서버 파일업로드 파일 저장 경로 변경 (파일 보관)\n\n[서정은]\n진행\nㄴ 시스템 설정 → 권한권리\n - 일부 메뉴 수정 안되는 현상 수정중\n - 규정위반 조회 API\n - ApprovalId 조회시 응답에 slipHeaderId 추가\nㄴ 전자결재 → 출장경비처리\n - 불러오기 로직 진행중\n - 규정위반 조회 추가\n\n[권연주]\n진행\nㄴ 대시보드\n - To do list api 개발\n - 법인카드 사용현황 api 기능 정의\n완료\nㄴ 대시보드\n - To do list api 기능 정의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 전자전표 테스트 진행 \n완료\nㄴ 기준정보관리 → 계정비용 내용이 없을때 상태 설정 추가\nㄴ 기준정보관리 → 계정비용 지출유형 API교체\nㄴ 시스템설정 → 권한관리 버그 이슈 처리\nㄴ 시스템설정 → 사용자 추가 :  입사일 기본값 undefined 처리\n\n[김정중]\n진행\nㄴ 전표관리 → 전표내역 → 증빙검색 → 테스트\nㄴ 전표유형 상세 → 세금계산서 → 미리보기 개발\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\n\n완료\nㄴ 전표유형 페이로드 타입 변경으로 파일명 및 상수 변경\nㄴ 기준정보관리 → 세금코드관리 → 공제유형 필드추카\nㄴ 전자결재 → 경조금 신청 → 계정비용\/부채계정 보완\n\n[전원재]\n진행\nㄴ 전자결재 > 출장경비신청서\n - write 출장정보, 출장전표 삭제, 수정\n \n완료\nㄴ 전표처리 > 개인경비\n - 분할 모달 총금액 계산 오류 수정\n - 파라미터 변경으로 인한 로직 수정\nㄴ 전자결재 > 출장경비신청서\n - write 출장정보, 출장전표 조회\n - read, preview 조회\nㄴ 전자결재 > 예산신청서 \n -  read, preview 조회 (완료)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n솔루션2.0 브랜드사이트 디자인\n진행\nㄴ개인정보페이지 수정사항 반영\nㄴ요금제 안내 형식 변경\n\n솔루션2.0 PC 기획, 디자인\n진행\nㄴ시스템설정, 기준정보관리 오류체크 \nㄴ엑셀업로드 지원(권민식)\nㄴ대시보드: To do list 목록수정"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1737519702.280669",
+        "client_msg_id": "846fab2c-0dd0-48f5-a15e-9fcd9bb7a616",
+        "text": "2025-01-22(수) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n진행\nㄴ 일진C&amp;S 전자전표2.0 개발 시스템 오픈 준비 (계속)\n - 테스트, 인터페이스, 프로시저, 배치 적용 준비\nㄴ 세금계산서 XML 업로드 개발 분석 \nㄴ 법인카드정보, 수집 데이터 C&amp;S 적용 프로시저 개발  \n완료\nㄴ 시스템 설정 &gt; 공통코드 \n - 변경사항 개발 및 수정\nㄴ 기준정보관리 &gt; 코스트센터관리 \n - 기타사용자 조회권한 저장시 부서권한 조회 저장 여부 추가 \n\n[서정은]\n진행\nㄴ 전자결재 → 출장경비처리\n  - 작성한 전표 불러오기 API\n  - 규정위반 조회 API\n  - ApprovalId 조회시 응답에 slipHeaderId 추가\nㄴ 엑셀업로드\n - 사업자등록: 사업자번호 필수 여부 체크 \n - 계정과목: 컬럼명 변경 사항 반영\n완료\nㄴ시스템 설정 → 권한권리\n  - 일부 메뉴 수정 안되는 현상 수정 완료\n\n[권연주]\n진행\nㄴ 경조금\n - enum -&gt; code 변경\nㄴ 테스트\n - 오류사항 수정\n완료\nㄴ 대시보드\n - To do list api 개발\n - 법인카드 사용현황 api 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 전자전표 테스트 진행 및 버그 Fix\n완료\nㄴ 기준정보관리 → 결재환경 설정 버그 fix 및 코드 개선\nㄴ 시스템설정 → 권한관리 버그 fix 및 사용자 편의성 개선\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 개발기 시스템 설정 테스트\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\n완료\nㄴ 공통 → 호스트 설정\nㄴ 시스템관리 → 전표유형관리 → 조회, 수정\nㄴ 전자결재 → 홈 → 전표유형 별 결재 활성\/비활성 기능\n\n[전원재]\n진행\nㄴ 시스템설정 &gt; 코드관리\n - 검색조건 추가\nㄴ 시스템설정 &gt; 사용자관리\n - 버그수정 및 사용자 UI 수정\n완료\nㄴ 전표처리 &gt; 개인경비\n - 분할 전표 UI 수정\n - 개인경비 총금액 계산 오류 수정\nㄴ 예산관리 &gt; 기초예산관리\n - 정렬 오류 수정\nㄴ 시스템설정 &gt; 코드관리\n - 버그수정 및 사용자 UI 수정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ솔루션2.0 브랜드사이트 디자인\n - 개발화면검토 수정사항 전달\n - 요금제ui수정, FAQ UI추가, 고객사 로고이미지 수정\n \nㄴ솔루션2.0 PC 기획, 디자인\n - 엑셀업로드 지원 및 테스트\n - 시스템설정 기준정보관리 테스트```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gf2nZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-01-22(수) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 오픈 준비 (계속)\n - 테스트, 인터페이스, 프로시저, 배치 적용 준비\nㄴ 세금계산서 XML 업로드 개발 분석 \nㄴ 법인카드정보, 수집 데이터 C&S 적용 프로시저 개발  \n완료\nㄴ 시스템 설정 > 공통코드 \n - 변경사항 개발 및 수정\nㄴ 기준정보관리 > 코스트센터관리 \n - 기타사용자 조회권한 저장시 부서권한 조회 저장 여부 추가 \n\n[서정은]\n진행\nㄴ 전자결재 → 출장경비처리\n  - 작성한 전표 불러오기 API\n  - 규정위반 조회 API\n  - ApprovalId 조회시 응답에 slipHeaderId 추가\nㄴ 엑셀업로드\n - 사업자등록: 사업자번호 필수 여부 체크 \n - 계정과목: 컬럼명 변경 사항 반영\n완료\nㄴ시스템 설정 → 권한권리\n  - 일부 메뉴 수정 안되는 현상 수정 완료\n\n[권연주]\n진행\nㄴ 경조금\n - enum -> code 변경\nㄴ 테스트\n - 오류사항 수정\n완료\nㄴ 대시보드\n - To do list api 개발\n - 법인카드 사용현황 api 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 전자전표 테스트 진행 및 버그 Fix\n완료\nㄴ 기준정보관리 → 결재환경 설정 버그 fix 및 코드 개선\nㄴ 시스템설정 → 권한관리 버그 fix 및 사용자 편의성 개선\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 개발기 시스템 설정 테스트\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\n완료\nㄴ 공통 → 호스트 설정\nㄴ 시스템관리 → 전표유형관리 → 조회, 수정\nㄴ 전자결재 → 홈 → 전표유형 별 결재 활성\/비활성 기능\n\n[전원재]\n진행\nㄴ 시스템설정 > 코드관리\n - 검색조건 추가\nㄴ 시스템설정 > 사용자관리\n - 버그수정 및 사용자 UI 수정\n완료\nㄴ 전표처리 > 개인경비\n - 분할 전표 UI 수정\n - 개인경비 총금액 계산 오류 수정\nㄴ 예산관리 > 기초예산관리\n - 정렬 오류 수정\nㄴ 시스템설정 > 코드관리\n - 버그수정 및 사용자 UI 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ솔루션2.0 브랜드사이트 디자인\n - 개발화면검토 수정사항 전달\n - 요금제ui수정, FAQ UI추가, 고객사 로고이미지 수정\n \nㄴ솔루션2.0 PC 기획, 디자인\n - 엑셀업로드 지원 및 테스트\n - 시스템설정 기준정보관리 테스트"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

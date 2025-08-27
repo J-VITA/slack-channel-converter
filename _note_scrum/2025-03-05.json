@@ -1,0 +1,224 @@
+[
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1741218204.034149",
+        "client_msg_id": "ab646f87-21a1-4689-b90f-dca5c48cfc10",
+        "text": "2025-03-05(수) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n진행\nㄴ 일진C&amp;S 전자전표2.0 운영시스템 오류 수정(계속)\nㄴ 전자세금계산서 수기세금계산서 동시 조회 개발 \nㄴ 수기세금계산서 자동 매핑 프로시저 개발\n완료\nㄴ 매입세금계산서 반려처리 오류 수정 \nㄴ 반려전표 파일 미리보기 오류 수정  \nㄴ 선급금 초기화 수정\n\n[권연주]\n진행\nㄴ 예산\n - 가차감 로직 개발\nㄴ 출장경비신청서\n - 규정위반 Response 개발\n완료\nㄴ 예산신청서\n - 예산 승인 에러 수정\nㄴ 전표관리\n - 소수점 금액 에러 수정\n - 전표검인\/확정 조회 에러 수정\nㄴ 예산실적내역\n - 예산별 상세 조회 에러 수정\nㄴ 예산신청내역\n - 상세모달 잔여예산 조회 에러 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 세금계산서, 선급금 테스트\n완료\nㄴ 선급금 그룹웨어 연동\nㄴ 세금계산서, 지출상세 UI 개선 작업\n\n[김보민]\n진행\nㄴ 전표처리, 전표관리, 전자결제 코드분석\n완료\nㄴ Figma, Git, Confluence, Jira 등 업무진행 관련 셋팅 완료\n\n[전원재]\n진행\nㄴ 운영 버그 픽스\nㄴ 통계\/보고서\n - 조회조건 공통 컴포넌트 개발\n - ui 및 기능 개발\nㄴ 매출전표\n - ui 및 기능 개발\n완료\nㄴ 전표처리 &gt; 개인경비\/법인카드 &gt; 유류대, 개인설정 &gt; 출장경로관리\n - 경로 금액, 거리 오류 수정\n - 지출 그룹웨어 문서 멀티파트로 수정\nㄴ 전자결재 &gt; 지출 모달 공통\n - 지출 문서 사용자 컬럼명 수정\nㄴ 전자결재 &gt; 예산신청서\n - 상세모달 추가\nㄴ 예산관리 &gt; 예산실적내역\n - 상세 모달 table &gt; aggrid로 수정\n - 총계 추가\n - 상세 조회 파라미터 수정\nㄴ 예산관리 &gt; 예산신청내역, 기초예산현황\n - api 파라미터 수정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ전자전표 모바일 UI검토\n - 전표작성, 결재\nㄴ전자전표2.0 매뉴얼 작성\n - 전자결재 사용법(반려 회수 재기안)\nㄴ 브랜드사이트: SyncFlo - AS Solution 상세페이지디자인\nㄴ전자전표2.0 PC \n - ERP전표 구매전표 상세 디자인 \n - 출장비 규정위반사항 검토(지출결의서,출장경비신청서)\n - 통계화면 검토(누적,월별,개인)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PRz+S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-03-05(수) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 운영시스템 오류 수정(계속)\nㄴ 전자세금계산서 수기세금계산서 동시 조회 개발 \nㄴ 수기세금계산서 자동 매핑 프로시저 개발\n완료\nㄴ 매입세금계산서 반려처리 오류 수정 \nㄴ 반려전표 파일 미리보기 오류 수정  \nㄴ 선급금 초기화 수정\n\n[권연주]\n진행\nㄴ 예산\n - 가차감 로직 개발\nㄴ 출장경비신청서\n - 규정위반 Response 개발\n완료\nㄴ 예산신청서\n - 예산 승인 에러 수정\nㄴ 전표관리\n - 소수점 금액 에러 수정\n - 전표검인\/확정 조회 에러 수정\nㄴ 예산실적내역\n - 예산별 상세 조회 에러 수정\nㄴ 예산신청내역\n - 상세모달 잔여예산 조회 에러 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 세금계산서, 선급금 테스트\n완료\nㄴ 선급금 그룹웨어 연동\nㄴ 세금계산서, 지출상세 UI 개선 작업\n\n[김보민]\n진행\nㄴ 전표처리, 전표관리, 전자결제 코드분석\n완료\nㄴ Figma, Git, Confluence, Jira 등 업무진행 관련 셋팅 완료\n\n[전원재]\n진행\nㄴ 운영 버그 픽스\nㄴ 통계\/보고서\n - 조회조건 공통 컴포넌트 개발\n - ui 및 기능 개발\nㄴ 매출전표\n - ui 및 기능 개발\n완료\nㄴ 전표처리 > 개인경비\/법인카드 > 유류대, 개인설정 > 출장경로관리\n - 경로 금액, 거리 오류 수정\n - 지출 그룹웨어 문서 멀티파트로 수정\nㄴ 전자결재 > 지출 모달 공통\n - 지출 문서 사용자 컬럼명 수정\nㄴ 전자결재 > 예산신청서\n - 상세모달 추가\nㄴ 예산관리 > 예산실적내역\n - 상세 모달 table > aggrid로 수정\n - 총계 추가\n - 상세 조회 파라미터 수정\nㄴ 예산관리 > 예산신청내역, 기초예산현황\n - api 파라미터 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ전자전표 모바일 UI검토\n - 전표작성, 결재\nㄴ전자전표2.0 매뉴얼 작성\n - 전자결재 사용법(반려 회수 재기안)\nㄴ 브랜드사이트: SyncFlo - AS Solution 상세페이지디자인\nㄴ전자전표2.0 PC \n - ERP전표 구매전표 상세 디자인 \n - 출장비 규정위반사항 검토(지출결의서,출장경비신청서)\n - 통계화면 검토(누적,월별,개인)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1741241571.640259",
+        "client_msg_id": "62972e9d-c7ae-45d2-b12f-128f131803e4",
+        "text": "2025-03-06(목) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n진행\nㄴ 수기세금계산서 자동 매핑 프로시저 개발\nㄴ 전자,수기세금계산서 상세 조회 이원화 개발\n완료\nㄴ 전자,수기세금계산서 목록 조회 이원화 \n\n[권연주]\n진행\nㄴ bug fix\nㄴ 예산 실적 내역\n - 예산증감액 조회 에러 수정\n완료\nㄴ 전자결재\n - 전표 data 수정\nㄴ 전표관리\n - 증빙거래처 data 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 세금계산서, 선급금 테스트 및 오류 수정 \n완료\nㄴ 세금계산서 내 선급금 초기화 수정 \nㄴ 지급조건 id → code로 변경\nㄴ 결재문서내 세금계산서 작성내역 불러오기 모달 내 조회 버튼 클릭시 에러 발생\nㄴ 세금계산서 total 변경 안되는 현상 수정\n\n[김보민]\n진행\nㄴ 전표조회, 검인확정, 확정현황, 전자결재디테일 \"프로젝트\", \"내용\" 컬럼 상시노출\nㄴ 전표조회, 검인확정, 확정현황 -&gt; 프로젝트 검색 필터 추가\nㄴ 팝업 알림창 디자인 css, 아이콘 통일\nㄴ 전표처리쪽 모든페이지에서 F5새로고침시 총금액이 0으로 나오는 현상\n완료\nㄴ 전표관리 &gt; 전표조회 : 증빙유형 공란으로 표기 수정\nㄴ 그리드 정렬 및 비어있는 컬럼 수정\nㄴ 전표내역 상세 UI 틀어짐 수정\n\n[전원재]\n진행\nㄴ 전표처리 &gt; 개인경비\/법인카드 \n - 상세검색 &gt; 대리작성자 선택, 해제 작성자 disabled 상태변경\n - 법인카드 불러오기 계정항목, 프로젝트, 내용 일괄 입력 ui수정\nㄴ 결재미리보기\n - UI 변경 \nㄴ 예산관리 &gt; 기초예산현황 \n - 상세 조회시 총금액 오류 수정\n완료\nㄴ 예산 관리 &gt; 예산실적내역\n - 상세 모달 내 결재문서 미리보기 추가\nㄴ 전자결재 &gt; 예산신청서 \n - 예산 잔액조회 오류 수정\n - 계정항목 드랍다운 width 수정\nㄴ 전표처리 &gt; 개인경비\/법인카드 \n - 선택된 전표 타입에 따른 결재상신문서 변경\n - 법인카드 불러오기 모달 조회 상태에 따른 사적비용해제,처리 버튼 disabled수정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ 전자전표2.0 PC \n   - ERP전표 구매, 지급전표 UI디자인\n   - ERP전표 증빙문서, 그룹웨어, 파일 일괄등록, 세금계산서 첨부\n   - ERP전표 결재 UI \n   - 통계화면 검토\n   - 운영 에러 개선사항 작성\nㄴ전자전표 모바일 UI검토\n  - 전표작성, 결재\nㄴ 브랜드사이트: SyncFlo - AS Solution 상세페이지 기획,디자인```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wFkc2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-03-06(목) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 수기세금계산서 자동 매핑 프로시저 개발\nㄴ 전자,수기세금계산서 상세 조회 이원화 개발\n완료\nㄴ 전자,수기세금계산서 목록 조회 이원화 \n\n[권연주]\n진행\nㄴ bug fix\nㄴ 예산 실적 내역\n - 예산증감액 조회 에러 수정\n완료\nㄴ 전자결재\n - 전표 data 수정\nㄴ 전표관리\n - 증빙거래처 data 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 세금계산서, 선급금 테스트 및 오류 수정 \n완료\nㄴ 세금계산서 내 선급금 초기화 수정 \nㄴ 지급조건 id → code로 변경\nㄴ 결재문서내 세금계산서 작성내역 불러오기 모달 내 조회 버튼 클릭시 에러 발생\nㄴ 세금계산서 total 변경 안되는 현상 수정\n\n[김보민]\n진행\nㄴ 전표조회, 검인확정, 확정현황, 전자결재디테일 \"프로젝트\", \"내용\" 컬럼 상시노출\nㄴ 전표조회, 검인확정, 확정현황 -> 프로젝트 검색 필터 추가\nㄴ 팝업 알림창 디자인 css, 아이콘 통일\nㄴ 전표처리쪽 모든페이지에서 F5새로고침시 총금액이 0으로 나오는 현상\n완료\nㄴ 전표관리 > 전표조회 : 증빙유형 공란으로 표기 수정\nㄴ 그리드 정렬 및 비어있는 컬럼 수정\nㄴ 전표내역 상세 UI 틀어짐 수정\n\n[전원재]\n진행\nㄴ 전표처리 > 개인경비\/법인카드 \n - 상세검색 > 대리작성자 선택, 해제 작성자 disabled 상태변경\n - 법인카드 불러오기 계정항목, 프로젝트, 내용 일괄 입력 ui수정\nㄴ 결재미리보기\n - UI 변경 \nㄴ 예산관리 > 기초예산현황 \n - 상세 조회시 총금액 오류 수정\n완료\nㄴ 예산 관리 > 예산실적내역\n - 상세 모달 내 결재문서 미리보기 추가\nㄴ 전자결재 > 예산신청서 \n - 예산 잔액조회 오류 수정\n - 계정항목 드랍다운 width 수정\nㄴ 전표처리 > 개인경비\/법인카드 \n - 선택된 전표 타입에 따른 결재상신문서 변경\n - 법인카드 불러오기 모달 조회 상태에 따른 사적비용해제,처리 버튼 disabled수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ 전자전표2.0 PC \n   - ERP전표 구매, 지급전표 UI디자인\n   - ERP전표 증빙문서, 그룹웨어, 파일 일괄등록, 세금계산서 첨부\n   - ERP전표 결재 UI \n   - 통계화면 검토\n   - 운영 에러 개선사항 작성\nㄴ전자전표 모바일 UI검토\n  - 전표작성, 결재\nㄴ 브랜드사이트: SyncFlo - AS Solution 상세페이지 기획,디자인"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1754553428.402549",
+        "client_msg_id": "b1a56a9d-227b-45d7-9726-7b02aee1ea5a",
+        "text": "2025년 8월 07일 (목)\n`&lt; 스크럼 내용 &gt;`\n```1. 씨앤에스 전자전표 시스템 업그레이드\n - 기초 자료 데이터 세팅\n2. 일진디스플레이 인프라 및 프로세스 업무 미팅\n3. CRK 픽앤탁 모바일 협업 진행\n4. 영림원 네이버웍스 결합상품 랜팅 사이트 작업 진행```\n`&lt; 총괄 &gt;`\n```[김정중] - 하계 휴가```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 일부 PC SSO 오류 디버깅\n 일진디스플레이 프로젝트\n  ㄴ ERP 연동 관련 회의 참석\n  ㄴ 서버 하드웨어 스펙 검토\n진행\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발, 운영서버 EFK 추가\n  ㄴ 씨앤에스 개발서버 PUSH 서버 추가\n 일진디스플레이 프로젝트\n  ㄴ Oracle ERP 연동 프로세스 설계\n \n[박수환]\n완료\nㄴ 디스플레이 인터페이스 방안 회의\n진행\nㄴ 세금계산서 수집 서비스 개선\nㄴ 디스플레이 인터페이스 항목 정리\n\n[권연주]\n진행\nㄴ 세금계산서 수집 배치 서버 세팅\nㄴ 퀵메뉴 기본 데이터 세팅```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ EACC-1859 CI\/CD\nㄴ 디자인 시스템 작업 진행\n - Input component 추가\n진행\nㄴ 디자인 시스템 작업 진행\n - Select component 기능 추가 및 UI 작업\n - Input component 기능 추가 및 UI 작업\n - radio component 추가\n - checkbox component 추가\n\n[김보민]\n완료\nㄴ EACC-1878 지출결의서 &gt; 전표작성 (유류대) CRUD\n진행\nㄴ EACC-1877 메인 &gt; 문서 작성 페이지 생성\nㄴ EACC-1880 지출결의서 &gt; 전표작성 &gt; 관리항목 CRUD\n\n[전원재]\n완료\nㄴ EACC-1855 권한 관련 설정 보완 develop, staging 배포\nㄴ EACC-1856 메뉴 구조 변경 develop, staging 배포\nㄴ EACC-1846 지출결의서 &gt; 관리항목 추가 모달\n - request, response 데이터 구조 변경\nㄴ SBTM-342 지출결의서 &gt; 관리항목 추가 모달\n - request, response 데이터 구조 변경\n진행\nㄴ EACC-1857 푸시설정\n - pc 푸시 설정```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ Syncflo CNS 앱 등록\n -  Android 프로젝트 세팅 및 QA\nㄴ CRK 픽앤탁 모바일 협업 진행```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴSyncflo 모바일\n  - IJCNS 전자전표 앱소개문구, 앱소개 이미지 변경작업\n  - IJCNS 전자전표 퀵메뉴 이미지 업로드\n  - 세금계산서 전표 조회 UI 디자인\n진행\nㄴ영림원 네이버웍스 결합상품\n  -랜딩페이지 구성 디자인\n  -상품소개서 변경으로 인한 디자인 구성 수정\n  -일진씨앤에스 회사소개 신규페이지 디자인```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jo2Wr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 8월 07일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 씨앤에스 전자전표 시스템 업그레이드\n - 기초 자료 데이터 세팅\n2. 일진디스플레이 인프라 및 프로세스 업무 미팅\n3. CRK 픽앤탁 모바일 협업 진행\n4. 영림원 네이버웍스 결합상품 랜팅 사이트 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중] - 하계 휴가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 일부 PC SSO 오류 디버깅\n 일진디스플레이 프로젝트\n  ㄴ ERP 연동 관련 회의 참석\n  ㄴ 서버 하드웨어 스펙 검토\n진행\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발, 운영서버 EFK 추가\n  ㄴ 씨앤에스 개발서버 PUSH 서버 추가\n 일진디스플레이 프로젝트\n  ㄴ Oracle ERP 연동 프로세스 설계\n \n[박수환]\n완료\nㄴ 디스플레이 인터페이스 방안 회의\n진행\nㄴ 세금계산서 수집 서비스 개선\nㄴ 디스플레이 인터페이스 항목 정리\n\n[권연주]\n진행\nㄴ 세금계산서 수집 배치 서버 세팅\nㄴ 퀵메뉴 기본 데이터 세팅"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ EACC-1859 CI\/CD\nㄴ 디자인 시스템 작업 진행\n - Input component 추가\n진행\nㄴ 디자인 시스템 작업 진행\n - Select component 기능 추가 및 UI 작업\n - Input component 기능 추가 및 UI 작업\n - radio component 추가\n - checkbox component 추가\n\n[김보민]\n완료\nㄴ EACC-1878 지출결의서 > 전표작성 (유류대) CRUD\n진행\nㄴ EACC-1877 메인 > 문서 작성 페이지 생성\nㄴ EACC-1880 지출결의서 > 전표작성 > 관리항목 CRUD\n\n[전원재]\n완료\nㄴ EACC-1855 권한 관련 설정 보완 develop, staging 배포\nㄴ EACC-1856 메뉴 구조 변경 develop, staging 배포\nㄴ EACC-1846 지출결의서 > 관리항목 추가 모달\n - request, response 데이터 구조 변경\nㄴ SBTM-342 지출결의서 > 관리항목 추가 모달\n - request, response 데이터 구조 변경\n진행\nㄴ EACC-1857 푸시설정\n - pc 푸시 설정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ Syncflo CNS 앱 등록\n -  Android 프로젝트 세팅 및 QA\nㄴ CRK 픽앤탁 모바일 협업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴSyncflo 모바일\n  - IJCNS 전자전표 앱소개문구, 앱소개 이미지 변경작업\n  - IJCNS 전자전표 퀵메뉴 이미지 업로드\n  - 세금계산서 전표 조회 UI 디자인\n진행\nㄴ영림원 네이버웍스 결합상품\n  -랜딩페이지 구성 디자인\n  -상품소개서 변경으로 인한 디자인 구성 수정\n  -일진씨앤에스 회사소개 신규페이지 디자인"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

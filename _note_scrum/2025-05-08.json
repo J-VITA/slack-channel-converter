@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1746691340.062159",
+        "client_msg_id": "14e684ee-b513-4187-8fbd-4d2693d37955",
+        "text": "2025년 5월 08일 (목)\n`&lt; 스크럼 내용 &gt;`\n```1. 웹, 모바일, 데모 사이트 도메인 변경\n\t- SSL 적용 및 SSO 보완```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ AWS 서비스 중지 (서비스 비용 과금 방지)\n\t- EC2, RDS 스냅샷 및 DB 삭제\nㄴ 개발기 서버 세팅\n\t- 도메인 요청 (Web 개발, 모바일 개발\/운영, 데모)\n\t- Redis 세팅\n\t- SSL 관련 개발환경 변경 작업\n \n진행\nㄴ 일정관리\nㄴ 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정\n\t- BE) 데모 API 서버 CI\/CD, Runner 등 세팅\n\t- FE) 데모 프론트 서버 CI\/CD, Runner 등 세팅```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ SSO 로그인 복원 및 사용자 인증 소스 리팩토링\nㄴ 개발\/DMZ 서버 SSL 인증서 적용\n진행\nㄴ 전표 등록 프로세스 변경\n - 결재상신, 임시저장 프로세스 개발\n[박수환]\n완료\nㄴ 임직원 관련 기존 형식에서 벗어나는 로직 수정\n진행\nㄴ 사용자 CRUD - 사용자 정보 겸직 고려하여 로직 수정중\n[권연주]\n완료\nㄴ 회사 관리\n - 회사 등록시 메뉴 바로가기 아이콘 등록 로직 추가\n진행\nㄴ 사용자 관리\n - 사용자 등록 시 결재양식 바로가기 추가```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 지출내역 - page layout side영역 추가 (계속)\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가 (계속)\n\n[김보민]\n완료\nㄴ 버그수정 및 UI 틀어짐 - 전표관리\n - 전표처리 &gt; 개인경비\/법인카드 &gt; 유류대 추가(수정) &gt; 지급일자 invalid date\n - 전표처리 &gt; 개인경비\/법인카드 &gt; 유류대 추가(수정) &gt; 사용일자 변경 &gt; 지급기준 재설정\n진행\nㄴ 버그수정 및 UI 틀어짐\n - 전자결재 문서 (법인카드) 지출내역 상세보기 화면 오류\nㄴ 시스템설정 &gt; 사용자등록\n - 사용자등록(겸직) UI 추가\n\n[전원재]\n완료\nㄴ 공통 컴포넌트 \n - 공통 모달 layout 추가 (드래그, 확대, 축소 등)\n진행\nㄴ 전자결재 &gt; 지출결의서\n - 전표내역 추가 테이블(grid) ui 개선```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행중\nㄴ 인트로 화면 제작\n\t- 온보딩 화면 ] iOS 버전 제작 중\n\n완료\nㄴ 인트로 화면 제작\n\t- 온보딩 화면 ] 안드로이드 버전 완료```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ 브랜드사이트 고도화 1차 미팅\n\t- GNB 변경안 방식 결정\n\t- 상세 기능 페이지 고도화 기획\nㄴ 전자결재 &gt; 지출결의서 작성\n\t- 지출작성 플로우 전체 리뷰\n\t- 유류대 등록 개선, 경유지 기본 미노출, 경로불러오기 추가\n\t\n진행\nㄴ 전자결재 &gt; 중요보관함 기능 기획\/디자인\n\t- 자주보는 문서는 즐겨찾기 기능처럼 보관함에서 볼 수 있도록 지원\n\t- 문서보관 : 임시저장을 제외한 모든 결재문서를 즐겨찾기 가능\nㄴ 전자전표 브랜드사이트 고도화 기획\n\t- 핵심기능강화: 각 기능별 페이지 단위로 변경(경비처리, 전자결재, ERP전표, 세금계산서, 연동서비스, AI, 기준정보관리, 출장관리, 예산관리, 통계\/보고서, 모바일)\n\t- 일반사용자, 관리자 구분하여 소개 고려\n\t- 개선사항 정리\n\t- 벤치마킹 사이트 및 UI템플릿 참조```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Mvov",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 08일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 웹, 모바일, 데모 사이트 도메인 변경\n\t- SSL 적용 및 SSO 보완"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ AWS 서비스 중지 (서비스 비용 과금 방지)\n\t- EC2, RDS 스냅샷 및 DB 삭제\nㄴ 개발기 서버 세팅\n\t- 도메인 요청 (Web 개발, 모바일 개발\/운영, 데모)\n\t- Redis 세팅\n\t- SSL 관련 개발환경 변경 작업\n \n진행\nㄴ 일정관리\nㄴ 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정\n\t- BE) 데모 API 서버 CI\/CD, Runner 등 세팅\n\t- FE) 데모 프론트 서버 CI\/CD, Runner 등 세팅"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ SSO 로그인 복원 및 사용자 인증 소스 리팩토링\nㄴ 개발\/DMZ 서버 SSL 인증서 적용\n진행\nㄴ 전표 등록 프로세스 변경\n - 결재상신, 임시저장 프로세스 개발\n[박수환]\n완료\nㄴ 임직원 관련 기존 형식에서 벗어나는 로직 수정\n진행\nㄴ 사용자 CRUD - 사용자 정보 겸직 고려하여 로직 수정중\n[권연주]\n완료\nㄴ 회사 관리\n - 회사 등록시 메뉴 바로가기 아이콘 등록 로직 추가\n진행\nㄴ 사용자 관리\n - 사용자 등록 시 결재양식 바로가기 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 지출내역 - page layout side영역 추가 (계속)\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가 (계속)\n\n[김보민]\n완료\nㄴ 버그수정 및 UI 틀어짐 - 전표관리\n - 전표처리 > 개인경비\/법인카드 > 유류대 추가(수정) > 지급일자 invalid date\n - 전표처리 > 개인경비\/법인카드 > 유류대 추가(수정) > 사용일자 변경 > 지급기준 재설정\n진행\nㄴ 버그수정 및 UI 틀어짐\n - 전자결재 문서 (법인카드) 지출내역 상세보기 화면 오류\nㄴ 시스템설정 > 사용자등록\n - 사용자등록(겸직) UI 추가\n\n[전원재]\n완료\nㄴ 공통 컴포넌트 \n - 공통 모달 layout 추가 (드래그, 확대, 축소 등)\n진행\nㄴ 전자결재 > 지출결의서\n - 전표내역 추가 테이블(grid) ui 개선"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 인트로 화면 제작\n\t- 온보딩 화면 ] iOS 버전 제작 중\n\n완료\nㄴ 인트로 화면 제작\n\t- 온보딩 화면 ] 안드로이드 버전 완료"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ 브랜드사이트 고도화 1차 미팅\n\t- GNB 변경안 방식 결정\n\t- 상세 기능 페이지 고도화 기획\nㄴ 전자결재 > 지출결의서 작성\n\t- 지출작성 플로우 전체 리뷰\n\t- 유류대 등록 개선, 경유지 기본 미노출, 경로불러오기 추가\n\t\n진행\nㄴ 전자결재 > 중요보관함 기능 기획\/디자인\n\t- 자주보는 문서는 즐겨찾기 기능처럼 보관함에서 볼 수 있도록 지원\n\t- 문서보관 : 임시저장을 제외한 모든 결재문서를 즐겨찾기 가능\nㄴ 전자전표 브랜드사이트 고도화 기획\n\t- 핵심기능강화: 각 기능별 페이지 단위로 변경(경비처리, 전자결재, ERP전표, 세금계산서, 연동서비스, AI, 기준정보관리, 출장관리, 예산관리, 통계\/보고서, 모바일)\n\t- 일반사용자, 관리자 구분하여 소개 고려\n\t- 개선사항 정리\n\t- 벤치마킹 사이트 및 UI템플릿 참조"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

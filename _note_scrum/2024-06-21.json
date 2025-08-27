@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1718957293.481409",
+        "client_msg_id": "4e57bad8-7443-4612-901f-9911b26e5b4a",
+        "text": "2024-06-21(금) 스크럼\n```[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 사원, 권한 등 CRUD 개발 진행\n[구시완]\nㄴ 계정권한 entity CRUD API  개발 완료 및 테스트 진행\nㄴ 거래처, 코스트센터 기능 개발 진행 예정\n[김정중]\nㄴ 공통 layout 재구성 및 모듈화 작업 진행(계속)\nㄴ ui framework 전환 작업 진행(계속, element ui -&gt; ant design)\n[차윤수] - 연차```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uZFZh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-06-21(금) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 사원, 권한 등 CRUD 개발 진행\n[구시완]\nㄴ 계정권한 entity CRUD API  개발 완료 및 테스트 진행\nㄴ 거래처, 코스트센터 기능 개발 진행 예정\n[김정중]\nㄴ 공통 layout 재구성 및 모듈화 작업 진행(계속)\nㄴ ui framework 전환 작업 진행(계속, element ui -> ant design)\n[차윤수] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

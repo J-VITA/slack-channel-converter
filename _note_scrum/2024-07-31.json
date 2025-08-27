@@ -1,0 +1,486 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1722478273.603909",
+        "client_msg_id": "a3b78744-6b38-42ce-8715-e710c8263b84",
+        "text": "`백엔드`\n```[구시완]\nㄴ 코스트센터 조회 추가조건 개발 반영 (완료)\nㄴ 백엔드 개발된 최신 파일 도커 반영 (완료)\nㄴ 결재관련 우선 작업 진행 예정```\n`프론트엔드`\n```[우태림]\nㄴ 코스트센터 마무리 작업 (완료)\nㄴ 프로젝트관리 api 기능연동 (계속)\n\n[김정중]\nㄴ 공통UI 추가 작업 진행\nㄴ 직위관리 API 연동 (계속)\nㄴ 코드관리 수정 기능 변경 (계속)```\n`디자인`\n```[차윤수]\nㄴ 전표관리 - 전표확정 기획\/디자인 작업 (계속)\nㄴ 회의 이슈로 나온 내용 디자인 UI 개선 (결재선관련\/선결삭제 등등)```\n`이슈논의`\n```지출결의서  결재선 디자인 논의 \n- 결재선 UI는 웹과 인쇄 디자인을 각각 별도로 진행합니다. (웹: 한 줄, 인쇄: 테이블)```\n`확정이 필요한 사항`\n```1. 경비 규정 관리\n- 출금\/지급 예정일 표시 여부: 개인카드\/법인카드\/세금계산서에서 익월\/말일과 사용자 직접 입력 관련 사용 여부를 확정필요\n2. 거래처 관리\n- 지급 조건 설정 관련: 공통 코드에서 관리할지, 추가 메뉴가 필요한지 결정 필요\n3. 전표 분할 고민 (세금계산서 포함)\n4. 지출 결의서 결재선 결재\/합의 인원수 제한 여부 결정 필요```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722478273.603909",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1722484828.382469",
+        "reply_users": [
+            "U072BF8GMDJ",
+            "U0785NRDD3Q"
+        ],
+        "replies": [
+            {
+                "user": "U072BF8GMDJ",
+                "ts": "1722484564.957619"
+            },
+            {
+                "user": "U072BF8GMDJ",
+                "ts": "1722484775.222839"
+            },
+            {
+                "user": "U0785NRDD3Q",
+                "ts": "1722484828.382469"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "611u7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 코스트센터 조회 추가조건 개발 반영 (완료)\nㄴ 백엔드 개발된 최신 파일 도커 반영 (완료)\nㄴ 결재관련 우선 작업 진행 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 코스트센터 마무리 작업 (완료)\nㄴ 프로젝트관리 api 기능연동 (계속)\n\n[김정중]\nㄴ 공통UI 추가 작업 진행\nㄴ 직위관리 API 연동 (계속)\nㄴ 코드관리 수정 기능 변경 (계속)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 전표관리 - 전표확정 기획\/디자인 작업 (계속)\nㄴ 회의 이슈로 나온 내용 디자인 UI 개선 (결재선관련\/선결삭제 등등)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "이슈논의",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "지출결의서  결재선 디자인 논의 \n- 결재선 UI는 웹과 인쇄 디자인을 각각 별도로 진행합니다. (웹: 한 줄, 인쇄: 테이블)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "확정이 필요한 사항",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 경비 규정 관리\n- 출금\/지급 예정일 표시 여부: 개인카드\/법인카드\/세금계산서에서 익월\/말일과 사용자 직접 입력 관련 사용 여부를 확정필요\n2. 거래처 관리\n- 지급 조건 설정 관련: 공통 코드에서 관리할지, 추가 메뉴가 필요한지 결정 필요\n3. 전표 분할 고민 (세금계산서 포함)\n4. 지출 결의서 결재선 결재\/합의 인원수 제한 여부 결정 필요"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U072BF8GMDJ",
+        "type": "message",
+        "ts": "1722484564.957619",
+        "edited": {
+            "user": "U072BF8GMDJ",
+            "ts": "1722484641.000000"
+        },
+        "client_msg_id": "0bb7d2aa-00f8-410c-aa9b-009d9e665bb5",
+        "text": "8\/1 스크럼 시 나온 확인사항 공유 드립니다.\n1번 항목은 제가 구과장님, 차과장님께 회의 요청 드리겠습니다.\n이야기 나눠보고, 내일 스크럼 시 같이 논의 하면 좋겠습니다.\n\n1. 출금\/지급 예정일\n• 출금\/지급 예정일 노출여부 ON\/OFF 기능 추가\n1.1) 현재 UI에서 개인경비, 법인카드, 교통비 등을 전표유형으로 코드화 되어 있다면 유형별로 변경여부 지정\n• 1.2) 해당 기능 자체에서 전표 유형별로 표기여부 \/ 변경여부 설정할 수 있도록 함.\n2. 거래처관리 > 지급조건\n• 거래처관리에서 지급조건(코드)를 선택할 수 있도록 함.\n• 지급조건 코드는 공통코드 관리에서 관리.\n3. 결재관리 > 인원 수 제한 여부\n• 불필요. \n• 필드 길이 및 속도 이슈 때문에 필요하다면, DB상 50개 제한두고, 사용자에게 안내 X\n4. 결재선 UI\n• 1줄 표기, 이견 없음",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "40986fbcfc67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-27\/7170158428790_40986fbcfc67a9f79b21_72.png",
+            "first_name": "이상훈",
+            "real_name": "이상훈",
+            "display_name": "이상훈",
+            "team": "T06BW9BS3L6",
+            "name": "sanghoon.lee",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722478273.603909",
+        "parent_user_id": "U0785NRDD3Q",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6AaLH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "8\/1 스크럼 시 나온 확인사항 공유 드립니다.\n1번 항목은 제가 구과장님, 차과장님께 회의 요청 드리겠습니다.\n이야기 나눠보고, 내일 스크럼 시 같이 논의 하면 좋겠습니다.\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "출금\/지급 예정일"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "출금\/지급 예정일 노출여부 ON\/OFF 기능 추가"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1.1) 현재 UI에서 개인경비, 법인카드, 교통비 등을 전표유형으로 코드화 되어 있다면 유형별로 변경여부 지정\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "1.2) 해당 기능 자체에서 전표 유형별로 표기여부 \/ 변경여부 설정할 수 있도록 함."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n2. 거래처관리 > 지급조건\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "거래처관리에서 지급조건(코드)를 선택할 수 있도록 함."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "지급조건 코드는 공통코드 관리에서 관리."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n3. 결재관리 > 인원 수 제한 여부\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "불필요. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "필드 길이 및 속도 이슈 때문에 필요하다면, DB상 50개 제한두고, 사용자에게 안내 X"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n4. 결재선 UI\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "1줄 표기, 이견 없음"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U072BF8GMDJ",
+        "type": "message",
+        "ts": "1722484775.222839",
+        "client_msg_id": "5b3bc97f-e3a3-4467-aa3e-d2d61e7083cd",
+        "text": "1. 전표 분할 고민 (세금계산서 포함)\n2. 개인카드 불러오기 기능\n\n2가지는 확정이 필요한 사항으로 해결전까지 스크럼 내용에 계속 포함 부탁 드립니다 <@U0785NRDD3Q>",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "40986fbcfc67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-27\/7170158428790_40986fbcfc67a9f79b21_72.png",
+            "first_name": "이상훈",
+            "real_name": "이상훈",
+            "display_name": "이상훈",
+            "team": "T06BW9BS3L6",
+            "name": "sanghoon.lee",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722478273.603909",
+        "parent_user_id": "U0785NRDD3Q",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kfeWb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 전표 분할 고민 (세금계산서 포함)\n2. 개인카드 불러오기 기능\n\n2가지는 확정이 필요한 사항으로 해결전까지 스크럼 내용에 계속 포함 부탁 드립니다 "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0785NRDD3Q"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0785NRDD3Q"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1722484828.382469",
+        "client_msg_id": "3F71FFE8-19E0-4277-A697-1A0C4480A1BA",
+        "text": "네 알겠습니다",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722478273.603909",
+        "parent_user_id": "U0785NRDD3Q",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sIZ5+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "네"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "알겠습니다"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

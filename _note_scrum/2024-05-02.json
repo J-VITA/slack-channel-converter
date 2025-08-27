@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1714710526.045989",
+        "client_msg_id": "3bc2036a-4579-46ef-a6a6-7cd0ad1d1d3b",
+        "text": "2024-05-03(금) 스크럼\n```[장정수]\nㄴ 화면설게 검토 진행(계속)\n[이성민]\nㄴ ERP I\/F 필드 정리 진행 - 알피니언 기준\nㄴ DB Schema 작업 진행\n[구시완]\nㄴ 백엔드 환경 설정 및 기존 소스코드 정리 작업\n[김정중]\nㄴ 화면 레이아웃 구성 진행\nㄴ 프론트엔드 면접자 이력서 검토 진행\n[차윤수]\nㄴ 기준정보, 시스템설정 화면 설계 보완 진행 \nㄴ 디자인 및 퍼블리싱 준비 작업 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b3jig",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-05-03(금) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 화면설게 검토 진행(계속)\n[이성민]\nㄴ ERP I\/F 필드 정리 진행 - 알피니언 기준\nㄴ DB Schema 작업 진행\n[구시완]\nㄴ 백엔드 환경 설정 및 기존 소스코드 정리 작업\n[김정중]\nㄴ 화면 레이아웃 구성 진행\nㄴ 프론트엔드 면접자 이력서 검토 진행\n[차윤수]\nㄴ 기준정보, 시스템설정 화면 설계 보완 진행 \nㄴ 디자인 및 퍼블리싱 준비 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

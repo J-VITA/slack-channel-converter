@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1755503886.004759",
+        "client_msg_id": "5903e6a8-9d47-4f17-9b9a-a9413c22e94e",
+        "text": "2025년 08월 18일 (월)\n`&lt; 스크럼 내용 &gt;`\n```1. C&amp;S Syncflo 안정화 (버그 및 기능 개선 보완 등)\n\t- 조직도 변경해야하는가?\n\t\t- 예산관련 신규로 생성해야하는가?```\n`&lt; 총괄 &gt;`\n```[김정중]  \n완료\nㄴ 씨앤에스 전자전표 시스템 업그레이드\n\n진행\nㄴ 디스플레이 프로젝트\n\t- ERP mView (CDC) 관련 기능 체크\nㄴ Syncflo 고도화 설계\n\t- API, 배치 등 서버 인프라 구성\n\t- ERP, 세금계산서 시스템 모듈 인터페이스 구성\nㄴ 픽앤탁 모바일 관련 공수 산정 관련 공유```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ씨앤에스 전자전표 시스템 업그레이드\n\t- 시스템 오픈 후 오류사항 대응\n  - 미리보기 이미지 전환서버 버그 수정\n    - 파일명이 긴 경우 오류 발생하여 수정\n  - 예산 실적내역 목록조회 오류 확인\n진행\nㄴ 디스플레이 프로젝트\n\t- 배치서버 설계 \/ ERP 연동 설계\n\t\n[박수환]\n완료\nㄴ 전자전표 고도화\n    - 겸직 전환시 겸직별 메뉴 리스트 수정\n    - 카드수집 데이터 모니터링\n    - 전자전표 운영 전환\n진행\nㄴ 전자전표 고도화\n    - 세금계산서 수집 배치서비스에 이식\n    \n[권연주]\n완료\nㄴ 계약 데이터 마이그레이션\nㄴ 전자결재 출장경비전표 조회 에러 수정\nㄴ 전표관리 외화금액 데이터 추가\n진행\nㄴ 누적 사용통계 에러 수정\nㄴ 외화 소수점 단위 처리 방식 적용```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 전자전표 3.0 버그 수정\nㄴ 디자인 시스템 작업 진행\n\n[김보민]\n진행\nㄴ 겸직 변경시 활성탭 제거 추가\nㄴ 유류대 지도 사이즈 props 수정\nㄴ budgets\/commons API url 변경\nㄴ EACC-1945 모바일 결재선 오류\nㄴ EACC-1946 법인카드 2개이상 등록 &gt; 1개 삭제 &gt; 저장시 삭제된 데이터 잠시 보이는 현상\nㄴ [MO] 유류대 관련 수정\n\n[전원재]\n완료\nㄴ EACC-1899 결재문서 조회시 전표상세 관리항목을 볼 수 없는 현상\nㄴ EACC-1913 기준정보관리&gt; 회계기간관리 : 회계년월을 오픈\/마감시  진행중이거나 완료된 문서의 회계일자가 변경되는 현상\nㄴ EACC-1937 출장경비 신청 &gt; 전표 등록(저장) 이후 수정 불가\nㄴ EACC-1936 지출모달 작성시 관리항목 위치 변경, 탭이동되어 입력하도록(개선사항)\nㄴ EACC-1935 지출결의서 &gt; 법인카드 내역추가 후 수정 모달창: 필수값이 누락되었다는 메시지 및 관리항목없음\nㄴ  EACC-1941 지출결의서 : 법인카드 내역 수정중 행삭제했을때 저장불가, ai추천입력 버튼 삭제\n진행\nㄴ 법인카드 불러오기 모달 내 관리항목 유효성 체크 추가\nㄴ 개인경비신청, 출장경비신청서 \n - 영수증, 법인카드, 유류대 저장시 관리항목 관련 오류 수정\nㄴ 출장경비신청서 유류대, 법인카드 데이터 초기화 오류 수정\nㄴ 월별사용통계 연별 조건 오류 수정\nㄴ 공통 &gt; 그리드 내 문서 링크 위치 개선```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ Syncflo CNS 앱 등록\nㄴㄴ iOS 파일 다운로드 기능 구현\n\n진행\nㄴ  EAC 1.0 Android targetSdk 버전업 대응\nㄴㄴ LEM 심사 진행```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴSyncflo 전자전표\n  -외화 소수점 처리방식 UI추가\n진행\nㄴ영림원 네이버웍스 결합상품\n  - 로고, 결합상품 컨텐츠 이미지 작업\n  - 퍼블리싱 중간상태 점검```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0vygT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 08월 18일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. C&S Syncflo 안정화 (버그 및 기능 개선 보완 등)\n\t- 조직도 변경해야하는가?\n\t\t- 예산관련 신규로 생성해야하는가?"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]  \n완료\nㄴ 씨앤에스 전자전표 시스템 업그레이드\n\n진행\nㄴ 디스플레이 프로젝트\n\t- ERP mView (CDC) 관련 기능 체크\nㄴ Syncflo 고도화 설계\n\t- API, 배치 등 서버 인프라 구성\n\t- ERP, 세금계산서 시스템 모듈 인터페이스 구성\nㄴ 픽앤탁 모바일 관련 공수 산정 관련 공유"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ씨앤에스 전자전표 시스템 업그레이드\n\t- 시스템 오픈 후 오류사항 대응\n  - 미리보기 이미지 전환서버 버그 수정\n    - 파일명이 긴 경우 오류 발생하여 수정\n  - 예산 실적내역 목록조회 오류 확인\n진행\nㄴ 디스플레이 프로젝트\n\t- 배치서버 설계 \/ ERP 연동 설계\n\t\n[박수환]\n완료\nㄴ 전자전표 고도화\n    - 겸직 전환시 겸직별 메뉴 리스트 수정\n    - 카드수집 데이터 모니터링\n    - 전자전표 운영 전환\n진행\nㄴ 전자전표 고도화\n    - 세금계산서 수집 배치서비스에 이식\n    \n[권연주]\n완료\nㄴ 계약 데이터 마이그레이션\nㄴ 전자결재 출장경비전표 조회 에러 수정\nㄴ 전표관리 외화금액 데이터 추가\n진행\nㄴ 누적 사용통계 에러 수정\nㄴ 외화 소수점 단위 처리 방식 적용"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 전자전표 3.0 버그 수정\nㄴ 디자인 시스템 작업 진행\n\n[김보민]\n진행\nㄴ 겸직 변경시 활성탭 제거 추가\nㄴ 유류대 지도 사이즈 props 수정\nㄴ budgets\/commons API url 변경\nㄴ EACC-1945 모바일 결재선 오류\nㄴ EACC-1946 법인카드 2개이상 등록 > 1개 삭제 > 저장시 삭제된 데이터 잠시 보이는 현상\nㄴ [MO] 유류대 관련 수정\n\n[전원재]\n완료\nㄴ EACC-1899 결재문서 조회시 전표상세 관리항목을 볼 수 없는 현상\nㄴ EACC-1913 기준정보관리> 회계기간관리 : 회계년월을 오픈\/마감시  진행중이거나 완료된 문서의 회계일자가 변경되는 현상\nㄴ EACC-1937 출장경비 신청 > 전표 등록(저장) 이후 수정 불가\nㄴ EACC-1936 지출모달 작성시 관리항목 위치 변경, 탭이동되어 입력하도록(개선사항)\nㄴ EACC-1935 지출결의서 > 법인카드 내역추가 후 수정 모달창: 필수값이 누락되었다는 메시지 및 관리항목없음\nㄴ  EACC-1941 지출결의서 : 법인카드 내역 수정중 행삭제했을때 저장불가, ai추천입력 버튼 삭제\n진행\nㄴ 법인카드 불러오기 모달 내 관리항목 유효성 체크 추가\nㄴ 개인경비신청, 출장경비신청서 \n - 영수증, 법인카드, 유류대 저장시 관리항목 관련 오류 수정\nㄴ 출장경비신청서 유류대, 법인카드 데이터 초기화 오류 수정\nㄴ 월별사용통계 연별 조건 오류 수정\nㄴ 공통 > 그리드 내 문서 링크 위치 개선"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ Syncflo CNS 앱 등록\nㄴㄴ iOS 파일 다운로드 기능 구현\n\n진행\nㄴ  EAC 1.0 Android targetSdk 버전업 대응\nㄴㄴ LEM 심사 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴSyncflo 전자전표\n  -외화 소수점 처리방식 UI추가\n진행\nㄴ영림원 네이버웍스 결합상품\n  - 로고, 결합상품 컨텐츠 이미지 작업\n  - 퍼블리싱 중간상태 점검"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

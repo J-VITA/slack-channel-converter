@@ -1,0 +1,117 @@
+[
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1742358739.266909",
+        "client_msg_id": "7a7b2311-c8c6-439a-a6da-3e87df738b06",
+        "text": "2025-03-19(수) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n진행\nㄴ 씨앤에스 오류사항 수정 \nㄴ CLOVA OCR 요금 산정, 결제 카드 변경 위한 결제 진행\n완료\nㄴ 개인경비\/법인카드 대리작성자 조회 로직 수정 \nㄴ 전자세금계산서 사용중인 거래처만 join   \nㄴ 전자세금계산서 세금id 추가 \nㄴ 법인카드 사용현황 카드소유자 명칭 변경\n\n[권연주]\nㄴ 경조휴가 ```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 모바일 개발 진행 (계속)\n - 공통 컴포넌트 구성 작업\n - 로그인, 아이디 찾기, 비밀번호 찾기 페이지 작업\n완료\nㄴ 추가 API 요청 : 아이디\/비밀번호 찾기, 이메일 인증\n\n[김보민]\n진행\nㄴ 세금계산서 &gt; 선수금 로직 변경\n - 거래처 셀렉트 교체\n - 선급금정산 및 미정산 토글시 &gt; 자동저장에 대한 얼럿띄우기(선급금에 대한 변경시 전표 수정 API 호출)\n - 입력폼 변경시 AG-grid 수정반영 안되는 현상\n완료\nㄴ 세금계산서 &gt; 선수금 로직 변경\n - 선급금 입력 모달 &gt; 반제시 &gt; 계정\/과목 함께 입력\n - 프로젝트 셀렉트 교체\n\n[전원재]\n진행\nㄴ 통계\/보고서 &gt; 월별, 누적, 사용자\n - 검색 컴포넌트 추가 및 테스트\n - 그리드 컴포넌트 추가 및 테스트\n - UI 및 기능 추가\n완료 \nㄴ 시스템 설정 &gt; 공통 \n - 테이블 정렬 파라미터 수정\nㄴ 법인카드 &gt; 법인카드 사용현황\n - 목록 데이터 매핑 수정\nㄴ 통계\/보고서 &gt; 월별, 누적\n - 차트 컴포넌트 추가 및 테스트```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ전자전표 모바일 UI디자인\n   -대시보드 디자인 수정안 작업(할 일 강조, 바로가기 강조)\n   -페이지 바로가기별 아이콘 작업\n   -전표처리 소팅기준 추가(최근날짜, 이름순, 금액순)\n완료\nㄴ 전자전표 모바일 UI디자인\n   -더보기 페이지형식 수정```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WDSg8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-03-19(수) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 씨앤에스 오류사항 수정 \nㄴ CLOVA OCR 요금 산정, 결제 카드 변경 위한 결제 진행\n완료\nㄴ 개인경비\/법인카드 대리작성자 조회 로직 수정 \nㄴ 전자세금계산서 사용중인 거래처만 join   \nㄴ 전자세금계산서 세금id 추가 \nㄴ 법인카드 사용현황 카드소유자 명칭 변경\n\n[권연주]\nㄴ 경조휴가 "
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 모바일 개발 진행 (계속)\n - 공통 컴포넌트 구성 작업\n - 로그인, 아이디 찾기, 비밀번호 찾기 페이지 작업\n완료\nㄴ 추가 API 요청 : 아이디\/비밀번호 찾기, 이메일 인증\n\n[김보민]\n진행\nㄴ 세금계산서 > 선수금 로직 변경\n - 거래처 셀렉트 교체\n - 선급금정산 및 미정산 토글시 > 자동저장에 대한 얼럿띄우기(선급금에 대한 변경시 전표 수정 API 호출)\n - 입력폼 변경시 AG-grid 수정반영 안되는 현상\n완료\nㄴ 세금계산서 > 선수금 로직 변경\n - 선급금 입력 모달 > 반제시 > 계정\/과목 함께 입력\n - 프로젝트 셀렉트 교체\n\n[전원재]\n진행\nㄴ 통계\/보고서 > 월별, 누적, 사용자\n - 검색 컴포넌트 추가 및 테스트\n - 그리드 컴포넌트 추가 및 테스트\n - UI 및 기능 추가\n완료 \nㄴ 시스템 설정 > 공통 \n - 테이블 정렬 파라미터 수정\nㄴ 법인카드 > 법인카드 사용현황\n - 목록 데이터 매핑 수정\nㄴ 통계\/보고서 > 월별, 누적\n - 차트 컴포넌트 추가 및 테스트"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ전자전표 모바일 UI디자인\n   -대시보드 디자인 수정안 작업(할 일 강조, 바로가기 강조)\n   -페이지 바로가기별 아이콘 작업\n   -전표처리 소팅기준 추가(최근날짜, 이름순, 금액순)\n완료\nㄴ 전자전표 모바일 UI디자인\n   -더보기 페이지형식 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

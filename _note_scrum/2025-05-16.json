@@ -1,0 +1,211 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U07S411DZ7E",
+        "text": "<@U07S411DZ7E> 님이 채널에 참여함",
+        "inviter": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1747381114.745489"
+    },
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1747390621.438239",
+        "client_msg_id": "c7fbc011-16ae-4baf-b486-d8a2567d4e10",
+        "text": "2025년 5월 16일 (금)\n`&lt; 스크럼 내용 &gt;`\n```1. 모바일 기획\/설계 및 요구사항 정의\n\t- 전표 작성 프로세스 정의\n\t\t- 데이터 흐름 등을 고려\n\t\t- 사용자 편의성과 직관적인 UI 설계\n\t- 결재선 UI 개선\n\t- 지출 유형별 직관적인 UI와 알기 쉬운 UX 로 재배치\n\t- 파일첨부, 관련문서, 그릅웨어 문서 UI 재배치\n  - 참고 링크 : &lt;<https:\/\/ijcns.atlassian.net\/wiki\/x\/AgBFF>&gt;\n2. 전체적인 모바일 UX 배경 색상을 디바이스 성격에 맞는 색상으로 배치되도록```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ Syncflo 모바일 기획\/설계 미팅\n\t- 문서(지출결의서) 작성\nㄴ 개발기 서버 Runner Issue 해결\n진행\nㄴ 일정관리\nㄴ DMZ 일진제강 모바일 프로젝트 이관 작업\n\t- MOBILE 프론트 자동 배포 환경 작업(Runner)\n\t- CI\/CD 작성\nㄴ Syncflo 모바일 기획\/설계 미팅\n\t- 전자결재, 지출내역 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 전자결재\n - 반려\/회수 데이터를 history로 이관하는 로직 리팩토링\nㄴ 로그아웃\n - cookie -&gt; bearer token 으로 변경\n진행\nㄴ 전자결재\n - 전표분리 기능을 위한 컬럼 추가\nㄴ github action 동작 오류 확인\n[박수환]\n완료\nㄴ 권한관리\n - 권한관리 부서\/직책 권한 API개발\nㄴ 사용자\n - employeeDto Swagger example값 실데이터와 같은 형태로 수정\n진행\nㄴ 사용자 관리\n - 겸직 비활성화시 권한 수정\n[권연주]\n완료\nㄴ 사용자관리\n - 사용자 엑셀업로드 수정\n진행\nㄴ Dashboard Quick Menu 마이그레이션\n - api 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 대시보드 재구성 (계속)\nㄴ Syncflo 모바일 기획\/설계 미팅\n  - 지출작성 UX 정의\n\n[김보민]\n완료\nㄴ 시스템설정 &gt; 사용자등록\n - 사용자등록(겸직) UI 추가\n - 상단 Navigator 겸직 변경 UI 추가 및 스토어 갱신\nㄴ 시스템설정 &gt; 직위관리\n - 임직원 테이블 UI 대표사용자만 표기\nㄴ 시스템설정 &gt; 부서관리\n - 임직원 테이블 UI 표기 개선\nㄴ 시스템설정 &gt; 직책관리\n - 임직원 테이블 UI 표기 개선\nㄴ 로그인 &gt; 비밀번호 찾기\n - 비밀번호 찾기 화면 개발\n진행\nㄴ 시스템설정 &gt; 권한관리\n - 부서, 직책 UI 필드 추가\nㄴ MO &gt; 지출내역 &gt; 상세\n - 지출내역 상세\n\n[전원재]\n완료\nㄴ 전자결재 &gt; 지출결의서\n - 전표 UI 모달 추가(분할)\n진행 \nㄴ 반려회수 디테일 조회 API 일괄삭제```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ 딥링크 제작 \n    - AOS] install referrer api 연동 및 라우팅\n    - AOS] Custom URL Scheme 구현 및 라우팅 연동\n\n진행\nㄴ 딥링크 제작\n    - iOS] Custom URL Scheme 구현```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ Syncflo 모바일 기획\/설계 미팅\n   - 지출결의서 작성 UX 개선 방안 미팅\nㄴ Syncflo 대시보드 화면 및 퀵메뉴 디자인\n진행\nㄴ Syncflo 지출결의서 모바일 디자인\n  - 지출작성 UI 디자인\n  - 파일 및 문서첨부 UI 디자인\nㄴ브랜드사이트 \/ 출입방문관리솔루션(SynFlo Visit)```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nakVA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 16일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 모바일 기획\/설계 및 요구사항 정의\n\t- 전표 작성 프로세스 정의\n\t\t- 데이터 흐름 등을 고려\n\t\t- 사용자 편의성과 직관적인 UI 설계\n\t- 결재선 UI 개선\n\t- 지출 유형별 직관적인 UI와 알기 쉬운 UX 로 재배치\n\t- 파일첨부, 관련문서, 그릅웨어 문서 UI 재배치\n  - 참고 링크 : <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/ijcns.atlassian.net\/wiki\/x\/AgBFF"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">\n2. 전체적인 모바일 UX 배경 색상을 디바이스 성격에 맞는 색상으로 배치되도록"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ Syncflo 모바일 기획\/설계 미팅\n\t- 문서(지출결의서) 작성\nㄴ 개발기 서버 Runner Issue 해결\n진행\nㄴ 일정관리\nㄴ DMZ 일진제강 모바일 프로젝트 이관 작업\n\t- MOBILE 프론트 자동 배포 환경 작업(Runner)\n\t- CI\/CD 작성\nㄴ Syncflo 모바일 기획\/설계 미팅\n\t- 전자결재, 지출내역 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 전자결재\n - 반려\/회수 데이터를 history로 이관하는 로직 리팩토링\nㄴ 로그아웃\n - cookie -> bearer token 으로 변경\n진행\nㄴ 전자결재\n - 전표분리 기능을 위한 컬럼 추가\nㄴ github action 동작 오류 확인\n[박수환]\n완료\nㄴ 권한관리\n - 권한관리 부서\/직책 권한 API개발\nㄴ 사용자\n - employeeDto Swagger example값 실데이터와 같은 형태로 수정\n진행\nㄴ 사용자 관리\n - 겸직 비활성화시 권한 수정\n[권연주]\n완료\nㄴ 사용자관리\n - 사용자 엑셀업로드 수정\n진행\nㄴ Dashboard Quick Menu 마이그레이션\n - api 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 대시보드 재구성 (계속)\nㄴ Syncflo 모바일 기획\/설계 미팅\n  - 지출작성 UX 정의\n\n[김보민]\n완료\nㄴ 시스템설정 > 사용자등록\n - 사용자등록(겸직) UI 추가\n - 상단 Navigator 겸직 변경 UI 추가 및 스토어 갱신\nㄴ 시스템설정 > 직위관리\n - 임직원 테이블 UI 대표사용자만 표기\nㄴ 시스템설정 > 부서관리\n - 임직원 테이블 UI 표기 개선\nㄴ 시스템설정 > 직책관리\n - 임직원 테이블 UI 표기 개선\nㄴ 로그인 > 비밀번호 찾기\n - 비밀번호 찾기 화면 개발\n진행\nㄴ 시스템설정 > 권한관리\n - 부서, 직책 UI 필드 추가\nㄴ MO > 지출내역 > 상세\n - 지출내역 상세\n\n[전원재]\n완료\nㄴ 전자결재 > 지출결의서\n - 전표 UI 모달 추가(분할)\n진행 \nㄴ 반려회수 디테일 조회 API 일괄삭제"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ 딥링크 제작 \n    - AOS] install referrer api 연동 및 라우팅\n    - AOS] Custom URL Scheme 구현 및 라우팅 연동\n\n진행\nㄴ 딥링크 제작\n    - iOS] Custom URL Scheme 구현"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ Syncflo 모바일 기획\/설계 미팅\n   - 지출결의서 작성 UX 개선 방안 미팅\nㄴ Syncflo 대시보드 화면 및 퀵메뉴 디자인\n진행\nㄴ Syncflo 지출결의서 모바일 디자인\n  - 지출작성 UI 디자인\n  - 파일 및 문서첨부 UI 디자인\nㄴ브랜드사이트 \/ 출입방문관리솔루션(SynFlo Visit)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

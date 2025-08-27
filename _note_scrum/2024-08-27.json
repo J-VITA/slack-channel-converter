@@ -1,0 +1,135 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1724808724.937759",
+        "client_msg_id": "46d8b5f4-b258-4dc5-b229-1c6542c5f923",
+        "text": "`백엔드`\n```[구시완]\nㄴ 전표 테이블 설계 진행 (계속)\n\n[권연주]\nㄴ 결재테이블 설계 (완료)\nㄴ 결재 임시저장 API 개발 진행```\n`프론트엔드`\n```[김정중]\nㄴ 기준정보관리 → 결재환경설정 → 개인결재선 관리 API 연동 및 Tree(조직도) 작업 진행```\n`디자인`\n```[차윤수]\nㄴ 법인카드 관리(불출\/반납)에 대한 기획\/디자인 작업 진행 (완료)\nㄴ 통계보고서 초안 작업 진행```\n`기획`\n```[이상훈] - 출장```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BHSnn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 전표 테이블 설계 진행 (계속)\n\n[권연주]\nㄴ 결재테이블 설계 (완료)\nㄴ 결재 임시저장 API 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\nㄴ 기준정보관리 → 결재환경설정 → 개인결재선 관리 API 연동 및 Tree(조직도) 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 법인카드 관리(불출\/반납)에 대한 기획\/디자인 작업 진행 (완료)\nㄴ 통계보고서 초안 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "기획",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[이상훈] - 출장"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

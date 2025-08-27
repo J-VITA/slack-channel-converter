@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1752567396.538249",
+        "client_msg_id": "652c8990-f020-400e-989a-8993c1861947",
+        "text": "2025년 7월 15일 (화)\n`&lt; 스크럼 내용 &gt;`\n```1. 2차 테스트 진행 16일 (수) 오전 9시 30분 ~\n2. SaaS DNS 설정 예정\n\t- Service URL: <http:\/\/lite.syncflo.kr|lite.syncflo.kr>\n\t- Backoffice URL: <http:\/\/admin.syncflo.kr|admin.syncflo.kr>\n\t- Mobile URL: <http:\/\/app.syncflo.kr|app.syncflo.kr>\n3. Mail 서버 연동```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ Web, Mobile ] NCP 운영 CI\/CD 작성\n\t- CI 구성 helm chart 방식으로 변경\n\n진행\nㄴ Syncflo Lite Test 진행\nㄴ Web, Mobile ] NCP 운영 CI\/CD 작성\n\t- CD 작성\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)\nㄴ 2차 테스트 진행```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ BE NCP 환경 설정\n - push서버 CI\/CD 세팅\n - cloud log analytics 세팅(WEB, WAS)\n진행\nㄴ BE NCP 환경 설정\n - Object storage 테스트\n - SSL 인증서 적용 및 DNS 설정요청\n\n[박수환]\n완료\nㄴ SBTM-265 사용자 권한 확인\nㄴ SBTM-288 출장정보 변경시 작성 전표 내역 초기화\nㄴ SBTM-294 지출결의서 전표 목록 표기되도록 수정\nㄴ 테스트 계정, 테스트 데이터 생성\n진행\nㄴ 법인카드 수집 서버 구성\nㄴ 사용자관리 엑셀 업로드 수정\n\n[권연주]\n완료\nㄴ SBTM-255 [BO] 서비스 사용 유무에 따른 회사 삭제 조건 추가 필요\nㄴ 출장 저장시 formId null 에러 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n진행\nㄴ 에디터(CK Editor → TinyMCE) 교체 작업 진행 \n\n[김보민]\n완료\nㄴ SBTM-241 개인경비 분할의 경우 지출내역에 대변이 함께 노출됨\nㄴ SBTM-257 사용자 수정 → 이메일 중복체크 부분 확인 필요\nㄴ SBTM-169 내정보 관리 - 전화번호 입력 필드에 숫자 이외의 데이터 입력 및 저장 가능 오류\n진행\nㄴ SBTM-285 출장경비신청&gt; 영수증 추가 팝업 &gt; 복사버튼 클릭. 반응없음\nㄴ SBTM-288 출장경비신청 &gt; 출장정보 -날짜 수정오류\nㄴ SBTM-289 출장경비신청 &gt; 출장정보 불러오기, 추가 아이콘 변경\nㄴ SBTM-291 전자결재 모든 양식 공통 : 그룹웨어문서 첨부 삭제\n\n[전원재]\n완료\nㄴ SBTM-242 전표검인\/확정 - 일괄 검인\/확정 버튼명 모호함\nㄴ SBTM-180 개인결재선 - 대결기능을 사용할 수 없습니다 오류 팝업 표시\nㄴ SBTM-250 증빙검색 오류\nㄴ SBTM-284 출장경비신청&gt; 첨부파일 최초 업로드시 파일명 안보임\nㄴ SBTM-286 유류대 추가 → 주행정보 등록시 오류메시지\n진행\nㄴ SBTM-205 법인카드 발급일자가 컬럼에 없으나, 조회조건에 있음 - 날짜 조회조건 삭제\nㄴ SBTM-290 대시보드 &gt; 임시저장함 바로가기 이동불가 - 조건 추가\nㄴ SBTM-225 공통 계정항목 파라미터 수정, 누적, 개인별사용통계 날짜 초기화 데이터 수정\nㄴ SBTM-292 출장관리 &gt; 임직원 등급관리 - 임직원 등급코드 컬럼 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ 구글 플레이 스토어 리젝 대응\nㄴㄴ 개인정보 처리 방침 URL 변경 확인\nㄴ 검수 중 변경된 iOS 소개 이미지 및 온보딩 이미지 교체 작업\nㄴㄴ 심사는 운영 오픈에 맞추어 URL 변경시 진행 예정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ 전자전표SaaS - 오류 테스트 및 UI 수정사항 작성\nㄴ 페이지별 엑셀업로드 양식 최신화 작업\n\t- 검인라인 결재양식 변경, 법인카드 항목 변경, 출장기준관리 변경```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dF+Hg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 15일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 2차 테스트 진행 16일 (수) 오전 9시 30분 ~\n2. SaaS DNS 설정 예정\n\t- Service URL: lite.syncflo.kr\n\t- Backoffice URL: admin.syncflo.kr\n\t- Mobile URL: app.syncflo.kr\n3. Mail 서버 연동"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ Web, Mobile ] NCP 운영 CI\/CD 작성\n\t- CI 구성 helm chart 방식으로 변경\n\n진행\nㄴ Syncflo Lite Test 진행\nㄴ Web, Mobile ] NCP 운영 CI\/CD 작성\n\t- CD 작성\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)\nㄴ 2차 테스트 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ BE NCP 환경 설정\n - push서버 CI\/CD 세팅\n - cloud log analytics 세팅(WEB, WAS)\n진행\nㄴ BE NCP 환경 설정\n - Object storage 테스트\n - SSL 인증서 적용 및 DNS 설정요청\n\n[박수환]\n완료\nㄴ SBTM-265 사용자 권한 확인\nㄴ SBTM-288 출장정보 변경시 작성 전표 내역 초기화\nㄴ SBTM-294 지출결의서 전표 목록 표기되도록 수정\nㄴ 테스트 계정, 테스트 데이터 생성\n진행\nㄴ 법인카드 수집 서버 구성\nㄴ 사용자관리 엑셀 업로드 수정\n\n[권연주]\n완료\nㄴ SBTM-255 [BO] 서비스 사용 유무에 따른 회사 삭제 조건 추가 필요\nㄴ 출장 저장시 formId null 에러 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n진행\nㄴ 에디터(CK Editor → TinyMCE) 교체 작업 진행 \n\n[김보민]\n완료\nㄴ SBTM-241 개인경비 분할의 경우 지출내역에 대변이 함께 노출됨\nㄴ SBTM-257 사용자 수정 → 이메일 중복체크 부분 확인 필요\nㄴ SBTM-169 내정보 관리 - 전화번호 입력 필드에 숫자 이외의 데이터 입력 및 저장 가능 오류\n진행\nㄴ SBTM-285 출장경비신청> 영수증 추가 팝업 > 복사버튼 클릭. 반응없음\nㄴ SBTM-288 출장경비신청 > 출장정보 -날짜 수정오류\nㄴ SBTM-289 출장경비신청 > 출장정보 불러오기, 추가 아이콘 변경\nㄴ SBTM-291 전자결재 모든 양식 공통 : 그룹웨어문서 첨부 삭제\n\n[전원재]\n완료\nㄴ SBTM-242 전표검인\/확정 - 일괄 검인\/확정 버튼명 모호함\nㄴ SBTM-180 개인결재선 - 대결기능을 사용할 수 없습니다 오류 팝업 표시\nㄴ SBTM-250 증빙검색 오류\nㄴ SBTM-284 출장경비신청> 첨부파일 최초 업로드시 파일명 안보임\nㄴ SBTM-286 유류대 추가 → 주행정보 등록시 오류메시지\n진행\nㄴ SBTM-205 법인카드 발급일자가 컬럼에 없으나, 조회조건에 있음 - 날짜 조회조건 삭제\nㄴ SBTM-290 대시보드 > 임시저장함 바로가기 이동불가 - 조건 추가\nㄴ SBTM-225 공통 계정항목 파라미터 수정, 누적, 개인별사용통계 날짜 초기화 데이터 수정\nㄴ SBTM-292 출장관리 > 임직원 등급관리 - 임직원 등급코드 컬럼 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ 구글 플레이 스토어 리젝 대응\nㄴㄴ 개인정보 처리 방침 URL 변경 확인\nㄴ 검수 중 변경된 iOS 소개 이미지 및 온보딩 이미지 교체 작업\nㄴㄴ 심사는 운영 오픈에 맞추어 URL 변경시 진행 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ 전자전표SaaS - 오류 테스트 및 UI 수정사항 작성\nㄴ 페이지별 엑셀업로드 양식 최신화 작업\n\t- 검인라인 결재양식 변경, 법인카드 항목 변경, 출장기준관리 변경"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

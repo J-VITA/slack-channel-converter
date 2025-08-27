@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1747129059.192419",
+        "client_msg_id": "a2771a3b-afe4-4cc3-b9f7-75fb279de604",
+        "text": "2025년 5월 13일 (화)\n`&lt; 스크럼 내용 &gt;`\n```1. 겸직관련 이슈 논의\n\t- 겸직을 삭제한 경우 전표의 히스토리 내용을 확인 할 수 있는가? 에서 내용에 시작\n\t\t- 내가 작성한 전표이므로 내용을 확인 할 수 있으며, 겸직에 의한 모든 문서를 확인 할 수는 없고, 직책을 변경하면서 확인 하도록 결정\n\t\t- 관리자는 겸직에 대한 수정이 아닌 추가\/삭제\/사용여부 등으로 임직원 겸직을 관리하여야함\n\t\t\t- 삭제는 deleted 컬럼을 사용 (실제 삭제가 아님)하고, 실제 겸직 사용자는 직책을 변경하지 못함\n\t\t\t- 사용여부 used 컬럼을 사용, 활성상태에 따라 겸직을 중지할 수 있으며, 실제 겸직 사용자는 직책을 변경 하면서 문서 조회가 가능\n\t- 비활성 겸직에 따른 문서 조회 범위\n\t\t- 비활성 겸직은 전표내역(내가 작성한)과 문서들에 대해서는 조회 가능\n\t\t- 위 내역에 따라 비활성 겸직과 삭제된 겸직에 의한 임직원에 권한을 별도로 관리(임시권한 임직원? 으로 추가 관리)\n\t\t- 따라서 기본적으로 모든 임직원에게 전표내역 화면을 제공하기로 함. 단, 담당자를 제외 본인 전표만 보이도록 조회 필터 설정하도록 결정```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 겸직관련 이슈 보완에 의한 결정\n\t- 겸직을 비활성 유무에 따라 문서 조회에 대한 이슈\n\t- 겸직을 삭제(Row 삭제 아님)후 추가 무결성 데이터에 대한 논의(이전 데이터 되살림 기능)\n\t\t- 삭제 할 때 권한을 퇴직자? 권한(데이터 조회만 가능)으로 설정 한다.\n\t\t- 삭제 후 같은 권한, 부서, 직책인 경우는 이전 데이터 (deleted flag 활성)를 볼 수 있도록 되돌려 놓는다.\n\t\t\t- 단, 권한의 경우 사용자에 의해 결정되도록 한다.\n진행\nㄴ DMZ 일진제강 모바일 프로젝트 이관 작업\n\t- 방화벽 오픈 요청\n\t- MOBILE 프론트 자동 배포 환경 작업(Runner)\n\t- CI\/CD 작성\nㄴ 일정관리\nㄴ 모바일) 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 하드코딩된 에러 메세지 코드화\nㄴ 로그인 여부 체크로직 공통화 및 리팩토링\nㄴ 결재 재기안 프로세스 변경 개발\n진행\nㄴ 개발서버 SSO 로그인 동작 확인\n[박수환]\n완료\nㄴ 겸직 비활성화, 삭제 문제에 관한 논의\n진행\nㄴ 사용자 CRUD - 겸직 관련 추가 변경사항 개발\nㄴ employee 테이블 사용여부 추가\n[권연주]\n완료\nㄴ 사용자\n - 사용자 등록 시 결재양식 바로가기 추가\n - 임직원별 메뉴 조회 개발\n진행\nㄴ 시스템관리 -&gt; 사용자관리\n - 임시비밀번호 컬럼 삭제```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ 지출내역 - page layout side영역 추가\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가\n진행\nㄴ Dashboard Quick Menu UI\n\n[김보민]\n진행\n - 사용자등록(겸직) UI 추가\n - 상단 Navigator 겸직 변경 UI 추가 및 스토어 갱신\n\n[전원재]\n진행\nㄴ 전자결재 &gt; 지출결의서\n - 전표 UI 모달 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 인트로 화면 노출 순서 구현\n\t- IOS\n\t\t- 인트로 화면 노출 순서 구현\n진행중\nㄴ 딥링크 제작\n\t- 딥링크 흐름 정의 및 링크 설계```\n`&lt; 디자인 &gt;`\n```[차윤수]\n[완료]\nㄴ 사용자관리 : 겸직 사용여부 추가\n\t- 겸직을 해지했을때 과거 데이터를 조회하기 위한 용도\n[진행]\nㄴ 비밀번호 찾기 기능\n\t- PC버전 로그인화면 &gt; 비밀번호찾기 기능추가\n\t- Mobile : UI개선\nㄴ 브랜드사이트\n\t- 출입방문관리솔루션(Syncflo-Visit) 소개 페이지 기능소개 회의\n\t- 상세페이지 레이아웃 기획```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QTFay",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 13일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 겸직관련 이슈 논의\n\t- 겸직을 삭제한 경우 전표의 히스토리 내용을 확인 할 수 있는가? 에서 내용에 시작\n\t\t- 내가 작성한 전표이므로 내용을 확인 할 수 있으며, 겸직에 의한 모든 문서를 확인 할 수는 없고, 직책을 변경하면서 확인 하도록 결정\n\t\t- 관리자는 겸직에 대한 수정이 아닌 추가\/삭제\/사용여부 등으로 임직원 겸직을 관리하여야함\n\t\t\t- 삭제는 deleted 컬럼을 사용 (실제 삭제가 아님)하고, 실제 겸직 사용자는 직책을 변경하지 못함\n\t\t\t- 사용여부 used 컬럼을 사용, 활성상태에 따라 겸직을 중지할 수 있으며, 실제 겸직 사용자는 직책을 변경 하면서 문서 조회가 가능\n\t- 비활성 겸직에 따른 문서 조회 범위\n\t\t- 비활성 겸직은 전표내역(내가 작성한)과 문서들에 대해서는 조회 가능\n\t\t- 위 내역에 따라 비활성 겸직과 삭제된 겸직에 의한 임직원에 권한을 별도로 관리(임시권한 임직원? 으로 추가 관리)\n\t\t- 따라서 기본적으로 모든 임직원에게 전표내역 화면을 제공하기로 함. 단, 담당자를 제외 본인 전표만 보이도록 조회 필터 설정하도록 결정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 겸직관련 이슈 보완에 의한 결정\n\t- 겸직을 비활성 유무에 따라 문서 조회에 대한 이슈\n\t- 겸직을 삭제(Row 삭제 아님)후 추가 무결성 데이터에 대한 논의(이전 데이터 되살림 기능)\n\t\t- 삭제 할 때 권한을 퇴직자? 권한(데이터 조회만 가능)으로 설정 한다.\n\t\t- 삭제 후 같은 권한, 부서, 직책인 경우는 이전 데이터 (deleted flag 활성)를 볼 수 있도록 되돌려 놓는다.\n\t\t\t- 단, 권한의 경우 사용자에 의해 결정되도록 한다.\n진행\nㄴ DMZ 일진제강 모바일 프로젝트 이관 작업\n\t- 방화벽 오픈 요청\n\t- MOBILE 프론트 자동 배포 환경 작업(Runner)\n\t- CI\/CD 작성\nㄴ 일정관리\nㄴ 모바일) 대시보드, 전표, 전자결재 등록 기능 및 화면 정의\nㄴ 개발기 서버 세팅\n\t- MQTT 서비스 선정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 하드코딩된 에러 메세지 코드화\nㄴ 로그인 여부 체크로직 공통화 및 리팩토링\nㄴ 결재 재기안 프로세스 변경 개발\n진행\nㄴ 개발서버 SSO 로그인 동작 확인\n[박수환]\n완료\nㄴ 겸직 비활성화, 삭제 문제에 관한 논의\n진행\nㄴ 사용자 CRUD - 겸직 관련 추가 변경사항 개발\nㄴ employee 테이블 사용여부 추가\n[권연주]\n완료\nㄴ 사용자\n - 사용자 등록 시 결재양식 바로가기 추가\n - 임직원별 메뉴 조회 개발\n진행\nㄴ 시스템관리 -> 사용자관리\n - 임시비밀번호 컬럼 삭제"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ 지출내역 - page layout side영역 추가\nㄴ 지출내역 - Side Layer 지출상세 내역 프리뷰 추가\n진행\nㄴ Dashboard Quick Menu UI\n\n[김보민]\n진행\n - 사용자등록(겸직) UI 추가\n - 상단 Navigator 겸직 변경 UI 추가 및 스토어 갱신\n\n[전원재]\n진행\nㄴ 전자결재 > 지출결의서\n - 전표 UI 모달 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ 인트로 화면 제작\n\t- AOS\n\t\t- 인트로 화면 노출 순서 구현\n\t- IOS\n\t\t- 인트로 화면 노출 순서 구현\n진행중\nㄴ 딥링크 제작\n\t- 딥링크 흐름 정의 및 링크 설계"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n[완료]\nㄴ 사용자관리 : 겸직 사용여부 추가\n\t- 겸직을 해지했을때 과거 데이터를 조회하기 위한 용도\n[진행]\nㄴ 비밀번호 찾기 기능\n\t- PC버전 로그인화면 > 비밀번호찾기 기능추가\n\t- Mobile : UI개선\nㄴ 브랜드사이트\n\t- 출입방문관리솔루션(Syncflo-Visit) 소개 페이지 기능소개 회의\n\t- 상세페이지 레이아웃 기획"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

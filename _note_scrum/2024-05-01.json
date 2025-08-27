@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1714612415.522679",
+        "client_msg_id": "583e2a8b-d591-4908-84f9-7cc120b6126c",
+        "text": "2024-05-02(목) 스크럼\n```[장정수]\nㄴ 화면설게 검토 진행\n[이성민]\nㄴ ERP I\/F 필드 정리 진행\n[구시완]\nㄴ 백엔드 기존 소스코드 정리 작업\n[김정중]\nㄴ 퍼블리싱 작업 관련 환경 구성 진행\n[차윤수]\nㄴ 기준정보, 시스템설정 화면 설계 보완 진행 \nㄴ 디자인 및 퍼블리싱 준비 작업 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "weYHH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-05-02(목) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 화면설게 검토 진행\n[이성민]\nㄴ ERP I\/F 필드 정리 진행\n[구시완]\nㄴ 백엔드 기존 소스코드 정리 작업\n[김정중]\nㄴ 퍼블리싱 작업 관련 환경 구성 진행\n[차윤수]\nㄴ 기준정보, 시스템설정 화면 설계 보완 진행 \nㄴ 디자인 및 퍼블리싱 준비 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1754951529.084299",
+        "client_msg_id": "adc85b4a-00f8-497a-9773-81b3982bf01b",
+        "text": "2025년 08월 11일 (월)\n`&lt; 스크럼 내용 &gt;`\n```1. Syncflo 배치 모듈 전략\n - SaaS 형 Batch 서버 전략을 최종으로 목표를 하나 아직 아키텍쳐 설계가 부족한 단계\n - 현재에서는 Batch 서버에서 Application 으로 Json 형태의 모든 데이터(페이징 고려안됨)를 1안으로 대치\n - 대량의 데이터를 고려했을 때 Kafka 및 Zookeeper와 같은 MQTT, 분산시스템 서비스 전략 추가 도입으로 설계가 이루어져야함\n2. 씨앤에서 Syncflo 3.0 모바일\n - 파일 다운로드 기능 안드로이드, iOS 기능 구현\n3. CRK 픽앤탁 차주 진행 (8월 4째주)\n - 개발 분석 진행 부터 요구사항 및 오류사항 진행\n - 일정은 차주 분석 후 계획 수립```\n`&lt; 총괄 &gt;`\n```[김정중]\n진행\nㄴ 씨앤에스 전자전표 시스템 업그레이드 및 테스트 진행\n - 업무 스케쥴\n\t - 테스트 DB 마이그레이션\n\t - 모바일 검수 진행 및 파일 다운로드 기능 (Android)\nㄴ 디스플레이 개발환경, 인프라 작업```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 운영서버 QA\n  ㄴ 운영서버 DB -&gt; 개발서버 DB 마이그레이션(QA를 위함)\n  ㄴ 개발서버에 운영 첨부파일 마이그레이션(QA를 위함)\n진행\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발서버에서 운영DB 기준으로 QA 진행\n\n[박수환] - 하계휴가\n\n[권연주]\n완료\nㄴ 배치 서버 세팅\nㄴ 전표관리 경조금 전표 조회 에러 수정\nㄴ 법인카드 에러 데이터 보정\nㄴ 코드관리 전표유형 데이터 마이그레이션\nㄴ 전표관리 사업장 조건 추가\n진행\nㄴ 공휴일, 환율 기능 배치 서버로 이동```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 전자전표 3.0 테스트 및 버그 수정\n\n[김보민]\n진행\nㄴ EACC-1882 전자결재 &gt; 상세\nㄴ EACC-1884 전자결재 &gt; 반려\/회수 기능수정 (재기안, 삭제)\nㄴ 전자결재 &gt; 전표리스트 대,차변 데이터에 따른 분기처리\n\n[전원재]\n완료\nㄴ EACC-1881 법인카드 불러오기 모달에 관리항목 추가\nㄴ EACC-1857 푸시설정\n - pc 푸시 설정\nㄴ 전표 작성, 결재상신 테스트 및 오류 수정\n진행\nㄴ 전자전표 테스트 및 오류 수정\n - 전자 결재 &gt; 경조금, 출장 사전경비, 출장 신청 read, write 경로 추가, 변경\n - 이전 데이터 안 나오는 오류 &gt; 전표 데이터 분기 조건 수정\n - 법인카드 불러오기 &gt; 관리항목 세팅 오류 수정\n - 법인카드 작성 &gt; 분할 아이콘 오류, 총금액 NAN 오류 수정```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ Syncflo CNS 앱 등록\nㄴㄴ 각 플랫폼별 심사 등록\n\n진행\nㄴ  Syncflo CNS 앱 기능 업데이트\nㄴㄴ 파일 다운로드 기능 구현 (Android)```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ영림원 네이버웍스 결합상품\n  - 영림원측 디자인 수정사항 반영. (네이버쪽 회신대기중)\n  - 영림원 제품심볼 로고 교체\n진행\nㄴSyncflo 전자전표\n  - 전자결재(개인경비, 출장신청서, 예산) 테스트\n  - 시스템 설정 &gt; 인증서 등록\/관리 화면 초안 디자인```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BNvf4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 08월 11일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. Syncflo 배치 모듈 전략\n - SaaS 형 Batch 서버 전략을 최종으로 목표를 하나 아직 아키텍쳐 설계가 부족한 단계\n - 현재에서는 Batch 서버에서 Application 으로 Json 형태의 모든 데이터(페이징 고려안됨)를 1안으로 대치\n - 대량의 데이터를 고려했을 때 Kafka 및 Zookeeper와 같은 MQTT, 분산시스템 서비스 전략 추가 도입으로 설계가 이루어져야함\n2. 씨앤에서 Syncflo 3.0 모바일\n - 파일 다운로드 기능 안드로이드, iOS 기능 구현\n3. CRK 픽앤탁 차주 진행 (8월 4째주)\n - 개발 분석 진행 부터 요구사항 및 오류사항 진행\n - 일정은 차주 분석 후 계획 수립"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n진행\nㄴ 씨앤에스 전자전표 시스템 업그레이드 및 테스트 진행\n - 업무 스케쥴\n\t - 테스트 DB 마이그레이션\n\t - 모바일 검수 진행 및 파일 다운로드 기능 (Android)\nㄴ 디스플레이 개발환경, 인프라 작업"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 운영서버 QA\n  ㄴ 운영서버 DB -> 개발서버 DB 마이그레이션(QA를 위함)\n  ㄴ 개발서버에 운영 첨부파일 마이그레이션(QA를 위함)\n진행\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발서버에서 운영DB 기준으로 QA 진행\n\n[박수환] - 하계휴가\n\n[권연주]\n완료\nㄴ 배치 서버 세팅\nㄴ 전표관리 경조금 전표 조회 에러 수정\nㄴ 법인카드 에러 데이터 보정\nㄴ 코드관리 전표유형 데이터 마이그레이션\nㄴ 전표관리 사업장 조건 추가\n진행\nㄴ 공휴일, 환율 기능 배치 서버로 이동"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 전자전표 3.0 테스트 및 버그 수정\n\n[김보민]\n진행\nㄴ EACC-1882 전자결재 > 상세\nㄴ EACC-1884 전자결재 > 반려\/회수 기능수정 (재기안, 삭제)\nㄴ 전자결재 > 전표리스트 대,차변 데이터에 따른 분기처리\n\n[전원재]\n완료\nㄴ EACC-1881 법인카드 불러오기 모달에 관리항목 추가\nㄴ EACC-1857 푸시설정\n - pc 푸시 설정\nㄴ 전표 작성, 결재상신 테스트 및 오류 수정\n진행\nㄴ 전자전표 테스트 및 오류 수정\n - 전자 결재 > 경조금, 출장 사전경비, 출장 신청 read, write 경로 추가, 변경\n - 이전 데이터 안 나오는 오류 > 전표 데이터 분기 조건 수정\n - 법인카드 불러오기 > 관리항목 세팅 오류 수정\n - 법인카드 작성 > 분할 아이콘 오류, 총금액 NAN 오류 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ Syncflo CNS 앱 등록\nㄴㄴ 각 플랫폼별 심사 등록\n\n진행\nㄴ  Syncflo CNS 앱 기능 업데이트\nㄴㄴ 파일 다운로드 기능 구현 (Android)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ영림원 네이버웍스 결합상품\n  - 영림원측 디자인 수정사항 반영. (네이버쪽 회신대기중)\n  - 영림원 제품심볼 로고 교체\n진행\nㄴSyncflo 전자전표\n  - 전자결재(개인경비, 출장신청서, 예산) 테스트\n  - 시스템 설정 > 인증서 등록\/관리 화면 초안 디자인"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

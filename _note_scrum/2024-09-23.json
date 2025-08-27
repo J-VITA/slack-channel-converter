@@ -1,0 +1,109 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1727151426.452759",
+        "client_msg_id": "9ad97f74-84a6-4a6d-a1a1-40775783ea01",
+        "text": "`백엔드`\n```[구시완]\nㄴ 계정과목 더존 데이터 마이그레이션 적용중\nㄴ 지출작성 → API 개발 진행 (계속)\n  - 관려문서 업로드 개발 진행 예정\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)\n - 결재 대기, 진행 목록 API 개발 완료\n - 결재 참조, 완료, 반려\/회수 목록 API 개발 진행```\n`프론트엔드`\n```[우태림]\nㄴ 전자결재 → 지출결의서 내 결재선 모달 화면 UI 작업 (완료)\nㄴ 전자결재 → 완료 UI 작업 (완료)\nㄴ 로그인 화면 UI 간단하게만 작업 (완료)\nㄴ 전자전표 MVP 화면 리뷰 시나리오 작성 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행 (계속)\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 결재상신 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 목록조회 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 지출내역불러오기(완료)\nㄴ 기준정보관리 → 세금코드 API 연동 (완료)```\n`디자인`\n```[차윤수]\nㄴ MVP 범위내, 개발된 화면 UI 검토\nㄴ 각 페이지 설명 텍스트 업데이트 및 반영\nㄴ 디자인(CSS) 수정사항 문서 작성중```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bJR4L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 계정과목 더존 데이터 마이그레이션 적용중\nㄴ 지출작성 → API 개발 진행 (계속)\n  - 관려문서 업로드 개발 진행 예정\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)\n - 결재 대기, 진행 목록 API 개발 완료\n - 결재 참조, 완료, 반려\/회수 목록 API 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자결재 → 지출결의서 내 결재선 모달 화면 UI 작업 (완료)\nㄴ 전자결재 → 완료 UI 작업 (완료)\nㄴ 로그인 화면 UI 간단하게만 작업 (완료)\nㄴ 전자전표 MVP 화면 리뷰 시나리오 작성 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행 (계속)\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 결재상신 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 목록조회 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 지출내역불러오기(완료)\nㄴ 기준정보관리 → 세금코드 API 연동 (완료)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ MVP 범위내, 개발된 화면 UI 검토\nㄴ 각 페이지 설명 텍스트 업데이트 및 반영\nㄴ 디자인(CSS) 수정사항 문서 작성중"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

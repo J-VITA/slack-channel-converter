@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1747645307.165129",
+        "client_msg_id": "80b89313-04eb-4f95-9b67-4697cbf44ec3",
+        "text": "2025년 5월 19일 (월)\n\n`&lt; 스크럼 내용 &gt;`\n```1. 전자결재 업무 조율 및 기간 준수\n\t- FE) Mobile UI\/UX 개선사항 공유\n\t- BE) BackLog 잔여 기능 이슈 사항 해결하고 ERP 서비스 진행 하여야 함\n\t\t- 예산 가차감 기능\n\t\t\t- 예산 전용으로 인한 실적 내역에 가집행금액에 대한 노출하면 좋을거 같다는 의견제시(박수환 대리)\n\t\t- 개인통계\n\t\t- 6월 1주차까지 완료 예정\n2. 앱 사전 배포) 검수 시작을 하여 검수 완료까지는 6월 2주차 예정 (기능완료는 아님)\n\t- 카메라 기능에 대해선 최대한 시스템 기능으로 활용하여 리소스를 줄이도록 함\n\t- 네이티브 기능 퍼미션에 대한 강화 요구\n\t- 로그인 기능과 더불어 모바일 인터페이스 대한 인터랩터 협의 Front 파트와 지속 공유\n3. 모바일 전표 상세 및 작성,수정 화면에 대한 개선에 대해 논의하고 확정되도록 함```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ EACC-1766 Syncflo 모바일 기획\/설계 미팅\n\t- 문서(지출결의서)\n\t\t- 전표 단위(영수증, 유류대) 조회, 수정 UX\/UI 정의\nㄴ EACC-1588 개발기 서버 세팅\n\t- MQTT 서비스 선정\n\t\t- Native MQTT &amp; Redis 혼합 방식으로 양방향 통신\n진행\nㄴ 일정관리\nㄴ DMZ 일진제강 모바일 프로젝트 이관 작업\n\t- MOBILE 프론트 자동 배포 환경 작업(Runner)\n\t- CI\/CD 작성\nㄴ EACC-1766 Syncflo 모바일 기획\/설계 미팅\n\t- 전자결재, 지출내역 정의```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 전자결재\n - EACC-1771 header\/detail 필수값 명확하게 표기 처리\nㄴ 로그인\n - EACC-1776 로그아웃시 토큰 이용 및 context에 담긴 데이터 삭제 처리\n진행\nㄴ 전자결재\n - EACC-1771 전표분리 기능을 위한 로직 추가\n[박수환]\n완료\nㄴ EACC-1586 사용자 CRUD\n    - 사용자 활성화\/비활성화 권한 변경\n    - 회사 추가 시 기본 권한 추가\n진행\nㄴ EACC-1779 부서, 직책 API 추가 및 수정\n    - API 오류 수정\n    - validation check 변경\n[권연주]\n완료\nㄴ EACC-1771 Dashboard Quick Menu 마이그레이션\n진행\nㄴ EACC-679 [BE] 통계\/보고서 → 개인별 사용통계```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ 대시보드 재구성\n진행\nㄴ EACC-1772 Dashboard Quick Menu 편집 기능 - pc\nㄴ EACC-1732 할일 Modal Bottom Sheet UI 작업 &amp; API 연동 - mobile\nㄴ Syncflo 모바일 기획\/설계 미팅 참여\n\n[김보민]\n완료\nㄴ EACC-1378 지출내역 상세\n진행\nㄴ EACC-1685 부서, 직책 UI 필드 추가\n\n[전원재]\n완료\nㄴ EACC-1698 전자결재 &gt; 지출 결의서\n - 영수증 등록 UI 개선\nㄴ EACC-1774 전자결재 &gt; 법인카드, 경조금, 세금계산서, 영수증 상세모달\n - 반려시 데이터 상세 조회 api 삭제로 인한 화면 api 삭제\n진행\nㄴ EACC-1695 전자결재 &gt; 공통\n - 첨부파일, 결재 관련문서, 그룹웨어문서 UI 개선\nㄴ EACC-1698 전자결재 &gt; 지출 결의서\n - 영수증 등록 \/ 수정 api 테스트```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ EACC-1761 iOS] Custom URL Scheme 구현\n\n진행\nㄴ EACC-1762 iOS] Custom URL Scheme 라우팅 연동```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ EACC-1766 Syncflo 모바일 기획\/설계 미팅\n   - 지출결의서 및 전표 작성\/조회(영수증, 유류대) UI 개선방안 미팅\n진행\nㄴEACC-1766 모바일 문서(지출결의서) 작성 기획```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i8qW+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 19일 (월)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 전자결재 업무 조율 및 기간 준수\n\t- FE) Mobile UI\/UX 개선사항 공유\n\t- BE) BackLog 잔여 기능 이슈 사항 해결하고 ERP 서비스 진행 하여야 함\n\t\t- 예산 가차감 기능\n\t\t\t- 예산 전용으로 인한 실적 내역에 가집행금액에 대한 노출하면 좋을거 같다는 의견제시(박수환 대리)\n\t\t- 개인통계\n\t\t- 6월 1주차까지 완료 예정\n2. 앱 사전 배포) 검수 시작을 하여 검수 완료까지는 6월 2주차 예정 (기능완료는 아님)\n\t- 카메라 기능에 대해선 최대한 시스템 기능으로 활용하여 리소스를 줄이도록 함\n\t- 네이티브 기능 퍼미션에 대한 강화 요구\n\t- 로그인 기능과 더불어 모바일 인터페이스 대한 인터랩터 협의 Front 파트와 지속 공유\n3. 모바일 전표 상세 및 작성,수정 화면에 대한 개선에 대해 논의하고 확정되도록 함"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ EACC-1766 Syncflo 모바일 기획\/설계 미팅\n\t- 문서(지출결의서)\n\t\t- 전표 단위(영수증, 유류대) 조회, 수정 UX\/UI 정의\nㄴ EACC-1588 개발기 서버 세팅\n\t- MQTT 서비스 선정\n\t\t- Native MQTT & Redis 혼합 방식으로 양방향 통신\n진행\nㄴ 일정관리\nㄴ DMZ 일진제강 모바일 프로젝트 이관 작업\n\t- MOBILE 프론트 자동 배포 환경 작업(Runner)\n\t- CI\/CD 작성\nㄴ EACC-1766 Syncflo 모바일 기획\/설계 미팅\n\t- 전자결재, 지출내역 정의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 전자결재\n - EACC-1771 header\/detail 필수값 명확하게 표기 처리\nㄴ 로그인\n - EACC-1776 로그아웃시 토큰 이용 및 context에 담긴 데이터 삭제 처리\n진행\nㄴ 전자결재\n - EACC-1771 전표분리 기능을 위한 로직 추가\n[박수환]\n완료\nㄴ EACC-1586 사용자 CRUD\n    - 사용자 활성화\/비활성화 권한 변경\n    - 회사 추가 시 기본 권한 추가\n진행\nㄴ EACC-1779 부서, 직책 API 추가 및 수정\n    - API 오류 수정\n    - validation check 변경\n[권연주]\n완료\nㄴ EACC-1771 Dashboard Quick Menu 마이그레이션\n진행\nㄴ EACC-679 [BE] 통계\/보고서 → 개인별 사용통계"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ 대시보드 재구성\n진행\nㄴ EACC-1772 Dashboard Quick Menu 편집 기능 - pc\nㄴ EACC-1732 할일 Modal Bottom Sheet UI 작업 & API 연동 - mobile\nㄴ Syncflo 모바일 기획\/설계 미팅 참여\n\n[김보민]\n완료\nㄴ EACC-1378 지출내역 상세\n진행\nㄴ EACC-1685 부서, 직책 UI 필드 추가\n\n[전원재]\n완료\nㄴ EACC-1698 전자결재 > 지출 결의서\n - 영수증 등록 UI 개선\nㄴ EACC-1774 전자결재 > 법인카드, 경조금, 세금계산서, 영수증 상세모달\n - 반려시 데이터 상세 조회 api 삭제로 인한 화면 api 삭제\n진행\nㄴ EACC-1695 전자결재 > 공통\n - 첨부파일, 결재 관련문서, 그룹웨어문서 UI 개선\nㄴ EACC-1698 전자결재 > 지출 결의서\n - 영수증 등록 \/ 수정 api 테스트"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ EACC-1761 iOS] Custom URL Scheme 구현\n\n진행\nㄴ EACC-1762 iOS] Custom URL Scheme 라우팅 연동"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ EACC-1766 Syncflo 모바일 기획\/설계 미팅\n   - 지출결의서 및 전표 작성\/조회(영수증, 유류대) UI 개선방안 미팅\n진행\nㄴEACC-1766 모바일 문서(지출결의서) 작성 기획"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

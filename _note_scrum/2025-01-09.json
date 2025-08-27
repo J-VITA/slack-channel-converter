@@ -1,0 +1,113 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1736487545.860719",
+        "client_msg_id": "cc9d98dc-65c5-4aa1-95e1-ccb36e3cbba6",
+        "text": "`백엔드`\n```[구시완]\nㄴ 전표 저장 유효성 체크 로직 추가\nㄴ 매입세금계산서 테스트 진행\nㄴ 선급금 신청 테스트 진행\nㄴ 선급금 정산 테스트 진행\nㄴ 일진C&amp;S 전자전표2.0 개발 시스템 오픈 준비\n  - 인터페이스, 프로시저, 배치 적용 준비\n\n[서정은]\nㄴ OCR API 연결 진행중\n - 개발서버 ssl certificate 설정\nㄴ 환율 조회 API 완료\nㄴ 엑셀 업로드\n - 양식관리 API 진행중\n\n[권연주]\nㄴ 메일 발송 테스트 진행\nㄴ 기준정보관리 → 경조금기준관리\n - 계정비용항목 설정 개발 진행\nㄴ 전표관리\n - 증빙유형 추가 진행\nㄴ KPI 작성```\n`프론트엔드`\n```[우태림]\nㄴ 전표처리 → 매입세금계산서 작성 개발 진행 (계속)\n\n[김정중]\nㄴ 전표처리 → OCR 자동인식 (진행)\nㄴ 프론트 빌더 최적화 보완 (완료)\nㄴ 개발자 윈도우 로컬 환경 WSL 관련 테스트 진행 및 가이드 작성 (진행)\n\n[전원재]\nㄴ 공통\n - 관련문서 추가 모달 컴포넌트 ui 및 조회 (완료)\nㄴ 전자결재 &gt; 출장경비신청서\n - 정보 추가 금액계산 api 적용(진행)\nㄴ프론트 빌더 최적화 테스트(진행)```\n`디자인`\n```[차윤수]\nㄴ 솔루션2.0 브랜드사이트 디자인\n- 디자인 레이아웃구성 - 제품개요 \/ 성공사례 \/ 요금제안내 \/ 고객지원 (완료)\n- 핵심기능 디자인 수정(진행)\n- 상세기능 화면 컨텐츠 디자인(진행)\n- 목업,연출 이미지 작업(진행예정)\nㄴ 솔루션2.0 PC 기획, 디자인\n- 변경사항: 거래처관리 일반거래처 국내+해외로 구분. 거래처추가시 국내외여부 선택```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1ZHck",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 전표 저장 유효성 체크 로직 추가\nㄴ 매입세금계산서 테스트 진행\nㄴ 선급금 신청 테스트 진행\nㄴ 선급금 정산 테스트 진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 오픈 준비\n  - 인터페이스, 프로시저, 배치 적용 준비\n\n[서정은]\nㄴ OCR API 연결 진행중\n - 개발서버 ssl certificate 설정\nㄴ 환율 조회 API 완료\nㄴ 엑셀 업로드\n - 양식관리 API 진행중\n\n[권연주]\nㄴ 메일 발송 테스트 진행\nㄴ 기준정보관리 → 경조금기준관리\n - 계정비용항목 설정 개발 진행\nㄴ 전표관리\n - 증빙유형 추가 진행\nㄴ KPI 작성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전표처리 → 매입세금계산서 작성 개발 진행 (계속)\n\n[김정중]\nㄴ 전표처리 → OCR 자동인식 (진행)\nㄴ 프론트 빌더 최적화 보완 (완료)\nㄴ 개발자 윈도우 로컬 환경 WSL 관련 테스트 진행 및 가이드 작성 (진행)\n\n[전원재]\nㄴ 공통\n - 관련문서 추가 모달 컴포넌트 ui 및 조회 (완료)\nㄴ 전자결재 > 출장경비신청서\n - 정보 추가 금액계산 api 적용(진행)\nㄴ프론트 빌더 최적화 테스트(진행)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 솔루션2.0 브랜드사이트 디자인\n- 디자인 레이아웃구성 - 제품개요 \/ 성공사례 \/ 요금제안내 \/ 고객지원 (완료)\n- 핵심기능 디자인 수정(진행)\n- 상세기능 화면 컨텐츠 디자인(진행)\n- 목업,연출 이미지 작업(진행예정)\nㄴ 솔루션2.0 PC 기획, 디자인\n- 변경사항: 거래처관리 일반거래처 국내+해외로 구분. 거래처추가시 국내외여부 선택"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

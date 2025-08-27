@@ -1,0 +1,388 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1744874079.932639",
+        "client_msg_id": "66c49737-4300-4cec-84b9-9678b093c798",
+        "text": "2025년 4월 16일 (수)\n`&lt; 스크럼 내용 &gt;`\n```- 전표 작성의 시작을 결재문서로 부터 시작하여 플로우 단계를 축소\n- 전표 지출경비\/법카 라인 추가로 받을 수 있게\n\t- 분할에 대한 문제 해소해야함\n- 전표 지출경비\/법카 입력 시 입력란을 최소화\n- 모바일의 경우 전표는 단건으로만 처리되어야함\n\t- 사용자의 입력 스트레스를 해소하기 위해\n\t- UI 의 복잡성 문제가 생기고, 사용자에 입력 피로도가 생길 가능성 UP\n- PM 작업 금주 토(19일) 22시 예정 (박수환 대리 작업)```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 모바일 DMZ 및 내부 개발서버 신설 완료\n\t- UI\/UX 측면 \n\n진행\nㄴ (FE)\/(앱) Web Server CI\/CD 테스트\nㄴ 피어리뷰 관련 개선사항, 보완점 등을 고려한 재정리\n\t- (BE) DB, 서버 아키텍쳐 등 MSA 방식 등을 고려한 설계\n\t- (FE) 시스템 디자인 및 Front MSA 아키텍쳐를 고려한 설계\n\t- (디자인) UI\/UX 사용자 편의성에 대한 설계\nㄴ 백엔드 인프라 설계\n\t- ERP 중개서버, MQTT 서비스```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 전표 작성 프로세스 변경 검토 회의 참석\n진행\nㄴ FK제거 방안 검토\nㄴ 겸직 기능 구현 검토\n[박수환]\n진행\nㄴ FK제거 방안 검토\nㄴ 겸직 기능 구현 검토\nㄴ ERP전표 동시성 문제 검토\n[권연주]\n완료\nㄴ 게시판\n - 게시판 관리자 추가\n - 게시글 유형 공통코드로 변경\n진행\nㄴ 겸직 기능 구현 검토\nㄴ FK제거 방안 검토```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ 전자전표 2.0 Peer Review 참여\nㄴ 프론트파트 모바일 이슈 분담 작업\nㄴ [WEB]전자결재 → 반려\/회수 → 일부 문서 지출내역 상세 안나오는 현상\n진행\nㄴ [WEB]시스템설정 → 설정 → 게시판 관리자 API 연동\nㄴ [MO] 전표처리 → 소팅 \nㄴ [MO] 전자결재 → 결재처리 → 일괄승인\nㄴ [MO] 전표처리 → 공통 기능 → 복사, 삭제\n\n[김보민]\n완료\nㄴ [MO] 공통컴포넌트\n - 헤더 더보기 컴포넌트\n - 페이지 bottom fixed 버튼\n진행\nㄴ [MO] 공통 컴포넌트\n - Actions Sheet\n - 전자결재 &gt; 관련문서 컴포넌트\n\n[전원재]\n완료\nㄴ erp전표\n - 공통 테이블 컴포넌트 UI 및 버튼등 기능 오류 수정\n - 구매전표 페이지 UI 작업\n진행\nㄴ 통계\/보고서 &gt; 월별사용통계\n - 날짜 관련 검색 필터 UI 수정\nㄴ 법인카드 &gt; 법인카드 사용 현황\n - 날짜 관련 검색 필터 UI 수정\nㄴ 예산관리&gt; 예산실적내역\n - 날짜 관련 검색 필터 UI 수정\nㄴ erp전표\n - 공통 검색 컴포넌트 UI 및 버튼등 기능 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 정의서 문서 초안 작성\nㄴ 일진 제강\n- 앱 사용법 가이드 전달을 위한 PPT 현행화```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ 피어리뉴 관련 내용 논의(편의성, 프로세스, 전표구조등)\nㄴ 모바일 앱소개 이미지 디자인 (IOS, 안드로이드) 최신화 작업\nㄴ 브랜드사이트 기능소개 고도화(이상훈과장 협의중)\n  - 메뉴구조 변경: 핵심기능 \/ 확장기능  \/ 프로세스 ,\n  - 각 페이지별 이중탭으로 기능 상세화\n  - 디자인 레이아웃 구성```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kP19F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 4월 16일 (수)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "- 전표 작성의 시작을 결재문서로 부터 시작하여 플로우 단계를 축소\n- 전표 지출경비\/법카 라인 추가로 받을 수 있게\n\t- 분할에 대한 문제 해소해야함\n- 전표 지출경비\/법카 입력 시 입력란을 최소화\n- 모바일의 경우 전표는 단건으로만 처리되어야함\n\t- 사용자의 입력 스트레스를 해소하기 위해\n\t- UI 의 복잡성 문제가 생기고, 사용자에 입력 피로도가 생길 가능성 UP\n- PM 작업 금주 토(19일) 22시 예정 (박수환 대리 작업)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 모바일 DMZ 및 내부 개발서버 신설 완료\n\t- UI\/UX 측면 \n\n진행\nㄴ (FE)\/(앱) Web Server CI\/CD 테스트\nㄴ 피어리뷰 관련 개선사항, 보완점 등을 고려한 재정리\n\t- (BE) DB, 서버 아키텍쳐 등 MSA 방식 등을 고려한 설계\n\t- (FE) 시스템 디자인 및 Front MSA 아키텍쳐를 고려한 설계\n\t- (디자인) UI\/UX 사용자 편의성에 대한 설계\nㄴ 백엔드 인프라 설계\n\t- ERP 중개서버, MQTT 서비스"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 전표 작성 프로세스 변경 검토 회의 참석\n진행\nㄴ FK제거 방안 검토\nㄴ 겸직 기능 구현 검토\n[박수환]\n진행\nㄴ FK제거 방안 검토\nㄴ 겸직 기능 구현 검토\nㄴ ERP전표 동시성 문제 검토\n[권연주]\n완료\nㄴ 게시판\n - 게시판 관리자 추가\n - 게시글 유형 공통코드로 변경\n진행\nㄴ 겸직 기능 구현 검토\nㄴ FK제거 방안 검토"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ 전자전표 2.0 Peer Review 참여\nㄴ 프론트파트 모바일 이슈 분담 작업\nㄴ [WEB]전자결재 → 반려\/회수 → 일부 문서 지출내역 상세 안나오는 현상\n진행\nㄴ [WEB]시스템설정 → 설정 → 게시판 관리자 API 연동\nㄴ [MO] 전표처리 → 소팅 \nㄴ [MO] 전자결재 → 결재처리 → 일괄승인\nㄴ [MO] 전표처리 → 공통 기능 → 복사, 삭제\n\n[김보민]\n완료\nㄴ [MO] 공통컴포넌트\n - 헤더 더보기 컴포넌트\n - 페이지 bottom fixed 버튼\n진행\nㄴ [MO] 공통 컴포넌트\n - Actions Sheet\n - 전자결재 > 관련문서 컴포넌트\n\n[전원재]\n완료\nㄴ erp전표\n - 공통 테이블 컴포넌트 UI 및 버튼등 기능 오류 수정\n - 구매전표 페이지 UI 작업\n진행\nㄴ 통계\/보고서 > 월별사용통계\n - 날짜 관련 검색 필터 UI 수정\nㄴ 법인카드 > 법인카드 사용 현황\n - 날짜 관련 검색 필터 UI 수정\nㄴ 예산관리> 예산실적내역\n - 날짜 관련 검색 필터 UI 수정\nㄴ erp전표\n - 공통 검색 컴포넌트 UI 및 버튼등 기능 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 정의서 문서 초안 작성\nㄴ 일진 제강\n- 앱 사용법 가이드 전달을 위한 PPT 현행화"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ 피어리뉴 관련 내용 논의(편의성, 프로세스, 전표구조등)\nㄴ 모바일 앱소개 이미지 디자인 (IOS, 안드로이드) 최신화 작업\nㄴ 브랜드사이트 기능소개 고도화(이상훈과장 협의중)\n  - 메뉴구조 변경: 핵심기능 \/ 확장기능  \/ 프로세스 ,\n  - 각 페이지별 이중탭으로 기능 상세화\n  - 디자인 레이아웃 구성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1744876990.028319",
+        "client_msg_id": "076bf33a-75ff-4b0a-8525-02ad4bdf8508",
+        "text": "2025년 4월 17일 (목)\n`&lt; 스크럼 내용 &gt;`\n```- (MO) 프론트 서버 세팅 관련 Web 기획 재설계 이후 확정 되면 세팅 예정\n- (BE) 불필요한 테이블 관계성과 고려되지 못한부분을 해소 하기 위한 논의\n\t- 클라우드 환경에서의 DB 위배성 제약 등을 고려하여 오류 발생 여지가 있는 부분을 최소화\n\t\t- 대량 데이터 자동 수집 등\n\t- 회원체계 재정의하기 위한 논의\n\t\t- 직책 겸직에 대한 부분이 고려되지 않은 부분을 해소\n\t\t- 모바일 알림 등 임직원이 여러 회원을 가지는 명확하지 않은 테이블 구조를 해소\n\t\t- 신 인사시스템(workup) 과의 연동 확인\n- (BE) 개발 과업 우선순위\n\t- 상\n\t\t1. FK 제거\n\t\t\t- 불필요한 관계성으로 대량의 데이터 수집, 동시성에 문제 그리고 조회 시 속도 저하 문제를 해소 하기 위해\n\t\t\t\t먼저 FK 참조키를 제거하고, 제약을 재확인 하기로함\n\t\t2. 겸직기능 구현\n\t\t\t- 임직원과 회원 테이블의 관계를 변경 작업 필요\n\t\t\t\t- 하나의 임직원 사번으로 인한 여러 사용자에 대한 문제점을 해소할 수 있음 (예: 알림이 여러번 갈 수 있는 문제점 등)\n\t\t3. 동시성문제 해결\n\t\t4. ERP 전표 가져오기 프로세스 정립 -&gt; 매출전표\n\t\t\t- 데이터 수집 연계에 대한 배치, 중개, DB Link 방식 등에 대한 고려하여 공통 부분 논의\n\t- 중\n\t\t1. 인사시스템 연동(API 제공여부 확인필요)\n\t\t2. 매출세금계산서 발행 프로세스 정립 -&gt; 부가세 신고기능 포함?\n\t\t\t- 추후 재무 담당자 미팅으로 부가세 신고 기능에 대해 논의 예정\n\t- 하\n\t\t- 유틸성\n\t\t\t1. 로그 중앙관리 및 관제 기능 추가\n\t\t\t2. 데이터 캐싱\n- (FE) 사용자 관리, 로그인 등 화면에 추가 설계가 필요\n- (FE) 인쇄 기능에 대한 논의\n\t- 사용중인 엑셀다운로드 API를 사용하여 별도 디자인\/퍼블리싱을 통해 최소한의 작업으로 진행 예정\n\t- (국내 전용) 카카오맵 API 연동 및 옵션화 시키는 작업에 대한 논의 및 연구```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ (BE)개발 과업 우선순위 및 문제점 나열\n진행\nㄴ (FE)\/(앱) Web Server CI\/CD 테스트\nㄴ 피어리뷰 관련 개선사항, 보완점 등을 고려한 재정리\n\t- (BE) DB, 서버 아키텍쳐 등 MSA 방식 등을 고려한 설계\n\t- (FE) 시스템 디자인 및 Front MSA 아키텍쳐를 고려한 설계\n\t- (디자인) UI\/UX 사용자 편의성에 대한 설계\nㄴ 백엔드 인프라 설계\n\t- ERP 중개서버, MQTT 서비스```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ FK제거 방안 검토\nㄴ ERP전표 동시성 문제 검토\nㄴ 백엔드 과업 목록 정리 및 우선순위 선정\n진행\nㄴ FK제거를 위한 기존 DB dump 방안 확인\n\n[박수환]\n진행\nㄴ FK제거 방안 검토 -&gt; 소스의 전표, 결재 연관관계 제거\nㄴ 겸직처리 방안 검토 -&gt; member-employee 구조 변경\nㄴ ERP전표 동시성 문제 검토 -&gt; Redisson 활용 분산 Lock 구현\nㄴ ERP전표 구현 검토 -&gt; API, Batch 방식 둘다 고려\n\n[권연주]\n완료\nㄴ 게시판\n - Dashboard 게시판 조회 응답 수정\nㄴ 백엔드 과업 검토 회의\n - DB FK제거\n - 겸직 구현\n - 동시성 제어```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ [MO] 전표처리 → 공통 기능 → 복사, 삭제\nㄴ [WEB]시스템설정 → 설정 → 게시판 관리자 API 연동\nㄴ R&amp;D 과업 논의\n진행\nㄴ [MO] 전표처리 → 소팅 \nㄴ [MO] 전자결재 → 결재처리 → 일괄승인\nㄴ [MO] 전표처리 → 개인경비\/법인카드 R\n\n[김보민]\n완료\nㄴ [MO] 공통 컴포넌트\n - Actions Sheet\n진행\nㄴ [MO] 공통 컴포넌트\n - 전자결재 &gt; 관련문서 컴포넌트\n - 최근 2개월 팝업\nㄴ [MO] 전자결재 → 전자결재 양식 → 세금계산서 신청서 R\n\n[전원재]\n완료\nㄴ 전표처리 &gt; 개인경비\/법인카드\n - 검인중 상태일때 수정불가 처리\nㄴ 통계\/보고서 &gt; 월별사용통계\n - 날짜 관련 검색 필터 UI 수정후 검토\nㄴ erp전표\n - 공통 검색 컴포넌트 UI 및 버튼등 기능 추가\n진행\nㄴ 통계\/보고서 &gt; 월별사용통계\n - 날짜 관련 검색 필터 UI 재수정\nㄴ 법인카드 &gt; 법인카드 사용 현황\n - 날짜 관련 검색 필터 UI 수정\nㄴ 예산관리 &gt; 예산실적내역\n - 날짜 관련 검색 필터 UI 수정\nㄴ 사용자 &gt; 조직도\n - 메뉴 플립 오류 수정```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 정의서 문서 초안 작성\nㄴ 일진 제강\n- 앱 사용법 가이드 전달을 위한 PPT 현행화```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ전자전표 UI개선 회의\nㄴ전자전표 UI변경 시안작업\n -  결재문서 작성화면에서 전표내역을 추가하도록 변경\n - 개인경비\/법인카드 전표입력시 헤더와 라인정보를 구분\n - 결재진행중인 문서 첨부 문서 모아보도록 개선\n - 모바일 UI Ux 프로세스 PC버전과 통일할 것인지 고민```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jxnnk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 4월 17일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "- (MO) 프론트 서버 세팅 관련 Web 기획 재설계 이후 확정 되면 세팅 예정\n- (BE) 불필요한 테이블 관계성과 고려되지 못한부분을 해소 하기 위한 논의\n\t- 클라우드 환경에서의 DB 위배성 제약 등을 고려하여 오류 발생 여지가 있는 부분을 최소화\n\t\t- 대량 데이터 자동 수집 등\n\t- 회원체계 재정의하기 위한 논의\n\t\t- 직책 겸직에 대한 부분이 고려되지 않은 부분을 해소\n\t\t- 모바일 알림 등 임직원이 여러 회원을 가지는 명확하지 않은 테이블 구조를 해소\n\t\t- 신 인사시스템(workup) 과의 연동 확인\n- (BE) 개발 과업 우선순위\n\t- 상\n\t\t1. FK 제거\n\t\t\t- 불필요한 관계성으로 대량의 데이터 수집, 동시성에 문제 그리고 조회 시 속도 저하 문제를 해소 하기 위해\n\t\t\t\t먼저 FK 참조키를 제거하고, 제약을 재확인 하기로함\n\t\t2. 겸직기능 구현\n\t\t\t- 임직원과 회원 테이블의 관계를 변경 작업 필요\n\t\t\t\t- 하나의 임직원 사번으로 인한 여러 사용자에 대한 문제점을 해소할 수 있음 (예: 알림이 여러번 갈 수 있는 문제점 등)\n\t\t3. 동시성문제 해결\n\t\t4. ERP 전표 가져오기 프로세스 정립 -> 매출전표\n\t\t\t- 데이터 수집 연계에 대한 배치, 중개, DB Link 방식 등에 대한 고려하여 공통 부분 논의\n\t- 중\n\t\t1. 인사시스템 연동(API 제공여부 확인필요)\n\t\t2. 매출세금계산서 발행 프로세스 정립 -> 부가세 신고기능 포함?\n\t\t\t- 추후 재무 담당자 미팅으로 부가세 신고 기능에 대해 논의 예정\n\t- 하\n\t\t- 유틸성\n\t\t\t1. 로그 중앙관리 및 관제 기능 추가\n\t\t\t2. 데이터 캐싱\n- (FE) 사용자 관리, 로그인 등 화면에 추가 설계가 필요\n- (FE) 인쇄 기능에 대한 논의\n\t- 사용중인 엑셀다운로드 API를 사용하여 별도 디자인\/퍼블리싱을 통해 최소한의 작업으로 진행 예정\n\t- (국내 전용) 카카오맵 API 연동 및 옵션화 시키는 작업에 대한 논의 및 연구"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ (BE)개발 과업 우선순위 및 문제점 나열\n진행\nㄴ (FE)\/(앱) Web Server CI\/CD 테스트\nㄴ 피어리뷰 관련 개선사항, 보완점 등을 고려한 재정리\n\t- (BE) DB, 서버 아키텍쳐 등 MSA 방식 등을 고려한 설계\n\t- (FE) 시스템 디자인 및 Front MSA 아키텍쳐를 고려한 설계\n\t- (디자인) UI\/UX 사용자 편의성에 대한 설계\nㄴ 백엔드 인프라 설계\n\t- ERP 중개서버, MQTT 서비스"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ FK제거 방안 검토\nㄴ ERP전표 동시성 문제 검토\nㄴ 백엔드 과업 목록 정리 및 우선순위 선정\n진행\nㄴ FK제거를 위한 기존 DB dump 방안 확인\n\n[박수환]\n진행\nㄴ FK제거 방안 검토 -> 소스의 전표, 결재 연관관계 제거\nㄴ 겸직처리 방안 검토 -> member-employee 구조 변경\nㄴ ERP전표 동시성 문제 검토 -> Redisson 활용 분산 Lock 구현\nㄴ ERP전표 구현 검토 -> API, Batch 방식 둘다 고려\n\n[권연주]\n완료\nㄴ 게시판\n - Dashboard 게시판 조회 응답 수정\nㄴ 백엔드 과업 검토 회의\n - DB FK제거\n - 겸직 구현\n - 동시성 제어"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ [MO] 전표처리 → 공통 기능 → 복사, 삭제\nㄴ [WEB]시스템설정 → 설정 → 게시판 관리자 API 연동\nㄴ R&D 과업 논의\n진행\nㄴ [MO] 전표처리 → 소팅 \nㄴ [MO] 전자결재 → 결재처리 → 일괄승인\nㄴ [MO] 전표처리 → 개인경비\/법인카드 R\n\n[김보민]\n완료\nㄴ [MO] 공통 컴포넌트\n - Actions Sheet\n진행\nㄴ [MO] 공통 컴포넌트\n - 전자결재 > 관련문서 컴포넌트\n - 최근 2개월 팝업\nㄴ [MO] 전자결재 → 전자결재 양식 → 세금계산서 신청서 R\n\n[전원재]\n완료\nㄴ 전표처리 > 개인경비\/법인카드\n - 검인중 상태일때 수정불가 처리\nㄴ 통계\/보고서 > 월별사용통계\n - 날짜 관련 검색 필터 UI 수정후 검토\nㄴ erp전표\n - 공통 검색 컴포넌트 UI 및 버튼등 기능 추가\n진행\nㄴ 통계\/보고서 > 월별사용통계\n - 날짜 관련 검색 필터 UI 재수정\nㄴ 법인카드 > 법인카드 사용 현황\n - 날짜 관련 검색 필터 UI 수정\nㄴ 예산관리 > 예산실적내역\n - 날짜 관련 검색 필터 UI 수정\nㄴ 사용자 > 조직도\n - 메뉴 플립 오류 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 정의서 문서 초안 작성\nㄴ 일진 제강\n- 앱 사용법 가이드 전달을 위한 PPT 현행화"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ전자전표 UI개선 회의\nㄴ전자전표 UI변경 시안작업\n -  결재문서 작성화면에서 전표내역을 추가하도록 변경\n - 개인경비\/법인카드 전표입력시 헤더와 라인정보를 구분\n - 결재진행중인 문서 첨부 문서 모아보도록 개선\n - 모바일 UI Ux 프로세스 PC버전과 통일할 것인지 고민"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

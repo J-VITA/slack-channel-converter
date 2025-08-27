@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1745367018.883239",
+        "client_msg_id": "b66c89b8-f56d-47cb-832f-d07a06aa26d1",
+        "text": "2025년 4월 22일 (화)\n\n`&lt; 스크럼 내용 &gt;`\n```- Jira 일정관리 논의\n - 에픽 -&gt; 스토리 -&gt; Task -&gt; Sub Task 단위로 스케쥴 관리 (기획, 백엔드, 프론트엔드, 모바일 포함)\n\n\/\/ -- UX 개선 논의 미팅\n- 오픈 회계기간 월이 여러개일 경우 과거순으로 먼저 마감 처리 될 수 있도록\n\t- 회계월 \n- 뷰어 통합 (이미지)\n\t- PDF, DOC, PPT, HWP 기타 등등\n- 법인카드 과세유형 표기 (자동으로 세팅)\n\t- 면세 : 간이사업자\n\t- 불공제 : 계정, 업종\n\t\n- 메뉴 재배치 (아래 성향에 맞게 배치해야함)\n\t- 개인경비\n\t\t- 법인카드\n\t\t- 개인카드\n\t\t- 유류대\n\t\t- 출장\n\t- 업체경비\n\t\t- 세금계산서\n\t\t- 선급금\n\t\t- 구매전표\n- 전표내역에서 문서 제목이 나올 수 있는지 확인 (컬럼 배치의 영역)```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ UX 개선 결정\nㄴ 더존 아마란스 10 x ONE AI 세미나 참석\n\n진행\nㄴ JIRA 티켓 규칙\n  - 스크럼, 백로그, 이슈 등 관리를 위한 룰 정의\n  - 파트별 업무 배분 (기획\/디자인, 백엔드, 프론트, 모바일)\n  - WBS 관련 보고용 리포트 계획 (굵직하게 큰 계획은 차주 화요일 22일 완료 예정)\nㄴ Redis Client Config 설정 및 템플릿 유틸리티 작성\n\t- 로컬 테스트 완료 후 내부 개발서버 세팅 예정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 라이브러리 변경(restTemplate -&gt; restClient)\n진행\nㄴ ERP 전표 연동 프로세스 설계\nㄴ 개발서버 FK 해제 영향도 테스트\nㄴ enumType DB화 검토\n[박수환]\n진행\nㄴ 개발서버 foreign key 해제 영향도 테스트\nㄴ DB enum 제거 검토\n[권연주]\n완료\nㄴ 전자결재\n - 관련문서 있는 결재문서 재기안 에러 수정\n진행\nㄴ FK 제거\n - 개발 테스트 진행```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ PC] 공통UI - 레이아웃 컬러 변경\nㄴ R&amp;D Syncflo UX 개선 논의 참여 \n진행\nㄴ [MO] 모바일 user 데이터 가져오는 방식 수정\nㄴ [PC] 공통 탭 UI 변경 - 컬러, 폰트 사이즈 \n\n[김보민]\n완료\nㄴ [MO] 전자결재 → 전자결재 양식 → 법인카드불출신청서 R\n진행\nㄴ [MO] 전자결재 → 결재선\nㄴ [MO] 전자결재 → 전자결재 양식 → 예산신청서 R\n\n[전원재]\n완료\nㄴ 화면 및 업부 프로세스 변경사항 관련 회의\nㄴ 업부분담 및 일정 회의\n진행\nㄴ 지도 외부 api\n - 실제 주소검색의 경로로 카카오맵 테스트\nㄴ 개인설정 &gt; 개인결재선 관리\n - 결재선 저장시 오류 수정\nㄴ  전자결재 &gt; 출장경비신청서\n - 출장 정보 저장시 파라미터 오류 수정```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 외부 브라우저 호출\n- FCM 토큰 가져오기```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\n-전자전표2.0 UI 변경적용\n - 글자크기 13px -&gt; 14px 변경\n - 레프트 메뉴 가독성 개선\n - 탭메뉴 색변경\n진행\nㄴ전표작성 변경사항 시연(R&amp;D파트장, 사업부장)\nㄴ겸직부서 등록 프로세스 기획\/디자인\n -겸직부서 등록 팝업창 UI\n -웹페이지 우측상단 부서변경 UI추가\n -겸직부서가 있을경우 대표부서 여부 선택 UI 추가\nㄴ전표 프로세스 기획\/디자인 변경\n - 유류대 여러건 추가UI\n - 전표분할작성 UI\n - 결재진행중인 문서 첨부파일 모아보기\nㄴ더존 아마란스 솔루션 교육```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "erTEx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 4월 22일 (화)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "- Jira 일정관리 논의\n - 에픽 -> 스토리 -> Task -> Sub Task 단위로 스케쥴 관리 (기획, 백엔드, 프론트엔드, 모바일 포함)\n\n\/\/ -- UX 개선 논의 미팅\n- 오픈 회계기간 월이 여러개일 경우 과거순으로 먼저 마감 처리 될 수 있도록\n\t- 회계월 \n- 뷰어 통합 (이미지)\n\t- PDF, DOC, PPT, HWP 기타 등등\n- 법인카드 과세유형 표기 (자동으로 세팅)\n\t- 면세 : 간이사업자\n\t- 불공제 : 계정, 업종\n\t\n- 메뉴 재배치 (아래 성향에 맞게 배치해야함)\n\t- 개인경비\n\t\t- 법인카드\n\t\t- 개인카드\n\t\t- 유류대\n\t\t- 출장\n\t- 업체경비\n\t\t- 세금계산서\n\t\t- 선급금\n\t\t- 구매전표\n- 전표내역에서 문서 제목이 나올 수 있는지 확인 (컬럼 배치의 영역)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ UX 개선 결정\nㄴ 더존 아마란스 10 x ONE AI 세미나 참석\n\n진행\nㄴ JIRA 티켓 규칙\n  - 스크럼, 백로그, 이슈 등 관리를 위한 룰 정의\n  - 파트별 업무 배분 (기획\/디자인, 백엔드, 프론트, 모바일)\n  - WBS 관련 보고용 리포트 계획 (굵직하게 큰 계획은 차주 화요일 22일 완료 예정)\nㄴ Redis Client Config 설정 및 템플릿 유틸리티 작성\n\t- 로컬 테스트 완료 후 내부 개발서버 세팅 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 라이브러리 변경(restTemplate -> restClient)\n진행\nㄴ ERP 전표 연동 프로세스 설계\nㄴ 개발서버 FK 해제 영향도 테스트\nㄴ enumType DB화 검토\n[박수환]\n진행\nㄴ 개발서버 foreign key 해제 영향도 테스트\nㄴ DB enum 제거 검토\n[권연주]\n완료\nㄴ 전자결재\n - 관련문서 있는 결재문서 재기안 에러 수정\n진행\nㄴ FK 제거\n - 개발 테스트 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ PC] 공통UI - 레이아웃 컬러 변경\nㄴ R&D Syncflo UX 개선 논의 참여 \n진행\nㄴ [MO] 모바일 user 데이터 가져오는 방식 수정\nㄴ [PC] 공통 탭 UI 변경 - 컬러, 폰트 사이즈 \n\n[김보민]\n완료\nㄴ [MO] 전자결재 → 전자결재 양식 → 법인카드불출신청서 R\n진행\nㄴ [MO] 전자결재 → 결재선\nㄴ [MO] 전자결재 → 전자결재 양식 → 예산신청서 R\n\n[전원재]\n완료\nㄴ 화면 및 업부 프로세스 변경사항 관련 회의\nㄴ 업부분담 및 일정 회의\n진행\nㄴ 지도 외부 api\n - 실제 주소검색의 경로로 카카오맵 테스트\nㄴ 개인설정 > 개인결재선 관리\n - 결재선 저장시 오류 수정\nㄴ  전자결재 > 출장경비신청서\n - 출장 정보 저장시 파라미터 오류 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 외부 브라우저 호출\n- FCM 토큰 가져오기"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\n-전자전표2.0 UI 변경적용\n - 글자크기 13px -> 14px 변경\n - 레프트 메뉴 가독성 개선\n - 탭메뉴 색변경\n진행\nㄴ전표작성 변경사항 시연(R&D파트장, 사업부장)\nㄴ겸직부서 등록 프로세스 기획\/디자인\n -겸직부서 등록 팝업창 UI\n -웹페이지 우측상단 부서변경 UI추가\n -겸직부서가 있을경우 대표부서 여부 선택 UI 추가\nㄴ전표 프로세스 기획\/디자인 변경\n - 유류대 여러건 추가UI\n - 전표분할작성 UI\n - 결재진행중인 문서 첨부파일 모아보기\nㄴ더존 아마란스 솔루션 교육"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

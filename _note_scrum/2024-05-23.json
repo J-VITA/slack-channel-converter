@@ -1,0 +1,54 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1716517238.134899",
+        "edited": {
+            "user": "U06BP1VPBGF",
+            "ts": "1716517248.000000"
+        },
+        "client_msg_id": "f3c5eb69-63ae-4335-9715-48ca76dd4e0c",
+        "text": "2024-05-24(금) 스크럼\n```[장정수]\nㄴ KPI 작성 보완 진행\nㄴ 백엔드 개발 환경 구성 검토\nㄴ AWS 인프라 예상 비용 산정 및 공유 완료(맹건아, 허욱)\n[이성민]\nㄴ API 항목 정리 진행(추가 작업은 개발 진행 하면서 정리 예정)\nㄴ DDL 작성 및 Database 생성 진행\n[구시완]\nㄴ 백엔드 패키지 구조 변경 및 개발 환경 구성 점검 진행\n[김정중]\nㄴ 사용자화면 템플릿 레이아웃 초기 작성 진행\nㄴ 백엔드 api 연동 처리 진행(인증 처리 등)\n[차윤수]\nㄴ 시스템설정 퍼블리싱 진행(계속)\nㄴ 기준정보(회계기간\/계정과목) 작업 진행(계속)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YIPBf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-05-24(금) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ KPI 작성 보완 진행\nㄴ 백엔드 개발 환경 구성 검토\nㄴ AWS 인프라 예상 비용 산정 및 공유 완료(맹건아, 허욱)\n[이성민]\nㄴ API 항목 정리 진행(추가 작업은 개발 진행 하면서 정리 예정)\nㄴ DDL 작성 및 Database 생성 진행\n[구시완]\nㄴ 백엔드 패키지 구조 변경 및 개발 환경 구성 점검 진행\n[김정중]\nㄴ 사용자화면 템플릿 레이아웃 초기 작성 진행\nㄴ 백엔드 api 연동 처리 진행(인증 처리 등)\n[차윤수]\nㄴ 시스템설정 퍼블리싱 진행(계속)\nㄴ 기준정보(회계기간\/계정과목) 작업 진행(계속)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

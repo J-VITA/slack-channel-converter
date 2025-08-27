@@ -1,0 +1,109 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1729744056.142219",
+        "client_msg_id": "78872e98-b67f-4d23-9ed4-95bf93f0b856",
+        "text": "`백엔드`\n```[구시완] \nㄴ 개인경비\/법인카드 개발 진행(계속)\nㄴ 법인카드관리 개발 진행\n\n[권연주]\nㄴ 직책, 직위 임직원 할당 에러 수정\nㄴ approval 리팩토링 및 approvalFormType 정의\nㄴ 회사 추가시 메뉴 추가 진행\nㄴ 사용자 목록 정렬 수정 진행\nㄴ 전자결재 재기안 api 개발 진행\n\n[서정은]\nㄴ 예산현황 엔티티 설계, 테이블생성, 비즈니스 로직 정리 (완료)\nㄴ 엑셀 파일 크기 정의 (완료)\nㄴ 직접 등록\/수정 API, 단건 조회 API 개발,리스트조회 API 개발 (완료)\nㄴ 엑셀 일괄 등록 API, 삭제 API 개발 예정, 예산 입력 마감 API 개발 예정\nㄴ 엑셀 기능 개발 관련 개발자 테스트 진행 예정```\n`프론트엔드`\n```[우태림]\nㄴ 시스템설정 → 메뉴관리 개발 진행 \n - 메뉴관리 CRUD 기능 (완료)\n - drag &amp; drop 작업 예정\nㄴ 시스템설정 → 권한관리 기능 개선 진행 \n\n[김정중]\nㄴ 시스템설정 → 직책관리 → 회사별 임직원관리 추가작업 완료\nㄴ 시스템설정 → 직위관리 → 회사별 임직원관리 추가작업 완료\nㄴ 전표처리 → 개인경비지출 → 지출내역\n - 전표번호 컬럼 추가\n - 상태 UI 변경\n\n[전원재]\nㄴ 시스템관리 &gt; 부서관리\n - 부서추가 모달 수정 (완료)\nㄴ 시스템관리 &gt; 사용자관리\n - 테이블 확대 버튼 기능 (완료)\n - 조회 조건 UI, 기능 수정 (진행중)```\n`디자인`\n```[차윤수] - 오전 반차```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H4\/eg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완] \nㄴ 개인경비\/법인카드 개발 진행(계속)\nㄴ 법인카드관리 개발 진행\n\n[권연주]\nㄴ 직책, 직위 임직원 할당 에러 수정\nㄴ approval 리팩토링 및 approvalFormType 정의\nㄴ 회사 추가시 메뉴 추가 진행\nㄴ 사용자 목록 정렬 수정 진행\nㄴ 전자결재 재기안 api 개발 진행\n\n[서정은]\nㄴ 예산현황 엔티티 설계, 테이블생성, 비즈니스 로직 정리 (완료)\nㄴ 엑셀 파일 크기 정의 (완료)\nㄴ 직접 등록\/수정 API, 단건 조회 API 개발,리스트조회 API 개발 (완료)\nㄴ 엑셀 일괄 등록 API, 삭제 API 개발 예정, 예산 입력 마감 API 개발 예정\nㄴ 엑셀 기능 개발 관련 개발자 테스트 진행 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 시스템설정 → 메뉴관리 개발 진행 \n - 메뉴관리 CRUD 기능 (완료)\n - drag & drop 작업 예정\nㄴ 시스템설정 → 권한관리 기능 개선 진행 \n\n[김정중]\nㄴ 시스템설정 → 직책관리 → 회사별 임직원관리 추가작업 완료\nㄴ 시스템설정 → 직위관리 → 회사별 임직원관리 추가작업 완료\nㄴ 전표처리 → 개인경비지출 → 지출내역\n - 전표번호 컬럼 추가\n - 상태 UI 변경\n\n[전원재]\nㄴ 시스템관리 > 부서관리\n - 부서추가 모달 수정 (완료)\nㄴ 시스템관리 > 사용자관리\n - 테이블 확대 버튼 기능 (완료)\n - 조회 조건 UI, 기능 수정 (진행중)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] - 오전 반차"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

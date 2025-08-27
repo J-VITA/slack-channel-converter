@@ -1,0 +1,57 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1710818600.684319",
+        "client_msg_id": "2889ee47-3c80-4625-9f69-f560293eeac9",
+        "text": "2024-03-18(월) 스크럼\n```[장정수]\nㄴ 개발 관련 정리 작업 진행\n[차윤수]  \nㄴ 메인 화면 디자인 시안 작업 진행\n[김정중]\nㄴ 프론트엔드 프로젝트 구성 관련 기술 검토\nㄴ gitflow 브랜치 전략 검토\n[구시완]\nㄴ 타사 서비스 분석 작업 진행\nㄴ 백엔드 클라우드 AWS 관련 스터디 진행\nㄴ git workflow 관련 스터디 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8UPac",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-03-18(월) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 개발 관련 정리 작업 진행\n[차윤수]  \nㄴ 메인 화면 디자인 시안 작업 진행\n[김정중]\nㄴ 프론트엔드 프로젝트 구성 관련 기술 검토\nㄴ gitflow 브랜치 전략 검토\n[구시완]\nㄴ 타사 서비스 분석 작업 진행\nㄴ 백엔드 클라우드 AWS 관련 스터디 진행\nㄴ git workflow 관련 스터디 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U06PWDHJA21",
+        "text": "<@U06PWDHJA21> 님이 채널에 참여함",
+        "type": "message",
+        "ts": "1710821397.292009"
+    }
+]

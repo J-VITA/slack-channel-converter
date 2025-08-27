@@ -1,0 +1,135 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1725413218.606289",
+        "client_msg_id": "30abc8fb-0dfb-4620-81bd-18f955f6922b",
+        "text": "`백엔드`\n```[구시완]\nㄴ 계정과목 → 불공제관련 기능 추가 (완료)\nㄴ 전표 API 개발 진행 (계속)\n\n[권연주]\nㄴ 결재 API 개발 진행 (계속)```\n`프론트엔드`\n```[우태림]\nㄴ 전자결재 → 지출결의서 화면 UI 진행 (계속)\n\n[김정중]\nㄴ 오류 및 이슈 처리 진행 (회계기간, 계정비용항목관리, 코스트센터, 경비기준관리) (완료)\nㄴ 개인경비 전표 관련 API 연동 진행 ```\n`디자인`\n```[차윤수] - 연차```\n`기획`\n```[이상훈]\nㄴ 업무환경 관련 설문진행\nㄴ 세금코드관리 논의 필요```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Csepx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 계정과목 → 불공제관련 기능 추가 (완료)\nㄴ 전표 API 개발 진행 (계속)\n\n[권연주]\nㄴ 결재 API 개발 진행 (계속)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자결재 → 지출결의서 화면 UI 진행 (계속)\n\n[김정중]\nㄴ 오류 및 이슈 처리 진행 (회계기간, 계정비용항목관리, 코스트센터, 경비기준관리) (완료)\nㄴ 개인경비 전표 관련 API 연동 진행 "
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "기획",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[이상훈]\nㄴ 업무환경 관련 설문진행\nㄴ 세금코드관리 논의 필요"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

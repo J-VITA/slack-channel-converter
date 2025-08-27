@@ -1,0 +1,9 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U08V89ATPKP",
+        "text": "<@U08V89ATPKP> 님이 채널에 참여함",
+        "type": "message",
+        "ts": "1749010105.376259"
+    }
+]

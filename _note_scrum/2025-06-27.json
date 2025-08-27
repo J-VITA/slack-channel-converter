@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1751012017.045849",
+        "client_msg_id": "3b256f24-1689-4d9e-8b35-3889336f6a46",
+        "text": "2025년 6월 27일 (금)\n`&lt; 스크럼 내용 &gt;`\n```1. 사이트명 `Syncflo Lite` 예정\n - 도메인 <http:\/\/lite.syncflo.kr|lite.syncflo.kr>\n2. 메일서버 구축 관련 논의 필요\n3. 법인카드 인포텍 양방향 통신 규약 관련 협의 필요\n4. NCP 구축 관련 조사 필요```\n`&lt; 총괄 &gt;`\n```[김정중]\n\n진행\nㄴ SaaS 브랜드네임 및 인하우스 개발 방향에 대한 논의\nㄴ 메일서버 In\/Out 등 스팸 등 보안 관련 조사\nㄴ NCP 구축 관련 조사```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ SBTM-99 모바일 로그인시 refreshToken cookie 저장 실패 오류 확인\nㄴ SBTM-96 push 알림함 기능 개발\n - 알림 목록 삭제 기능 추가\n진행\nㄴ SBTM-100 개인별 알림설정 기반 알림발송 기능 개발\n - 기능 단위 테스트 진행\n[박수환]\n완료\nㄴ SBTM-27-로그인\n    - 자동로그인일 경우 refreshToken 만료시간 변경\nㄴ SBTM-34-개인경비 - 출장결의서 신청\n    - 전표의 출장비 정보 저장 테이블(tb_slip_business_trip_header) 생성\n    - 출장비 정보 CRUD\n[권연주]\n진행\nㄴ SBTM-42 [BE] 서비스 현황\n - 요금제, 계약 api```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ SBTM-31 [FE] 대시보드\n     - SBTM-95 나의 경비사용 상신금액 차트 추가\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - FCM 토큰 서버 저장\n진행\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - PC 상단 알림 API 연동\n    - PC 개인설정 API연동\n\n[김보민]\n진행\nㄴ SBTM-89 [FE] 출장관리 - 출장경비 신청내역\nㄴ SBTM-90 [FE] 출장관리 - 출장경비 신청\n\n[전원재]\n완료\nㄴ SBTM-28 [FE] 로그인\n - 로그인 페이지 공지사항 slide UI 추가\n - 공지사항 모달 UI 추가 및 조회 데이터 바인딩\n진행\nㄴ SBTM-28 [FE] 로그인\n - 로그인 페이지 공지사항 UI 수정\n - 공지사항 목록, 상세 api 주소 수정\n - 모바일 로그인 자동로그인 파라미터 추가\n - btm service , backoffice 로그인시 이메일 형식으로 수정\nㄴ SBTM-43 [FE] 서비스 현황\n - 서비스 현황 페이지 UI 추가\n - 상세 모달 UI 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ SBTM-98 푸쉬 메시지 클릭 및 액션 테스트\nㄴ SBTM-66 모바일 - 알림서비스\n\n진행\nㄴ SBTM-67 앱 심사 준비```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\n ㄴ법인카드 등록 프로세스 UI 작업\n ㄴ사업자서비스관리 &gt; 상세 - 변경이력 조회방식 기획\/디자인 변경\n진행\nㄴSBTM-37 [디자인] 모바일- 이미지 작업\n - 모바일 경량화 버전 방향성 미팅\n - 모바일 로고이미지 작업 : SyncFlo Lite\n - 스플래시 스크린 이미지 작업```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5iw72",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 6월 27일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 사이트명 `Syncflo Lite` 예정\n - 도메인 lite.syncflo.kr\n2. 메일서버 구축 관련 논의 필요\n3. 법인카드 인포텍 양방향 통신 규약 관련 협의 필요\n4. NCP 구축 관련 조사 필요"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n\n진행\nㄴ SaaS 브랜드네임 및 인하우스 개발 방향에 대한 논의\nㄴ 메일서버 In\/Out 등 스팸 등 보안 관련 조사\nㄴ NCP 구축 관련 조사"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ SBTM-99 모바일 로그인시 refreshToken cookie 저장 실패 오류 확인\nㄴ SBTM-96 push 알림함 기능 개발\n - 알림 목록 삭제 기능 추가\n진행\nㄴ SBTM-100 개인별 알림설정 기반 알림발송 기능 개발\n - 기능 단위 테스트 진행\n[박수환]\n완료\nㄴ SBTM-27-로그인\n    - 자동로그인일 경우 refreshToken 만료시간 변경\nㄴ SBTM-34-개인경비 - 출장결의서 신청\n    - 전표의 출장비 정보 저장 테이블(tb_slip_business_trip_header) 생성\n    - 출장비 정보 CRUD\n[권연주]\n진행\nㄴ SBTM-42 [BE] 서비스 현황\n - 요금제, 계약 api"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ SBTM-31 [FE] 대시보드\n     - SBTM-95 나의 경비사용 상신금액 차트 추가\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - FCM 토큰 서버 저장\n진행\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - PC 상단 알림 API 연동\n    - PC 개인설정 API연동\n\n[김보민]\n진행\nㄴ SBTM-89 [FE] 출장관리 - 출장경비 신청내역\nㄴ SBTM-90 [FE] 출장관리 - 출장경비 신청\n\n[전원재]\n완료\nㄴ SBTM-28 [FE] 로그인\n - 로그인 페이지 공지사항 slide UI 추가\n - 공지사항 모달 UI 추가 및 조회 데이터 바인딩\n진행\nㄴ SBTM-28 [FE] 로그인\n - 로그인 페이지 공지사항 UI 수정\n - 공지사항 목록, 상세 api 주소 수정\n - 모바일 로그인 자동로그인 파라미터 추가\n - btm service , backoffice 로그인시 이메일 형식으로 수정\nㄴ SBTM-43 [FE] 서비스 현황\n - 서비스 현황 페이지 UI 추가\n - 상세 모달 UI 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ SBTM-98 푸쉬 메시지 클릭 및 액션 테스트\nㄴ SBTM-66 모바일 - 알림서비스\n\n진행\nㄴ SBTM-67 앱 심사 준비"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\n ㄴ법인카드 등록 프로세스 UI 작업\n ㄴ사업자서비스관리 > 상세 - 변경이력 조회방식 기획\/디자인 변경\n진행\nㄴSBTM-37 [디자인] 모바일- 이미지 작업\n - 모바일 경량화 버전 방향성 미팅\n - 모바일 로고이미지 작업 : SyncFlo Lite\n - 스플래시 스크린 이미지 작업"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

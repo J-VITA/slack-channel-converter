@@ -1,0 +1,224 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1719540313.141749",
+        "client_msg_id": "5d13608e-efa1-4b2a-a7e3-6720af89623f",
+        "text": "2024-06-27(목) 스크럼\n`&lt; 백엔드 &gt;`\n```[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 권한관리 CRUD 및 API 개발 진행\n[구시완]\nㄴ 출장기준관리 entity\nㄴ 경비규정관리 entity\nㄴ 전자결재 관련 기획 검토진행```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\nㄴ Ant design 적용 후 화면 깨지는 부분 수정 작업 진행(계속)\n[김정중]\nㄴ 검색관련 UI 모듈 개발 진행\nㄴ 검색 폼 레이아웃 공통작업 진행\nㄴ 다국어 관련 datepicker 처리 완료```\n`&lt; 디자인 &gt;`\n```[차윤수] \nㄴ Figma 화면 기획서 업데이트 진행\nㄴ 기준정보관리 화면 설계 보완 진행(경비규정\/결재환경설정)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zHhAz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-06-27(목) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 권한관리 CRUD 및 API 개발 진행\n[구시완]\nㄴ 출장기준관리 entity\nㄴ 경비규정관리 entity\nㄴ 전자결재 관련 기획 검토진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ Ant design 적용 후 화면 깨지는 부분 수정 작업 진행(계속)\n[김정중]\nㄴ 검색관련 UI 모듈 개발 진행\nㄴ 검색 폼 레이아웃 공통작업 진행\nㄴ 다국어 관련 datepicker 처리 완료"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] \nㄴ Figma 화면 기획서 업데이트 진행\nㄴ 기준정보관리 화면 설계 보완 진행(경비규정\/결재환경설정)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1719540361.095749",
+        "client_msg_id": "24be0164-b4c1-4748-87a9-610ed1d77206",
+        "text": "2024-06-28(금) 스크럼\n`&lt; 백엔드 &gt;`\n```[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 권한관리 CRUD 및 API 개발 완료\nㄴ DB 초기화 및 테스트 데이터  진행\nㄴ 코드관리 API 수정 진행 예정\n[구시완]\nㄴ 결제 관련 스터디 진행```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\nㄴ Ant design 적용 후 화면 깨지는 부분 수정 작업 완료\nㄴ 모달 다이얼로그 화면 깨지는 부분 수정작업 진행\n[김정중]\nㄴ 검색 필터 관련 공통 UI 작업 진행\nㄴ select box 관련 공통 작업 진행```\n`&lt; 디자인 &gt;`\n```[차윤수] \nㄴ 기준정보관리 화면 설계 보완(현행화)  완료 예정\nㄴ 시스템 관리 화면설계 보완(현행화) 진행 예정```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RVhXz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-06-28(금) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 시스템 설정 API 개발 진행(계속)\nㄴ 권한관리 CRUD 및 API 개발 완료\nㄴ DB 초기화 및 테스트 데이터  진행\nㄴ 코드관리 API 수정 진행 예정\n[구시완]\nㄴ 결제 관련 스터디 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ Ant design 적용 후 화면 깨지는 부분 수정 작업 완료\nㄴ 모달 다이얼로그 화면 깨지는 부분 수정작업 진행\n[김정중]\nㄴ 검색 필터 관련 공통 UI 작업 진행\nㄴ select box 관련 공통 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] \nㄴ 기준정보관리 화면 설계 보완(현행화)  완료 예정\nㄴ 시스템 관리 화면설계 보완(현행화) 진행 예정"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

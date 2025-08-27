@@ -1,0 +1,388 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1753690365.825849",
+        "edited": {
+            "user": "U08V89ATPKP",
+            "ts": "1753690430.000000"
+        },
+        "client_msg_id": "543238e7-c17f-4fb1-9d56-87d373db46da",
+        "text": "2025년 7월 28일 (월)\n`< 스크럼 내용 >`\n```1. 디스플레이 업무 배정 및 기능 정의\n\t- 마이그레이션 범위 산정\n\t- 모바일 진행 안함\n\t- 법인카드, 세금계산서 수집 서버에 대한 각 서비스 별 담당자 체크\n\t- 그룹웨어 연동 (출장정산)에 대한 부분은 자체 서비스로 대체 하도록 논의\n\t- DRM 문서에 대한 복호화 인터페이스 제공 유무 판단 체크하기로 함\n\t- 담당자별 업무 배정 진행 전 메뉴 정의 부터 하고 배정 시작\n\t- ERP 기초데이터 및 전표 호출 속도 개선에서 CDC (Debezium)방식 채택 고려\n\t\t- ERP 담당자 MView(Materialized View) 제공 가능 유무 요청\n2. FE\/BE 2.0 고도화 형상관리 현행화 작업 완료```\n`< 총괄 >`\n```[김정중]\n완료\nㄴ Core System 서비스 기능 정의\n\t- 디자인 시스템 환경에 대한 기초 데이터 정의\n\t\t- 형상관리 생성\n\t\t- 패키지 생성 및 개발환경 연동\n\t\t- 피그마 & 깃허브 연동\nㄴ 업무 프로젝트 JIRA 생성\n\t- Core System, Display Project, SaaS 고도화\nㄴ 디스플레이 기능 및 개선에 필요한 분석 자료 정리, 환경 설정(Confluence)\n\t- ERP 전표 불러오기 속도 개선에 대한 방안\n\t- 내부 형상관리 생성\nㄴ 디스플레이 프로젝트 시작 내부 회의 진행\nㄴ Design System Docs 페이지 작성\n\t\n진행\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- 메뉴 및 기능 정의\n\t- Jira Ticket 생성을 위한 에픽 단위 설정\nㄴ 워크샵 발표 자료 준비```\n`< 백엔드 >`\n```[박광호]\n완료\nㄴ legacy 개발서버 및 git Branch 정리\nㄴ dev, staging workflow 수정\n진행\nㄴ 파일 다운로드 API 개선\n - wrapper 이용하여 필요한 파일들에 대해 inline으로 바로 표시 할 수 있도록 소스 개선\nㄴ 인포텍 법인카드 연동 API 분석\n - 인포텍 open API를 통한 법인카드 정보 수집 기능 개발\n\n[박수환]\n완료\nㄴ 디스플레이 전자전표 프로젝트 회의\n진행\nㄴ 법인카드 수집 서버 구성\n\n[권연주]\n진행\nㄴ 약관 관리\n - 등록 시 유효성 검사 추가\nㄴ 정기 배치 작업 개발을 위한 스프링 배치 학습```\n`< 프론트엔드 >`\n```[우태림] - 연차\n\n[김보민]\n진행\nㄴ SaaS > 전자전표 현행화 및 개선\n - 이미지 preview 컴포넌트 수정\n - 전자전표 파일첨부 수정\nㄴ [MO] 자동로그인 관련 수정, access_token > store 이동, refreshToken 갱신 로직 수정\n\n[전원재]\n완료\nㄴ EACC-1843 출장 SaaS > 소스 현행화\n - 아이콘 현행화, 법인카드 현행화\nㄴ SBTM-337 출장경비신청 > 유류대 경로설정시 데이터 저장 안됨\n진행\nㄴ EACC-1843 출장 SaaS > 소스 현행화\n - PC, Mobile - old 파일 삭제\n - 테스트 및 오류 수정\nㄴ 컨퍼런스 참석 결과 보고서 작성```\n`< 모바일 >`\n```[홍제원]\n완료\nㄴ 토스 메이커 컨퍼런스 2025 참여 보고서 작성\n\n진행\nㄴ 안드로이드 플랫폼 측 업데이트 요청에 대한 대응\nㄴ 워크샵 발표 자료 준비```\n`< 디자인 >`\n```[차윤수]\n진행\nㄴ영림원 네이버웍스 결합상품\n  -결합상품 웹사이트 레퍼런스 수집\n  -랜딩페이지 구성안 기획\nㄴSyncFlo 디자인시스템\n  - 디자인 시스템 컴포넌트 단위별 문서작업\n  - 디자인 시스템 Variable, Text style 작업```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mrX+D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 28일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 디스플레이 업무 배정 및 기능 정의\n\t- 마이그레이션 범위 산정\n\t- 모바일 진행 안함\n\t- 법인카드, 세금계산서 수집 서버에 대한 각 서비스 별 담당자 체크\n\t- 그룹웨어 연동 (출장정산)에 대한 부분은 자체 서비스로 대체 하도록 논의\n\t- DRM 문서에 대한 복호화 인터페이스 제공 유무 판단 체크하기로 함\n\t- 담당자별 업무 배정 진행 전 메뉴 정의 부터 하고 배정 시작\n\t- ERP 기초데이터 및 전표 호출 속도 개선에서 CDC (Debezium)방식 채택 고려\n\t\t- ERP 담당자 MView(Materialized View) 제공 가능 유무 요청\n2. FE\/BE 2.0 고도화 형상관리 현행화 작업 완료"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ Core System 서비스 기능 정의\n\t- 디자인 시스템 환경에 대한 기초 데이터 정의\n\t\t- 형상관리 생성\n\t\t- 패키지 생성 및 개발환경 연동\n\t\t- 피그마 & 깃허브 연동\nㄴ 업무 프로젝트 JIRA 생성\n\t- Core System, Display Project, SaaS 고도화\nㄴ 디스플레이 기능 및 개선에 필요한 분석 자료 정리, 환경 설정(Confluence)\n\t- ERP 전표 불러오기 속도 개선에 대한 방안\n\t- 내부 형상관리 생성\nㄴ 디스플레이 프로젝트 시작 내부 회의 진행\nㄴ Design System Docs 페이지 작성\n\t\n진행\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- 메뉴 및 기능 정의\n\t- Jira Ticket 생성을 위한 에픽 단위 설정\nㄴ 워크샵 발표 자료 준비"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ legacy 개발서버 및 git Branch 정리\nㄴ dev, staging workflow 수정\n진행\nㄴ 파일 다운로드 API 개선\n - wrapper 이용하여 필요한 파일들에 대해 inline으로 바로 표시 할 수 있도록 소스 개선\nㄴ 인포텍 법인카드 연동 API 분석\n - 인포텍 open API를 통한 법인카드 정보 수집 기능 개발\n\n[박수환]\n완료\nㄴ 디스플레이 전자전표 프로젝트 회의\n진행\nㄴ 법인카드 수집 서버 구성\n\n[권연주]\n진행\nㄴ 약관 관리\n - 등록 시 유효성 검사 추가\nㄴ 정기 배치 작업 개발을 위한 스프링 배치 학습"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] - 연차\n\n[김보민]\n진행\nㄴ SaaS > 전자전표 현행화 및 개선\n - 이미지 preview 컴포넌트 수정\n - 전자전표 파일첨부 수정\nㄴ [MO] 자동로그인 관련 수정, access_token > store 이동, refreshToken 갱신 로직 수정\n\n[전원재]\n완료\nㄴ EACC-1843 출장 SaaS > 소스 현행화\n - 아이콘 현행화, 법인카드 현행화\nㄴ SBTM-337 출장경비신청 > 유류대 경로설정시 데이터 저장 안됨\n진행\nㄴ EACC-1843 출장 SaaS > 소스 현행화\n - PC, Mobile - old 파일 삭제\n - 테스트 및 오류 수정\nㄴ 컨퍼런스 참석 결과 보고서 작성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ 토스 메이커 컨퍼런스 2025 참여 보고서 작성\n\n진행\nㄴ 안드로이드 플랫폼 측 업데이트 요청에 대한 대응\nㄴ 워크샵 발표 자료 준비"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ영림원 네이버웍스 결합상품\n  -결합상품 웹사이트 레퍼런스 수집\n  -랜딩페이지 구성안 기획\nㄴSyncFlo 디자인시스템\n  - 디자인 시스템 컴포넌트 단위별 문서작업\n  - 디자인 시스템 Variable, Text style 작업"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1753767303.526809",
+        "client_msg_id": "36a5ce6c-b262-4b9f-b9d8-a78e01a204c3",
+        "text": "2025년 7월 29일 (화)\n`&lt; 스크럼 내용 &gt;`\n```1. 증빙파일 및 첨부파일 관련 웹\/모바일 프로세스 비동기 처리에 대한 프로세스 결정\n2. 워크샵 참여```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 영림원ERP+네이버웍스 결합 상품 영업 관련 회의\n\t\n진행\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- 메뉴 및 기능 정의 (ERP 외 메뉴 결정)\n\t- Jira Ticket 생성을 위한 에픽 단위 설정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 첨부파일 미리보기 API 개선\n - wrapper 이용하여 필요한 파일들에 대해 inline으로 바로 표시 할 수 있도록 소스 개선\n - 첨부파일 삭제시 미리보기 파일도 삭제하도록 수정\nㄴ dev 브랜치 현행화 및 workflow 삭제\n진행\nㄴ 인포텍 법인카드 연동 API 분석\n - 인포텍 open API를 통한 법인카드 정보 수집 기능 개발\n \n[박수환]\n완료\nㄴ 디스플레이 전자전표 메뉴구성 회의\n진행\nㄴ 법인카드 수집 서버 구성\n\n[권연주]\n진행\nㄴ 정기 배치 작업 개발을 위한 스프링 배치 학습```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n진행\nㄴ 디자인 시스템 작업 진행\n - 버튼 component 기능 추가\nㄴ 모바일 대시보드 플로팅 액션 보안 방안 모색\n\n[김보민]\n완료\nㄴ 자동로그인 관련 수정, access_token &gt; store 이동, refreshToken 갱신 로직 수정\n진행\nㄴ SaaS &gt; 전자전표 현행화 및 개선\n - 이미지 preview 컴포넌트 수정\n - 전자전표 파일첨부 수정\nㄴ SBTM-341 [MO] 파일 다운로드 로직 개선\n \n[전원재]\n완료\nㄴ EACC-1843 출장 SaaS &gt; 소스 현행화\n - PC, Mobile - old 파일 삭제\n - 테스트 및 오류 수정\nㄴ 컨퍼런스 참석 결과 보고서 작성\n진행\nㄴ EACC-1843 출장 SaaS &gt; 소스 현행화\n - 출장경비신청서 warning 제거\n - 경조금신청서 오류 메시지 명확하게 수정\n - 유류대, 영수증 계정\/비용 항목 url 수정\n - 내정보관리 warning 제거 \n - 내정보관리 메뉴 이동시 수정모드 변경\n - 카카오, 맵박스 키 불러오는 시점 변경```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ 안드로이드 플랫폼 측 업데이트 요청에 대한 대응```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ영림원 네이버웍스 랜딩페이지 초안구성안 미팅\n진행\nㄴ영림원 네이버웍스 결합상품\n  -결합상품 웹사이트 레퍼런스 수집\n  -랜딩페이지 구성 초안 기획\nㄴSyncFlo 디자인시스템\n  - 디자인 시스템 컴포넌트 단위별 문서작업\n  - 디자인 시스템 Variable, Text style 작업```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ov3rA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 29일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 증빙파일 및 첨부파일 관련 웹\/모바일 프로세스 비동기 처리에 대한 프로세스 결정\n2. 워크샵 참여"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 영림원ERP+네이버웍스 결합 상품 영업 관련 회의\n\t\n진행\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- 메뉴 및 기능 정의 (ERP 외 메뉴 결정)\n\t- Jira Ticket 생성을 위한 에픽 단위 설정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 첨부파일 미리보기 API 개선\n - wrapper 이용하여 필요한 파일들에 대해 inline으로 바로 표시 할 수 있도록 소스 개선\n - 첨부파일 삭제시 미리보기 파일도 삭제하도록 수정\nㄴ dev 브랜치 현행화 및 workflow 삭제\n진행\nㄴ 인포텍 법인카드 연동 API 분석\n - 인포텍 open API를 통한 법인카드 정보 수집 기능 개발\n \n[박수환]\n완료\nㄴ 디스플레이 전자전표 메뉴구성 회의\n진행\nㄴ 법인카드 수집 서버 구성\n\n[권연주]\n진행\nㄴ 정기 배치 작업 개발을 위한 스프링 배치 학습"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n진행\nㄴ 디자인 시스템 작업 진행\n - 버튼 component 기능 추가\nㄴ 모바일 대시보드 플로팅 액션 보안 방안 모색\n\n[김보민]\n완료\nㄴ 자동로그인 관련 수정, access_token > store 이동, refreshToken 갱신 로직 수정\n진행\nㄴ SaaS > 전자전표 현행화 및 개선\n - 이미지 preview 컴포넌트 수정\n - 전자전표 파일첨부 수정\nㄴ SBTM-341 [MO] 파일 다운로드 로직 개선\n \n[전원재]\n완료\nㄴ EACC-1843 출장 SaaS > 소스 현행화\n - PC, Mobile - old 파일 삭제\n - 테스트 및 오류 수정\nㄴ 컨퍼런스 참석 결과 보고서 작성\n진행\nㄴ EACC-1843 출장 SaaS > 소스 현행화\n - 출장경비신청서 warning 제거\n - 경조금신청서 오류 메시지 명확하게 수정\n - 유류대, 영수증 계정\/비용 항목 url 수정\n - 내정보관리 warning 제거 \n - 내정보관리 메뉴 이동시 수정모드 변경\n - 카카오, 맵박스 키 불러오는 시점 변경"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ 안드로이드 플랫폼 측 업데이트 요청에 대한 대응"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ영림원 네이버웍스 랜딩페이지 초안구성안 미팅\n진행\nㄴ영림원 네이버웍스 결합상품\n  -결합상품 웹사이트 레퍼런스 수집\n  -랜딩페이지 구성 초안 기획\nㄴSyncFlo 디자인시스템\n  - 디자인 시스템 컴포넌트 단위별 문서작업\n  - 디자인 시스템 Variable, Text style 작업"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

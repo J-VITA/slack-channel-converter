@@ -1,0 +1,139 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1720599800.851339",
+        "client_msg_id": "a49e4f30-1743-415c-922d-10343f79396c",
+        "text": "2024-07-10(수) 스크럼\n`&lt; 백엔드 &gt;`\n```[장정수]\nㄴ 이메일 전송 기능 개발 진행\nㄴ 알림 메시지 관련 엔티티 설계 진행\nㄴ 사용자관리 API 수정 작업 진행\n[구시완]\nㄴ 거래처 관리 기능 개발 진행(계속)```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\nㄴ 계정\/비용항목 관리 화면 개발 진행(우선순위 변경)\n[김정중]\nㄴ 사용자관리 기능 개발 진행\nㄴ 공통 UI 추가 작업 진행```\n`&lt; 디자인 &gt;`\n```[차윤수]\nㄴ 예산관리 화면 설계 보완 진행\nㄴ 경비확정 프로세스 정리 진행```\n`&lt; 이슈논의 &gt;`\n```ㄴ 결재 및 경비확정 프로세스 타사(하이웍스, 유니포스트) 사례 논의(by. 차윤수)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/JnLp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-07-10(수) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 이메일 전송 기능 개발 진행\nㄴ 알림 메시지 관련 엔티티 설계 진행\nㄴ 사용자관리 API 수정 작업 진행\n[구시완]\nㄴ 거래처 관리 기능 개발 진행(계속)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 계정\/비용항목 관리 화면 개발 진행(우선순위 변경)\n[김정중]\nㄴ 사용자관리 기능 개발 진행\nㄴ 공통 UI 추가 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 예산관리 화면 설계 보완 진행\nㄴ 경비확정 프로세스 정리 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 이슈논의 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ㄴ 결재 및 경비확정 프로세스 타사(하이웍스, 유니포스트) 사례 논의(by. 차윤수)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1748562690.590399",
+        "client_msg_id": "b35048c9-570b-42ee-819d-1356cb41ee02",
+        "text": "2025년 5월 29일\n`&lt; 스크럼 내용 &gt;`\n```1. 파일첨부 금일 완료 예정 (BE: 박수환, FE: 김보민)\n2. 대시보드 카테고리별 조회기간 저장 (BE: 권연주, FE: 우태림)\n\t- Web 에서 저장, Mobile 에서 조회\n\t- default date 는 비어있을 수 있으며, 비어있을 경우 웹에서 최근 2개월로 조회\n3. 금주 유류대(70%), 영수증(90%), 법인카드가(80%) -&gt; 미청구가 현재 미개발 (BE: 박광호, FE: 김보민, 전원재)\n\t- 미청구는 금주내로 백엔드가 완료 예정이고, 차주 수요일 완료 예정\n4. 상신 기능은 현재 경비처리 부분 정상 작동 (BE: 박광호, FE: 우태림)\n\t- 매입세금계산서, 선급금, 출장경비, 경조금은 DB 정규화하면서 생겨난 개선 작업\n5. 전표 유형별 Validator 작업 (BE: 박수환)\n\t- 영수증 O, 법인카드 O, 유류대 O, 출장비 X, 경조금 X, 예산신청서 X, 세금계산서(수기\/전자) X, 선급금 X, 법인카드불출 X\n6. 반려\/회수 건에 대한 재기안 테스트(BE: 권연주)\n7. 데모 사이트 관련 개선되어진 현재 사이트로 업데이트 예정```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ EACC-1813 BE, FE) 전표관리 세금계산서 부가세대금 관련 이슈\n\t- 전표내역, 검인\/확정, 확정현황 조회 시 세금계산서의 경우 차변계정으로 계정과목을 관리하면서 공급가액으로 들어가면서 문제가 생기는 것처럼 보임\n\t\t관련하여 권민식 과장과 논의 예정\n\t\n진행\nㄴ 일정관리\nㄴ 모바일 겸직관련 프로세스 정의\nㄴ EACC-1807 BE, FE) MQTT 기능 작성 (로컬 기초 기능 테스트)```\n`&lt; 백엔드 &gt;`\n```[박광호]\n[박광호]\n완료\nㄴ 전자결재\n - EACC-1617 카드영수증 생성용 정보 추가(금액 포함)\n - EACC-1617 결재정보 조회시 전표 detail 정보 추가\n진행\nㄴ 전자결재\n - EACC-1617 미청구금액 처리 로직 개발\n[박수환]\n완료\nㄴ EACC-1621 영수증 관련 모바일스캔 기능\n    - 모바일 스캔 테스트 지원\nㄴ EACC-1806 전표 검증, 공통 로직 분리\n    - validator 공통 코드화\n[권연주]\n완료\nㄴ EACC-1802 경비지출(유류대) CRUD\n - 전표 작성 에러 디버깅\n진행\nㄴ EACC-1809 임직원 카테고리별 조회기간 API```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ EACC-1789 카드불출신청서 조회\nㄴ EACC-1783 지출결의서 조회\nㄴ EACC-1785 경조금신청서 조회\nㄴ EACC-1788 예산신청서 조회\n\n진행\nㄴ EACC-1789 카드불출신청서 미리보기 (계속)\nㄴ EACC-1783 지출결의서 미리보기(계속)\nㄴ EACC-1785 경조금신청서 미리보기 (계속)\nㄴ EACC-1788 예산신청서 미리보기 (계속)\nㄴ EACC-1787 선급금 조회\/미리보기 (계속)\nㄴ EACC-1784 출장경비신청서 조회\/미리보기 (계속)\nㄴ EACC-1786 매입세금계산서 조회\/미리보기 (계속)\nㄴ EACC-1804 기준정보관리 → 입력항목관리\n\n[김보민]\n진행\nㄴ EACC-1696 영수증 관련 모바일스캔 UI 추가\nㄴ EACC-1775 지출결의서 UI 법인카드 등록\/수정 모달\n\n[전원재]\n완료\nㄴ EACC-1698 전자 결재 &gt; 지출 결의서 &gt; 유류대\n - 주행정보 UI 추가\n - 주행정보 데이터 등록, 수정 로직 수정\nㄴ EACC-1697 전자 결재 &gt; 지출 결의서 &gt; 영수증\n - 영수증 데이터 등록, 수정, 삭제 추가 \n진행\nㄴ EACC-1698 전자 결재 &gt; 지출 결의서 &gt; 유류대\n - 유류대 등록, 수정, 삭제 추가\n - 지출결의서 문서 임시저장 테스트```\n`&lt; 모바일 &gt;`\n```[홍제원]\nㄴ  EACC-1799 Android] 스토어 등록 및 최초 등록 검수 시작\n\t- 리젝 대응 중 ( 기능 미작동 메뉴에 따른 리젝 )\n\nㄴ EACC-1800 iOS] 스토어 등록 및 최초 등록 검수 시작\n\t- 안드로이드 리젝 대응 이후 검수 진행```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ브랜드 사이트 리뉴얼\n  - 기능 이미지 작업(개인경비 세금계산서, ERP전표, 출장관리, 법인카드, 검인확정)\n진행\nㄴ브랜드 사이트 리뉴얼\n  - 기능 이미지 작업(전자결재, 예산관리, 통계보고서, AI기능, 인사\/권한)```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q7tak",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 5월 29일\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 파일첨부 금일 완료 예정 (BE: 박수환, FE: 김보민)\n2. 대시보드 카테고리별 조회기간 저장 (BE: 권연주, FE: 우태림)\n\t- Web 에서 저장, Mobile 에서 조회\n\t- default date 는 비어있을 수 있으며, 비어있을 경우 웹에서 최근 2개월로 조회\n3. 금주 유류대(70%), 영수증(90%), 법인카드가(80%) -> 미청구가 현재 미개발 (BE: 박광호, FE: 김보민, 전원재)\n\t- 미청구는 금주내로 백엔드가 완료 예정이고, 차주 수요일 완료 예정\n4. 상신 기능은 현재 경비처리 부분 정상 작동 (BE: 박광호, FE: 우태림)\n\t- 매입세금계산서, 선급금, 출장경비, 경조금은 DB 정규화하면서 생겨난 개선 작업\n5. 전표 유형별 Validator 작업 (BE: 박수환)\n\t- 영수증 O, 법인카드 O, 유류대 O, 출장비 X, 경조금 X, 예산신청서 X, 세금계산서(수기\/전자) X, 선급금 X, 법인카드불출 X\n6. 반려\/회수 건에 대한 재기안 테스트(BE: 권연주)\n7. 데모 사이트 관련 개선되어진 현재 사이트로 업데이트 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ EACC-1813 BE, FE) 전표관리 세금계산서 부가세대금 관련 이슈\n\t- 전표내역, 검인\/확정, 확정현황 조회 시 세금계산서의 경우 차변계정으로 계정과목을 관리하면서 공급가액으로 들어가면서 문제가 생기는 것처럼 보임\n\t\t관련하여 권민식 과장과 논의 예정\n\t\n진행\nㄴ 일정관리\nㄴ 모바일 겸직관련 프로세스 정의\nㄴ EACC-1807 BE, FE) MQTT 기능 작성 (로컬 기초 기능 테스트)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n[박광호]\n완료\nㄴ 전자결재\n - EACC-1617 카드영수증 생성용 정보 추가(금액 포함)\n - EACC-1617 결재정보 조회시 전표 detail 정보 추가\n진행\nㄴ 전자결재\n - EACC-1617 미청구금액 처리 로직 개발\n[박수환]\n완료\nㄴ EACC-1621 영수증 관련 모바일스캔 기능\n    - 모바일 스캔 테스트 지원\nㄴ EACC-1806 전표 검증, 공통 로직 분리\n    - validator 공통 코드화\n[권연주]\n완료\nㄴ EACC-1802 경비지출(유류대) CRUD\n - 전표 작성 에러 디버깅\n진행\nㄴ EACC-1809 임직원 카테고리별 조회기간 API"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ EACC-1789 카드불출신청서 조회\nㄴ EACC-1783 지출결의서 조회\nㄴ EACC-1785 경조금신청서 조회\nㄴ EACC-1788 예산신청서 조회\n\n진행\nㄴ EACC-1789 카드불출신청서 미리보기 (계속)\nㄴ EACC-1783 지출결의서 미리보기(계속)\nㄴ EACC-1785 경조금신청서 미리보기 (계속)\nㄴ EACC-1788 예산신청서 미리보기 (계속)\nㄴ EACC-1787 선급금 조회\/미리보기 (계속)\nㄴ EACC-1784 출장경비신청서 조회\/미리보기 (계속)\nㄴ EACC-1786 매입세금계산서 조회\/미리보기 (계속)\nㄴ EACC-1804 기준정보관리 → 입력항목관리\n\n[김보민]\n진행\nㄴ EACC-1696 영수증 관련 모바일스캔 UI 추가\nㄴ EACC-1775 지출결의서 UI 법인카드 등록\/수정 모달\n\n[전원재]\n완료\nㄴ EACC-1698 전자 결재 > 지출 결의서 > 유류대\n - 주행정보 UI 추가\n - 주행정보 데이터 등록, 수정 로직 수정\nㄴ EACC-1697 전자 결재 > 지출 결의서 > 영수증\n - 영수증 데이터 등록, 수정, 삭제 추가 \n진행\nㄴ EACC-1698 전자 결재 > 지출 결의서 > 유류대\n - 유류대 등록, 수정, 삭제 추가\n - 지출결의서 문서 임시저장 테스트"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\nㄴ  EACC-1799 Android] 스토어 등록 및 최초 등록 검수 시작\n\t- 리젝 대응 중 ( 기능 미작동 메뉴에 따른 리젝 )\n\nㄴ EACC-1800 iOS] 스토어 등록 및 최초 등록 검수 시작\n\t- 안드로이드 리젝 대응 이후 검수 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ브랜드 사이트 리뉴얼\n  - 기능 이미지 작업(개인경비 세금계산서, ERP전표, 출장관리, 법인카드, 검인확정)\n진행\nㄴ브랜드 사이트 리뉴얼\n  - 기능 이미지 작업(전자결재, 예산관리, 통계보고서, AI기능, 인사\/권한)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

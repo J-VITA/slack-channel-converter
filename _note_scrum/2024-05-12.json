@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1715573567.560619",
+        "client_msg_id": "3433965d-1d30-4ef0-878f-c434a1a35b07",
+        "text": "2024-05-13(월) 스크럼\n```[장정수]\nㄴ 기술스택 등 정리 작업 진행\nㄴ 화면설게 검토 진행(계속)\n[이성민]\nㄴ DB 설계 초안 confluence 정리 \nㄴ DB 물리모델 생성 및 정리 작업 진행 예정\n[구시완]\nㄴ 백엔드 환경 설정 및 기존 소스코드 정리 작업 \nㄴ 로그인 히스토리 개발 완료\nㄴ 사용자 삭제\/수정\nㄴ 공통코드 개발 완료 예정\n[김정중]\nㄴ 프론트엔드 화면 레이아웃 작업 진행(대시보드, 경비작성, 시스템설정 구분)\nㄴ 관련 Nuxt 부분 이슈 해결 진행\n[차윤수]\nㄴ 금요일 회의 내용 정리\nㄴ 추가 보완 사항 정리 및 추가 작업 진행 예정```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L9OXR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-05-13(월) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 기술스택 등 정리 작업 진행\nㄴ 화면설게 검토 진행(계속)\n[이성민]\nㄴ DB 설계 초안 confluence 정리 \nㄴ DB 물리모델 생성 및 정리 작업 진행 예정\n[구시완]\nㄴ 백엔드 환경 설정 및 기존 소스코드 정리 작업 \nㄴ 로그인 히스토리 개발 완료\nㄴ 사용자 삭제\/수정\nㄴ 공통코드 개발 완료 예정\n[김정중]\nㄴ 프론트엔드 화면 레이아웃 작업 진행(대시보드, 경비작성, 시스템설정 구분)\nㄴ 관련 Nuxt 부분 이슈 해결 진행\n[차윤수]\nㄴ 금요일 회의 내용 정리\nㄴ 추가 보완 사항 정리 및 추가 작업 진행 예정"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1717735545.597429",
+        "client_msg_id": "79d013ba-45df-4116-95eb-f8e043a79662",
+        "text": "2024-06-07(금) 스크럼\n```[장정수]\nㄴ 백엔드 개발환경 설정 검토 및 보완\nㄴ 프론트엔드 개발환경 검토 진행\n[이성민] - 퇴사\n[구시완] - 연차\n[김정중]\nㄴ 회계기간관리 화면 개발 진행(밸리데이션, 모달 등)\nㄴ 메뉴 API 연동 작업 진행\n[차윤수]\nㄴ 기준정보관리 이번주 완료 예정\nㄴ 결재환경설정 완료 예정\nㄴ 다음주 부터 예산관리 메뉴 화면 퍼블리싱 예정```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yerCK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-06-07(금) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 백엔드 개발환경 설정 검토 및 보완\nㄴ 프론트엔드 개발환경 검토 진행\n[이성민] - 퇴사\n[구시완] - 연차\n[김정중]\nㄴ 회계기간관리 화면 개발 진행(밸리데이션, 모달 등)\nㄴ 메뉴 API 연동 작업 진행\n[차윤수]\nㄴ 기준정보관리 이번주 완료 예정\nㄴ 결재환경설정 완료 예정\nㄴ 다음주 부터 예산관리 메뉴 화면 퍼블리싱 예정"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

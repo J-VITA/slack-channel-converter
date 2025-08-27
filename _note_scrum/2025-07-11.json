@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1752223809.537269",
+        "client_msg_id": "c34d4ae1-580d-44a7-bc4d-3e6f97b83462",
+        "text": "2025년 7월 10일 (목)\n`&lt; 스크럼 내용 &gt;`\n```1. 테스트 진행```\n`&lt; 총괄 &gt;`\n```[김정중] - 연차\n진행\nㄴ Syncflo Lite Test 진행\nㄴ NCP 조직 계정 및 서비스 생성 이후 클라우드 세팅```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 백엔드 NCP 환경 설정\n - runner build 후 container registry push 확인\n - bastion 서버 -&gt; k8s 서버 접속 테스트\n진행\nㄴ k8s 및 CI\/CD 세팅\n[박수환]\n완료\nㄴ OCR 로직 변경\n진행\nㄴ SBTM-257 이메일 중복체크 수정\n[권연주]\n완료\nㄴ SBTM-249 전표내역조회 - 증빙거래처 조회 안됨\nㄴ SBTM-229 재기안 문서 전표 목록 노출 오류\nㄴ 법인카드 전표 재기안 오류 수정\nㄴ 재기안 횟수 제한 로직 추가\nㄴ 사용자 추가 시 default quickMenu 등록 로직 추가```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ SaaS QA 진행\nㄴ 백오피스 QA 진행\n\n[김보민]\n완료\nㄴ SBTM-215 전자결재 → 제목없는 문서에 대한 대응 필요\nㄴ SBTM-222 출장사전신청 제목 저장 오류\nㄴ SBTM-240 출장사전신청내역 리스트 상태 라벨 컬러 수정 필요\nㄴ SBTM-235 문서 상세 내 목록 버튼 → 뒤로 버튼으로 변경필요\nㄴ SBTM-218 결재진행 → 문서 상세 → 결재선 변경 버튼 노출 유무 필요\nㄴ SBTM-204 개인경비 신청내역 관련 오류\nㄴ SBTM-207 카드 선택후 삭제하기 버튼 활성화 오류\nㄴ SBTM-206 개인경비 신청 → UI 결재 상신 팝업 아이콘 크기 수정\nㄴ SBTM-208 개인경비신청내역 리스트 업데이트 오류\nㄴ SBTM-217 전자결재 → 임시저장에서 상세 진입 후 임시저장 할 경우 결재선 참조자가 없어짐\n진행\nㄴ SBTM-236 OCR 자동인식\nㄴ SBTM-243 전표내역조회 - 전표번호 클릭시 선택한 전표번호가 표시 안됨\nㄴ SBTM-245 전표내역조회 - 문서 클릭시 문서가 안열림\nㄴ SBTM-247 전표내역조회 - 프로젝트 목록 안보임\nㄴ SBTM-253 [BO] 사용자 수정 팝업 이메일 벨리데이션 확인 필요\nㄴ SBTM-254 [BO] 회사 신규 등록 이후 회사 목록 업데이트 안됨\nㄴ SBTM-219 [MO] 전자 결재 반려\/회수 건수 노출 안됨\nㄴ SBTM-220 [MO] 반려\/회수 아이템 재기안 신청 클릭시 무반응\nㄴ SBTM-224 [MO] 처리 할 문서 다중 선택 단일 선택 모두 선택에 따른 건수 동작 불일치\nㄴ SBTM-226 [MO] 결재 하기 클릭 후 UI 확인 플요\n\n[전원재]\n완료\nㄴ SBTM-211 개인별 사용통계 -&gt; 전표유형 목록 정리 필요\nㄴ SBTM-192 출장경비 신청 → 유류대 등록 → 경로검색 팝업 맵, 사용일자 선택 에러\nㄴ SBTM-230 누적 사용통계 -&gt; 타사 사업장 보임, 불필요한 전표유형\nㄴ SBTM-234 월별 사용통계 -&gt; 목록조회 오류\nㄴ SBTM-214 개인별 사용통계 -&gt; 부서선택 안됨\nㄴ SBTM-212 개인별 사용통계 엑셀다운로드시 데이터 에러\n진행\nㄴ SBTM-187 출장 경로관리 - 경로추가시 지도 안보임\nㄴ SBTM-251 로그인 -&gt; 기억하기 기능 누락\nㄴ SBTM-252 개인설정 → 개인결재선관리 → 대결자\/대체 검인자 영역 노출여부 조건 추가\nㄴ SBTM-193 퀵메뉴 메뉴 이미지 매번 로딩\nㄴ SBTM-189 퀵메뉴 등록 안됨```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ 모바일 테스트 케이스 리스트 작성```\n`&lt; 디자인 &gt;`\n```[차윤수] - 연차```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KDwwl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 10일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 테스트 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중] - 연차\n진행\nㄴ Syncflo Lite Test 진행\nㄴ NCP 조직 계정 및 서비스 생성 이후 클라우드 세팅"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 백엔드 NCP 환경 설정\n - runner build 후 container registry push 확인\n - bastion 서버 -> k8s 서버 접속 테스트\n진행\nㄴ k8s 및 CI\/CD 세팅\n[박수환]\n완료\nㄴ OCR 로직 변경\n진행\nㄴ SBTM-257 이메일 중복체크 수정\n[권연주]\n완료\nㄴ SBTM-249 전표내역조회 - 증빙거래처 조회 안됨\nㄴ SBTM-229 재기안 문서 전표 목록 노출 오류\nㄴ 법인카드 전표 재기안 오류 수정\nㄴ 재기안 횟수 제한 로직 추가\nㄴ 사용자 추가 시 default quickMenu 등록 로직 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ SaaS QA 진행\nㄴ 백오피스 QA 진행\n\n[김보민]\n완료\nㄴ SBTM-215 전자결재 → 제목없는 문서에 대한 대응 필요\nㄴ SBTM-222 출장사전신청 제목 저장 오류\nㄴ SBTM-240 출장사전신청내역 리스트 상태 라벨 컬러 수정 필요\nㄴ SBTM-235 문서 상세 내 목록 버튼 → 뒤로 버튼으로 변경필요\nㄴ SBTM-218 결재진행 → 문서 상세 → 결재선 변경 버튼 노출 유무 필요\nㄴ SBTM-204 개인경비 신청내역 관련 오류\nㄴ SBTM-207 카드 선택후 삭제하기 버튼 활성화 오류\nㄴ SBTM-206 개인경비 신청 → UI 결재 상신 팝업 아이콘 크기 수정\nㄴ SBTM-208 개인경비신청내역 리스트 업데이트 오류\nㄴ SBTM-217 전자결재 → 임시저장에서 상세 진입 후 임시저장 할 경우 결재선 참조자가 없어짐\n진행\nㄴ SBTM-236 OCR 자동인식\nㄴ SBTM-243 전표내역조회 - 전표번호 클릭시 선택한 전표번호가 표시 안됨\nㄴ SBTM-245 전표내역조회 - 문서 클릭시 문서가 안열림\nㄴ SBTM-247 전표내역조회 - 프로젝트 목록 안보임\nㄴ SBTM-253 [BO] 사용자 수정 팝업 이메일 벨리데이션 확인 필요\nㄴ SBTM-254 [BO] 회사 신규 등록 이후 회사 목록 업데이트 안됨\nㄴ SBTM-219 [MO] 전자 결재 반려\/회수 건수 노출 안됨\nㄴ SBTM-220 [MO] 반려\/회수 아이템 재기안 신청 클릭시 무반응\nㄴ SBTM-224 [MO] 처리 할 문서 다중 선택 단일 선택 모두 선택에 따른 건수 동작 불일치\nㄴ SBTM-226 [MO] 결재 하기 클릭 후 UI 확인 플요\n\n[전원재]\n완료\nㄴ SBTM-211 개인별 사용통계 -> 전표유형 목록 정리 필요\nㄴ SBTM-192 출장경비 신청 → 유류대 등록 → 경로검색 팝업 맵, 사용일자 선택 에러\nㄴ SBTM-230 누적 사용통계 -> 타사 사업장 보임, 불필요한 전표유형\nㄴ SBTM-234 월별 사용통계 -> 목록조회 오류\nㄴ SBTM-214 개인별 사용통계 -> 부서선택 안됨\nㄴ SBTM-212 개인별 사용통계 엑셀다운로드시 데이터 에러\n진행\nㄴ SBTM-187 출장 경로관리 - 경로추가시 지도 안보임\nㄴ SBTM-251 로그인 -> 기억하기 기능 누락\nㄴ SBTM-252 개인설정 → 개인결재선관리 → 대결자\/대체 검인자 영역 노출여부 조건 추가\nㄴ SBTM-193 퀵메뉴 메뉴 이미지 매번 로딩\nㄴ SBTM-189 퀵메뉴 등록 안됨"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ 모바일 테스트 케이스 리스트 작성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

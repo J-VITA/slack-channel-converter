@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1751532709.695799",
+        "client_msg_id": "93829203-a28b-4451-8652-c66b6d733b1f",
+        "text": "2025년 7월 03일 (목)\n`&lt; 스크럼 내용 &gt;`\n```1. 법인카드 관리 등록 현 상태 유지 개발 진행 중\n\t- 인포텍 API 연동 서비스 개발 기술 검토 후 개발 고도화 진행 예정\n2. SaaS 모바일 앱 심사 진행 중```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ NCP 인프라 관련 회의\nㄴ 인포텍 법인카드 관련 회의\n\t- 공인인증서 툴킷 비교 견적 관련\n\t- API 서비스 이용 관련 인프라 및 고도화 논의 등\n\n진행\nㄴ 디스플레이 범위 산정 회의\n\t- 화상미팅 오전 10시 예정\nㄴ Syncflo Lite Test 진행 스케쥴\n\t- 담당자별 Task 양식(Confluence) 및 티켓 생성```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ SBTM-108 push 서버 CI\/CD 세팅\n진행\nㄴ SBTM-121 이메일 양식 추가\n - 알림 발송시 이메일 양식 추가\n - push에 링크 저장 로직 추가\n[박수환]\n완료\nㄴ SBTM-38-BE-법인카드-정보관리\n    - 카드등록정보 CRUD 추가\n    - 등록 완료 프로세스 개발\n[권연주]\n진행\nㄴ SBTM-114 [BE] 법인카드 - 정보관리 엑셀업로드\n - 법인카드 정보관리 엑셀양식 생성\n - api 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ SBTM-10 백오피스, SBTM-8 서비스 기능 추가 및 수정 작업\n - 회사 활성화 비활성화 기능 추가\n - 로고변경\n - 로그인 아이디, 비밀번호로 라벨 변경\n - 비밀번호찾기 - 아이디, 이메일주소 로 라벨 변경\nㄴ SBTM-8 서비스 기능 추가 및 수정 작업\n- 로고변경\n - 로그인 아이디, 비밀번호로 라벨 변경\n - 비밀번호찾기 - 아이디, 이메일주소 로 라벨 변경\nㄴ SBTM-93 사업자 서비스 API 연동\n - 계약만료 회사에 대한 팝업 처리\n진행\nㄴ SBTM-10 백오피스 기능 추가 및 수정 작업\nㄴ SBTM-8 서비스 기능 추가 및 수정 작업\n\n[김보민]\n진행\nㄴ SBTM-111 [Backoffice] 법인카드 등록처리\nㄴ SBTM-115 [MO] 출장관리 - 출장사전 신청 R UI 수정\nㄴ SBTM-118 [MO] 출장관리 - 출장경비 신청 R UI 수정\n\n[전원재]\n완료\nㄴ SBTM-102 [FE] 개인경비 - 개인경비 신청내역\n - 목록 grid &gt; table로 ui 수정\nㄴ SBTM-110 [BTM] 법인카드 리스트 및 등록 모달 작업 \n - 목록,모달  UI 수정\n진행\nㄴ SBTM-102 [FE] 개인경비 - 개인경비 신청내역\n - 개인경비 신청서 아이콘 오류 수정\n - 개인경비 신청 내역 목록 UI 수정\n - 리팩토링\nㄴ SBTM-110 [BTM] 법인카드 리스트 및 등록 모달 작업 \n - 법인카드 정보관리 엑셀업로드 api 연동```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ SBTM-112 iOS] 앱 심사 및 배포 완료\nㄴ SBTM-113 AOS] 앱 심사 및 배포 완료```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ출장기준관리 등록 팝업 내 통제조건 추가\n  -일별합산, 출장기간내 금액 합산 옵션화\nㄴ메뉴관리 : 퀵메뉴 아이콘URL 변경으로 재등록\nㄴ앱스토어 등록 리젝으로 인한 모바일 이미지 수정\n진행\nㄴ모바일 출장경비신청서 조회 UI 변경(날짜기준 그룹핑, 규정위반)\nㄴ법인카드 등록처리상태 : 상태값 재조정 [변경요청,삭제대기,삭제완료,등록대기,등록완료]\nㄴ알림용 이메일 템플릿 디자인\n - 검인, 수신, 대리결재, 참조, 카드등록\/삭제등 알림추가```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2VJsz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 03일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 법인카드 관리 등록 현 상태 유지 개발 진행 중\n\t- 인포텍 API 연동 서비스 개발 기술 검토 후 개발 고도화 진행 예정\n2. SaaS 모바일 앱 심사 진행 중"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ NCP 인프라 관련 회의\nㄴ 인포텍 법인카드 관련 회의\n\t- 공인인증서 툴킷 비교 견적 관련\n\t- API 서비스 이용 관련 인프라 및 고도화 논의 등\n\n진행\nㄴ 디스플레이 범위 산정 회의\n\t- 화상미팅 오전 10시 예정\nㄴ Syncflo Lite Test 진행 스케쥴\n\t- 담당자별 Task 양식(Confluence) 및 티켓 생성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ SBTM-108 push 서버 CI\/CD 세팅\n진행\nㄴ SBTM-121 이메일 양식 추가\n - 알림 발송시 이메일 양식 추가\n - push에 링크 저장 로직 추가\n[박수환]\n완료\nㄴ SBTM-38-BE-법인카드-정보관리\n    - 카드등록정보 CRUD 추가\n    - 등록 완료 프로세스 개발\n[권연주]\n진행\nㄴ SBTM-114 [BE] 법인카드 - 정보관리 엑셀업로드\n - 법인카드 정보관리 엑셀양식 생성\n - api 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ SBTM-10 백오피스, SBTM-8 서비스 기능 추가 및 수정 작업\n - 회사 활성화 비활성화 기능 추가\n - 로고변경\n - 로그인 아이디, 비밀번호로 라벨 변경\n - 비밀번호찾기 - 아이디, 이메일주소 로 라벨 변경\nㄴ SBTM-8 서비스 기능 추가 및 수정 작업\n- 로고변경\n - 로그인 아이디, 비밀번호로 라벨 변경\n - 비밀번호찾기 - 아이디, 이메일주소 로 라벨 변경\nㄴ SBTM-93 사업자 서비스 API 연동\n - 계약만료 회사에 대한 팝업 처리\n진행\nㄴ SBTM-10 백오피스 기능 추가 및 수정 작업\nㄴ SBTM-8 서비스 기능 추가 및 수정 작업\n\n[김보민]\n진행\nㄴ SBTM-111 [Backoffice] 법인카드 등록처리\nㄴ SBTM-115 [MO] 출장관리 - 출장사전 신청 R UI 수정\nㄴ SBTM-118 [MO] 출장관리 - 출장경비 신청 R UI 수정\n\n[전원재]\n완료\nㄴ SBTM-102 [FE] 개인경비 - 개인경비 신청내역\n - 목록 grid > table로 ui 수정\nㄴ SBTM-110 [BTM] 법인카드 리스트 및 등록 모달 작업 \n - 목록,모달  UI 수정\n진행\nㄴ SBTM-102 [FE] 개인경비 - 개인경비 신청내역\n - 개인경비 신청서 아이콘 오류 수정\n - 개인경비 신청 내역 목록 UI 수정\n - 리팩토링\nㄴ SBTM-110 [BTM] 법인카드 리스트 및 등록 모달 작업 \n - 법인카드 정보관리 엑셀업로드 api 연동"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ SBTM-112 iOS] 앱 심사 및 배포 완료\nㄴ SBTM-113 AOS] 앱 심사 및 배포 완료"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ출장기준관리 등록 팝업 내 통제조건 추가\n  -일별합산, 출장기간내 금액 합산 옵션화\nㄴ메뉴관리 : 퀵메뉴 아이콘URL 변경으로 재등록\nㄴ앱스토어 등록 리젝으로 인한 모바일 이미지 수정\n진행\nㄴ모바일 출장경비신청서 조회 UI 변경(날짜기준 그룹핑, 규정위반)\nㄴ법인카드 등록처리상태 : 상태값 재조정 [변경요청,삭제대기,삭제완료,등록대기,등록완료]\nㄴ알림용 이메일 템플릿 디자인\n - 검인, 수신, 대리결재, 참조, 카드등록\/삭제등 알림추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

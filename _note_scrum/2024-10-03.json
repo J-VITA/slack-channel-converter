@@ -1,0 +1,135 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1728019856.993629",
+        "client_msg_id": "6c930398-e55d-441e-9ed4-cec76ca471b6",
+        "text": "`백엔드`\n```[구시완]\nㄴ 기준정보관리 테스트 진행\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)\n - 결재 상신 api 수정 완료\n - 결재 후결 및 대결 api 개발 진행```\n`프론트엔드`\n```[우태림]\nㄴ 결재선 Component UI 작업 (완료)\nㄴ 전자결재 → 결재대기 API 테스트 및 결재,반려 API 테스트 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 결재상신 완료\nㄴ 전자결재 → 전자결재 홈 → 결재문서 상세 완료\nㄴ 전자결재 → 전자결재 홈 → 현황 조회 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 이동 진행 (예정)\nㄴ 프론트 개발 환경 파일 default 설정\nㄴ 이슈\n - 결재상신 문서 제목, 결재내용 추가 저장 요청 (완료)\n - 결재문서 작성 지출유형별 컴포넌트 분리 진행 (완료)\n - ant design 라이브러리 버전 호환성 문제 이슈 (완료) (편집됨)\n \n[전원재]\nㄴ 프로젝트 셋팅(완료)\nㄴ 경조금 관리 화면 UI 및 API 연동 작업 진행```\n`디자인`\n```[차윤수]\nㄴ 전자전표시스템 타사 모바일 구현 기능 검토, 모바일앱 UI 프로세스 학습 (유니포스트, 스팬딧)\nㄴ 전자전표2.0 추가기능 화면UI 논의 (권민식대리) - 출장, 법인카드, 세금계산서, 모바일\nㄴ 논의필요: 전자결재 결재라인 UI 변경, 버튼비활성화 상태 추가```\n`개발논의사항`\n```1. 공통 UI : 삭제, 복사 등 액션 가능 조건이 아닐때는 버튼은 비활성화 처리\n   단, 모달 내 저장 버튼은 활성화를 한다. ```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "W3Fmp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 기준정보관리 테스트 진행\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)\n - 결재 상신 api 수정 완료\n - 결재 후결 및 대결 api 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 결재선 Component UI 작업 (완료)\nㄴ 전자결재 → 결재대기 API 테스트 및 결재,반려 API 테스트 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 결재상신 완료\nㄴ 전자결재 → 전자결재 홈 → 결재문서 상세 완료\nㄴ 전자결재 → 전자결재 홈 → 현황 조회 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 이동 진행 (예정)\nㄴ 프론트 개발 환경 파일 default 설정\nㄴ 이슈\n - 결재상신 문서 제목, 결재내용 추가 저장 요청 (완료)\n - 결재문서 작성 지출유형별 컴포넌트 분리 진행 (완료)\n - ant design 라이브러리 버전 호환성 문제 이슈 (완료) (편집됨)\n \n[전원재]\nㄴ 프로젝트 셋팅(완료)\nㄴ 경조금 관리 화면 UI 및 API 연동 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 전자전표시스템 타사 모바일 구현 기능 검토, 모바일앱 UI 프로세스 학습 (유니포스트, 스팬딧)\nㄴ 전자전표2.0 추가기능 화면UI 논의 (권민식대리) - 출장, 법인카드, 세금계산서, 모바일\nㄴ 논의필요: 전자결재 결재라인 UI 변경, 버튼비활성화 상태 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "개발논의사항",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 공통 UI : 삭제, 복사 등 액션 가능 조건이 아닐때는 버튼은 비활성화 처리\n   단, 모달 내 저장 버튼은 활성화를 한다. "
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

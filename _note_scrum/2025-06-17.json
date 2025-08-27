@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1750153095.027789",
+        "client_msg_id": "f43b8109-5b9b-4ae6-9c48-9e77cc5ccaf0",
+        "text": "2025년 6월 17일 (화)\n\n`&lt; 스크럼 내용 &gt;`\n```1. Syncflo 출장관리 서비스 신규 프로세스 및 보완\n\t- 출장결의서 신청에 대한 문제점 개선 및 보완\n\t- 서비스 가입 등에 의한 프로세스 정리 (회원가입 \/ 로그인 )\n\t\t- 기초 데이터 등 온보딩 기초 정보 데이터 결정\n\t\t- 서비스 문의 등 시작점 결정\n\t- Seat 단위에 대한 정산 등 정의\n2. WBS 일정 및 JIRA Ticket 조정\n\t- 테스트 및 배포 등에 대한 일정 추가\n\t- PM 일정 추가```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ SBTM-11 [설계] 사전작업 - 메뉴 - 기초 정보\nㄴ SBTM-13 [설계] 사전작업 -인사정보 - 기초 정보\nㄴ SBTM-15 [설계] 사전작업 -코스트센터 - 기초 정보\nㄴ SBTM-17 [설계] 사전작업 -기준관리정보 - 기초 정보\nㄴ SBTM-19 [설계] 서비스 - 회원가입\nㄴ SBTM-26 [설계] 서비스 -로그인\nㄴ SBTM-32 [설계] 서비스 -개인경비 - 출장결의서 신청\nㄴ SBTM-36 [설계] 서비스 -법인카드 - 정보관리\nㄴ SBTM-48 [설계] 백오피스 - 사업자 서비스 관리\nㄴ SBTM-52 [설계] 백오피스 - 약관관리\n진행\nㄴ SBTM-40 [설계] 시스템관리 - 약관관리\nㄴ SBTM-60 [설계] 백오피스 - 게시판 관리\nㄴ JIRA 보드 조정 및 WBS 재조정\n\t- 테스트 기간 포함 한 일정 추가 조정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 경비규정정보 redis 저장 및 조회 처리\nㄴ SBTM-9 [BE] 백오피스 - 개발환경설정\n - DB 생성\n - 브랜치 추가 및 소스 정리\n진행\nㄴ SBTM-9 [BE] 백오피스 - 개발환경설정\n - CI\/CD 설정\n - 도메인 세팅\n[박수환]\n완료\nㄴ SBTM-14-인사정보 - 기초 정보\n    - 회사 생성 시 직위, 직책 자동 추가\nㄴ SBTM-18-기준관리정보 - 기초정보\n    - 회사 생성 시 회계기간, 기준정보관리, 결재환경설정, 코드관리, 세금코드 자동 추가\n진행\nㄴ SBTM-18-기준관리정보 - 기초정보\n    - 출장기준정보, 유류단가 정보 자동 추가\n[권연주]\n완료\nㄴ EACC-1831 원화금액 소수점, 유류대 자동계산 방식, 경비 부채계정 기준 API\n - 원화금액 소수점 경비규정 값 적용\nㄴ expenseRule 타입 및 적용 로직 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ Syncflo 출장관리 서비스 신규 프로세스 및 보완 미팅 참여\nㄴ SBTM-10 [FE] 백오피스 - 개발환경설정\n\n[김보민]\n완료\nㄴ EACC-1838 예산신청내역 &gt; 결재 미리보기 &gt; 예산 반려\/승인 버튼 UI, 기능 추가\nㄴ 법인카드불출 신청내역 &gt; 결재 미리보기 &gt; 승인\/반려 버튼 UI, 기능 추가\nㄴ 전표관리 &gt; 전표 검인\/확정, 전표확정현황 &gt; 결재 미리보기 &gt; 검인 반려 회수 버튼 UI, 기능 추가\n\n진행\nㄴ SBTM-71 [FE] PC - 미사용 메뉴, 컴포넌트 제거\nㄴ SBTM-72 [FE] MO - 미사용 메뉴, 컴포넌트 제거\n\n[전원재]\n완료\nㄴ EACC-1828 모바일&gt; 전자결재 &gt; 유류대\n - 주행정보 작성 UI 수정\n - 주행정보 데이터 바인딩 추가\nㄴ EACC-1837 지출결의서 &gt; 유류대 \n -  개인설정 &gt; 출장경로 관리 기준정보에 따른 맵 종류 변경 추가\n - 공통 &gt; aggrid select 컴포넌트 refreshcell 동작시에 value 변경되었을때 update 함수 실행 추가\n - 카카오 주소 검색 초기화 기능 추가\n진행\nㄴ SBTM-73 PC &gt; 추가된 메뉴 생성\n - saas 메뉴 구조 기반의 추가된 메뉴 생성```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ EACC-1726 FCM 기능 구현```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ SaaS 화면설계 논의\n진행\nㄴ SBTM-20 [디자인] 회원가입\nㄴ SBTM-33 [디자인] 개인경비 - 출장결의서 신청\nㄴ 출장경비신청서 작성\/규정 기획 논의 및 UI 수정진행```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M92MD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 6월 17일 (화)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. Syncflo 출장관리 서비스 신규 프로세스 및 보완\n\t- 출장결의서 신청에 대한 문제점 개선 및 보완\n\t- 서비스 가입 등에 의한 프로세스 정리 (회원가입 \/ 로그인 )\n\t\t- 기초 데이터 등 온보딩 기초 정보 데이터 결정\n\t\t- 서비스 문의 등 시작점 결정\n\t- Seat 단위에 대한 정산 등 정의\n2. WBS 일정 및 JIRA Ticket 조정\n\t- 테스트 및 배포 등에 대한 일정 추가\n\t- PM 일정 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ SBTM-11 [설계] 사전작업 - 메뉴 - 기초 정보\nㄴ SBTM-13 [설계] 사전작업 -인사정보 - 기초 정보\nㄴ SBTM-15 [설계] 사전작업 -코스트센터 - 기초 정보\nㄴ SBTM-17 [설계] 사전작업 -기준관리정보 - 기초 정보\nㄴ SBTM-19 [설계] 서비스 - 회원가입\nㄴ SBTM-26 [설계] 서비스 -로그인\nㄴ SBTM-32 [설계] 서비스 -개인경비 - 출장결의서 신청\nㄴ SBTM-36 [설계] 서비스 -법인카드 - 정보관리\nㄴ SBTM-48 [설계] 백오피스 - 사업자 서비스 관리\nㄴ SBTM-52 [설계] 백오피스 - 약관관리\n진행\nㄴ SBTM-40 [설계] 시스템관리 - 약관관리\nㄴ SBTM-60 [설계] 백오피스 - 게시판 관리\nㄴ JIRA 보드 조정 및 WBS 재조정\n\t- 테스트 기간 포함 한 일정 추가 조정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 경비규정정보 redis 저장 및 조회 처리\nㄴ SBTM-9 [BE] 백오피스 - 개발환경설정\n - DB 생성\n - 브랜치 추가 및 소스 정리\n진행\nㄴ SBTM-9 [BE] 백오피스 - 개발환경설정\n - CI\/CD 설정\n - 도메인 세팅\n[박수환]\n완료\nㄴ SBTM-14-인사정보 - 기초 정보\n    - 회사 생성 시 직위, 직책 자동 추가\nㄴ SBTM-18-기준관리정보 - 기초정보\n    - 회사 생성 시 회계기간, 기준정보관리, 결재환경설정, 코드관리, 세금코드 자동 추가\n진행\nㄴ SBTM-18-기준관리정보 - 기초정보\n    - 출장기준정보, 유류단가 정보 자동 추가\n[권연주]\n완료\nㄴ EACC-1831 원화금액 소수점, 유류대 자동계산 방식, 경비 부채계정 기준 API\n - 원화금액 소수점 경비규정 값 적용\nㄴ expenseRule 타입 및 적용 로직 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ Syncflo 출장관리 서비스 신규 프로세스 및 보완 미팅 참여\nㄴ SBTM-10 [FE] 백오피스 - 개발환경설정\n\n[김보민]\n완료\nㄴ EACC-1838 예산신청내역 > 결재 미리보기 > 예산 반려\/승인 버튼 UI, 기능 추가\nㄴ 법인카드불출 신청내역 > 결재 미리보기 > 승인\/반려 버튼 UI, 기능 추가\nㄴ 전표관리 > 전표 검인\/확정, 전표확정현황 > 결재 미리보기 > 검인 반려 회수 버튼 UI, 기능 추가\n\n진행\nㄴ SBTM-71 [FE] PC - 미사용 메뉴, 컴포넌트 제거\nㄴ SBTM-72 [FE] MO - 미사용 메뉴, 컴포넌트 제거\n\n[전원재]\n완료\nㄴ EACC-1828 모바일> 전자결재 > 유류대\n - 주행정보 작성 UI 수정\n - 주행정보 데이터 바인딩 추가\nㄴ EACC-1837 지출결의서 > 유류대 \n -  개인설정 > 출장경로 관리 기준정보에 따른 맵 종류 변경 추가\n - 공통 > aggrid select 컴포넌트 refreshcell 동작시에 value 변경되었을때 update 함수 실행 추가\n - 카카오 주소 검색 초기화 기능 추가\n진행\nㄴ SBTM-73 PC > 추가된 메뉴 생성\n - saas 메뉴 구조 기반의 추가된 메뉴 생성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ EACC-1726 FCM 기능 구현"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ SaaS 화면설계 논의\n진행\nㄴ SBTM-20 [디자인] 회원가입\nㄴ SBTM-33 [디자인] 개인경비 - 출장결의서 신청\nㄴ 출장경비신청서 작성\/규정 기획 논의 및 UI 수정진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

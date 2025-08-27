@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1744962935.052669",
+        "edited": {
+            "user": "U08MP3Z41T3",
+            "ts": "1744963002.000000"
+        },
+        "client_msg_id": "8c21e5d6-7c68-4003-a981-19aa02ae22a4",
+        "text": "2025년 4월 18일 (금)\n`< 스크럼 내용 >`\n```- (FE\/MO) 카카오맵, SK 맵 최단거리 (실시간 반영 x)관련 조사\n- (FE\/UX) 경비처리 프로세스 변경\n\t- 현재 경비 전표(단건) 처리 이후 결재를 문서에서 한번에 처리 될 수 있도록 논의\n\t- 단건 처리 방식의 전표 방식을 다건 처리 될 수 있도록 개선\n\t- 전표번호 생성 시점 논의\n\t\t- 화면 기준) 경비 등록 모달 시점에서 저장 이후 문서 내 전표라인에 삽입 시점\n\t\t- 화면 기준) 경비 등록 모달 라인 복사 기능 Client 에 의존\n\t\t- 분할 전표 UX\/UI 정의\n- (FE\/MO) OCR 다건 처리 방식\n\t- 중간 insert 시점 오류발생으로 인해 Client 에서 처리 되도록 결정 (Client 의존)\n- 영수증, 첨부파일 등의 UX 개선 (Preview 포함)\n\t- 결재문서 내에서는 파일 뷰어만 보임\n\t- 영수증 이미지, 첨부파일은 **전표등록\/수정 모달**에서만 **등록,수정,삭제**가 가능\n\t- 영수증 이미지는 모바일, pc에서 모두 등록 가능\n\t- 영수증 이미지는 모바일, pc에서 등록한 리스트 모두 보여준다\n\t- 영수증 이미지, 첨부파일은 일괄 삭제가 가능\n- 신 인사시스템(Workup) 연동에 대한 검토```\n`< 총괄 >`\n```[김정중]\n완료\nㄴ 경비처리 프로세스 UI\/UX 개선 의견 수립에 대한 의사결정\nㄴ 국내\/해외를 고려한 거리 계산 지도 관련 의사결정\n  - 국내의 경우 Kakao Navigation Map Api 를 이용하여 최단거리 등 옵션화\nㄴ (디자인) UI\/UX 사용자 편의성에 대한 설계\nㄴ 피어리뷰 관련 개선사항, 보완점 등을 고려한 재정리\n\t- (BE) DB, 서버 아키텍쳐 등 MSA 방식 등을 고려한 설계\n\t- 후순위 (FE) 시스템 디자인 및 Front MSA 아키텍쳐를 고려한 설계\nㄴ 후순위 (FE)\/(앱) Web Server CI\/CD 테스트\nㄴ 후순위 (BE) 인프라 설계 (추후 다시 고려하도록.. 후순위)\n\t- ERP 중개서버, MQTT 서비스, Redis\n진행\nㄴ JIRA 티켓 규칙\n  - 스크럼, 백로그, 이슈 등 관리를 위한 룰 정의\n  - 파트별 업무 배분 (기획\/디자인, 백엔드, 프론트, 모바일)\n  - WBS 관련 보고용 리포트 계획 (굵직하게 큰 계획은 차주 화요일 22일 완료 예정)```\n`< 백엔드 >`\n```[박광호]\n완료\nㄴ R&D 개발서버 전자전표 DB 세팅\nㄴ UX 개선사항 미팅 참석\n진행\nㄴ ERP 전표 연동 프로세스 설계\n[박수환]\n완료\nㄴ 소스의 FK 선언 해제\nㄴ DB의 FK 제거\nㄴ FK키 해제 로컬 환경에서 테스트\n[권연주]\n진행\nㄴ 임직원 겸직 구현\n - 예상 변경 범위 검토```\n`< 프론트엔드 >`\n```[우태림]\n완료\nㄴ [WEB] 대시보드 → 게시판 기능 변경에 따른 수정 작업\nㄴ [MO] 공통 Component → 검색필터\nㄴ 카카오맵 API 활용 방안 조사\n진행\nㄴ 카카오맵 패키지 작업\nㄴ R&D Syncflo Mobile 관련 미팅\nㄴ R&D Syncflo UX 개선사항 미팅\n\n[김보민]\n완료\nㄴ [MO] 공통 컴포넌트\n - 최근 2개월 팝업\nㄴ 전자결재 → 전자결재 양식 → 결재\n진행\nㄴ [MO] 전자결재 → 전자결재 양식 → 회수\nㄴ [MO] 전자결재 → 전자결재 양식 → 더보기 → 삭제\nㄴ [MO] 전자결재 → 전자결재 양식 → 더보기 → 결재선 변경\n\n[전원재]\n완료\nㄴ 사용자 > 조직도\n - 메뉴 플립 오류 수정\nㄴ 대시보드 \n - to do list 메뉴 사용자 권한에 따라 활성화 수정\n - 법인카드 사용현황 내 select box disabled 처리\n진행\nㄴ 통계\/보고서 > 월별사용통계\n - 날짜 관련 검색 필터 UI 재수정\nㄴ 지도 외부 api\n - 카카오 맵, 경로 테스트```\n`< 모바일 >`\n```[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 로그인 인증 토큰 저장\n- 강제 종료\nㄴ 제강 프론트 앤드\n- 웹-앱 프로젝트 세팅 관련 인수-인계```\n`< 디자인 >`\n```[차윤수]\n완료\nㄴ기준정보관리: 유류대 자동계산방식 디자인 추가\n   -국내: 카카오맵,  해외: MAPBOX\n   -최단거리, 최단시간등의 옵션을 규정으로 선택할 수 있도록\n진행\nㄴ전자전표 UI개선 회의\nㄴ전자전표 UI변경 시안작업\n -  결재문서 작성화면에서 전표내역을 추가하도록 변경\n - 개인경비\/법인카드 전표입력시 헤더와 라인정보를 구분\n - 결재진행중인 문서 첨부 문서 모아보도록 개선\n - 모바일 UI Ux 프로세스 PC버전과 통일할 것인지 고민\n - AI자동입력 버튼 배치 고려(법인카드, 개인경비)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jTCSn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 4월 18일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "- (FE\/MO) 카카오맵, SK 맵 최단거리 (실시간 반영 x)관련 조사\n- (FE\/UX) 경비처리 프로세스 변경\n\t- 현재 경비 전표(단건) 처리 이후 결재를 문서에서 한번에 처리 될 수 있도록 논의\n\t- 단건 처리 방식의 전표 방식을 다건 처리 될 수 있도록 개선\n\t- 전표번호 생성 시점 논의\n\t\t- 화면 기준) 경비 등록 모달 시점에서 저장 이후 문서 내 전표라인에 삽입 시점\n\t\t- 화면 기준) 경비 등록 모달 라인 복사 기능 Client 에 의존\n\t\t- 분할 전표 UX\/UI 정의\n- (FE\/MO) OCR 다건 처리 방식\n\t- 중간 insert 시점 오류발생으로 인해 Client 에서 처리 되도록 결정 (Client 의존)\n- 영수증, 첨부파일 등의 UX 개선 (Preview 포함)\n\t- 결재문서 내에서는 파일 뷰어만 보임\n\t- 영수증 이미지, 첨부파일은 **전표등록\/수정 모달**에서만 **등록,수정,삭제**가 가능\n\t- 영수증 이미지는 모바일, pc에서 모두 등록 가능\n\t- 영수증 이미지는 모바일, pc에서 등록한 리스트 모두 보여준다\n\t- 영수증 이미지, 첨부파일은 일괄 삭제가 가능\n- 신 인사시스템(Workup) 연동에 대한 검토"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 경비처리 프로세스 UI\/UX 개선 의견 수립에 대한 의사결정\nㄴ 국내\/해외를 고려한 거리 계산 지도 관련 의사결정\n  - 국내의 경우 Kakao Navigation Map Api 를 이용하여 최단거리 등 옵션화\nㄴ (디자인) UI\/UX 사용자 편의성에 대한 설계\nㄴ 피어리뷰 관련 개선사항, 보완점 등을 고려한 재정리\n\t- (BE) DB, 서버 아키텍쳐 등 MSA 방식 등을 고려한 설계\n\t- 후순위 (FE) 시스템 디자인 및 Front MSA 아키텍쳐를 고려한 설계\nㄴ 후순위 (FE)\/(앱) Web Server CI\/CD 테스트\nㄴ 후순위 (BE) 인프라 설계 (추후 다시 고려하도록.. 후순위)\n\t- ERP 중개서버, MQTT 서비스, Redis\n진행\nㄴ JIRA 티켓 규칙\n  - 스크럼, 백로그, 이슈 등 관리를 위한 룰 정의\n  - 파트별 업무 배분 (기획\/디자인, 백엔드, 프론트, 모바일)\n  - WBS 관련 보고용 리포트 계획 (굵직하게 큰 계획은 차주 화요일 22일 완료 예정)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ R&D 개발서버 전자전표 DB 세팅\nㄴ UX 개선사항 미팅 참석\n진행\nㄴ ERP 전표 연동 프로세스 설계\n[박수환]\n완료\nㄴ 소스의 FK 선언 해제\nㄴ DB의 FK 제거\nㄴ FK키 해제 로컬 환경에서 테스트\n[권연주]\n진행\nㄴ 임직원 겸직 구현\n - 예상 변경 범위 검토"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ [WEB] 대시보드 → 게시판 기능 변경에 따른 수정 작업\nㄴ [MO] 공통 Component → 검색필터\nㄴ 카카오맵 API 활용 방안 조사\n진행\nㄴ 카카오맵 패키지 작업\nㄴ R&D Syncflo Mobile 관련 미팅\nㄴ R&D Syncflo UX 개선사항 미팅\n\n[김보민]\n완료\nㄴ [MO] 공통 컴포넌트\n - 최근 2개월 팝업\nㄴ 전자결재 → 전자결재 양식 → 결재\n진행\nㄴ [MO] 전자결재 → 전자결재 양식 → 회수\nㄴ [MO] 전자결재 → 전자결재 양식 → 더보기 → 삭제\nㄴ [MO] 전자결재 → 전자결재 양식 → 더보기 → 결재선 변경\n\n[전원재]\n완료\nㄴ 사용자 > 조직도\n - 메뉴 플립 오류 수정\nㄴ 대시보드 \n - to do list 메뉴 사용자 권한에 따라 활성화 수정\n - 법인카드 사용현황 내 select box disabled 처리\n진행\nㄴ 통계\/보고서 > 월별사용통계\n - 날짜 관련 검색 필터 UI 재수정\nㄴ 지도 외부 api\n - 카카오 맵, 경로 테스트"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행중\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 웹-앱 브릿지 제작 중\n\n완료\nㄴ 앱 웹 브릿지 인터페이스 정의서 및 테스트 페이지 제작\n- 로그인 인증 토큰 저장\n- 강제 종료\nㄴ 제강 프론트 앤드\n- 웹-앱 프로젝트 세팅 관련 인수-인계"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ기준정보관리: 유류대 자동계산방식 디자인 추가\n   -국내: 카카오맵,  해외: MAPBOX\n   -최단거리, 최단시간등의 옵션을 규정으로 선택할 수 있도록\n진행\nㄴ전자전표 UI개선 회의\nㄴ전자전표 UI변경 시안작업\n -  결재문서 작성화면에서 전표내역을 추가하도록 변경\n - 개인경비\/법인카드 전표입력시 헤더와 라인정보를 구분\n - 결재진행중인 문서 첨부 문서 모아보도록 개선\n - 모바일 UI Ux 프로세스 PC버전과 통일할 것인지 고민\n - AI자동입력 버튼 배치 고려(법인카드, 개인경비)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

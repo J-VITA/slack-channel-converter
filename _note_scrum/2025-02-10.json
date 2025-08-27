@@ -1,0 +1,343 @@
+[
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1739188162.195109",
+        "client_msg_id": "9c3e1406-0bd0-4cf9-8205-c861844155c1",
+        "text": "2025-02-07(금) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n연차휴가\n\n[권연주]\n진행\nㄴ 테스트 버그 fix\nㄴ 메일 발송\n - 메일 템플릿 table 설계\n - 기능 수정\n완료\nㄴ 기준정보관리 &gt; 유류단가\n - 수정 에러\nㄴ 기준정보관리 &gt; 출장기준관리 &gt; 출장비유형관리\n - 수정 에러\nㄴ 예산\n - 잔여예산 계산 오류```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 테스트진행 및 버그 Fix\nㄴ 대시보드 개발 진행\n완료\nㄴ 진행중인 결재문서 결재선 변경시 오류\nㄴ 전표처리 &gt; 개인경비법인카드 : 상세모달창 비활성화된 금액 컬러 수정\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\nㄴ 오류 수정 및 개선\n완료\nㄴ 공통 → 미들웨어 보완\nㄴ 전표처리 → 지출등록 모달 → 전표유형별 페이징 처리 보완\nㄴ 전표처리 → 지출등록 모달 → 회계일자 변경 시 지급에정일 세팅 기능 추가\nㄴ 로그아웃 → 프레임워크(Nuxt Data, State) 캐싱 처리 보완\n\n[전원재]\n진행\nㄴ 전자결재 &gt;  출장경비신청서\n - 삭제 및 전표조회 오류 수정\nㄴ 전자결재 &gt; 예산신청서\n - 잔여예산 조회 파라미터 수정\n - 테이블 금액 정렬 수정\n - 합계금액 위치 수정\nㄴ 전자결재 &gt; 지출결의서 \n - 테이블 금액 정렬 수정\nㄴ 기준정보관리 &gt; 경조 유형관리 \n - 저장 오류 수정\n - 엑셀일괄등록 추가\nㄴ 전표처리 &gt; 개인경비\/법인카드\n - 모달 계정항목 UI수정\n완료\nㄴ 기준정보관리 &gt; 유류단가관리, 출장기준관리, 경조금관리 &gt; 계정항목설정\n - 계정항목 조회시 체크 초기화 오류 수정\nㄴ 공통 &gt; 예산추가 모달\n - 예산 전용 받는대상 데이터 세팅시 예산잔액 조회 삭제\nㄴ 전표처리 &gt; 법인카드 지출\n - 과세 유형 파라미터 수정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\n-전자전표 2.0 테스트진행, 버그\/개선목록 작성\n-개인경비 등록 팝업 : 영수증첨부, 파일 첨부 개선\n\n완료\n -알람목록 : 내정보관리로 이동\n -알람설정 : 시스템설정내 설정으로 이동\n-게시판관리자 설정 : 시스템설정내 설정으로 이동.```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1hqyV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-02-07(금) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n연차휴가\n\n[권연주]\n진행\nㄴ 테스트 버그 fix\nㄴ 메일 발송\n - 메일 템플릿 table 설계\n - 기능 수정\n완료\nㄴ 기준정보관리 > 유류단가\n - 수정 에러\nㄴ 기준정보관리 > 출장기준관리 > 출장비유형관리\n - 수정 에러\nㄴ 예산\n - 잔여예산 계산 오류"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 테스트진행 및 버그 Fix\nㄴ 대시보드 개발 진행\n완료\nㄴ 진행중인 결재문서 결재선 변경시 오류\nㄴ 전표처리 > 개인경비법인카드 : 상세모달창 비활성화된 금액 컬러 수정\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\nㄴ 오류 수정 및 개선\n완료\nㄴ 공통 → 미들웨어 보완\nㄴ 전표처리 → 지출등록 모달 → 전표유형별 페이징 처리 보완\nㄴ 전표처리 → 지출등록 모달 → 회계일자 변경 시 지급에정일 세팅 기능 추가\nㄴ 로그아웃 → 프레임워크(Nuxt Data, State) 캐싱 처리 보완\n\n[전원재]\n진행\nㄴ 전자결재 >  출장경비신청서\n - 삭제 및 전표조회 오류 수정\nㄴ 전자결재 > 예산신청서\n - 잔여예산 조회 파라미터 수정\n - 테이블 금액 정렬 수정\n - 합계금액 위치 수정\nㄴ 전자결재 > 지출결의서 \n - 테이블 금액 정렬 수정\nㄴ 기준정보관리 > 경조 유형관리 \n - 저장 오류 수정\n - 엑셀일괄등록 추가\nㄴ 전표처리 > 개인경비\/법인카드\n - 모달 계정항목 UI수정\n완료\nㄴ 기준정보관리 > 유류단가관리, 출장기준관리, 경조금관리 > 계정항목설정\n - 계정항목 조회시 체크 초기화 오류 수정\nㄴ 공통 > 예산추가 모달\n - 예산 전용 받는대상 데이터 세팅시 예산잔액 조회 삭제\nㄴ 전표처리 > 법인카드 지출\n - 과세 유형 파라미터 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\n-전자전표 2.0 테스트진행, 버그\/개선목록 작성\n-개인경비 등록 팝업 : 영수증첨부, 파일 첨부 개선\n\n완료\n -알람목록 : 내정보관리로 이동\n -알람설정 : 시스템설정내 설정으로 이동\n-게시판관리자 설정 : 시스템설정내 설정으로 이동."
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1739188214.523219",
+        "client_msg_id": "8543aab2-0fa1-49eb-b572-dbf239d9f5cd",
+        "text": "2025-02-10(월) 스크럼\n`&lt; 백엔드 &gt;`\n```[구시완]\n진행\nㄴ 일진C&amp;S 전자전표2.0 개발 시스템 테스트 (계속)\nㄴ 운영 CI\/CD 개발\n완료\nㄴ 파일다운로드, 파일 삭제 수정 \nㄴ 세금계산서 xml 개발  \nㄴ 부채계정 tree 구조 변경 \n\n[권연주]\n진행\nㄴ 테스트 버그 fix\nㄴ 메일 발송\n - 메일 템플릿 table 설계\n - 기능 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 테스트진행 및 버그 Fix\n완료\nㄴ 기준정보관리 &gt; 경비규정관리 &gt; 입력항목 - 지급예정일 경조금 스위치 off 시 메뉴 사라짐\nㄴ 전자결재 &gt; 경고창 디자인 수정\nㄴ 대시보드 개발(알림제외)\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\nㄴ 오류 수정 및 개선\nㄴ 운영 배포 CI\/CD 작성\n\n[전원재]\n진행\nㄴ 전자결재 &gt;  출장경비신청서\n - 삭제 및 전표조회 오류 수정\nㄴ 공통 &gt; 전자결재 &gt; 지출 불러오기 \n - 지출 불러오기 중 유류대 모달 추가\nㄴ 개인설정 &gt; 내정보 관리\n - ui 및 기능 추가\n완료\nㄴ 전자결재 &gt; 예산신청서\n - 잔여예산 조회 파라미터 수정\n - 테이블 금액 정렬 수정\n - 합계금액 위치 수정\nㄴ 전자결재 &gt; 지출결의서 \n - 테이블 금액 정렬 수정\nㄴ 기준정보관리 &gt; 경조 유형관리 \n - 저장 오류 수정\n - 엑셀일괄등록 추가\nㄴ 전표처리 &gt; 개인경비\/법인카드\n - 모달 계정항목 UI수정```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\n-전자전표 2.0 테스트진행, 버그\/개선목록 작성\n-경조금 기준, 기초예산 엑셀업로드 테스트\n-모바일버전 대시보드 디자인 개선\n\n완료\n-개인경비 등록 팝업 : 영수증첨부, 파일 첨부 개선```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hYxam",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-02-10(월) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 테스트 (계속)\nㄴ 운영 CI\/CD 개발\n완료\nㄴ 파일다운로드, 파일 삭제 수정 \nㄴ 세금계산서 xml 개발  \nㄴ 부채계정 tree 구조 변경 \n\n[권연주]\n진행\nㄴ 테스트 버그 fix\nㄴ 메일 발송\n - 메일 템플릿 table 설계\n - 기능 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 테스트진행 및 버그 Fix\n완료\nㄴ 기준정보관리 > 경비규정관리 > 입력항목 - 지급예정일 경조금 스위치 off 시 메뉴 사라짐\nㄴ 전자결재 > 경고창 디자인 수정\nㄴ 대시보드 개발(알림제외)\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\nㄴ 오류 수정 및 개선\nㄴ 운영 배포 CI\/CD 작성\n\n[전원재]\n진행\nㄴ 전자결재 >  출장경비신청서\n - 삭제 및 전표조회 오류 수정\nㄴ 공통 > 전자결재 > 지출 불러오기 \n - 지출 불러오기 중 유류대 모달 추가\nㄴ 개인설정 > 내정보 관리\n - ui 및 기능 추가\n완료\nㄴ 전자결재 > 예산신청서\n - 잔여예산 조회 파라미터 수정\n - 테이블 금액 정렬 수정\n - 합계금액 위치 수정\nㄴ 전자결재 > 지출결의서 \n - 테이블 금액 정렬 수정\nㄴ 기준정보관리 > 경조 유형관리 \n - 저장 오류 수정\n - 엑셀일괄등록 추가\nㄴ 전표처리 > 개인경비\/법인카드\n - 모달 계정항목 UI수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\n-전자전표 2.0 테스트진행, 버그\/개선목록 작성\n-경조금 기준, 기초예산 엑셀업로드 테스트\n-모바일버전 대시보드 디자인 개선\n\n완료\n-개인경비 등록 팝업 : 영수증첨부, 파일 첨부 개선"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06KTLCLALQ",
+        "type": "message",
+        "ts": "1739249717.875219",
+        "edited": {
+            "user": "U06KTLCLALQ",
+            "ts": "1739249871.000000"
+        },
+        "client_msg_id": "281c0638-d4cf-4a3e-b55b-8744db2534d7",
+        "text": "2025-02-11(화) 스크럼\n`< 백엔드 >`\n```[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 테스트 (계속)\nㄴ CI\/CD 속도 조정중\nㄴ 세금계산서 수집 스케줄링 적용\n\n[권연주]\n진행\nㄴ 테스트 버그 fix\nㄴ 메일발송\n - 대리결재자 등록\n - 법인카드 불출\n완료\nㄴ 메일발송\n - email template 테이블 정의\nㄴ 출장비용신청서\n - 불러오기 수정\n - id 추가\nㄴ 전자결재 > 결재 상세\n - 전표 상세 필드 추가```\n`< 프론트엔드 >`\n```[우태림]\n진행\nㄴ 개선 작업 및 버그 Fix\nㄴ 전표처리 → 세금계산서 등록 화면 개발(계속)\n완료\nㄴ 전표처리 > 개인경비법카 > 지출등록모달 - 영수증첨부, 파일첨부 개선\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\nㄴ 오류 수정 및 개선\nㄴ 운영 배포 CI\/CD 작성\n완료\nㄴ 기준정보관리 → 경조금기준관리 페이징 처리 오류 수정\nㄴ 전자결재 → 결재상신 이후 초기 데이터 클리어 오류 수정\nㄴ 전자결재 → 스크립트 타입 오류 수정\nㄴ 공통 → Rathon SSO 기초 글로벌 인터페이스 및 타입 생성\n\n[전원재]\n진행\nㄴ 공통 > 전자결재 \n - 유류대 읽기모달 추가\nㄴ 공통 > 로그인\n - 대시보드로 이동하는 기본값 추가\nㄴ 전자결재 >  출장경비신청서\n - 계산 오류 수정\nㄴ 전표처리 > 개인경비\/법인카드\n - 부채계정 트리 컴포넌트로 변경\nㄴ 예산관리\n - 계정항목 기준정보에 의한 세팅\n완료\nㄴ 공통 > 전자결재 > 지출 불러오기 \n - 지출 불러오기 중 유류대 모달 추가\nㄴ 개인설정 > 내정보 관리\n - ui 및 기능 추가\n - 수정 기능 추가```\n`< 디자인 >`\n```[차윤수]\n진행\n-전자전표2.0 테스트진행, 버그\/개선목록 작성\n-전자전표2.0 디자인, 정렬 이슈 체크\n-대시보드 디자인개선 : 링크영역수정, 게시판 수정, To do list 마우스오버 영역수정 \n-그룹웨어: 전자전표 홍보배너 작업(~2\/12)\n-전자전표2.0 상품소개서 디자인 지원```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g70c606b4222",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/70c606b422214cb1c122491353ff268d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "siwan",
+            "real_name": "siwan",
+            "display_name": "구시완",
+            "team": "T06BW9BS3L6",
+            "name": "siwan.gu",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zW+Ek",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025-02-11(화) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\n진행\nㄴ 일진C&S 전자전표2.0 개발 시스템 테스트 (계속)\nㄴ CI\/CD 속도 조정중\nㄴ 세금계산서 수집 스케줄링 적용\n\n[권연주]\n진행\nㄴ 테스트 버그 fix\nㄴ 메일발송\n - 대리결재자 등록\n - 법인카드 불출\n완료\nㄴ 메일발송\n - email template 테이블 정의\nㄴ 출장비용신청서\n - 불러오기 수정\n - id 추가\nㄴ 전자결재 > 결재 상세\n - 전표 상세 필드 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 개선 작업 및 버그 Fix\nㄴ 전표처리 → 세금계산서 등록 화면 개발(계속)\n완료\nㄴ 전표처리 > 개인경비법카 > 지출등록모달 - 영수증첨부, 파일첨부 개선\n\n[김정중]\n진행\nㄴ 패키지 Export 분류 작업\nㄴ 공통 → 패키지 → 테이블 형식 드롭다운 모듈\nㄴ 오류 수정 및 개선\nㄴ 운영 배포 CI\/CD 작성\n완료\nㄴ 기준정보관리 → 경조금기준관리 페이징 처리 오류 수정\nㄴ 전자결재 → 결재상신 이후 초기 데이터 클리어 오류 수정\nㄴ 전자결재 → 스크립트 타입 오류 수정\nㄴ 공통 → Rathon SSO 기초 글로벌 인터페이스 및 타입 생성\n\n[전원재]\n진행\nㄴ 공통 > 전자결재 \n - 유류대 읽기모달 추가\nㄴ 공통 > 로그인\n - 대시보드로 이동하는 기본값 추가\nㄴ 전자결재 >  출장경비신청서\n - 계산 오류 수정\nㄴ 전표처리 > 개인경비\/법인카드\n - 부채계정 트리 컴포넌트로 변경\nㄴ 예산관리\n - 계정항목 기준정보에 의한 세팅\n완료\nㄴ 공통 > 전자결재 > 지출 불러오기 \n - 지출 불러오기 중 유류대 모달 추가\nㄴ 개인설정 > 내정보 관리\n - ui 및 기능 추가\n - 수정 기능 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\n-전자전표2.0 테스트진행, 버그\/개선목록 작성\n-전자전표2.0 디자인, 정렬 이슈 체크\n-대시보드 디자인개선 : 링크영역수정, 게시판 수정, To do list 마우스오버 영역수정 \n-그룹웨어: 전자전표 홍보배너 작업(~2\/12)\n-전자전표2.0 상품소개서 디자인 지원"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

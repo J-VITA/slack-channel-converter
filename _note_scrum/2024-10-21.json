@@ -1,0 +1,113 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1729565025.435839",
+        "edited": {
+            "user": "U0785NRDD3Q",
+            "ts": "1729569074.000000"
+        },
+        "client_msg_id": "b8ce4291-0a8f-4060-be66-dd5e4bd0edbc",
+        "text": "`백엔드`\n```[구시완] \nㄴ 개인경비\/법인카드 개발 진행(계속)\nㄴ 법인카드 불출 설계 검토\nㄴ 예산관리 설계 검토\n\n[권연주]\nㄴ 사용자관리 사용중지, 중지해제, 퇴직, 삭제 api 개발 완료\nㄴ 회사\/사업장 삭제 api 수정 완료\nㄴ 결재 일괄승인 api 개발 완료\nㄴ 사용자관리 퇴직 복원 api 개발 및 조회 api 수정 진행\nㄴ 재기안 api 개발 진행\n\n[서정은]\nㄴ 유류단가관리페이지 API 개발 완료후 develop 브랜치에 머지 완료\nㄴ 예산관리 관련 미팅 (with 차윤수,권민식)\nㄴ 예산현황 테이블 엔티티 설계 및 비즈니스 로직 정리```\n`프론트엔드`\n```[우태림]\nㄴ style 파일 코드 리팩토링 진행\nㄴ AG Grid 한글 적용 (완료)\nㄴ 결재문서 결재선 show\/hide 적용 (완료)\nㄴ 회사\/사업장 추가 테스트 진행 및 보완 작업(완료)\n - 삭제시 메세지 두번 나오는 부분 수정\n - 부서관리 form 에러 trigger 변경\n - 회사\/사업장 form reset 안되는 부분 수정\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 → 지출등록 리펙토링 작업\nㄴ 전표처리 → 개인경비 지출 → 영수증, 첨부파일 기능\n - (확인) 지출등록 이후 재조회시 영수증, 첨부파일 정보가 안넘어옴\nㄴ 전표처리 → 개인경비 지출 → 회계기간 셋업 (현재일 기준 1년 전후로 셋업)\nㄴ 미들웨어 사용자 권한 로직 추가\n - 로직 변경 (예정)\nㄴ 페이지별 사용자 조회 권한 Composables API Funtion 추가\n \n[전원재]\nㄴ 시스템 설정 > 직위, 직책관리\n - Fetch warning 수정(완료),\n - Asyncdata pending > status 로 수정(완료),\nㄴ 맥북 개발환경 세팅(완료)```\n`디자인`\n```[차윤수] \nㄴ 시스템설정 → 사용자관리 UI 수정\n - 재직,휴직,퇴직 상태 추가\nㄴ 예산관리 관련 미팅 (with 서정은,권민식)\n - 예산실적내역 - 기초예산에서 증감\/감액된 내역도 보여주기\n - 계정비용항목 관리 → 트리 - 계정코드번호 추가 요청\n - 계정비용항목 관리 → 세부정보- 일반사용자는 급여,보험관련된 민감데이터의 잔여예산을 비조회할 수 있는 기능 추가\n - 예산관리 → 예산현황 - 기초예산입력완료시 수정되지 않도록 입력마감버튼 추가(절차 없이 기초예산을 수정하는 행위 금지)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m\/cxx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완] \nㄴ 개인경비\/법인카드 개발 진행(계속)\nㄴ 법인카드 불출 설계 검토\nㄴ 예산관리 설계 검토\n\n[권연주]\nㄴ 사용자관리 사용중지, 중지해제, 퇴직, 삭제 api 개발 완료\nㄴ 회사\/사업장 삭제 api 수정 완료\nㄴ 결재 일괄승인 api 개발 완료\nㄴ 사용자관리 퇴직 복원 api 개발 및 조회 api 수정 진행\nㄴ 재기안 api 개발 진행\n\n[서정은]\nㄴ 유류단가관리페이지 API 개발 완료후 develop 브랜치에 머지 완료\nㄴ 예산관리 관련 미팅 (with 차윤수,권민식)\nㄴ 예산현황 테이블 엔티티 설계 및 비즈니스 로직 정리"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ style 파일 코드 리팩토링 진행\nㄴ AG Grid 한글 적용 (완료)\nㄴ 결재문서 결재선 show\/hide 적용 (완료)\nㄴ 회사\/사업장 추가 테스트 진행 및 보완 작업(완료)\n - 삭제시 메세지 두번 나오는 부분 수정\n - 부서관리 form 에러 trigger 변경\n - 회사\/사업장 form reset 안되는 부분 수정\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 → 지출등록 리펙토링 작업\nㄴ 전표처리 → 개인경비 지출 → 영수증, 첨부파일 기능\n - (확인) 지출등록 이후 재조회시 영수증, 첨부파일 정보가 안넘어옴\nㄴ 전표처리 → 개인경비 지출 → 회계기간 셋업 (현재일 기준 1년 전후로 셋업)\nㄴ 미들웨어 사용자 권한 로직 추가\n - 로직 변경 (예정)\nㄴ 페이지별 사용자 조회 권한 Composables API Funtion 추가\n \n[전원재]\nㄴ 시스템 설정 > 직위, 직책관리\n - Fetch warning 수정(완료),\n - Asyncdata pending > status 로 수정(완료),\nㄴ 맥북 개발환경 세팅(완료)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수] \nㄴ 시스템설정 → 사용자관리 UI 수정\n - 재직,휴직,퇴직 상태 추가\nㄴ 예산관리 관련 미팅 (with 서정은,권민식)\n - 예산실적내역 - 기초예산에서 증감\/감액된 내역도 보여주기\n - 계정비용항목 관리 → 트리 - 계정코드번호 추가 요청\n - 계정비용항목 관리 → 세부정보- 일반사용자는 급여,보험관련된 민감데이터의 잔여예산을 비조회할 수 있는 기능 추가\n - 예산관리 → 예산현황 - 기초예산입력완료시 수정되지 않도록 입력마감버튼 추가(절차 없이 기초예산을 수정하는 행위 금지)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

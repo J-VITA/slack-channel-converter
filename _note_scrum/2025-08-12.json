@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1754987060.868399",
+        "client_msg_id": "27694ace-49ab-458c-b91d-eb5d65a0e0fe",
+        "text": "2025년 08월 12일 (화)\n`&lt; 스크럼 내용 &gt;`\n```1. 씨앤에스 전자전표 테스트 진행```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 디스플레이 개발환경, 인프라 작업\n  - Nginx 미들웨어 설치\n  - Docker 설치\n  - 자동배포를 위한 내부 형상관리 깃랩 러너 설치 및 연동\n진행\nㄴ 씨앤에스 전자전표 시스템 업그레이드 및 테스트 진행\nㄴ 디스플레이 개발환경, 인프라 작업\n\t- CDC 인프라 구성 (Debezium 관련 kafka,kafka-ui,zookeeper, 커넥터 등)\nㄴ 신규 프로젝트 과업 분석```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발서버에서 운영DB 기준으로 QA 진행\n진행\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발서버에서 운영DB 기준으로 QA 진행\n  ㄴ AS-IS 운영서버 DB 증분 데이터 -&gt; TO-BE 운영서버 DB 이관\n\n[박수환]\n완료\nㄴ 전자전표 고도화\n    - 세금계산서 매입\/매출 구분 값 추가 및 기존 데이터 업데이트\n    - 대차변 금액 오류 전표 데이터 수정\n진행\nㄴ 세금계산서 수집 서비스 개선\nㄴ 디스플레이 인터페이스 항목 정리\n\n[권연주]\n완료\nㄴ 세금계산서 매입\/매출구분 추가\nㄴ 경조금신청현황 기안자, 부서 조회조건 추가\nㄴ 디폴트 퀵메뉴 데이터 마이그레이션\nㄴ EACC-1895 법인카드 &gt; 정보관리 : 대리작성자 추가시 오류발생\n진행\nㄴ 공휴일, 환율 기능 배치 서버로 이동```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 전자전표 3.0 테스트 및 버그 수정\n - EACC-1909 landing 페이지 추가\n\n[김보민]\n완료\nㄴ EACC-1882 전자결재 &gt; 상세\nㄴ EACC-1884 전자결재 &gt; 반려\/회수 기능수정 (재기안, 삭제)\n진행\nㄴ 전자결재 &gt; 전표리스트 대,차변 데이터에 따른 분기처리\nㄴ EACC-1887 경조금 신청현황 권한에 따른 조회\nㄴ EACC-1896 파일 다운로드\nㄴ EACC-1886 지출내역 작성(조회) 내용 및 파일첨부 조회 표기\nㄴ EACC-1891 퀵메뉴 &gt; 체크박스 클릭시 퀵메뉴 추가\nㄴ EACC-1892 전자결재 &gt; 문서 상세(세금계산서) 정보 안보임\nㄴ EACC-1893 모든 결재문서 작성시 그룹웨어문서 추가\nㄴ EACC-1900 페이지 버튼 명칭 및 아이콘 변경\nㄴ EACC-1904 재기안 모달창 : 오타수정\nㄴ EACC-1907 매입세금계산서 &gt; 등록모달 :  등록과정중 오류들 수정\nㄴ EACC-1908 세금계산서 작성 결재문서 - 기능 아이콘 미노출 및 기타수정\nㄴ EACC-1889 매입 세금계산서 상신 이후 작성한 세금계산서 내역이 노출되지 않음\n\n[전원재]\n완료\nㄴ 전자 결재 &gt; 경조금, 출장 사전경비, 출장 신청 read, write 경로 추가, 변경\nㄴ 이전 데이터 안 나오는 오류 &gt; 전표 데이터 분기 조건 수정\nㄴ 법인카드 불러오기 &gt; 관리항목 세팅 오류 수정\nㄴ 법인카드 작성 &gt; 분할 아이콘 오류, 총금액 NAN 오류 수정\nㄴ EACC-1885 전표관리 &gt; 검인\/확정, 확정현황 - 사업장 필터추가\n진행\nㄴ preview 양식 누락 건 추가 및 경로 오류 수정\nㄴ EACC-1890 출장경비 신청 전표 생성 과정 오류\n - 영수증 등록 시 가맹점 필수 (기준 정보의 옵션 값) 임에도 필수 여부 표기. 누락\n - 영수증 등록 시 '출장 정보를 찾을 수 없습니다.' 안내와 함께 등록 안됨\nㄴ EACC-1897 통계페이지 전체 - 목록 높이값 조정\nㄴ EACC-1888 지출결의서 작성 &gt; 작성모달내 관리항목 - 관리항목 수정이 불가능\nㄴ EACC-1899 결재문서 조회시 전표상세 관리항목을 볼 수 없는 현상```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ Syncflo CNS 앱 등록\nㄴㄴ Android 심사 완료\nㄴ  Syncflo CNS 앱 기능 업데이트\nㄴㄴ Android 파일 다운로드 기능 구현\n\n진행\nㄴ  Syncflo CNS 앱 스토어 업데이트\nㄴㄴ Android 파일 다운로드 기능 추가 및 심사 \nㄴ  Syncflo CNS 앱 기능 업데이트\nㄴㄴ iOS 파일 다운로드 기능 구현```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ Syncflo 전자전표\n  - 전자전표 PC 테스트 진행(개인경비, 출장신청서, 예산, 게시판, 검인\/확정)```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eRMAo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 08월 12일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 씨앤에스 전자전표 테스트 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 디스플레이 개발환경, 인프라 작업\n  - Nginx 미들웨어 설치\n  - Docker 설치\n  - 자동배포를 위한 내부 형상관리 깃랩 러너 설치 및 연동\n진행\nㄴ 씨앤에스 전자전표 시스템 업그레이드 및 테스트 진행\nㄴ 디스플레이 개발환경, 인프라 작업\n\t- CDC 인프라 구성 (Debezium 관련 kafka,kafka-ui,zookeeper, 커넥터 등)\nㄴ 신규 프로젝트 과업 분석"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발서버에서 운영DB 기준으로 QA 진행\n진행\n 씨앤에스 전자전표 시스템 업그레이드\n  ㄴ 개발서버에서 운영DB 기준으로 QA 진행\n  ㄴ AS-IS 운영서버 DB 증분 데이터 -> TO-BE 운영서버 DB 이관\n\n[박수환]\n완료\nㄴ 전자전표 고도화\n    - 세금계산서 매입\/매출 구분 값 추가 및 기존 데이터 업데이트\n    - 대차변 금액 오류 전표 데이터 수정\n진행\nㄴ 세금계산서 수집 서비스 개선\nㄴ 디스플레이 인터페이스 항목 정리\n\n[권연주]\n완료\nㄴ 세금계산서 매입\/매출구분 추가\nㄴ 경조금신청현황 기안자, 부서 조회조건 추가\nㄴ 디폴트 퀵메뉴 데이터 마이그레이션\nㄴ EACC-1895 법인카드 > 정보관리 : 대리작성자 추가시 오류발생\n진행\nㄴ 공휴일, 환율 기능 배치 서버로 이동"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 전자전표 3.0 테스트 및 버그 수정\n - EACC-1909 landing 페이지 추가\n\n[김보민]\n완료\nㄴ EACC-1882 전자결재 > 상세\nㄴ EACC-1884 전자결재 > 반려\/회수 기능수정 (재기안, 삭제)\n진행\nㄴ 전자결재 > 전표리스트 대,차변 데이터에 따른 분기처리\nㄴ EACC-1887 경조금 신청현황 권한에 따른 조회\nㄴ EACC-1896 파일 다운로드\nㄴ EACC-1886 지출내역 작성(조회) 내용 및 파일첨부 조회 표기\nㄴ EACC-1891 퀵메뉴 > 체크박스 클릭시 퀵메뉴 추가\nㄴ EACC-1892 전자결재 > 문서 상세(세금계산서) 정보 안보임\nㄴ EACC-1893 모든 결재문서 작성시 그룹웨어문서 추가\nㄴ EACC-1900 페이지 버튼 명칭 및 아이콘 변경\nㄴ EACC-1904 재기안 모달창 : 오타수정\nㄴ EACC-1907 매입세금계산서 > 등록모달 :  등록과정중 오류들 수정\nㄴ EACC-1908 세금계산서 작성 결재문서 - 기능 아이콘 미노출 및 기타수정\nㄴ EACC-1889 매입 세금계산서 상신 이후 작성한 세금계산서 내역이 노출되지 않음\n\n[전원재]\n완료\nㄴ 전자 결재 > 경조금, 출장 사전경비, 출장 신청 read, write 경로 추가, 변경\nㄴ 이전 데이터 안 나오는 오류 > 전표 데이터 분기 조건 수정\nㄴ 법인카드 불러오기 > 관리항목 세팅 오류 수정\nㄴ 법인카드 작성 > 분할 아이콘 오류, 총금액 NAN 오류 수정\nㄴ EACC-1885 전표관리 > 검인\/확정, 확정현황 - 사업장 필터추가\n진행\nㄴ preview 양식 누락 건 추가 및 경로 오류 수정\nㄴ EACC-1890 출장경비 신청 전표 생성 과정 오류\n - 영수증 등록 시 가맹점 필수 (기준 정보의 옵션 값) 임에도 필수 여부 표기. 누락\n - 영수증 등록 시 '출장 정보를 찾을 수 없습니다.' 안내와 함께 등록 안됨\nㄴ EACC-1897 통계페이지 전체 - 목록 높이값 조정\nㄴ EACC-1888 지출결의서 작성 > 작성모달내 관리항목 - 관리항목 수정이 불가능\nㄴ EACC-1899 결재문서 조회시 전표상세 관리항목을 볼 수 없는 현상"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ Syncflo CNS 앱 등록\nㄴㄴ Android 심사 완료\nㄴ  Syncflo CNS 앱 기능 업데이트\nㄴㄴ Android 파일 다운로드 기능 구현\n\n진행\nㄴ  Syncflo CNS 앱 스토어 업데이트\nㄴㄴ Android 파일 다운로드 기능 추가 및 심사 \nㄴ  Syncflo CNS 앱 기능 업데이트\nㄴㄴ iOS 파일 다운로드 기능 구현"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ Syncflo 전자전표\n  - 전자전표 PC 테스트 진행(개인경비, 출장신청서, 예산, 게시판, 검인\/확정)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

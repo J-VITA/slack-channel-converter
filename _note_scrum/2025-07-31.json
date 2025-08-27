@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1754005097.484409",
+        "client_msg_id": "f76288ae-6b57-46d0-91b7-7f48c4d64d11",
+        "text": "2025년 7월 31일 (목)\n`&lt; 스크럼 내용 &gt;`\n```1. 영림원 ERP X 네이버 웍스 인터페이스 연동을 위한 작업\n\t- 씨앤에스 구축 연동을 위해 현 Syncflo 2.0 -&gt; 3.0 업그레이드 작업\n\t- 모바일 런칭 준비\n\t- 8월 18일 (월) 오픈 예정\n\t- 마이그레이션, 소스코드 현행화, 도메인 변경, SSO 업데이트, CI\/CD 업데이트, 작업 변경 내역 문서화 등```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- Jira Ticket 생성을 위한 에픽 단위 설정\n\t\n진행\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- 메뉴 및 기능 정의 (ERP 외 메뉴 결정)\nㄴ Syncflo 3.0 Major Upgrade\n\t- 일정 계획\n\t- 작업 변경 내역 정리```\n`&lt; 백엔드 &gt;`\n```[박광호] - 하계 휴가\n\n[박수환]\n진행\nㄴ 법인카드 수집 서버 구성\nㄴ 싱크플로 업그레이드 준비\n\t- DB 마이그레이션 준비\n  \n[권연주]\n진행\nㄴ 법인카드 전표 재기안 로직 수정\n - slipHeader &lt;-&gt; cardUsage 관계 수정\n - slipHeader에 isLatest 컬럼 추가 및 로직 추가\n - 데이터 마이그레이션```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ 디자인 시스템 작업 진행\n - 버튼 component 기능 추가\n - Figma와 연동된 토큰 기반 작업\n\n[김보민] - 연차\n \n[전원재]\n완료\nㄴ EACC-1847 전자전표 2.0 new-staging 소스 development, main에 현행화\nㄴ SBTM-343 법인카드 &gt; 정보관리 &gt; 목록 조회 파라미터 수정\n - 출장서비스, 백오피스 수정\n진행\nㄴ EACC-1846 지출결의서 &gt; 관리항목 추가 모달\nㄴ SBTM-342 지출결의서 &gt; 관리항목 추가 모달```\n`&lt; 모바일 &gt;`\n```[홍제원] - 부친상```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴ영림원 네이버웍스 결합상품\n  -랜딩페이지 구성 초안 기획,디자인\nㄴSyncFlo 디자인시스템\n  - 디자인 시스템 Variable, Text style 변경 작업```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vZbIs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 31일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 영림원 ERP X 네이버 웍스 인터페이스 연동을 위한 작업\n\t- 씨앤에스 구축 연동을 위해 현 Syncflo 2.0 -> 3.0 업그레이드 작업\n\t- 모바일 런칭 준비\n\t- 8월 18일 (월) 오픈 예정\n\t- 마이그레이션, 소스코드 현행화, 도메인 변경, SSO 업데이트, CI\/CD 업데이트, 작업 변경 내역 문서화 등"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- Jira Ticket 생성을 위한 에픽 단위 설정\n\t\n진행\nㄴ 디플 기능 및 개선에 필요한 분석 자료 정리 (Confluence)\n\t- 메뉴 및 기능 정의 (ERP 외 메뉴 결정)\nㄴ Syncflo 3.0 Major Upgrade\n\t- 일정 계획\n\t- 작업 변경 내역 정리"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호] - 하계 휴가\n\n[박수환]\n진행\nㄴ 법인카드 수집 서버 구성\nㄴ 싱크플로 업그레이드 준비\n\t- DB 마이그레이션 준비\n  \n[권연주]\n진행\nㄴ 법인카드 전표 재기안 로직 수정\n - slipHeader <-> cardUsage 관계 수정\n - slipHeader에 isLatest 컬럼 추가 및 로직 추가\n - 데이터 마이그레이션"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ 디자인 시스템 작업 진행\n - 버튼 component 기능 추가\n - Figma와 연동된 토큰 기반 작업\n\n[김보민] - 연차\n \n[전원재]\n완료\nㄴ EACC-1847 전자전표 2.0 new-staging 소스 development, main에 현행화\nㄴ SBTM-343 법인카드 > 정보관리 > 목록 조회 파라미터 수정\n - 출장서비스, 백오피스 수정\n진행\nㄴ EACC-1846 지출결의서 > 관리항목 추가 모달\nㄴ SBTM-342 지출결의서 > 관리항목 추가 모달"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원] - 부친상"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴ영림원 네이버웍스 결합상품\n  -랜딩페이지 구성 초안 기획,디자인\nㄴSyncFlo 디자인시스템\n  - 디자인 시스템 Variable, Text style 변경 작업"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

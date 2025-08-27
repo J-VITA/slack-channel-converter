@@ -1,0 +1,224 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1721973449.163379",
+        "client_msg_id": "69408493-0f75-4f40-a373-c2833322a77c",
+        "text": "2024-07-25(목) 스크럼\n`&lt; 백엔드 &gt;`\n```[장정수]\nㄴ 시스템 설정 기개발 API 수정 보완 개발 진행(계속)\nㄴ 소스코드 리펙토링 진행(계속)\nㄴ 인수인계 자료 작성(계속)\n[구시완] \nㄴ 기준정보관리 소스코드 리펙토링 진행\nㄴ 기준정보관리 회사구분코드관련 로직 보완 진행```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\nㄴ 회계기간관리 API 연동 수정 개발 완료\nㄴ 코스트센터 수정 및 보완 개발 진행\n[김정중]\nㄴ 부서관리 화면 및 API 연동 개발 진행\nㄴ CRUDL 개발 진행 완료\nㄴ 부서별 사용자 할당, 조직장 설정 등 기능 추가 작업 예정```\n`&lt; 디자인 &gt;`\n```[차윤수]\nㄴ 전자결재 화면 설계 보완 진행(계속)\nㄴ 전결\/대결\/후결\/후열 등 부가기능 관련 타사 사례 분석\nㄴ 결재환경설정 보완 등 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZEKTr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-07-25(목) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 시스템 설정 기개발 API 수정 보완 개발 진행(계속)\nㄴ 소스코드 리펙토링 진행(계속)\nㄴ 인수인계 자료 작성(계속)\n[구시완] \nㄴ 기준정보관리 소스코드 리펙토링 진행\nㄴ 기준정보관리 회사구분코드관련 로직 보완 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 회계기간관리 API 연동 수정 개발 완료\nㄴ 코스트센터 수정 및 보완 개발 진행\n[김정중]\nㄴ 부서관리 화면 및 API 연동 개발 진행\nㄴ CRUDL 개발 진행 완료\nㄴ 부서별 사용자 할당, 조직장 설정 등 기능 추가 작업 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 전자결재 화면 설계 보완 진행(계속)\nㄴ 전결\/대결\/후결\/후열 등 부가기능 관련 타사 사례 분석\nㄴ 결재환경설정 보완 등 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1721973497.499019",
+        "client_msg_id": "b977b33d-7096-4aec-b250-7aa4cd04954f",
+        "text": "2024-07-26(금) 스크럼\n`&lt; 백엔드 &gt;`\n```[장정수]\nㄴ 인수인계 자료 전달 및 설명(with 맹건아)\nㄴ 시스템 설정 기개발 API 수정 보완 개발 진행(계속)\nㄴ 소스코드 리펙토링 진행(계속)\n[구시완] \nㄴ 코스트센터 보완 사항 개발 적용 완료\nㄴ 기준정보관리 소스코드 리펙토링 진행(게속)```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\nㄴ 코스트센터 관련 추가 개발 API 연동 완료\nㄴ 추가 보완 작업 진행 중\nㄴ 프론트엔드 개발자 면접 진행(11:00 ~ )\n[김정중] - 경조휴가(조모상)```\n`&lt; 디자인 &gt;`\n```[차윤수]\nㄴ 전자결재 화면 설계 보완 진행(계속)\nㄴ 결재 프로세스 정리 및 시나리오 구성\nㄴ 결재선 관련 화면 설계 진행 및 논의 예정(김정중 복귀 후)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a23Gj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-07-26(금) 스크럼\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 인수인계 자료 전달 및 설명(with 맹건아)\nㄴ 시스템 설정 기개발 API 수정 보완 개발 진행(계속)\nㄴ 소스코드 리펙토링 진행(계속)\n[구시완] \nㄴ 코스트센터 보완 사항 개발 적용 완료\nㄴ 기준정보관리 소스코드 리펙토링 진행(게속)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 코스트센터 관련 추가 개발 API 연동 완료\nㄴ 추가 보완 작업 진행 중\nㄴ 프론트엔드 개발자 면접 진행(11:00 ~ )\n[김정중] - 경조휴가(조모상)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 전자결재 화면 설계 보완 진행(계속)\nㄴ 결재 프로세스 정리 및 시나리오 구성\nㄴ 결재선 관련 화면 설계 진행 및 논의 예정(김정중 복귀 후)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1753171272.346989",
+        "client_msg_id": "577e71e3-4cc9-46ff-a912-6af9cb552892",
+        "text": "2025년 7월 22일 (화)\n`&lt; 스크럼 내용 &gt;`\n```1. Syncflo Lite SaaS 서비스 안정화 및 보완\n2. 증빙첨부 오피스 문서 등 이미지화 기능 관련 논의```\n`&lt; 총괄 &gt;`\n```[김정중]\n진행\nㄴ Syncflo Lite SaaS 서비스 안정화 및 보완\nㄴ Syncflo Design System 개발환경\n - Github packages npm 설정\n - CI\/CD\n - @syncflo\/design-token, @syncflo\/vue, @syncflo\/react```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ BE 개발 과업 정리 및 일정 수립\n - 법인카드 API 서버, batch 서버(ERP 연동용), 이미지 convert 서버\n진행\nㄴ BE NCP 환경 설정\n - SMTPS 적용후 테스트(메일 서버에서 추가 세팅 필요하여 딜레이)\nㄴ 이미지 convert 서버 개발\n - 워드, ppt, 엑셀 파일 전송받아 이미지 zip 파일로 응답하도록 개발 완료\n - css, eml 파일 이미지로 전환 가능한지 검토 진행\n - 전자전표 첨부파일 미리보기 API 개발 진행\n \n[박수환]\n완료\nㄴ SBTM-329 MIME type 추가\n진행\nㄴ 법인카드 수집 서버 구성\n\n[권연주] - 연차```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n진행\nㄴ 디자인 시스템 작업\n\n[김보민]\n완료\nㄴ Saas -&gt; Service 코드 현행화\n - 출장경비신청서\n - refresh Token 재발급\n - 파일첨부 &gt; OCR\n진행\nㄴ Saas -&gt; Service 코드 현행화\n - 개인경비 \/ 법인카드 read, preview 리스트 개선\nㄴ SBTM-329 파일첨부 &gt; ppt, pdf 파일 업로드시 에러발생\nㄴ 모바일 스크롤 및 상태값 유지처리\n \n[전원재]\n완료\nㄴ EACC-1843 출장 SaaS &gt; 설정, 패키지, 페이지 등 현행화\n - 설정, 패키지, 로그인, 개인경비, 통계 현행화\n진행\nㄴ EACC-1843 출장 SaaS &gt; 설정, 패키지, 페이지 등 현행화\n - 기준정보관리, 전표관리, 대시보드  현행화 및 오류 수정\nㄴ SBTM-326 개인경비 &gt; 개인경비신청 &gt; 유류대 등록(추가 안됨, 아이콘 누락)\nㄴ SBTM-328 전자결재 &gt; 개인경비신청 &gt; 영수증 수정버튼 클릭 -&gt; 목록 금액과 수정모달창 지출내역이 다름\nㄴ SBTM-327 개인경비신청 &gt; 경비분할시 필수값 누락으로 저장실패 ```\n`&lt; 모바일 &gt;`\n```[홍제원] - 연차```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴSyncFlo 디자인시스템\n  - 타사 디자인시스템 Variables, Style 분석\n  - 디자인 토큰스튜디오 플러그인 파악\n  - 디자인 시스템 컴포넌트 단위별 초안 작업```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DEU3F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 22일 (화)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. Syncflo Lite SaaS 서비스 안정화 및 보완\n2. 증빙첨부 오피스 문서 등 이미지화 기능 관련 논의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n진행\nㄴ Syncflo Lite SaaS 서비스 안정화 및 보완\nㄴ Syncflo Design System 개발환경\n - Github packages npm 설정\n - CI\/CD\n - @syncflo\/design-token, @syncflo\/vue, @syncflo\/react"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ BE 개발 과업 정리 및 일정 수립\n - 법인카드 API 서버, batch 서버(ERP 연동용), 이미지 convert 서버\n진행\nㄴ BE NCP 환경 설정\n - SMTPS 적용후 테스트(메일 서버에서 추가 세팅 필요하여 딜레이)\nㄴ 이미지 convert 서버 개발\n - 워드, ppt, 엑셀 파일 전송받아 이미지 zip 파일로 응답하도록 개발 완료\n - css, eml 파일 이미지로 전환 가능한지 검토 진행\n - 전자전표 첨부파일 미리보기 API 개발 진행\n \n[박수환]\n완료\nㄴ SBTM-329 MIME type 추가\n진행\nㄴ 법인카드 수집 서버 구성\n\n[권연주] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n진행\nㄴ 디자인 시스템 작업\n\n[김보민]\n완료\nㄴ Saas -> Service 코드 현행화\n - 출장경비신청서\n - refresh Token 재발급\n - 파일첨부 > OCR\n진행\nㄴ Saas -> Service 코드 현행화\n - 개인경비 \/ 법인카드 read, preview 리스트 개선\nㄴ SBTM-329 파일첨부 > ppt, pdf 파일 업로드시 에러발생\nㄴ 모바일 스크롤 및 상태값 유지처리\n \n[전원재]\n완료\nㄴ EACC-1843 출장 SaaS > 설정, 패키지, 페이지 등 현행화\n - 설정, 패키지, 로그인, 개인경비, 통계 현행화\n진행\nㄴ EACC-1843 출장 SaaS > 설정, 패키지, 페이지 등 현행화\n - 기준정보관리, 전표관리, 대시보드  현행화 및 오류 수정\nㄴ SBTM-326 개인경비 > 개인경비신청 > 유류대 등록(추가 안됨, 아이콘 누락)\nㄴ SBTM-328 전자결재 > 개인경비신청 > 영수증 수정버튼 클릭 -> 목록 금액과 수정모달창 지출내역이 다름\nㄴ SBTM-327 개인경비신청 > 경비분할시 필수값 누락으로 저장실패 "
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴSyncFlo 디자인시스템\n  - 타사 디자인시스템 Variables, Style 분석\n  - 디자인 토큰스튜디오 플러그인 파악\n  - 디자인 시스템 컴포넌트 단위별 초안 작업"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

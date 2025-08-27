@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U06BP1VPBGF",
+        "type": "message",
+        "ts": "1713341114.440629",
+        "client_msg_id": "a6153b70-70b3-4130-ac79-ac6869442d2b",
+        "text": "2024-04-17(수) 스크럼\n```[장정수]\nㄴ 화면설계 초안 검토(계속)\nㄴ 개발 관련 정리 작업 진행(계속) \n[이성민]\nㄴ 기존 DB 설계 검토 및 화면 설계안 적용 검토(계속)\nㄴ 알피니언 전자전표 db 검토 진행\n[구시완] \nㄴ 백엔드 개발 관련 설정 및 테스트 진행 중\n[김정중] \nㄴ 권한관련 미들웨어 및 유틸리티 작업 진행 \n[차윤수] \nㄴ Figma 화면설계 보완 진행(계속) - 예산\/코드\nㄴ Tailwind css 관련 스터디 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0b76c449153",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b76c449153d42f74e7f5a9697dec5f8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "장정수",
+            "real_name": "장정수",
+            "display_name": "장정수",
+            "team": "T06BW9BS3L6",
+            "name": "jjang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jsfjg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2024-04-17(수) 스크럼\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[장정수]\nㄴ 화면설계 초안 검토(계속)\nㄴ 개발 관련 정리 작업 진행(계속) \n[이성민]\nㄴ 기존 DB 설계 검토 및 화면 설계안 적용 검토(계속)\nㄴ 알피니언 전자전표 db 검토 진행\n[구시완] \nㄴ 백엔드 개발 관련 설정 및 테스트 진행 중\n[김정중] \nㄴ 권한관련 미들웨어 및 유틸리티 작업 진행 \n[차윤수] \nㄴ Figma 화면설계 보완 진행(계속) - 예산\/코드\nㄴ Tailwind css 관련 스터디 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

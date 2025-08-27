@@ -1,0 +1,109 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1727057022.115289",
+        "client_msg_id": "420c7e87-0a97-4cc0-92e2-34a3d2b00537",
+        "text": "`백엔드`\n```[구시완]\nㄴ 지출작성 → API 개발 진행 (계속)\n  - 관려문서 업로드 개발 진행 예정\nㄴ 더존 파일 받아 마이그레이션 할 예정\nㄴ AWS, 컨터이너 확인 예정\nㄴ 15시 면접 진행예정\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)\n  - 결재,반려,합의 API 작업 (완료)\n  - 결재 진행 목록 API 작업 진행```\n`프론트엔드`\n```[우태림]\nㄴ 전자결재 → 지출결의서 내 결재선 모달 화면 UI 작업 진행(계속)\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행 (계속)\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 API 연동 진행 예정\nㄴ 기준정보관리 → 세금코드 API 연동 진행\nㄴ 지출등록, 결재 → 설정 부분들에 대한 공통 API 작성 진행(완료)```\n`디자인`\n```[차윤수]\nㄴ 출장 \/ 통계 \/ 지출작성 UI 이상훈 리뷰 및 반영중\n  - 통계 홈: 대시보드가 먼저 나오게 수정\n  - 참석자 기능 삭제검토: 우선순위 하위로 변경 -&gt; 내부참석자에게도 예산소진이 반영을 고려해야함. 지출입력이 불편해지는 단점\n  - 출장 유류대 등록 : 출장보고서대신 전표처리에서 입력하도록 변경\n  - 출장지 거리관리: 개인결재선처럼 개인이 등록하는게 맞음(입력 편의성)\n  - 출장정산보고서 작성 : 전자결재를 통해서만 작성가능 (출장명과 지출의 연결 필요)\n  - 전표처리: 기본 목록개수 고민\n  - 예산실적내역: 기간검색 필요여부 고민```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qwbbj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 지출작성 → API 개발 진행 (계속)\n  - 관려문서 업로드 개발 진행 예정\nㄴ 더존 파일 받아 마이그레이션 할 예정\nㄴ AWS, 컨터이너 확인 예정\nㄴ 15시 면접 진행예정\n\n[권연주]\nㄴ 결재 관련 API 개발 진행 (계속)\n  - 결재,반려,합의 API 작업 (완료)\n  - 결재 진행 목록 API 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자결재 → 지출결의서 내 결재선 모달 화면 UI 작업 진행(계속)\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행 (계속)\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 API 연동 진행 예정\nㄴ 기준정보관리 → 세금코드 API 연동 진행\nㄴ 지출등록, 결재 → 설정 부분들에 대한 공통 API 작성 진행(완료)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 출장 \/ 통계 \/ 지출작성 UI 이상훈 리뷰 및 반영중\n  - 통계 홈: 대시보드가 먼저 나오게 수정\n  - 참석자 기능 삭제검토: 우선순위 하위로 변경 -> 내부참석자에게도 예산소진이 반영을 고려해야함. 지출입력이 불편해지는 단점\n  - 출장 유류대 등록 : 출장보고서대신 전표처리에서 입력하도록 변경\n  - 출장지 거리관리: 개인결재선처럼 개인이 등록하는게 맞음(입력 편의성)\n  - 출장정산보고서 작성 : 전자결재를 통해서만 작성가능 (출장명과 지출의 연결 필요)\n  - 전표처리: 기본 목록개수 고민\n  - 예산실적내역: 기간검색 필요여부 고민"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

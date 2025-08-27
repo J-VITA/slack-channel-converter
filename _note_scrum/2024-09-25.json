@@ -1,0 +1,88 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1727256937.197299",
+        "client_msg_id": "d9f26e88-ed4e-4982-ae41-705089410c68",
+        "text": "백엔드\n```[구시완]\nㄴ 계정과목 더존 데이터 마이그레이션 완료\nㄴ 로그인시 jwt 값 추가완료 (employeeId)\nㄴ MVP문서 작성 중\n\n[권연주] - 연차```\n프론트엔드\n```[우태림]\nㄴ 전자전표 MVP 화면 리뷰 시나리오 작성 진행\nㄴ 전체 UI 수정 및 개선 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행 (계속)\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 결재상신 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 목록조회 진행```\n디자인\n```[차윤수]\nㄴ 발표문서취합, 개선사항 결과일정작성\nㄴ MVP범위, 개발된 화면 UI 검토중\nㄴ 페이지내 설명 텍스트 수정\/반영중\nㄴ 디자인(CSS) 수정사항 문서 작성중```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "83yRl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 계정과목 더존 데이터 마이그레이션 완료\nㄴ 로그인시 jwt 값 추가완료 (employeeId)\nㄴ MVP문서 작성 중\n\n[권연주] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자전표 MVP 화면 리뷰 시나리오 작성 진행\nㄴ 전체 UI 수정 및 개선 진행\n\n[김정중]\nㄴ 전표처리 → 개인경비 지출 등록\/수정 개발 진행 (계속)\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 결재상신 진행\nㄴ 전자결재 → 전자결재 홈 → 결재문서 작성 → 목록조회 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 발표문서취합, 개선사항 결과일정작성\nㄴ MVP범위, 개발된 화면 UI 검토중\nㄴ 페이지내 설명 텍스트 수정\/반영중\nㄴ 디자인(CSS) 수정사항 문서 작성중"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

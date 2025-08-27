@@ -1,0 +1,227 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1752825723.664809",
+        "client_msg_id": "7cc3c410-bf4a-40de-b31e-347a17946790",
+        "text": "2025년 7월 18일 (금)\n`&lt; 스크럼 내용 &gt;`\n```1. Syncflo Lite SaaS 서비스 오픈\n\t- Service URL : &lt;<https:\/\/lite.syncflo.kr>&gt;\n\n\t- Mobile\n\t\t- Android : &lt;<https:\/\/play.google.com\/store\/apps\/details?id=kr.syncflo.app.lite&amp;hl=ko>&gt;\n\t\t- iOS : &lt;<https:\/\/apps.apple.com\/us\/app\/syncflo-lite\/id6748043313>&gt;\n\n\t- Admin URL : &lt;<https:\/\/admin.syncflo.kr>&gt;```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)\nㄴ Syncflo Lite SaaS 서비스 오픈 완료\n\t- 웹 서비스, 백오피스, 모바일\n진행\nㄴ Syncflo Lite SaaS 서비스 안정화 및 보완```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ BE NCP 환경 설정\n - Object Storage CORS 설정 추가(첨부파일 정상 다운로드 확인)\nㄴ 운영서버 QA 지원\n - ingress 파일업로드 허가 용량 추가\n - cookie 만료시간 관련 디버깅\n진행\nㄴ BE NCP 환경 설정\n - SMTP 서버 적용 및 메일 발송 테스트(김덕기 차장 추가 세팅 진행중)\n \n[박수환]\n완료\nㄴ 중복로그인 가능하게 수정\nㄴ 업로드 가능한 파일 추가\nㄴ 사용자 엑셀 업로드 수정\n\n[권연주]\n완료\nㄴ SBTM-306 지출결의서작성 &gt; 법인카드 &gt; 미청구기능 오류\n  - 전표관리 탭 미청구 정보 추가\nㄴ SBTM-318 상신 -&gt; 반려 -&gt; 재상신 -&gt; 검인확정시, 확정현황에서 문서가 보이지 않는 현상\nㄴ SBTM-321 검인확정: 검인반려시 조회조건에 없는 전표라도, 문서 내 포함된 전표는 모두 반려처리 되어야함.\n  - 전표관리 결재별 전표 조회 api 수정```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n완료\nㄴ 모바일 사파리 로그인 시점 통신 장애 문제 수정\n진행\nㄴ 모바일 스캔함 버그 수정\nㄴ 테스트 및 버그 이슈 핸들링\n\n[김보민]\n완료\nㄴ SBTM-310 지출결의서 상세모달 - 회계일자와 결재내용이 보이지 않음(출장경비신청서와 다름)\nㄴ SBTM-311 출장사전신청서 읽기 화면 &gt; 에디터 내 값 미출력. 신청서 상신시 메시지 수정\nㄴ SBTM-316 출장사전신청 작성 : 출장지, 출장목적 밸리데이션 체크 문구 입력필요\n진행\nㄴ SBTM-306 지출결의서작성 &gt; 법인카드 &gt; 미청구기능 오류\nㄴ SBTM-262 Android] 뒤로가기 버튼 동작 확인 필요\nㄴ SBTM-321 검인확정: 검인반려시 조회조건에 없는 전표라도, 문서 내 포함된 전표는 모두 반려처리 되어야함.\nㄴ 파일업로드시 배포환경에 따른 LOCAL | S3 구분 추가\nㄴ [MO] 결재 승인반려 시 버튼 유효성 체크\n\n[전원재]\n완료\nㄴ SBTM-312 지출결의서 &gt; 유류대 입력팝업: 입력완료시 목록에 금액 0원, 저장시 필수값 누락일때 메시지 문구 수정\nㄴ SBTM-313 지출결의서 &gt; 유류대 입력팝업 : 유류대 저장 -&gt; 수정 버튼눌러 경로 수정시 팝업창 위치가 뒤로 숨겨지는 현상\nㄴ SBTM-314 전표관리 &gt; 검인확정, 확정현황 : 유류대 합계(총금액) 표기 오류\nㄴ SBTM-315 전표관리 &gt; 유류비 전표 상세 - 지도보기의 지도가 기준정보에서 설정한 맵과 다름\nㄴ SBTM-319 파일 업로드: xls, ppt, word 파일 업로드 가능해야함\nㄴ SBTM-320 출장경비신청 &gt;유류대 주행정보 등록: 최초등록 후 개인저장된 경로로 변경시, 지도 및 거리 데이터 업데이트 안되는 문제\n진행\nㄴ SBTM-323 개인경비 &gt; 유류대 - 저장된 경로로 변경시 이전경로가 보여지는 현상 수정, 경로 변경시 기존마커 남아있는 오류 수정\nㄴ SBTM-317 대시보드 : 통계그래프 - 기타 소수점 오류 수정\nㄴ SBTM-322 개인경비신청 &gt; 공통 - 작성모달 내 계정항목 옵션 리스트 길이 변경```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ 모바일 QA 진행\n\n완료\nㄴ Android 릴리즈 주소 변경 업데이트\nㄴ iOS 릴리즈 주소 변경 업데이트```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ전자전표SaaS - 오류 테스트\nㄴ퀵메뉴 이미지 업로드, 메뉴 아이콘 변경\n진행\nㄴSyncFlo 디자인시스템\n  - 타사 디자인시스템 Variables 리서치  (Atomic color, Semantic Color, 타이포그래피 스타일 )\n  - 디자인 토큰스튜디오 플러그인 파악```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZWHZ3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 18일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. Syncflo Lite SaaS 서비스 오픈\n\t- Service URL : <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/lite.syncflo.kr"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">\n\n\t- Mobile\n\t\t- Android : <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/play.google.com\/store\/apps\/details?id=kr.syncflo.app.lite&hl=ko"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">\n\t\t- iOS : <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/apps.apple.com\/us\/app\/syncflo-lite\/id6748043313"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">\n\n\t- Admin URL : <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/admin.syncflo.kr"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)\nㄴ Syncflo Lite SaaS 서비스 오픈 완료\n\t- 웹 서비스, 백오피스, 모바일\n진행\nㄴ Syncflo Lite SaaS 서비스 안정화 및 보완"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ BE NCP 환경 설정\n - Object Storage CORS 설정 추가(첨부파일 정상 다운로드 확인)\nㄴ 운영서버 QA 지원\n - ingress 파일업로드 허가 용량 추가\n - cookie 만료시간 관련 디버깅\n진행\nㄴ BE NCP 환경 설정\n - SMTP 서버 적용 및 메일 발송 테스트(김덕기 차장 추가 세팅 진행중)\n \n[박수환]\n완료\nㄴ 중복로그인 가능하게 수정\nㄴ 업로드 가능한 파일 추가\nㄴ 사용자 엑셀 업로드 수정\n\n[권연주]\n완료\nㄴ SBTM-306 지출결의서작성 > 법인카드 > 미청구기능 오류\n  - 전표관리 탭 미청구 정보 추가\nㄴ SBTM-318 상신 -> 반려 -> 재상신 -> 검인확정시, 확정현황에서 문서가 보이지 않는 현상\nㄴ SBTM-321 검인확정: 검인반려시 조회조건에 없는 전표라도, 문서 내 포함된 전표는 모두 반려처리 되어야함.\n  - 전표관리 결재별 전표 조회 api 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n완료\nㄴ 모바일 사파리 로그인 시점 통신 장애 문제 수정\n진행\nㄴ 모바일 스캔함 버그 수정\nㄴ 테스트 및 버그 이슈 핸들링\n\n[김보민]\n완료\nㄴ SBTM-310 지출결의서 상세모달 - 회계일자와 결재내용이 보이지 않음(출장경비신청서와 다름)\nㄴ SBTM-311 출장사전신청서 읽기 화면 > 에디터 내 값 미출력. 신청서 상신시 메시지 수정\nㄴ SBTM-316 출장사전신청 작성 : 출장지, 출장목적 밸리데이션 체크 문구 입력필요\n진행\nㄴ SBTM-306 지출결의서작성 > 법인카드 > 미청구기능 오류\nㄴ SBTM-262 Android] 뒤로가기 버튼 동작 확인 필요\nㄴ SBTM-321 검인확정: 검인반려시 조회조건에 없는 전표라도, 문서 내 포함된 전표는 모두 반려처리 되어야함.\nㄴ 파일업로드시 배포환경에 따른 LOCAL | S3 구분 추가\nㄴ [MO] 결재 승인반려 시 버튼 유효성 체크\n\n[전원재]\n완료\nㄴ SBTM-312 지출결의서 > 유류대 입력팝업: 입력완료시 목록에 금액 0원, 저장시 필수값 누락일때 메시지 문구 수정\nㄴ SBTM-313 지출결의서 > 유류대 입력팝업 : 유류대 저장 -> 수정 버튼눌러 경로 수정시 팝업창 위치가 뒤로 숨겨지는 현상\nㄴ SBTM-314 전표관리 > 검인확정, 확정현황 : 유류대 합계(총금액) 표기 오류\nㄴ SBTM-315 전표관리 > 유류비 전표 상세 - 지도보기의 지도가 기준정보에서 설정한 맵과 다름\nㄴ SBTM-319 파일 업로드: xls, ppt, word 파일 업로드 가능해야함\nㄴ SBTM-320 출장경비신청 >유류대 주행정보 등록: 최초등록 후 개인저장된 경로로 변경시, 지도 및 거리 데이터 업데이트 안되는 문제\n진행\nㄴ SBTM-323 개인경비 > 유류대 - 저장된 경로로 변경시 이전경로가 보여지는 현상 수정, 경로 변경시 기존마커 남아있는 오류 수정\nㄴ SBTM-317 대시보드 : 통계그래프 - 기타 소수점 오류 수정\nㄴ SBTM-322 개인경비신청 > 공통 - 작성모달 내 계정항목 옵션 리스트 길이 변경"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ 모바일 QA 진행\n\n완료\nㄴ Android 릴리즈 주소 변경 업데이트\nㄴ iOS 릴리즈 주소 변경 업데이트"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ전자전표SaaS - 오류 테스트\nㄴ퀵메뉴 이미지 업로드, 메뉴 아이콘 변경\n진행\nㄴSyncFlo 디자인시스템\n  - 타사 디자인시스템 Variables 리서치  (Atomic color, Semantic Color, 타이포그래피 스타일 )\n  - 디자인 토큰스튜디오 플러그인 파악"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

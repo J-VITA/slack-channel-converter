@@ -1,0 +1,526 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1722997589.227169",
+        "client_msg_id": "e53f904b-6b68-4604-aa9a-17fa9f28b0e5",
+        "text": "`백엔드`\n```[구시완] - 조모상```\n`프론트엔드`\n```[우태림]\nㄴ 기준정보관리 - 결재환경설정 화면 UI (완료)\nㄴ 기준정보관리 - 거래처관리 화면 UI 작업 진행\n\n[김정중]\nㄴ 회사\/사업장관리 선택 문구 수정 (완료)\nㄴ 권한관리 (완료 \/ 이슈있음)\n  - 권한 사용자 필드 누락 (조회, 저장, 수정 시 필요) -&gt; 카운트로 표기\n  - 접근 가능한 메뉴수 필드 누락 (조회, 저장, 수정 시 필요) -&gt; 카운트로 표기\nㄴ 메뉴관리 화면 이슈(드래그&amp;드랍) 불가능 UI 개선 필요사항\nㄴ 공통 기능 개선 및 추가 사항\n  - LNB 현재 라우터 매칭 설정 (완료)\n  - 메인 이동 미들웨어 지출작성 페이지 변경 (완료)\n  - 라우터 페이지 생성 (진행)\n  - 콤보박스 API 비동기 처리 될 수 있도록 기능 추가 (진행)\nㄴ 회계기간 관리 (진행 예정)```\n`디자인`\n```[차윤수]\nㄴ 시스템 화면리뷰 이슈건에 대한 수정사항 피그마 정리 진행\nㄴ 지출작성시 분할 화면 기획\/디자인 작업 진행```\n`이슈발생 - **논의필요**`\n```회사 등록 기능 추가 시 발생할 수 있는 이슈 정리\n\n1. 권한에 따른 회사 정보 노출 여부 결정 필요\n- 권한에 따라 회사 정보 노출 기준을 설정해야 함\n- 예: 모든 권한을 가진 관리자가 회계 관리 화면에 접속했을 때 모든 회사의 회계 내역이 보여져야 하는가?\n2. 권한 관리 및 필요한 권한 수준 정의 필요\n- 권한에 따라 접근할 수 있는 정보와 기능을 명확히 구분\n- 예: 슈퍼관리자가 사용자 관리 페이지에서 모든 회사(그룹사 소속 모든 직원)의 직원을 등록하고 수정할 수 있는가?\n- 예: 슈퍼관리자가 회계 관리 화면에서 모든 회사의 회계 오픈\/마감 내역을 볼 수 있는가?\n3. 슈퍼관리자 필요 여부 검토\n- 등록된 회사 및 사업장을 모두 관리할 수 있는 슈퍼관리자가 필요한지 여부 검토\n- 슈퍼관리자가 필요하다면 권한에 따른 정보 노출 여부를 결정 필요\n- 필터 영역, 트리 구조, 페이지마다 노출 여부가 달라질 수 있음\n- 슈퍼 권한 관리 및 필요한 권한 수준 정의 필요\n4. 최초 회사 등록 시 호출 문제\n- 사업장에서 회사를 등록할 때 최초 회사 등록 시 회사를 알 수 없는 구분이 없음\n- 현 UI에서 두 번 호출해야 하는 문제 발생\n5. 시스템 설정 및 기준 정보 관리\n- 회사별 관리가 필요한 슈퍼 권한을 가진 관리자 필요\n- 시스템 설정 (부서, 직위, 사용자, 권한, 코드 등) 및 기준정보 관리 화면이 회사별로 관리될 필요 있음\n6. 페이지별 회사 구분 필요\n- 페이지별로 회사를 구분 지어야 하는 페이지들이 생길 가능성 있음\n- 기존 사업장 관리는 하나의 회사의 여러 사업장을 관리하는 용도로 설계됨\n\n요약\n\n- 권한 관리 및 설정 필요: 권한에 따른 정보 노출 기준 설정, 필요한 권한 수준 정의\n- 슈퍼관리자 필요성 검토: 슈퍼관리자의 필요 여부와 권한 설정 검토\n- 최초 회사 등록 문제 해결 필요: 현 UI에서 두 번 호출해야 하는 문제 해결 필요\n- 시스템 설정 및 관리 필요: 회사별 시스템 설정 및 기준정보 관리 필요\n- 페이지별 회사 구분 필요: 특정 페이지에서 회사 구분 필요\n\n현재 사이트는 'One Site &amp; One Company' 관리 체계에서 '다수의 회사 및 사업장'을 관리하는 체계로 변경됨에 따라 위와 같은 이슈들을 해결할 필요가 있습니다.```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722997589.227169",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1723012614.527909",
+        "reply_users": [
+            "U06C5C0JW20",
+            "U06KBEJ4XGV",
+            "U072BF8GMDJ"
+        ],
+        "replies": [
+            {
+                "user": "U06C5C0JW20",
+                "ts": "1722999427.404419"
+            },
+            {
+                "user": "U06KBEJ4XGV",
+                "ts": "1723000192.988119"
+            },
+            {
+                "user": "U072BF8GMDJ",
+                "ts": "1723012614.527909"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1723012614.527909",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UVegf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완] - 조모상"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 기준정보관리 - 결재환경설정 화면 UI (완료)\nㄴ 기준정보관리 - 거래처관리 화면 UI 작업 진행\n\n[김정중]\nㄴ 회사\/사업장관리 선택 문구 수정 (완료)\nㄴ 권한관리 (완료 \/ 이슈있음)\n  - 권한 사용자 필드 누락 (조회, 저장, 수정 시 필요) -> 카운트로 표기\n  - 접근 가능한 메뉴수 필드 누락 (조회, 저장, 수정 시 필요) -> 카운트로 표기\nㄴ 메뉴관리 화면 이슈(드래그&드랍) 불가능 UI 개선 필요사항\nㄴ 공통 기능 개선 및 추가 사항\n  - LNB 현재 라우터 매칭 설정 (완료)\n  - 메인 이동 미들웨어 지출작성 페이지 변경 (완료)\n  - 라우터 페이지 생성 (진행)\n  - 콤보박스 API 비동기 처리 될 수 있도록 기능 추가 (진행)\nㄴ 회계기간 관리 (진행 예정)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 시스템 화면리뷰 이슈건에 대한 수정사항 피그마 정리 진행\nㄴ 지출작성시 분할 화면 기획\/디자인 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "이슈발생 - **논의필요**",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "회사 등록 기능 추가 시 발생할 수 있는 이슈 정리\n\n1. 권한에 따른 회사 정보 노출 여부 결정 필요\n- 권한에 따라 회사 정보 노출 기준을 설정해야 함\n- 예: 모든 권한을 가진 관리자가 회계 관리 화면에 접속했을 때 모든 회사의 회계 내역이 보여져야 하는가?\n2. 권한 관리 및 필요한 권한 수준 정의 필요\n- 권한에 따라 접근할 수 있는 정보와 기능을 명확히 구분\n- 예: 슈퍼관리자가 사용자 관리 페이지에서 모든 회사(그룹사 소속 모든 직원)의 직원을 등록하고 수정할 수 있는가?\n- 예: 슈퍼관리자가 회계 관리 화면에서 모든 회사의 회계 오픈\/마감 내역을 볼 수 있는가?\n3. 슈퍼관리자 필요 여부 검토\n- 등록된 회사 및 사업장을 모두 관리할 수 있는 슈퍼관리자가 필요한지 여부 검토\n- 슈퍼관리자가 필요하다면 권한에 따른 정보 노출 여부를 결정 필요\n- 필터 영역, 트리 구조, 페이지마다 노출 여부가 달라질 수 있음\n- 슈퍼 권한 관리 및 필요한 권한 수준 정의 필요\n4. 최초 회사 등록 시 호출 문제\n- 사업장에서 회사를 등록할 때 최초 회사 등록 시 회사를 알 수 없는 구분이 없음\n- 현 UI에서 두 번 호출해야 하는 문제 발생\n5. 시스템 설정 및 기준 정보 관리\n- 회사별 관리가 필요한 슈퍼 권한을 가진 관리자 필요\n- 시스템 설정 (부서, 직위, 사용자, 권한, 코드 등) 및 기준정보 관리 화면이 회사별로 관리될 필요 있음\n6. 페이지별 회사 구분 필요\n- 페이지별로 회사를 구분 지어야 하는 페이지들이 생길 가능성 있음\n- 기존 사업장 관리는 하나의 회사의 여러 사업장을 관리하는 용도로 설계됨\n\n요약\n\n- 권한 관리 및 설정 필요: 권한에 따른 정보 노출 기준 설정, 필요한 권한 수준 정의\n- 슈퍼관리자 필요성 검토: 슈퍼관리자의 필요 여부와 권한 설정 검토\n- 최초 회사 등록 문제 해결 필요: 현 UI에서 두 번 호출해야 하는 문제 해결 필요\n- 시스템 설정 및 관리 필요: 회사별 시스템 설정 및 기준정보 관리 필요\n- 페이지별 회사 구분 필요: 특정 페이지에서 회사 구분 필요\n\n현재 사이트는 'One Site & One Company' 관리 체계에서 '다수의 회사 및 사업장'을 관리하는 체계로 변경됨에 따라 위와 같은 이슈들을 해결할 필요가 있습니다."
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "scream",
+                "users": [
+                    "U06KBEJ4XGV",
+                    "U072BF8GMDJ"
+                ],
+                "count": 2
+            },
+            {
+                "name": "expressionless",
+                "users": [
+                    "U06KBEJ4XGV"
+                ],
+                "count": 1
+            },
+            {
+                "name": "확인_부탁_드립니다",
+                "users": [
+                    "U06KBEJ4XGV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U06C5C0JW20",
+        "type": "message",
+        "ts": "1722999427.404419",
+        "client_msg_id": "b392a764-7bc5-4e5d-8108-af5507c98ecd",
+        "text": "회사를 추가 등록하더라도\n모든프로드램은 comp_cd(회사코드)를 가지고 있습니다. 다만 기준정보, 시스템설정 등이 다소 과하게 고려되어야 하니 단일 회사만 등록하는 것으로 합니다.\n\n1. 데이터 설계는 그룹사의 여러회사 사용도 될 수 있는 구조임\n2. 2 0으로 그룹사 여러회사 대상 프로젝트 수행 시 유연하게 커스트마이징을 고려한 것임\n3. 모든프로그램은 compcd가 있어야 한다는 기준만 맞춰주기 바랍니다.",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g0cabb29432e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0cabb29432e574f3b4cc3d45b66c2699.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "맹건아",
+            "real_name": "맹건아",
+            "display_name": "맹건아",
+            "team": "T06BW9BS3L6",
+            "name": "keona.maeng",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722997589.227169",
+        "parent_user_id": "U0785NRDD3Q",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z5UJI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "회사를 추가 등록하더라도\n모든프로드램은 comp_cd(회사코드)를 가지고 있습니다. 다만 기준정보, 시스템설정 등이 다소 과하게 고려되어야 하니 단일 회사만 등록하는 것으로 합니다.\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "데이터 설계는 그룹사의 여러회사 사용도 될 수 있는 구조임"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "2 0으로 그룹사 여러회사 대상 프로젝트 수행 시 유연하게 커스트마이징을 고려한 것임"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "모든프로그램은 compcd가 있어야 한다는 기준만 맞춰주기 바랍니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0,
+                        "offset": 0,
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "thinking_face",
+                "users": [
+                    "U06KBEJ4XGV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U06KBEJ4XGV",
+        "type": "message",
+        "ts": "1723000192.988119",
+        "client_msg_id": "40242481-2F4C-46B6-AB48-E9B73E4773EA",
+        "text": "<@U06C5C0JW20> 회사 등록은 추후에 백오피스에서 관리하는 것은 어떻게 생각하시나요?",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g17d1fd87a90",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/17d1fd87a90ba7296340619da78307cd.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "502175",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722997589.227169",
+        "parent_user_id": "U0785NRDD3Q",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qgfur",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U06C5C0JW20"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "회사"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "등록은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "추후에"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "백오피스에서"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "관리하는"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "것은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "어떻게"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "생각하시나요"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U072BF8GMDJ",
+        "type": "message",
+        "ts": "1723012614.527909",
+        "client_msg_id": "fbd59de8-3046-4478-b07d-97fa9cf2544f",
+        "text": "1. 추후 백오피스를 통한 회사별 컨테이너 배포방식과\n 2. 현재와 같이 1개의 사이트내에서 여러 회사가 사용하는 방식\nBE에서는 2가지 모두 가능한 기준으로 개발되고,\nFE에서는 MVP 개발에서 2번을 기준으로 개발하면 어떨까 합니다.\n\nQ. 필터 영역, 트리 구조, 페이지마다 노출 여부\n• 현재 트리 구조 유지, 회사가 추가되어도 FE 에서 모든 회사를 조회\nQ. 슈퍼관리자 유무\n• 추후 백오피스에 관리할 수 있다. FE 에 구현은 추후\nQ. 최초 회사 등록 시 호출 문제\n• 최초 회사 등록은 1개만 셋업 해주는 것으로 하고, 관리자가 수동 추가하는 것은 없다\n• 호출 문제는 UI 수정으로 해결 될 수 있는 건지?\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "40986fbcfc67",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-27\/7170158428790_40986fbcfc67a9f79b21_72.png",
+            "first_name": "이상훈",
+            "real_name": "이상훈",
+            "display_name": "이상훈",
+            "team": "T06BW9BS3L6",
+            "name": "sanghoon.lee",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1722997589.227169",
+        "parent_user_id": "U0785NRDD3Q",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+wC+u",
+                "elements": [
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "추후 백오피스를 통한 회사별 컨테이너 배포방식과"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " 2. 현재와 같이 1개의 사이트내에서 여러 회사가 사용하는 방식\nBE에서는 2가지 모두 가능한 기준으로 개발되고,\nFE에서는 MVP 개발에서 2번을 기준으로 개발하면 어떨까 합니다.\n\nQ. 필터 영역, 트리 구조, 페이지마다 노출 여부\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "현재 트리 구조 유지, 회사가 추가되어도 FE 에서 모든 회사를 조회"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nQ. 슈퍼관리자 유무\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "추후 백오피스에 관리할 수 있다. FE 에 구현은 추후"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nQ. 최초 회사 등록 시 호출 문제\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "최초 회사 등록은 1개만 셋업 해주는 것으로 하고, 관리자가 수동 추가하는 것은 없다"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "호출 문제는 UI 수정으로 해결 될 수 있는 건지?"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U0785NRDD3Q"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

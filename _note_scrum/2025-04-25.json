@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08MP3Z41T3",
+        "type": "message",
+        "ts": "1745570299.714969",
+        "client_msg_id": "05a78b4c-d9cb-414e-a8b6-24b3daef9703",
+        "text": "2025년 4월 25일 (금)\n`&lt; 스크럼 내용 &gt;`\n```- 겸직처리를 하기 위한 시스템 설정과 추가 컬럼들에 대한 정의\n- 사용자 관리 겸직 추가 UX\/UI 변경\n- 대시보드 바로가기 기능 및 화면 재구성 (편의성과 가시성)\n- 지출내역에서의 화면 구성 논의\n- 결재 중요보관함에 대한 논의\n\t- 문서 결재 완료건에 대해서만 즐겨찾기 형태로 구성한다```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ DMZ 서버 필요 라이브러리 기본 세팅\nㄴ 신규 개발서버 FE\/BE Docker &amp; Nginx 커넥션 연결\n\t- 개발서버 오픈\nㄴ 일정관리 논의\n\t- 각 파트별, 에픽 -&gt; 티켓 -&gt; 업무 배정\n\t- JIRA 이슈, 티켓, 작업 등록\n진행\nㄴ 전자결재 전표 등록 프로세스 변경에 따른 기획\/설계 확정```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 개발 일정 및 기능 회의\n진행\nㄴ 신규 개발서버 nginx 설치 및 백엔드 배포 플로우 수정\n\n[박수환]\n완료\nㄴ staging - entity enum 해제 반영\nㄴ staging - 로그 정책 수정\n\n[권연주]\n완료\nㄴ Timezone 관련 내용 서치\n진행\nㄴ LocalDateTime deserializer 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n진행\nㄴ [PC] 타임존 관련 수정\nㄴ R&amp;D Syncflo 작업 일정 논의\n\n[김보민]\n완료\nㄴ 전자결재 → 더보기 → 결재선 변경\n진행\nㄴ 전자결재양식 → 결재 이력 상세\nㄴ PC Modal 공통화 작업방향성 논의\n\n[전원재]\n완료\nㄴ 지도 외부 api\n - map box package화 작업\n - props optional 파라미터 수정\n진행\nㄴ 지도 외부 api\n - map box marker 추가\nㄴ 공통 컴포넌트 \n - 공통 모달 변경 및 통일화 작업관련 논의 및 코드 수정```\n`&lt; 모바일 &gt;`\n```[홍제원]\n- 연차```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\n  -겸직부서 등록 프로세스 기획\/디자인\n  ㄴ겸직부서 등록 팝업창 UI\n  ㄴ웹페이지 우측상단 부서변경 UI추가\n  ㄴ겸직부서가 있을경우 대표부서 여부 선택 UI 추가\n진행\n-권한관리 개선\nㄴ권한관리 편의성 개선: (부서일괄추가, 직책일괄추가)\n- 전표작성 프로세스 수정\n ㄴ 법인카드작성 UI수정(공제구분 선택, 부가세 표현)\n ㄴ 결재문서의 구분검토 (개인경비 \/ 업무협조 \/ 업체경비)\n ㄴ 팝업창 드래그,  팝업창확대창 기능\n ㄴ 결재문서내 법인카드, 개인경비 소계 금액표기.\n ㄴ 법인카드 사용 영수증 이미지뷰어로 제공\nㄴ 모바일스캔 불러오기 UI\nㄴ 결재진행중인 문서 첨부파일 모아보기 UI\n-지출내역화면(조회) 개선사항 디자인 시안```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "gfe6fa4b5458",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe6fa4b5458612c8bfd45db233b5166d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "JayKim",
+            "real_name": "JayKim",
+            "display_name": "JayKim",
+            "team": "T06BW9BS3L6",
+            "name": "jayx",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ChNMs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 4월 25일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "- 겸직처리를 하기 위한 시스템 설정과 추가 컬럼들에 대한 정의\n- 사용자 관리 겸직 추가 UX\/UI 변경\n- 대시보드 바로가기 기능 및 화면 재구성 (편의성과 가시성)\n- 지출내역에서의 화면 구성 논의\n- 결재 중요보관함에 대한 논의\n\t- 문서 결재 완료건에 대해서만 즐겨찾기 형태로 구성한다"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ DMZ 서버 필요 라이브러리 기본 세팅\nㄴ 신규 개발서버 FE\/BE Docker & Nginx 커넥션 연결\n\t- 개발서버 오픈\nㄴ 일정관리 논의\n\t- 각 파트별, 에픽 -> 티켓 -> 업무 배정\n\t- JIRA 이슈, 티켓, 작업 등록\n진행\nㄴ 전자결재 전표 등록 프로세스 변경에 따른 기획\/설계 확정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 개발 일정 및 기능 회의\n진행\nㄴ 신규 개발서버 nginx 설치 및 백엔드 배포 플로우 수정\n\n[박수환]\n완료\nㄴ staging - entity enum 해제 반영\nㄴ staging - 로그 정책 수정\n\n[권연주]\n완료\nㄴ Timezone 관련 내용 서치\n진행\nㄴ LocalDateTime deserializer 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n진행\nㄴ [PC] 타임존 관련 수정\nㄴ R&D Syncflo 작업 일정 논의\n\n[김보민]\n완료\nㄴ 전자결재 → 더보기 → 결재선 변경\n진행\nㄴ 전자결재양식 → 결재 이력 상세\nㄴ PC Modal 공통화 작업방향성 논의\n\n[전원재]\n완료\nㄴ 지도 외부 api\n - map box package화 작업\n - props optional 파라미터 수정\n진행\nㄴ 지도 외부 api\n - map box marker 추가\nㄴ 공통 컴포넌트 \n - 공통 모달 변경 및 통일화 작업관련 논의 및 코드 수정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n- 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\n  -겸직부서 등록 프로세스 기획\/디자인\n  ㄴ겸직부서 등록 팝업창 UI\n  ㄴ웹페이지 우측상단 부서변경 UI추가\n  ㄴ겸직부서가 있을경우 대표부서 여부 선택 UI 추가\n진행\n-권한관리 개선\nㄴ권한관리 편의성 개선: (부서일괄추가, 직책일괄추가)\n- 전표작성 프로세스 수정\n ㄴ 법인카드작성 UI수정(공제구분 선택, 부가세 표현)\n ㄴ 결재문서의 구분검토 (개인경비 \/ 업무협조 \/ 업체경비)\n ㄴ 팝업창 드래그,  팝업창확대창 기능\n ㄴ 결재문서내 법인카드, 개인경비 소계 금액표기.\n ㄴ 법인카드 사용 영수증 이미지뷰어로 제공\nㄴ 모바일스캔 불러오기 UI\nㄴ 결재진행중인 문서 첨부파일 모아보기 UI\n-지출내역화면(조회) 개선사항 디자인 시안"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1731555947.164359",
+        "client_msg_id": "f71bca04-111a-44a7-89ea-2a55168f5d9b",
+        "text": "`백엔드`\n```[구시완]\nㄴ 인사 조직도 tree구조 개발 완료\nㄴ 법인카드정보관리 개발완료, 테스트 진행중\nㄴ 법인카드사용현황 개발완료, 테스트 진행중\n\n[서정은]\nㄴ 예산신청 테이블, 예산 요청 테이블 컬럼 변경 및 로직 변경(costCenterCode → costCenterId)\nㄴ 전자결재 → 예산 신청서\n - 삭제 API 추가\nㄴ 예산관리 → 예산 신청내역\n - 예산신청 승인\/반영 API Service 개발중\nㄴ 예산관리 → 예산 실적 내역\n - Entity 설계 중\n - List 조회 API 추가 예정\n - 잔액조회 API 추가 예정\n\n[권연주]\nㄴ 전자결재 재기안\n - 재기안 api 개발 완료\nㄴ 전자결재 결재선변경\n - 결재선 변경 로직 정의 진행\n - 결재선 변경 api 개발 진행```\n`프론트엔드`\n```[우태림]\nㄴ 조직도 API 개발에 따른 기준정보관리 → 결재환경설정 → 결재선관리 수정 및 보완 작업 진행 \nㄴ 전자결재 → 결재문서 상세 → 대결 작업 진행\n - API 연동\nㄴ 전자결재 → 결재문서 상세 → 전결\n - API 연동 예정\n\n[김정중]\nㄴ 전표처리 → 개인경비\/법인카드 → 지출등록\n - 구조 및 프로세스 변경 작업 진행 (계속)\n - 코드 리팩토링\nㄴ Nuxt3 ESLint, WebSocket 타입 관련 보완(초기 오류 발생) 완료\nㄴ 공통 조직도 Composables API 및 모달 완료\n\n[전원재]\nㄴ 전자결재 &gt; 예산신청서\n- 예산신청서 작성 폼 UI, 기능 (완료)\n- 예산전용, 증액, 이월 신청 모달 작성 폼 UI, 기능 (완료)\n- 예산 신청 목록 CRUD관련 API 적용 (진행)```\n`디자인`\n```[차윤수]\nㄴ 매출 세금계산서 발행 화면 기획 디자인(진행)\nㄴ 수정세금계산서 발행시 사유별 화면기획, 국세청\/타사 시스템 참고(진행)\nㄴ 세금계산서, EPR전표(구매\/지급, 매출\/수금, 기타) 기획논의-권민식대리(진행)\nㄴ 솔루션2.0 화면리뷰(맹건아부장, 권민식대리)```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4z+55",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 인사 조직도 tree구조 개발 완료\nㄴ 법인카드정보관리 개발완료, 테스트 진행중\nㄴ 법인카드사용현황 개발완료, 테스트 진행중\n\n[서정은]\nㄴ 예산신청 테이블, 예산 요청 테이블 컬럼 변경 및 로직 변경(costCenterCode → costCenterId)\nㄴ 전자결재 → 예산 신청서\n - 삭제 API 추가\nㄴ 예산관리 → 예산 신청내역\n - 예산신청 승인\/반영 API Service 개발중\nㄴ 예산관리 → 예산 실적 내역\n - Entity 설계 중\n - List 조회 API 추가 예정\n - 잔액조회 API 추가 예정\n\n[권연주]\nㄴ 전자결재 재기안\n - 재기안 api 개발 완료\nㄴ 전자결재 결재선변경\n - 결재선 변경 로직 정의 진행\n - 결재선 변경 api 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 조직도 API 개발에 따른 기준정보관리 → 결재환경설정 → 결재선관리 수정 및 보완 작업 진행 \nㄴ 전자결재 → 결재문서 상세 → 대결 작업 진행\n - API 연동\nㄴ 전자결재 → 결재문서 상세 → 전결\n - API 연동 예정\n\n[김정중]\nㄴ 전표처리 → 개인경비\/법인카드 → 지출등록\n - 구조 및 프로세스 변경 작업 진행 (계속)\n - 코드 리팩토링\nㄴ Nuxt3 ESLint, WebSocket 타입 관련 보완(초기 오류 발생) 완료\nㄴ 공통 조직도 Composables API 및 모달 완료\n\n[전원재]\nㄴ 전자결재 > 예산신청서\n- 예산신청서 작성 폼 UI, 기능 (완료)\n- 예산전용, 증액, 이월 신청 모달 작성 폼 UI, 기능 (완료)\n- 예산 신청 목록 CRUD관련 API 적용 (진행)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 매출 세금계산서 발행 화면 기획 디자인(진행)\nㄴ 수정세금계산서 발행시 사유별 화면기획, 국세청\/타사 시스템 참고(진행)\nㄴ 세금계산서, EPR전표(구매\/지급, 매출\/수금, 기타) 기획논의-권민식대리(진행)\nㄴ 솔루션2.0 화면리뷰(맹건아부장, 권민식대리)"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U080TG7RE7M",
+        "text": "<@U080TG7RE7M> 님이 채널에 참여함",
+        "type": "message",
+        "ts": "1731557592.117749"
+    }
+]

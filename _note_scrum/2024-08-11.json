@@ -1,0 +1,118 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1723429665.989919",
+        "client_msg_id": "75b2a467-35be-46a4-a0a9-0356160e2009",
+        "text": "`백엔드`\n```[구시완]\nㄴ 권한관리 카운트 개발 (완료)\nㄴ 프로젝트관리, 계정비용항목관리 등 추가 카운트관련 이슈 개발 수정 진행\nㄴ 전자결재 환경설정 - 결재선관리 개발 진행\n\n[권연주]\nㄴ 백엔드 가이드```\n`프론트엔드`\n```[우태림]\nㄴ 거래처관리 - 담당자 등록\/수정 모달 작업 진행\nㄴ 거래처관리 - 계좌정보 등록\/수정 모달 작업 예정\n\n[김정중]\nㄴ 결재환경설정 - API 연동 작업 진행\nㄴ 카운트관련 API 변경 이후 추가 수정 작업 진행 예정```\n`디자인`\n```[차윤수]\nㄴ 개인설정 - 내정보관리 페이지 기획\/디자인 진행\nㄴ 개인설정 - 알림 상황 리스트업\nㄴ 참석자 관리 간소화 작업 진행```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GwZDy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완]\nㄴ 권한관리 카운트 개발 (완료)\nㄴ 프로젝트관리, 계정비용항목관리 등 추가 카운트관련 이슈 개발 수정 진행\nㄴ 전자결재 환경설정 - 결재선관리 개발 진행\n\n[권연주]\nㄴ 백엔드 가이드"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 거래처관리 - 담당자 등록\/수정 모달 작업 진행\nㄴ 거래처관리 - 계좌정보 등록\/수정 모달 작업 예정\n\n[김정중]\nㄴ 결재환경설정 - API 연동 작업 진행\nㄴ 카운트관련 API 변경 이후 추가 수정 작업 진행 예정"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 개인설정 - 내정보관리 페이지 기획\/디자인 진행\nㄴ 개인설정 - 알림 상황 리스트업\nㄴ 참석자 관리 간소화 작업 진행"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "saluting_face",
+                "users": [
+                    "U072BF8GMDJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

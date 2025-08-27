@@ -1,0 +1,388 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1752741434.715879",
+        "client_msg_id": "3e4c5c00-98bd-4806-b7ea-701f7ea65ef7",
+        "text": "2025년 7월 16일 (수)\n`&lt; 스크럼 내용 &gt;`\n```1. 2차 테스트 진행 16일 (수) 오전 9시 30분 ~```\n`&lt; 총괄 &gt;`\n```[김정중]\n완료\nㄴ Web, Mobile ] NCP 운영 CI\/CD 작성\n\t- CD 작성\n\n진행\nㄴ 2차 테스트 진행\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ BE NCP 환경 설정\n - namespace 변경\n - DNS 설정\nㄴ 솔루션사업팀 QA 진행 지원\n진행\nㄴ BE NCP 환경 설정\n - SSL 인증서 적용\n - SMTP 서버 적용 및 메일 발송 테스트\n \n[박수환]\n완료\nㄴ SBTM-265 사용자 권한 확인\nㄴ SBTM-288 출장정보 변경시 작성 전표 내역 초기화\nㄴ SBTM-294 지출결의서 전표 목록 표기되도록 수정\nㄴ 테스트 계정, 테스트 데이터 생성\n진행\nㄴ 법인카드 수집 서버 구성\nㄴ 사용자관리 엑셀 업로드 수정\n\n[권연주]\n완료\nㄴ 통계\n  - 차변금액만 계산하도록 수정\nㄴ 로그인 시 회사 삭제여부 체크로직 추가```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n진행\nㄴ 에디터(CK Editor → TinyMCE) 교체 작업 진행 \n\n[김보민]\n완료\nㄴ SBTM-241 개인경비 분할의 경우 지출내역에 대변이 함께 노출됨\nㄴ SBTM-257 사용자 수정 → 이메일 중복체크 부분 확인 필요\nㄴ SBTM-169 내정보 관리 - 전화번호 입력 필드에 숫자 이외의 데이터 입력 및 저장 가능 오류\n진행\nㄴ SBTM-285 출장경비신청&gt; 영수증 추가 팝업 &gt; 복사버튼 클릭. 반응없음\nㄴ SBTM-288 출장경비신청 &gt; 출장정보 -날짜 수정오류\nㄴ SBTM-289 출장경비신청 &gt; 출장정보 불러오기, 추가 아이콘 변경\nㄴ SBTM-291 전자결재 모든 양식 공통 : 그룹웨어문서 첨부 삭제\n\n[전원재]\n완료\nㄴ SBTM-242 전표검인\/확정 - 일괄 검인\/확정 버튼명 모호함\nㄴ SBTM-180 개인결재선 - 대결기능을 사용할 수 없습니다 오류 팝업 표시\nㄴ SBTM-250 증빙검색 오류\nㄴ SBTM-284 출장경비신청&gt; 첨부파일 최초 업로드시 파일명 안보임\nㄴ SBTM-286 유류대 추가 → 주행정보 등록시 오류메시지\n진행\nㄴ SBTM-205 법인카드 발급일자가 컬럼에 없으나, 조회조건에 있음 - 날짜 조회조건 삭제\nㄴ SBTM-290 대시보드 &gt; 임시저장함 바로가기 이동불가 - 조건 추가\nㄴ SBTM-225 공통 계정항목 파라미터 수정, 누적, 개인별사용통계 날짜 초기화 데이터 수정\nㄴ SBTM-292 출장관리 &gt; 임직원 등급관리 - 임직원 등급코드 컬럼 추가```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ 모바일 QA 진행```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ페이지별 엑셀업로드 양식 최신화 작업\n -검인라인 결재양식 변경, 법인카드 항목 변경, 출장기준관리 변경\n진행\nㄴ전자전표SaaS - 오류 테스트 및 UI 수정사항 작성```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rb24m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 16일 (수)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 2차 테스트 진행 16일 (수) 오전 9시 30분 ~"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ Web, Mobile ] NCP 운영 CI\/CD 작성\n\t- CD 작성\n\n진행\nㄴ 2차 테스트 진행\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ BE NCP 환경 설정\n - namespace 변경\n - DNS 설정\nㄴ 솔루션사업팀 QA 진행 지원\n진행\nㄴ BE NCP 환경 설정\n - SSL 인증서 적용\n - SMTP 서버 적용 및 메일 발송 테스트\n \n[박수환]\n완료\nㄴ SBTM-265 사용자 권한 확인\nㄴ SBTM-288 출장정보 변경시 작성 전표 내역 초기화\nㄴ SBTM-294 지출결의서 전표 목록 표기되도록 수정\nㄴ 테스트 계정, 테스트 데이터 생성\n진행\nㄴ 법인카드 수집 서버 구성\nㄴ 사용자관리 엑셀 업로드 수정\n\n[권연주]\n완료\nㄴ 통계\n  - 차변금액만 계산하도록 수정\nㄴ 로그인 시 회사 삭제여부 체크로직 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n진행\nㄴ 에디터(CK Editor → TinyMCE) 교체 작업 진행 \n\n[김보민]\n완료\nㄴ SBTM-241 개인경비 분할의 경우 지출내역에 대변이 함께 노출됨\nㄴ SBTM-257 사용자 수정 → 이메일 중복체크 부분 확인 필요\nㄴ SBTM-169 내정보 관리 - 전화번호 입력 필드에 숫자 이외의 데이터 입력 및 저장 가능 오류\n진행\nㄴ SBTM-285 출장경비신청> 영수증 추가 팝업 > 복사버튼 클릭. 반응없음\nㄴ SBTM-288 출장경비신청 > 출장정보 -날짜 수정오류\nㄴ SBTM-289 출장경비신청 > 출장정보 불러오기, 추가 아이콘 변경\nㄴ SBTM-291 전자결재 모든 양식 공통 : 그룹웨어문서 첨부 삭제\n\n[전원재]\n완료\nㄴ SBTM-242 전표검인\/확정 - 일괄 검인\/확정 버튼명 모호함\nㄴ SBTM-180 개인결재선 - 대결기능을 사용할 수 없습니다 오류 팝업 표시\nㄴ SBTM-250 증빙검색 오류\nㄴ SBTM-284 출장경비신청> 첨부파일 최초 업로드시 파일명 안보임\nㄴ SBTM-286 유류대 추가 → 주행정보 등록시 오류메시지\n진행\nㄴ SBTM-205 법인카드 발급일자가 컬럼에 없으나, 조회조건에 있음 - 날짜 조회조건 삭제\nㄴ SBTM-290 대시보드 > 임시저장함 바로가기 이동불가 - 조건 추가\nㄴ SBTM-225 공통 계정항목 파라미터 수정, 누적, 개인별사용통계 날짜 초기화 데이터 수정\nㄴ SBTM-292 출장관리 > 임직원 등급관리 - 임직원 등급코드 컬럼 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ 모바일 QA 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ페이지별 엑셀업로드 양식 최신화 작업\n -검인라인 결재양식 변경, 법인카드 항목 변경, 출장기준관리 변경\n진행\nㄴ전자전표SaaS - 오류 테스트 및 UI 수정사항 작성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1752741535.915569",
+        "client_msg_id": "5bb52782-f257-4343-80f2-4284e5fe8830",
+        "text": "2025년 7월 17일 (목)\n`&lt; 스크럼 내용 &gt;`\n```1. 2차 테스트 진행 17일 (목) 오후 13시 30분 ~```\n`&lt; 총괄 &gt;`\n```[김정중]\n진행\nㄴ 2차 테스트 진행\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ BE NCP 환경 설정\n - SSL 적용\n - 네이버 Object Storage 연결 및 테스트\nㄴ AI 업무 인수인계(김정열 과장)\n진행\nㄴ BE NCP 환경 설정\n - Object Storage CORS 설정 확인 및 다운로드 테스트\n - SMTP 서버 적용 및 메일 발송 테스트\n \n[박수환] - 연차\n\n[권연주] - 연차```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n완료\nㄴ 에디터 관련 버그 수정\nㄴ 모바일 퀵메뉴 관련 수정\n진행\nㄴ 모바일 사파리 로그인 시점 통신 장애 문제 수정\nㄴ 모바일 퀵메뉴 이미지 캐싱 관련 보완\n\n[김보민]\n완료\nㄴ SBTM-258 대시보드 나의 할일 펼칠때 간혹 텍스트 선택이 됨 \nㄴ SBTM-297 모바일&gt; 퀵메뉴 &gt; 아이템 추가 후 저장을 누르지 않아도 저장이 됨\nㄴ SBTM-300 모바일 &gt; 퀵메뉴 드레그 드랍 확인 필요\nㄴ SBTM-301 모바일 &gt; 퀵메뉴 &gt; 설정 메뉴 삭제 후 추가시 원하는 상태로 되지 않음\nㄴ SBTM-304 모바일 &gt; ios &gt; 지출내역 &gt; 필터 &gt; 계정\/비용항목\nㄴ SBTM-305 모바일 &gt; ios &gt; 이미지 or 롱프레스시 선택 되는 이슈\n진행\nㄴ SBTM-306 지출결의서작성 &gt; 법인카드 &gt; 미청구기능 오류\nㄴ SBTM-310 지출결의서 상세모달 - 회계일자와 결재내용이 보이지 않음(출장경비신청서와 다름)\nㄴ SBTM-311 출장사전신청서 읽기 화면 &gt; 에디터 내 값 미출력. 신청서 상신시 메시지 수정\nㄴ SBTM-316 출장사전신청 작성 : 출장지, 출장목적 밸리데이션 체크 문구 입력필요\n\n[전원재]\n완료\nㄴ SBTM-302 전표관리 &gt; 전표내역조회 - 문서 미리보기 지출결의서 내 전표 중복표기\nㄴ SBTM-303 전표관리 &gt; 전표내역조회 - 문서 미리보기 출장신청서 내 전표가 수정이 되는 현상\nㄴ SBTM-299 모바일 &gt; 사용 중 로그아웃이 되는 현상 - 토큰 만료시점에 토큰 재발급 후 api 통신 재진행 가능하도록 수정\nㄴ SBTM-307 대시보드 &gt; 나의 경비사용 그래프가 2개 보이는 현상 수정\nㄴ SBTM-308 전자결재 &gt; 반려\/회수 &gt; 재기안 버튼 : 오타수정, 아이콘 수정\nㄴ SBTM-309 전표관리 메뉴 모든페이지 : 사용일자 표기 오류 수정\n진행\nㄴ SBTM-312 지출결의서 &gt; 유류대 입력팝업: 입력완료시 목록에 금액 0원, 저장시 필수값 누락일때 메시지 문구 수정\nㄴ SBTM-313 지출결의서 &gt; 유류대 입력팝업 : 유류대 저장 -&gt; 수정 버튼눌러 경로 수정시 팝업창 위치가 뒤로 숨겨지는 현상\nㄴ SBTM-314 전표관리 &gt; 검인확정, 확정현황 : 유류대 합계(총금액) 표기 오류\nㄴ SBTM-315전표관리 &gt; 유류비 전표 상세 - 지도보기의 지도가 기준정보에서 설정한 맵과 다름\nㄴ SBTM-319 파일 업로드: xls, ppt, word 파일 업로드 가능해야함\nㄴ SBTM-320 출장경비신청 &gt;유류대 주행정보 등록: 최초등록 후 개인저장된 경로로 변경시, 지도 및 거리 데이터 업데이트 안되는 문제```\n`&lt; 모바일 &gt;`\n```[홍제원]\n진행\nㄴ 모바일 QA 진행```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ법인카드 미청구 UI 및 분개 논의\n진행\nㄴ전자전표SaaS - 오류 테스트 및 UI 수정\/개선사항 작성```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Th4a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 17일 (목)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 2차 테스트 진행 17일 (목) 오후 13시 30분 ~"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n진행\nㄴ 2차 테스트 진행\nㄴ 백오피스 CI\/CD 예정\n\t- CI 구성 (helm chart)"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ BE NCP 환경 설정\n - SSL 적용\n - 네이버 Object Storage 연결 및 테스트\nㄴ AI 업무 인수인계(김정열 과장)\n진행\nㄴ BE NCP 환경 설정\n - Object Storage CORS 설정 확인 및 다운로드 테스트\n - SMTP 서버 적용 및 메일 발송 테스트\n \n[박수환] - 연차\n\n[권연주] - 연차"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n완료\nㄴ 에디터 관련 버그 수정\nㄴ 모바일 퀵메뉴 관련 수정\n진행\nㄴ 모바일 사파리 로그인 시점 통신 장애 문제 수정\nㄴ 모바일 퀵메뉴 이미지 캐싱 관련 보완\n\n[김보민]\n완료\nㄴ SBTM-258 대시보드 나의 할일 펼칠때 간혹 텍스트 선택이 됨 \nㄴ SBTM-297 모바일> 퀵메뉴 > 아이템 추가 후 저장을 누르지 않아도 저장이 됨\nㄴ SBTM-300 모바일 > 퀵메뉴 드레그 드랍 확인 필요\nㄴ SBTM-301 모바일 > 퀵메뉴 > 설정 메뉴 삭제 후 추가시 원하는 상태로 되지 않음\nㄴ SBTM-304 모바일 > ios > 지출내역 > 필터 > 계정\/비용항목\nㄴ SBTM-305 모바일 > ios > 이미지 or 롱프레스시 선택 되는 이슈\n진행\nㄴ SBTM-306 지출결의서작성 > 법인카드 > 미청구기능 오류\nㄴ SBTM-310 지출결의서 상세모달 - 회계일자와 결재내용이 보이지 않음(출장경비신청서와 다름)\nㄴ SBTM-311 출장사전신청서 읽기 화면 > 에디터 내 값 미출력. 신청서 상신시 메시지 수정\nㄴ SBTM-316 출장사전신청 작성 : 출장지, 출장목적 밸리데이션 체크 문구 입력필요\n\n[전원재]\n완료\nㄴ SBTM-302 전표관리 > 전표내역조회 - 문서 미리보기 지출결의서 내 전표 중복표기\nㄴ SBTM-303 전표관리 > 전표내역조회 - 문서 미리보기 출장신청서 내 전표가 수정이 되는 현상\nㄴ SBTM-299 모바일 > 사용 중 로그아웃이 되는 현상 - 토큰 만료시점에 토큰 재발급 후 api 통신 재진행 가능하도록 수정\nㄴ SBTM-307 대시보드 > 나의 경비사용 그래프가 2개 보이는 현상 수정\nㄴ SBTM-308 전자결재 > 반려\/회수 > 재기안 버튼 : 오타수정, 아이콘 수정\nㄴ SBTM-309 전표관리 메뉴 모든페이지 : 사용일자 표기 오류 수정\n진행\nㄴ SBTM-312 지출결의서 > 유류대 입력팝업: 입력완료시 목록에 금액 0원, 저장시 필수값 누락일때 메시지 문구 수정\nㄴ SBTM-313 지출결의서 > 유류대 입력팝업 : 유류대 저장 -> 수정 버튼눌러 경로 수정시 팝업창 위치가 뒤로 숨겨지는 현상\nㄴ SBTM-314 전표관리 > 검인확정, 확정현황 : 유류대 합계(총금액) 표기 오류\nㄴ SBTM-315전표관리 > 유류비 전표 상세 - 지도보기의 지도가 기준정보에서 설정한 맵과 다름\nㄴ SBTM-319 파일 업로드: xls, ppt, word 파일 업로드 가능해야함\nㄴ SBTM-320 출장경비신청 >유류대 주행정보 등록: 최초등록 후 개인저장된 경로로 변경시, 지도 및 거리 데이터 업데이트 안되는 문제"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n진행\nㄴ 모바일 QA 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ법인카드 미청구 UI 및 분개 논의\n진행\nㄴ전자전표SaaS - 오류 테스트 및 UI 수정\/개선사항 작성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

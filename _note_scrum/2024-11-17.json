@@ -1,0 +1,109 @@
+[
+    {
+        "user": "U0785NRDD3Q",
+        "type": "message",
+        "ts": "1731901474.231459",
+        "client_msg_id": "2af7ecfa-b5a9-40dd-91e1-9a275b5550a1",
+        "text": "`백엔드`\n```[구시완] - 연차\n\n[서정은] - 연차\n\n[권연주]\nㄴ 전자결재 결재선변경\n - 결재선 변경 api 개발 완료\nㄴ 전자결재 수신\n - 수신자관리 개발 진행```\n`프론트엔드`\n```[우태림]\nㄴ 전자결재 → 결재문서 상세 → 결재선 변경 작업 (완료)\nㄴ 전자결재 → 결재문서 상세 → 대결 API 연동 작업 진행\nㄴ 전자결재 → 결재문서 상세 → 전결 API 연동  작업 진행\nㄴ 전자결재 → 결재문서 상세 → 결재 이력상세 작업 API 연동 예정\n\n\n[김정중]\nㄴ 전표처리 → 개인경비\/법인카드 → 지출등록\n - 구조 및 프로세스 변경 작업 진행 (계속)\n - 개인카드 사용내역 불러오기 모달 진행\n\n[전원재]\nㄴ 전자결재 &gt; 예산신청서\n- 예산 신청 목록 CRUD관련 API 적용 (완료)\n- 예산 신청 문서 임시저장(진행)\n- 예산 신청 목록 aggrid로 변경(진행)\nㄴ 예산관리 &gt; 예산신청내역\n- 예산 신청 내역 목록, 승인, 반려 API 적용(진행) ```\n`디자인`\n```[차윤수]\nㄴ 솔루션2.0 모바일 기획\n - 모바일 메뉴구조도 작성\n - 모바일 기능 제공 범위 확정\n - 사용자 전표입력, 결재처리 편의성 리스트 작성\nㄴ 솔루션2.0 pc 기획\n - 매출 세금계산서 발행 화면 기획 디자인(진행)\n - 세금계산서, EPR전표(구매\/지급, 매출\/수금, 기타) 기획논의```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "8f1a7c0ac2a3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2025-06-04\/8997431351986_8f1a7c0ac2a3d2c7b8e7_72.png",
+            "first_name": "우태림",
+            "real_name": "우태림",
+            "display_name": "우태림",
+            "team": "T06BW9BS3L6",
+            "name": "taerim.woo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wFlTx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "백엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[구시완] - 연차\n\n[서정은] - 연차\n\n[권연주]\nㄴ 전자결재 결재선변경\n - 결재선 변경 api 개발 완료\nㄴ 전자결재 수신\n - 수신자관리 개발 진행"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "프론트엔드",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\nㄴ 전자결재 → 결재문서 상세 → 결재선 변경 작업 (완료)\nㄴ 전자결재 → 결재문서 상세 → 대결 API 연동 작업 진행\nㄴ 전자결재 → 결재문서 상세 → 전결 API 연동  작업 진행\nㄴ 전자결재 → 결재문서 상세 → 결재 이력상세 작업 API 연동 예정\n\n\n[김정중]\nㄴ 전표처리 → 개인경비\/법인카드 → 지출등록\n - 구조 및 프로세스 변경 작업 진행 (계속)\n - 개인카드 사용내역 불러오기 모달 진행\n\n[전원재]\nㄴ 전자결재 > 예산신청서\n- 예산 신청 목록 CRUD관련 API 적용 (완료)\n- 예산 신청 문서 임시저장(진행)\n- 예산 신청 목록 aggrid로 변경(진행)\nㄴ 예산관리 > 예산신청내역\n- 예산 신청 내역 목록, 승인, 반려 API 적용(진행) "
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "디자인",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\nㄴ 솔루션2.0 모바일 기획\n - 모바일 메뉴구조도 작성\n - 모바일 기능 제공 범위 확정\n - 사용자 전표입력, 결재처리 편의성 리스트 작성\nㄴ 솔루션2.0 pc 기획\n - 매출 세금계산서 발행 화면 기획 디자인(진행)\n - 세금계산서, EPR전표(구매\/지급, 매출\/수금, 기타) 기획논의"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

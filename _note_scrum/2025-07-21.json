@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1753085943.632099",
+        "client_msg_id": "b213d789-1152-42b2-b3e0-33f906f77964",
+        "text": "2025년 7월 21일 (월)\n`&lt; 스크럼 내용 &gt;`\n```1. Syncflo Lite SaaS 서비스 안정화 및 보완\n2. 전자전표 2.0 현행화 작업\n3. 이메일 발송 관련 논의```\n`&lt; 총괄 &gt;`\n```[김정중]\n진행\nㄴ Syncflo Lite SaaS 서비스 안정화 및 보완\nㄴ 솔루션 사업 업무 미팅```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ 전자전표 소스 현행화\n - 출장관리 -&gt; 전자전표 브랜치 머지 및 배포\nㄴ BE파트 k8s 구조 및 사용방법 설명\n - 박수환 대리, 권연주 사원\nㄴ BE NCP 환경 설정\n - NCP 계정 이관 대비하여 기존에 진행했던 작업 정리 및 기록\n진행\nㄴ BE NCP 환경 설정\n - SMTP 서버 적용 및 메일 발송 테스트(김덕기 차장 추가 세팅 진행중)\n \n[박수환]\n완료\nㄴ 법인카드 수집 서버 구성\nㄴ 디스플레이 전자전표 증빙첨부 오류 지원\n\n[권연주]\n진행\nㄴ 정기 배치 작업 개발을 위한 스프링 배치 학습\nㄴ 서비스 배포 운영환경 대응을 위한 쿠버네티스 학습```\n`&lt; 프론트엔드 &gt;`\n```[우태림] \n진행\nㄴ 디자인 시스템 작업\n\n[김보민]\n완료\nㄴ SBTM-306 지출결의서작성 &gt; 법인카드 &gt; 미청구기능 오류\nㄴ SBTM-262 Android] 뒤로가기 버튼 동작 확인 필요\nㄴ SBTM-321 검인확정: 검인반려시 조회조건에 없는 전표라도, 문서 내 포함된 전표는 모두 반려처리 되어야함.\nㄴ 파일업로드시 배포환경에 따른 LOCAL | S3 구분 추가\nㄴ [MO] 결재 승인반려 시 버튼 유효성 체크\n진행\nㄴ Saas -&gt; Service 코드 현행화\n - 출장경비신청서\n - refresh Token 재발급\n \n[전원재]\n완료\nㄴ SBTM-317 대시보드 : 통계그래프 - 기타 소수점 오류 수정\nㄴ SBTM-322 개인경비신청 &gt; 공통 - 작성모달 내 계정항목 옵션 리스트 길이 변경\nㄴ SBTM-323 개인경비 &gt; 유류대 - 저장된 경로로 변경시 이전경로가 보여지는 현상 수정, 경로 변경시 기존마커 남아있는 오류 수정\nㄴ SBTM-324 개인경비 &gt; 유류대, 영수증 수정시 오류 나는 현상\nㄴ SBTM-325 개인경비 &gt; 법인카드, 영수증 - 기준정보관리 상호명 필수 조건 적용 안되는 현상\n진행\nㄴ EACC-1843 출장 SaaS &gt; 설정, 패키지, 페이지 등 현행화\n - 설정, 패키지, 개인경비, 기준정보관리 현행화```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ 앱 개발 후 발생한 산출물 신규 작성 및 기존 문서 업데이트 진행 중\n\t- 앱 배포 전 필수 테스트 케이스, 안드로이드 뒤로가기 버튼 행동 전략 등\n\n진행\nㄴ 기존 프로젝트 구글 플레이 업데이트 경고 확인 및 진행 계획 수립```\n`&lt; 디자인 &gt;`\n```[차윤수]\n완료\nㄴ전자전표 출장관리 - 디자인 개선사항 추가\n\n진행\nㄴSyncFlo 디자인시스템\n  - 타사 디자인시스템 Variables, Style 분석 (Wanted, 범정부 디자인. Tailwind, Ant Design)\n  - 디자인 토큰스튜디오 플러그인 분석```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R4G0B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 7월 21일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. Syncflo Lite SaaS 서비스 안정화 및 보완\n2. 전자전표 2.0 현행화 작업\n3. 이메일 발송 관련 논의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n진행\nㄴ Syncflo Lite SaaS 서비스 안정화 및 보완\nㄴ 솔루션 사업 업무 미팅"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ 전자전표 소스 현행화\n - 출장관리 -> 전자전표 브랜치 머지 및 배포\nㄴ BE파트 k8s 구조 및 사용방법 설명\n - 박수환 대리, 권연주 사원\nㄴ BE NCP 환경 설정\n - NCP 계정 이관 대비하여 기존에 진행했던 작업 정리 및 기록\n진행\nㄴ BE NCP 환경 설정\n - SMTP 서버 적용 및 메일 발송 테스트(김덕기 차장 추가 세팅 진행중)\n \n[박수환]\n완료\nㄴ 법인카드 수집 서버 구성\nㄴ 디스플레이 전자전표 증빙첨부 오류 지원\n\n[권연주]\n진행\nㄴ 정기 배치 작업 개발을 위한 스프링 배치 학습\nㄴ 서비스 배포 운영환경 대응을 위한 쿠버네티스 학습"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림] \n진행\nㄴ 디자인 시스템 작업\n\n[김보민]\n완료\nㄴ SBTM-306 지출결의서작성 > 법인카드 > 미청구기능 오류\nㄴ SBTM-262 Android] 뒤로가기 버튼 동작 확인 필요\nㄴ SBTM-321 검인확정: 검인반려시 조회조건에 없는 전표라도, 문서 내 포함된 전표는 모두 반려처리 되어야함.\nㄴ 파일업로드시 배포환경에 따른 LOCAL | S3 구분 추가\nㄴ [MO] 결재 승인반려 시 버튼 유효성 체크\n진행\nㄴ Saas -> Service 코드 현행화\n - 출장경비신청서\n - refresh Token 재발급\n \n[전원재]\n완료\nㄴ SBTM-317 대시보드 : 통계그래프 - 기타 소수점 오류 수정\nㄴ SBTM-322 개인경비신청 > 공통 - 작성모달 내 계정항목 옵션 리스트 길이 변경\nㄴ SBTM-323 개인경비 > 유류대 - 저장된 경로로 변경시 이전경로가 보여지는 현상 수정, 경로 변경시 기존마커 남아있는 오류 수정\nㄴ SBTM-324 개인경비 > 유류대, 영수증 수정시 오류 나는 현상\nㄴ SBTM-325 개인경비 > 법인카드, 영수증 - 기준정보관리 상호명 필수 조건 적용 안되는 현상\n진행\nㄴ EACC-1843 출장 SaaS > 설정, 패키지, 페이지 등 현행화\n - 설정, 패키지, 개인경비, 기준정보관리 현행화"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ 앱 개발 후 발생한 산출물 신규 작성 및 기존 문서 업데이트 진행 중\n\t- 앱 배포 전 필수 테스트 케이스, 안드로이드 뒤로가기 버튼 행동 전략 등\n\n진행\nㄴ 기존 프로젝트 구글 플레이 업데이트 경고 확인 및 진행 계획 수립"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ전자전표 출장관리 - 디자인 개선사항 추가\n\n진행\nㄴSyncFlo 디자인시스템\n  - 타사 디자인시스템 Variables, Style 분석 (Wanted, 범정부 디자인. Tailwind, Ant Design)\n  - 디자인 토큰스튜디오 플러그인 분석"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

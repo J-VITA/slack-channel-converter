@@ -1,0 +1,195 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1751275129.350779",
+        "client_msg_id": "0d6a839f-eec5-46e5-84e8-ad41887faeb2",
+        "text": "2025년 6월 30일 (월)\n`&lt; 스크럼 내용 &gt;`\n```1. SaaS 서비스 관리 현황 UX 관련 재배치\n\t- 조회 데이터의 직관성 고려가 안되어짐\n2. 디자인 시스템 분석```\n`&lt; 총괄 &gt;`\n```[김정중]\n\n진행\nㄴ 신규 프로젝트 개발 업무 범위 사전 조사\nㄴ 메일서버 In\/Out 등 스팸 등 보안 관련 조사\nㄴ NCP 구축 관련 조사```\n`&lt; 백엔드 &gt;`\n```[박광호]\n완료\nㄴ SBTM-100 개인별 알림설정 기반 알림발송 기능 개발\n - 기능 단위 테스트 진행\n - push 알림 전체 삭제\/조회 API 추가\n진행\nㄴ SBTM-108 push 서버 CI\/CD 세팅\nㄴ SBTM-109 push 테스트 지원(프론트, 앱)\n[박수환]\n완료\nㄴ SBTM-34-개인경비 - 출장결의서 신청\n    - 결재문서 삭제시 출장비 정보 삭제 처리\nㄴ 디스플레이 전자전표 회의\n[권연주]\n진행\nㄴ SBTM-42 [BE] 서비스 현황\n - 서비스 사용현황 목록, 상세 조회 api\n - 서비스 변경이력 entity 설계 및 api 개발```\n`&lt; 프론트엔드 &gt;`\n```[우태림]\n완료\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - PC 상단 알림 API 연동\n    - PC 개인설정 API연동\n진행\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - 모바일 알림 API 연동\nㄴ SBTM-93 사업자 서비스 API 연동\n\n[김보민]\n완료\nㄴ SBTM-89 [FE] 출장관리 - 출장경비 신청내역\nㄴ SBTM-90 [FE] 출장관리 - 출장경비 신청\n진행\nㄴ SBTM-63 [FE] 공지사항 관리\n\n[전원재]\n완료\nㄴ SBTM-28 [FE] 로그인\n - 로그인 페이지 공지사항 UI 수정\n - 공지사항 목록, 상세 api 주소 수정\n - 모바일 로그인 자동로그인 파라미터 추가\n - btm service , backoffice 로그인시 이메일 형식으로 수정\nㄴ SBTM-43 [FE] 서비스 현황\n - 서비스 현황 페이지 UI 추가\n - 상세 모달 UI 추가\n진행\nㄴ SBTM-43 [FE] 서비스 현황\n - 서비스 현황 페이지 UI 수정\n - 구독내역, 상세내역 조회 api 적용 및 데이터 바인딩\n - 상세 모달 조회 api 적용 데이터 바인딩```\n`&lt; 모바일 &gt;`\n```[홍제원]\n완료\nㄴ lite-syncflo 깃 추가\n\n진행\nㄴ SBTM-67 앱 심사 준비```\n`&lt; 디자인 &gt;`\n```[차윤수]\n진행\nㄴSBTM-37 [디자인] 모바일- 이미지 작업\n - 모바일 로고 SyncFlo Lite로 변경\n - 스플래시 이미지, 온보딩 이미지 작업, 문구 수정\nㄴ백오피스 사업자 서비스 관리\n  - 변경이력 조회 버튼 분리(계약내역, 월별상세)\n  - 변경이력내 필터 항목 변경```\n",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8IkUO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 6월 30일 (월)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. SaaS 서비스 관리 현황 UX 관련 재배치\n\t- 조회 데이터의 직관성 고려가 안되어짐\n2. 디자인 시스템 분석"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n\n진행\nㄴ 신규 프로젝트 개발 업무 범위 사전 조사\nㄴ 메일서버 In\/Out 등 스팸 등 보안 관련 조사\nㄴ NCP 구축 관련 조사"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ SBTM-100 개인별 알림설정 기반 알림발송 기능 개발\n - 기능 단위 테스트 진행\n - push 알림 전체 삭제\/조회 API 추가\n진행\nㄴ SBTM-108 push 서버 CI\/CD 세팅\nㄴ SBTM-109 push 테스트 지원(프론트, 앱)\n[박수환]\n완료\nㄴ SBTM-34-개인경비 - 출장결의서 신청\n    - 결재문서 삭제시 출장비 정보 삭제 처리\nㄴ 디스플레이 전자전표 회의\n[권연주]\n진행\nㄴ SBTM-42 [BE] 서비스 현황\n - 서비스 사용현황 목록, 상세 조회 api\n - 서비스 변경이력 entity 설계 및 api 개발"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - PC 상단 알림 API 연동\n    - PC 개인설정 API연동\n진행\nㄴ SBTM-97 [FE] 모바일 - 알림서비스\n    - 모바일 알림 API 연동\nㄴ SBTM-93 사업자 서비스 API 연동\n\n[김보민]\n완료\nㄴ SBTM-89 [FE] 출장관리 - 출장경비 신청내역\nㄴ SBTM-90 [FE] 출장관리 - 출장경비 신청\n진행\nㄴ SBTM-63 [FE] 공지사항 관리\n\n[전원재]\n완료\nㄴ SBTM-28 [FE] 로그인\n - 로그인 페이지 공지사항 UI 수정\n - 공지사항 목록, 상세 api 주소 수정\n - 모바일 로그인 자동로그인 파라미터 추가\n - btm service , backoffice 로그인시 이메일 형식으로 수정\nㄴ SBTM-43 [FE] 서비스 현황\n - 서비스 현황 페이지 UI 추가\n - 상세 모달 UI 추가\n진행\nㄴ SBTM-43 [FE] 서비스 현황\n - 서비스 현황 페이지 UI 수정\n - 구독내역, 상세내역 조회 api 적용 및 데이터 바인딩\n - 상세 모달 조회 api 적용 데이터 바인딩"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ lite-syncflo 깃 추가\n\n진행\nㄴ SBTM-67 앱 심사 준비"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n진행\nㄴSBTM-37 [디자인] 모바일- 이미지 작업\n - 모바일 로고 SyncFlo Lite로 변경\n - 스플래시 이미지, 온보딩 이미지 작업, 문구 수정\nㄴ백오피스 사업자 서비스 관리\n  - 변경이력 조회 버튼 분리(계약내역, 월별상세)\n  - 변경이력내 필터 항목 변경"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

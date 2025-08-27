@@ -1,0 +1,203 @@
+[
+    {
+        "user": "U08V89ATPKP",
+        "type": "message",
+        "ts": "1749801917.472399",
+        "edited": {
+            "user": "U08V89ATPKP",
+            "ts": "1749801985.000000"
+        },
+        "client_msg_id": "b201571f-4be9-4076-a1ab-418cd7b8a07f",
+        "text": "2025년 6월 13일 (금)\n`< 스크럼 내용 >`\n```1. 출장경비 정산 프로세스 관련 논의\n\t- 통제에 대한 기준 설계 개선 필요\n\t- 법인카드 사용 내역에 대한 매핑 (현재는 사적 비용처리로 해결)\n\t- 실비 신청 할 때 통제 규정을 위한 유형 기준이 없음 개선 필요\n    - 그 외 출장 기준정보관리 정규화 문제 개선 등 논의```\n`< 총괄 >`\n```[김정중]\n완료\nㄴ 출장관리 서비스 개발 WBS 초안 작성\n\t- <<https:\/\/ijcns.atlassian.net\/wiki\/x\/AoC2FQ>>\nㄴ 기초 데이터 준비사항\nㄴ 로그인 체계 변경에 의한 참고 사항 정리\n\n진행\nㄴ FE, BE, MO 출장관리 서비스 형상관리 추가\nㄴ (FE) 패키지 번들링 오류 수정\nㄴ 출장경비 정산 프로세스 관련 논의```\n`< 백엔드 >`\n```[박광호]\n완료\nㄴ EACC-1835 Redis 기초 설정\/Jwt 저장 프로세스 추가\n - jwt 저장 프로세스 추가 완료\n - Redis에 저장할 정보를 위한 util class 개발\nㄴ EACC-1831 원화금액 소수점, 유류대 자동계산 방식, 경비 부채계정 기준 API\n진행\nㄴ jwt 만료 시간 오류 디버깅\nㄴ 출장관리 백오피스 소스 기초세팅 진행\n[박수환]\n완료\nㄴ EACC-1826-경비규정관리 API 개발\n    - 추가 변경사항 적용\n진행\nㄴ 출장관리서비스 기초정보\n  - 회사 추가시 초기 정보 세팅\n[권연주]\n완료\nㄴ EACC-1836 apiConnectionUtils 생성```\n`< 프론트엔드 >`\n```[우태림]\n완료\nㄴ EACC-1392 비밀번호찾기 API 연동\nㄴ EACC-1393 이메일 인증 API 연동\n진행\nㄴ EACC-1832 원화금액 소수점, 유류대 자동계산 방식, 경비 부채계정 기준 화면 기능\nㄴ R&D Syncflo SaaS 미팅 참여\n\n[김보민]\n완료\nㄴ EACC-1432 전자결재 > 지출결의서 > 유류대 R\n진행\nㄴ EACC-1431 전자결재 > 지출결의서 > 법인카드 수정\nㄴ EACC-1436 전자결재 양식 → 법인카드 사용내역서 C U D\nㄴ EACC-1430 개인경비 R > 분할 (개선)\nㄴ EACC-1435 전자결재 양식 → 전자결재 양식 → 영수증 C U D (개선)\n\n[전원재]\n완료\nㄴ EACC-1828 모바일> 전자결재 > 출장경비신청서 > READ\n - 출장 비용 목록 UI 추가\nㄴ EACC-1828 모바일> 전자결재 > 유류대\n - 작성 UI, 데이터 바인딩 수정\n - 주행정보 작성 > UI 추가\n진행\nㄴ EACC-1697 PC> 전자결재 > 출장경비신청서 \n - 기준정보관리 > 출장기준관리 > 유형관리 > 모달내 출장일수조정값 추가 \n - 주행정보, 금액 수정시 disabled\nㄴ EACC-1828 모바일> 전자결재 > 유류대\n - 주행정보 작성 > UI 수정\n - 주행정보 작성 > 지도 데이터 바인딩 추가```\n`< 모바일 >`\n```[홍제원]\n완료\nㄴ EACC-1833 AOS] 알림 클릭시 리다이렉트 기능 구현\n\n진행\nㄴ EACC-1834 iOS] 알림 클릭시 리다이렉트 기능 구현```\n`< 디자인 >`\n```[차윤수]\n완료\nㄴ전자전표 2.0모바일 UI디자인\n  -출장정보 추가삭제 UI\n  -출장경비신청서 작성, 읽기 UI\n진행\nㄴ전자전표 2.0 UI 변경\n  - 알림설정 :개인설정으로 변경, 알림항목변경\nㄴ출장관련 오류\/개선사항 논의\n  - 출장기준관리, 출장경비신청서. 정액지급 증빙첨부방식 및 법인카드 사용내역 매칭 방법```",
+        "team": "T06BW9BS3L6",
+        "user_team": "T06BW9BS3L6",
+        "source_team": "T06BW9BS3L6",
+        "user_profile": {
+            "avatar_hash": "g46d16faf5c6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/46d16faf5c66a7c98623ff61f1fd2a9c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "김정중",
+            "real_name": "김정중",
+            "display_name": "김정중",
+            "team": "T06BW9BS3L6",
+            "name": "jaykim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mTI8+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2025년 6월 13일 (금)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "< 스크럼 내용 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1. 출장경비 정산 프로세스 관련 논의\n\t- 통제에 대한 기준 설계 개선 필요\n\t- 법인카드 사용 내역에 대한 매핑 (현재는 사적 비용처리로 해결)\n\t- 실비 신청 할 때 통제 규정을 위한 유형 기준이 없음 개선 필요\n    - 그 외 출장 기준정보관리 정규화 문제 개선 등 논의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 총괄 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[김정중]\n완료\nㄴ 출장관리 서비스 개발 WBS 초안 작성\n\t- <"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/ijcns.atlassian.net\/wiki\/x\/AoC2FQ"
+                            },
+                            {
+                                "type": "text",
+                                "text": ">\nㄴ 기초 데이터 준비사항\nㄴ 로그인 체계 변경에 의한 참고 사항 정리\n\n진행\nㄴ FE, BE, MO 출장관리 서비스 형상관리 추가\nㄴ (FE) 패키지 번들링 오류 수정\nㄴ 출장경비 정산 프로세스 관련 논의"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 백엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[박광호]\n완료\nㄴ EACC-1835 Redis 기초 설정\/Jwt 저장 프로세스 추가\n - jwt 저장 프로세스 추가 완료\n - Redis에 저장할 정보를 위한 util class 개발\nㄴ EACC-1831 원화금액 소수점, 유류대 자동계산 방식, 경비 부채계정 기준 API\n진행\nㄴ jwt 만료 시간 오류 디버깅\nㄴ 출장관리 백오피스 소스 기초세팅 진행\n[박수환]\n완료\nㄴ EACC-1826-경비규정관리 API 개발\n    - 추가 변경사항 적용\n진행\nㄴ 출장관리서비스 기초정보\n  - 회사 추가시 초기 정보 세팅\n[권연주]\n완료\nㄴ EACC-1836 apiConnectionUtils 생성"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 프론트엔드 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[우태림]\n완료\nㄴ EACC-1392 비밀번호찾기 API 연동\nㄴ EACC-1393 이메일 인증 API 연동\n진행\nㄴ EACC-1832 원화금액 소수점, 유류대 자동계산 방식, 경비 부채계정 기준 화면 기능\nㄴ R&D Syncflo SaaS 미팅 참여\n\n[김보민]\n완료\nㄴ EACC-1432 전자결재 > 지출결의서 > 유류대 R\n진행\nㄴ EACC-1431 전자결재 > 지출결의서 > 법인카드 수정\nㄴ EACC-1436 전자결재 양식 → 법인카드 사용내역서 C U D\nㄴ EACC-1430 개인경비 R > 분할 (개선)\nㄴ EACC-1435 전자결재 양식 → 전자결재 양식 → 영수증 C U D (개선)\n\n[전원재]\n완료\nㄴ EACC-1828 모바일> 전자결재 > 출장경비신청서 > READ\n - 출장 비용 목록 UI 추가\nㄴ EACC-1828 모바일> 전자결재 > 유류대\n - 작성 UI, 데이터 바인딩 수정\n - 주행정보 작성 > UI 추가\n진행\nㄴ EACC-1697 PC> 전자결재 > 출장경비신청서 \n - 기준정보관리 > 출장기준관리 > 유형관리 > 모달내 출장일수조정값 추가 \n - 주행정보, 금액 수정시 disabled\nㄴ EACC-1828 모바일> 전자결재 > 유류대\n - 주행정보 작성 > UI 수정\n - 주행정보 작성 > 지도 데이터 바인딩 추가"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 모바일 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[홍제원]\n완료\nㄴ EACC-1833 AOS] 알림 클릭시 리다이렉트 기능 구현\n\n진행\nㄴ EACC-1834 iOS] 알림 클릭시 리다이렉트 기능 구현"
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "< 디자인 >",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[차윤수]\n완료\nㄴ전자전표 2.0모바일 UI디자인\n  -출장정보 추가삭제 UI\n  -출장경비신청서 작성, 읽기 UI\n진행\nㄴ전자전표 2.0 UI 변경\n  - 알림설정 :개인설정으로 변경, 알림항목변경\nㄴ출장관련 오류\/개선사항 논의\n  - 출장기준관리, 출장경비신청서. 정액지급 증빙첨부방식 및 법인카드 사용내역 매칭 방법"
+                            }
+                        ],
+                        "border": 0
+                    }
+                ]
+            }
+        ]
+    }
+]
