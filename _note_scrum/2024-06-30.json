@@ -1,9 +1,0 @@
-[
-    {
-        "subtype": "channel_join",
-        "user": "U072BF8GMDJ",
-        "text": "<@U072BF8GMDJ> 님이 채널에 참여함",
-        "type": "message",
-        "ts": "1719809864.123809"
-    }
-]
